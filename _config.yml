@@ -3,5 +3,5 @@ logo: "/assets/marco-betschart.png"
 search_enabled: true
 aux_links_new_tab: true
 aux_links:
-  "@marbetschar{: .btn }":
+  "Twitter":
     - "//twitter.com/marbetschar"
