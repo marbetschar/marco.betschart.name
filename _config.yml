@@ -5,3 +5,18 @@ aux_links_new_tab: true
 aux_links:
   "Twitter":
     - "//twitter.com/marbetschar"
+
+collections:
+  projects:
+    permalink: "/:collection/:path/"
+    output: true
+  areas:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    projects:
+      name: Projects
+    areas:
+      name: Areas
