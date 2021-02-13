@@ -1,6 +1,6 @@
 # About Me
 
-![](.gitbook/assets/c87c34d3cb7f5487017e76ba4520d245.png)
+![](.gitbook/assets/avatar.png)
 
 {% hint style="info" %}
 Sponsor me on GitHub!
