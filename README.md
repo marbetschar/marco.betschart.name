@@ -1,7 +1,11 @@
 # About Me
 
-More and more content is coming: $ a = \sum\limits_{n = 1}^{\infty}15 $.
+More and more content is coming.
 
 $$
 a = \sqrt[3]{b}
 $$
+
+```python
+a = "test"
+```
