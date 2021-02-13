@@ -4,9 +4,11 @@ description: A simple and beautiful timer app for elementary OS
 
 # Time Limit
 
+{% hint style="danger" %}
+❤️ **Sponsor Me:** If you like my work, sponsor me [**on GitHub Sponsors**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
 
-
-![](../.gitbook/assets/com.github.marbetschar.time-limit.jpg)
+![Time Limit for elementary OS](../.gitbook/assets/com.github.marbetschar.time-limit.jpg)
 
 Simply drag the arrow to set a timer. Release to start and click to pause. When the time is up, a notification will show up with a nice sound.
 
