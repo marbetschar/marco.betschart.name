@@ -23,7 +23,6 @@ For this, open a Terminal and insert the following commands:
 ```
 sudo apt install software-properties-common    # installs the "add-apt-repository" command
 sudo add-apt-repository ppa:nextcloud-devs/client
-sudo apt update
 ```
 
 For more details see [the PPA's homepage](https://launchpad.net/~nextcloud-devs/+archive/ubuntu/client).
