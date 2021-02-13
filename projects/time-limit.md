@@ -5,8 +5,7 @@ description: |
 
 # Time Limit
 
-
-# <img src=".gitbook/assets/com.github.marbetschar.time-limit.png" align="left" /> Time Limit
+![Time Limit for elementary OS](.gitbook/assets/com.github.marbetschar.time-limit.jpg)
 
 ## Usage
 
@@ -21,25 +20,6 @@ When the time is up, a notification will show up with a nice sound.
 ## Installation
 
 [![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.marbetschar.time-limit)
-
-## Building
-
-You'll need the following dependencies:
-* glib-2.0
-* gtk+-3.0
-* granite >=0.5
-* unity
-* meson
-* valac
-
-Simply run
-
-```
-./install.sh
-```
-
-The install script configures the build environment, compiles the app and installs it.
-The app is started automatically after successful installation.
 
 ## Acknowledgements
 
