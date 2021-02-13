@@ -1,6 +1,6 @@
 ---
 description: How to install Oracle SQL Developer in your Linux Desktop Environment.
-tags: 'how-to, elementary, sql-developer, oracle, linux-desktop'
+tags: [how-to, elementary, sql-developer, oracle, linux-desktop]
 ---
 
 # Install Oracle SQL Developer
