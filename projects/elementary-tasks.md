@@ -8,5 +8,5 @@ description: Synced tasks and reminders on elementary OS.
 
 ## Website
 
-{% embed url="https://github.com/elementary/tasks" caption="" %}
+{% embed url="https://github.com/elementary/tasks" caption="GitHub Repository of elementary Tasks" %}
 
