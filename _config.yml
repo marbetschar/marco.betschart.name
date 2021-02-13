@@ -1,25 +1,11 @@
 remote_theme: cotes2020/jekyll-theme-chirpy
-logo: "/assets/marco-betschart.png"
-search_enabled: true
-aux_links_new_tab: true
-aux_links:
-  "Twitter":
-    - "//twitter.com/marbetschar"
-
-collections:
-  areas:
-    permalink: "/:collection/:path/"
-    output: true
-  docs:
-    permalink: "/:collection/:path"
-    output: true
-  projects:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    areas:
-      name: Areas
-    projects:
-      name: Projects
+title: Marco Betschart
+author: Marco Betschart
+github:
+  username: marbetschar
+twitter:
+  username: marbetschar
+social:
+  name: Marco Betschart
+  email: contact@marco.betschart.name
+theme_mode: dark
