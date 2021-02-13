@@ -17,8 +17,9 @@ Simply drag the arrow to set a timer. Release to start and click to pause. When 
 
 ## Website
 
-{% embed url="https://github.com/marbetschar/time-limit" %}
+{% embed url="https://github.com/marbetschar/time-limit" caption="" %}
 
 ## Acknowledgements
 
 * Designed by [Michael Villar](https://github.com/michaelvillar/timer-app)
+
