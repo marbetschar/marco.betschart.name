@@ -5,19 +5,6 @@ description: |
 
 # About Me
 
-![Marco Betschart](.gitbook/assets/marco-betschart.png)
+![<iframe src="https://github.com/sponsors/marbetschar/button" title="Sponsor marbetschar" height="35" width="116" style="border: 0;"></iframe>](.gitbook/assets/marco-betschart.png)
 
-{% hint style="info" %}
-Sponsor me on GitHub!
-{% endhint %}
-
-More and more content is coming.
-
-$$
-a = \sqrt[3]{b}
-$$
-
-```python
-a = "test"
-```
-
+I'm a software developer who loves to build digital products using open technologies. Usually with the goal to improve productivity and expanding knowledge.
