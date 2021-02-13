@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About](README.md)
+* [About Me](README.md)
 * [Projects](projects/README.md)
 * [Areas](areas/README.md)
   * Linux Desktop

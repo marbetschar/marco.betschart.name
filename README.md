@@ -1,4 +1,4 @@
-# About
+# About Me
 
 {% hint style="info" %}
 Sponsor me on GitHub!
