@@ -1,6 +1,6 @@
 # About Me
 
-![](.gitbook/assets/avatar.png)
+![Hi there! 👋️](.gitbook/assets/marco-betschart.png)
 
 {% hint style="info" %}
 Sponsor me on GitHub!
