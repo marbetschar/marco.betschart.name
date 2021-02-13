@@ -8,9 +8,9 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
-{% page-ref page="contact.md" %}
-
 ## 🤓️ My Experience: Full Time Nerd since 2004
+
+{% page-ref page="contact.md" %}
 
 {% tabs %}
 {% tab title="Desktop Developer" %}
