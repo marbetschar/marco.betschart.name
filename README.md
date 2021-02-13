@@ -1,4 +1,4 @@
-# About Me
+# About
 
 More and more content is coming.
 
