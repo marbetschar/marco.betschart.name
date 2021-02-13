@@ -12,23 +12,46 @@ I'm a software developer who loves to build **digital products** using **open te
 ❤️ **Sponsor Me:** If you like my work, sponsor me [**on GitHub Sponsors**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-## Experience
-
-I'm a full time Nerd since 2004.
-
-### Infrastructure Administration
-
-NGINX, Apache HTTPD, Apache Tomcat, MySQL, MSSQL, Oracle DB, Couchbase, Cloudron, Docker, LXC/LXD, Gitea, Bareos, Postgres
-
-### Software Development
-
-Java, Vala, Gtk, Swift, iOS, ColdFusion, PHP, WordPress, HTML+CSS+JavaScript, Angular, React Native, NPM
-
-### Platform
-
-CentOS, Ubuntu, iOS, macOS, Windows, Web, Linux (CentOS, Ubuntu, elementary)
+## 🤓️ Full Time Nerd since 2004
 
 {% page-ref page="contact.md" %}
 
-{% page-ref page="projects/README.md" %}
+{% tabs %}
+{% tab title="Desktop Developer" %}
+|  |  |
+| :--- | :--- |
+| **Operating Systems** | Linux \(elementary\), macOS, Windows |
+| **Browser** | Firefox, Chrome, Safari, Edge |
+| **Languages** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, Swift, TypeScript, Vala |
+{% endtab %}
+
+{% tab title="Server Admin" %}
+|  |  |
+| :--- | :--- |
+| **Operating Systems** | Linux \(CentOS, Ubuntu\), Windows Server |
+| **Webserver** | Apache HTTPD, NGINX |
+| **Database** | MySQL, MSSQL, Postgres, Oracle, Couchbase |
+| **Backup** | Bareos |
+| **Monitoring** | Prometheus |
+| **Container** | Docker, LXC/LXD |
+| **Virtualization** | VMWare, VirtualBox |
+| **Others** | Apache Tomcat, Adobe ColdFusion |
+{% endtab %}
+
+{% tab title="Mobile Developer" %}
+|  |  |
+| :--- | :--- |
+| **iOS** | Swift, React Native, Cordova |
+| **Android** | Java, React Native, Cordova |
+{% endtab %}
+
+{% tab title="Web Developer" %}
+|  |  |
+| :--- | :--- |
+| **WordPress** | PHP, MySQL, HTML+CSS+JavaScript |
+| **Jekyll** | GitHub Pages, HTML+CSS+JavaScript |
+{% endtab %}
+{% endtabs %}
+
+{% page-ref page="projects/" %}
 
