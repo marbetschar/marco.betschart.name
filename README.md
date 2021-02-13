@@ -18,35 +18,31 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% tabs %}
 {% tab title="Desktop Developer" %}
-|  |  |
 | :--- | :--- |
 | **Operating Systems** | Linux \(elementary\), macOS, Windows |
 | **Browser** | Firefox, Chrome, Safari, Edge |
-| **Languages** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, Swift, TypeScript, Vala |
+| **Programming** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, Swift, TypeScript, Vala |
 {% endtab %}
 
 {% tab title="Server Admin" %}
-|  |  |
 | :--- | :--- |
 | **Operating Systems** | Linux \(CentOS, Ubuntu\), Windows Server |
-| **Webserver** | Apache HTTPD, NGINX |
-| **Database** | MySQL, MSSQL, Postgres, Oracle, Couchbase |
 | **Backup** | Bareos |
-| **Monitoring** | Prometheus |
 | **Container** | Docker, LXC/LXD |
+| **Database** | MySQL, MSSQL, Postgres, Oracle, Couchbase |
+| **Monitoring** | Prometheus |
 | **Virtualization** | VMWare, VirtualBox |
+| **Webserver** | Apache HTTPD, NGINX |
 | **Others** | Apache Tomcat, Adobe ColdFusion |
 {% endtab %}
 
 {% tab title="Mobile Developer" %}
-|  |  |
 | :--- | :--- |
 | **iOS** | Swift, React Native, Cordova |
 | **Android** | Java, React Native, Cordova |
 {% endtab %}
 
 {% tab title="Web Developer" %}
-|  |  |
 | :--- | :--- |
 | **WordPress** | PHP, MySQL, HTML+CSS+JavaScript |
 | **Jekyll** | GitHub Pages, HTML+CSS+JavaScript |
