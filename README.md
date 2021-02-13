@@ -1,6 +1,5 @@
 ---
-description: |
-  Hi, I'm Marco 👋️ - pleased to meet you!
+description: "Hi, I'm Marco \U0001F44B️ - pleased to meet you!"
 ---
 
 # About Me
@@ -21,4 +20,7 @@ Tasks is designed and built to help manage all of your tasks and reminders. Crea
 
 ### ![](.gitbook/assets/time-limit.png) Time Limit
 
+![](.gitbook/assets/marco-betschart.png)
+
 A simple and beautiful timer app for elementary OS.
+
