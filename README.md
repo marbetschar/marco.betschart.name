@@ -14,8 +14,15 @@ I'm a software developer who loves to build **digital products** using **open te
 ❤️ **Sponsor Me:** If you like my work, consider [sponsoring me on GitHub Sponsors](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-|                                               |                                                                                                                                                                     |
-|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| elementary Tasks                              | Tasks is designed and built to help manage all of your tasks and reminders. Create and complete tasks,manage lists and sync them across your machines using calDav. |
-| ![Time Limit](.gitbook/assets/time-limit.png) | A simple and beautiful timer app for elementary OS.                                                                                                                 |
+{% page-ref page="about-my-website.md" %}
+
+{% tabs %}
+{% tab title="First Tab" %}
+asdfasdfasdf
+{% endtab %}
+
+{% tab title="Second Tab" %}
+zweiter tab
+{% endtab %}
+{% endtabs %}
 
