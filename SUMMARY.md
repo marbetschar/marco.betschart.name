@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About Me](README.md)
+* [Getting Started](getting-started.md)
 * [Projects](projects.md)
 * [Areas](areas/README.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
