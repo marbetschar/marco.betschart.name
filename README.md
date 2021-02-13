@@ -18,6 +18,9 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% tabs %}
 {% tab title="Desktop Developer" %}
+
+Development of graphical applications running on a desktop computer.
+
 | Scope | I worked with |
 | :--- | :--- |
 | **Operating System** | Linux \(elementary\), macOS, Windows |
@@ -25,6 +28,9 @@ I'm a software developer who loves to build **digital products** using **open te
 {% endtab %}
 
 {% tab title="Server Admin" %}
+
+Management of servers and other infrastructure components.
+
 | Scope | I worked with |
 | :--- | :--- |
 | **Operating System** | Linux \(CentOS, Ubuntu\), Windows Server |
@@ -39,6 +45,9 @@ I'm a software developer who loves to build **digital products** using **open te
 {% endtab %}
 
 {% tab title="Mobile Developer" %}
+
+Development of mobile first applications running on a smartphone or tablet.
+
 | Scope | I worked with |
 | :--- | :--- |
 | **Operating System** | Android, iOS |
@@ -47,6 +56,9 @@ I'm a software developer who loves to build **digital products** using **open te
 {% endtab %}
 
 {% tab title="Web Developer" %}
+
+Development of applications running in a browser.
+
 | Scope | I worked with |
 | :--- | :--- |
 | **Platform** | WordPress, Jekyll, GitHub Pages, Custom |
