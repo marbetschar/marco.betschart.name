@@ -14,12 +14,10 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ## 🤓️ My Experience: Full Time Nerd since 2004
 
-{% page-ref page="contact.md" %}
-
 {% tabs %}
 {% tab title="Desktop Developer" %}
 
-My experience developing graphical applications running on a desktop computer.
+My experience developing graphical applications running on a desktop computer:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -29,7 +27,7 @@ My experience developing graphical applications running on a desktop computer.
 
 {% tab title="Server Admin" %}
 
-My experience managing servers and other infrastructure components.
+My experience managing servers and other infrastructure components:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -46,7 +44,7 @@ My experience managing servers and other infrastructure components.
 
 {% tab title="Mobile Developer" %}
 
-My experience developing mobile first applications running on a smartphone or tablet.
+My experience developing mobile first applications running on a smartphone or tablet:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -57,7 +55,7 @@ My experience developing mobile first applications running on a smartphone or ta
 
 {% tab title="Web Developer" %}
 
-My experience developing applications running in a browser.
+My experience developing applications running in a browser:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -67,5 +65,4 @@ My experience developing applications running in a browser.
 {% endtab %}
 {% endtabs %}
 
-{% page-ref page="projects/" %}
-
+{% page-ref page="contact.md" %}
