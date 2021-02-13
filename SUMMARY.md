@@ -4,6 +4,7 @@
 * [About my Website](about-my-website.md)
 * [Need Help?](contact.md)
 * [Projects](projects/README.md)
+  * [elementary Tasks](projects/elementary-tasks.md)
   * [Time Limit](projects/time-limit.md)
 * [Areas](areas/README.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
