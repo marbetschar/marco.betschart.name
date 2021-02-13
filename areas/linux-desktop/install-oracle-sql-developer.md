@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to install Oracle SQL Developer
+  How to install Oracle SQL Developer in your Linux Desktop Environment.
 tags: how-to, elementary, sql-developer, oracle, linux-desktop
 ---
 
@@ -30,7 +30,7 @@ sudo ln -s /opt/sqldeveloper/sqldeveloper.sh /usr/local/bin/sqldeveloper
 Then we need to update the `sqldeveloper.sh` file, to allow execution from any directory:
 
 ```diff
-!/bin/bash
+#!/bin/bash
 -cd "`dirname $0`"/sqldeveloper/bin && bash sqldeveloper $*
 +/opt/sqldeveloper/sqldeveloper/bin/sqldeveloper $*
 ```
