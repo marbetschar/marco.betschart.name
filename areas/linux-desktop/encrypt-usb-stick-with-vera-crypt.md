@@ -1,12 +1,13 @@
 ---
 description: >-
-  How to encrypt an USB stick using Vera Crypt. #elementary #encryption
-  #open-source
+  How to encrypt an USB stick using Vera Crypt.
+tags: how-to, open-source, encryption, elementary
 ---
 
 # Encrypt USB Stick with Vera Crypt
 
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff) ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
 * [Installation](encrypt-usb-stick-with-vera-crypt.md#installation)
 * [Traveler Disk Setup](encrypt-usb-stick-with-vera-crypt.md#traveler-disk-setup)

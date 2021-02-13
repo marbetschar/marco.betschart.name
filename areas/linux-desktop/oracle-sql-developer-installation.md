@@ -1,4 +1,0 @@
-# Oracle SQL Developer installation
-
-...
-

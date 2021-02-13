@@ -10,7 +10,7 @@
 * [Areas](areas/README.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
     * [Encrypt USB Stick with Vera Crypt](areas/linux-desktop/encrypt-usb-stick-with-vera-crypt.md)
-    * [Oracle SQL Developer installation](areas/linux-desktop/oracle-sql-developer-installation.md)
+    * [Install Oracle SQL Developer](areas/linux-desktop/install-oracle-sql-developer.md)
 * [Resources](resources.md)
 * [Archives](archives.md)
 
