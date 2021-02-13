@@ -1,4 +1,8 @@
-# Hi there 👋️
+---
+description: "Hi there \U0001F44B️"
+---
+
+# About Me
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
