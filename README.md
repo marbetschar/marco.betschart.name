@@ -12,7 +12,7 @@ I'm a software developer who loves to build **digital products** using **open te
 ## Current Projects
 
 {% hint style="warning" %}
-🧡️ **Sponsor Me:** If you like my work, consider [sponsoring me on GitHub Sponsors](https://github.com/sponsors/marbetschar). It would mean the world to me!
+❤️ **Sponsor Me:** If you like my work, consider [sponsoring me on GitHub Sponsors](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 ### elementary Tasks
