@@ -15,14 +15,3 @@ I'm a software developer who loves to build **digital products** using **open te
 {% endhint %}
 
 {% page-ref page="projects/time-limit.md" %}
-
-{% tabs %}
-{% tab title="First Tab" %}
-asdfasdfasdf
-{% endtab %}
-
-{% tab title="Second Tab" %}
-zweiter tab
-{% endtab %}
-{% endtabs %}
-

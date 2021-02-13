@@ -3,7 +3,7 @@
 * [About Me](README.md)
 * [About my Website](about-my-website.md)
 * [Need Help?](contact.md)
-* Projects
+* [Projects](projects/README.md)
   * [Time Limit](projects/time-limit.md)
 * [Areas](areas/README.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
