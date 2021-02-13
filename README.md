@@ -19,6 +19,6 @@ I'm a software developer who loves to build **digital products** using **open te
 
 Tasks is designed and built to help manage all of your tasks and reminders. Create and complete tasks,manage lists and sync them across your machines using calDav.
 
-### Time Limit
+### ![](.gitbook/assets/time-limit.png) Time Limit
 
 A simple and beautiful timer app for elementary OS.
