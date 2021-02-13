@@ -1,7 +1,9 @@
 ---
 description: A simple and beautiful timer app for elementary OS
-tags: vala, linux-desktop, elementary, gtk
+tags: 'vala, linux-desktop, elementary, gtk'
 ---
+
+# Time Limit
 
 ![Time Limit supports Dark Mode on elementary OS 6 Odin](../.gitbook/assets/com.github.marbetschar.time-limit.jpg)
 
@@ -15,13 +17,14 @@ Users who need to focus for a given time period on the Gtk based Linux Desktop d
 
 ## Built With
 
-- [Gtk](https://www.gtk.org/)
-- [Vala](https://wiki.gnome.org/Projects/Vala/Tutorial)
+* [Gtk](https://www.gtk.org/)
+* [Vala](https://wiki.gnome.org/Projects/Vala/Tutorial)
 
 ## More Information
 
-- GitHub Repository of Time Limit:
-  https://github.com/marbetschar/time-limit
+* GitHub Repository of Time Limit:
+
+  [https://github.com/marbetschar/time-limit](https://github.com/marbetschar/time-limit)
 
 ## Acknowledgements
 
