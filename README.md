@@ -1,5 +1,7 @@
 # About Me
 
+![My Gravatar](avatar.png){height=128}
+
 {% hint style="info" %}
 Sponsor me on GitHub!
 {% endhint %}
