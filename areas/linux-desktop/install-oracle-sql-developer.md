@@ -6,12 +6,12 @@ tags: how-to, elementary, sql-developer, oracle, linux-desktop
 
 # Install Oracle SQL Developer
 
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
-
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
-![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
 ## Java Open JDK
 
