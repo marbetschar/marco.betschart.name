@@ -1,13 +1,11 @@
 ---
-description: >-
-  How to install Oracle SQL Developer in your Linux Desktop Environment.
-tags: how-to, elementary, sql-developer, oracle, linux-desktop
+description: How to install Oracle SQL Developer in your Linux Desktop Environment.
+tags: 'how-to, elementary, sql-developer, oracle, linux-desktop'
 ---
 
 # Install Oracle SQL Developer
 
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
-![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff) ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
@@ -41,7 +39,7 @@ Then we need to update the `sqldeveloper.sh` file, to allow execution from any d
 
 As last step, we are create a desktop integration file in `/usr/share/applications/sqldeveloper.desktop`:
 
-```
+```text
 [Desktop Entry]
 Name=Oracle SQL Developer
 Comment=SQL Developer from Oracle
@@ -54,3 +52,4 @@ Categories=Utility;Oracle;Development;SQL;
 ```
 
 That's it: You've completed the installation of Oracle SQL Developer for your Linux Desktop Environment.
+

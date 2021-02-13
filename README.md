@@ -14,7 +14,6 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% tabs %}
 {% tab title="Desktop Developer" %}
-
 My experience developing graphical applications running on a desktop computer:
 
 | Scope | I worked with |
@@ -24,7 +23,6 @@ My experience developing graphical applications running on a desktop computer:
 {% endtab %}
 
 {% tab title="Server Admin" %}
-
 My experience managing servers and other infrastructure components:
 
 | Scope | I worked with |
@@ -41,7 +39,6 @@ My experience managing servers and other infrastructure components:
 {% endtab %}
 
 {% tab title="Mobile Developer" %}
-
 My experience developing mobile first applications running on a smartphone or tablet:
 
 | Scope | I worked with |
@@ -52,7 +49,6 @@ My experience developing mobile first applications running on a smartphone or ta
 {% endtab %}
 
 {% tab title="Web Developer" %}
-
 My experience developing applications running in a web browser:
 
 | Scope | I worked with |
@@ -62,3 +58,4 @@ My experience developing applications running in a web browser:
 | **Framework** | Angular, Ember.js, jQuery, Hibernate ORM, Kendo UI |
 {% endtab %}
 {% endtabs %}
+
