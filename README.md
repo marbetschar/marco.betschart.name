@@ -8,11 +8,13 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
-## Current Projects
-
 {% hint style="warning" %}
 ❤️ **Sponsor Me:** If you like my work, consider [sponsoring me on GitHub Sponsors](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-{% page-ref page="projects/time-limit.md" %}
+{% page-ref page="about-my-website.md" %}
+
+{% page-ref page="contact.md" %}
+
+{% page-ref page="projects/README.md" %}
 
