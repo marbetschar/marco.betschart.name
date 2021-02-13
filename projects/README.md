@@ -1,6 +1,5 @@
 ---
-description: |
-  Here's what I'm currently working on.
+description: Here's what I'm currently working on.
 ---
 
 # Projects
@@ -10,6 +9,4 @@ description: |
 {% endhint %}
 
 {% page-ref page="time-limit.md" %}
-
-
 
