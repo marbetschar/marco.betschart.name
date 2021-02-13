@@ -18,34 +18,40 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% tabs %}
 {% tab title="Desktop Developer" %}
+|  | Keywords  |
 | :--- | :--- |
 | **Operating Systems** | Linux \(elementary\), macOS, Windows |
-| **Browser** | Firefox, Chrome, Safari, Edge |
-| **Programming** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, Swift, TypeScript, Vala |
+| **Programming Languages** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
 {% endtab %}
 
 {% tab title="Server Admin" %}
+|  | Keywords |
 | :--- | :--- |
 | **Operating Systems** | Linux \(CentOS, Ubuntu\), Windows Server |
+| **Programming Languages** | Python, Bash, Batch |
 | **Backup** | Bareos |
 | **Container** | Docker, LXC/LXD |
 | **Database** | MySQL, MSSQL, Postgres, Oracle, Couchbase |
 | **Monitoring** | Prometheus |
 | **Virtualization** | VMWare, VirtualBox |
-| **Webserver** | Apache HTTPD, NGINX |
-| **Others** | Apache Tomcat, Adobe ColdFusion |
+| **Webserver** | Apache HTTPD, NGINX, PHP |
+| **Others** | Apache Tomcat, Adobe ColdFusion, Cloudron |
 {% endtab %}
 
 {% tab title="Mobile Developer" %}
+|  | Keywords |
 | :--- | :--- |
-| **iOS** | Swift, React Native, Cordova |
-| **Android** | Java, React Native, Cordova |
+| **Operating Systems** | Android, iOS |
+| **Platforms** | Native, React Native, Cordova |
+| **Programming Languages** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
 {% endtab %}
 
 {% tab title="Web Developer" %}
+|  | Keywords |
 | :--- | :--- |
-| **WordPress** | PHP, MySQL, HTML+CSS+JavaScript |
-| **Jekyll** | GitHub Pages, HTML+CSS+JavaScript |
+| **Platforms** | WordPress, Jekyll, GitHub Pages, Custom |
+| **Programming Languages** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, SQL |
+| **Frameworks** | Angular, Ember.js, jQuery, Hibernate ORM, Kendo UI |
 {% endtab %}
 {% endtabs %}
 
