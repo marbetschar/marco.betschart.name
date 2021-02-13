@@ -1,6 +1,6 @@
 ---
 description: |
-  See what I'm currently working on.
+  Here's what I'm currently working on.
 ---
 
 # Projects
