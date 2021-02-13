@@ -6,7 +6,7 @@ description: Synced tasks and reminders on elementary OS.
 
 ![elementary Tasks supports location based reminders](../.gitbook/assets/io.elementary.tasks.png)
 
-## Website
+## Links
 
 {% embed url="https://github.com/elementary/tasks" caption="GitHub Repository of elementary Tasks" %}
 
