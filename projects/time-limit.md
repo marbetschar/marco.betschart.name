@@ -16,7 +16,8 @@ Users who need to focus for a given time period on the Gtk based Linux Desktop d
 
 ## More Information
 
-{% embed url="https://github.com/marbetschar/time-limit" caption="GitHub Repository of Time Limit" %}
+- GitHub Repository of Time Limit:
+  https://github.com/marbetschar/time-limit
 
 ## Acknowledgements
 

@@ -17,4 +17,5 @@ Users who need to manage tasks on the Gtk based Linux Desktop distribution named
 
 ## More Information
 
-{% embed url="https://github.com/elementary/tasks" caption="GitHub Repository of elementary Tasks" %}
+- GitHub Repository of elementary Tasks
+  https://github.com/elementary/tasks
