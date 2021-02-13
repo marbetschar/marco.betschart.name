@@ -14,6 +14,7 @@
     * [Install Eclipse Java EE](areas/linux-desktop/install-eclipse-java-ee.md)
     * [Install Nextcloud Client](areas/linux-desktop/install-nextcloud-client.md)
     * [Install Oracle SQL Developer](areas/linux-desktop/install-oracle-sql-developer.md)
+    * [VSCode: Setup Vala Autocompletion](areas/linux-desktop/vscode-setup-vala-autocompletion.md)
 * [Resources](resources.md)
 * [Archives](archives.md)
 
