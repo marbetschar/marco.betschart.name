@@ -1,6 +1,10 @@
 ---
 description: A simple and beautiful timer app for elementary OS
-tags: [vala, linux-desktop, elementary, gtk]
+tags:
+  - vala
+  - linux-desktop
+  - elementary
+  - gtk
 ---
 
 # Time Limit

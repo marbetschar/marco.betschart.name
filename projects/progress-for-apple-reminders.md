@@ -1,6 +1,11 @@
 ---
 description: Progress provides visualizations based on data from Apple Reminders
-tags: [swift, apple, ios, iphone, ipad]
+tags:
+  - swift
+  - apple
+  - ios
+  - iphone
+  - ipad
 ---
 
 # Progress for Apple Reminders

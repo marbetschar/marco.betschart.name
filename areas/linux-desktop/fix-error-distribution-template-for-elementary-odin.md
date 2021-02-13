@@ -1,12 +1,17 @@
 ---
-description: How to fix could not find a distribution template for Elementary/odin when executing add-apt-repository.
-tags: [workaround, elementary, troubleshooting, linux-desktop]
+description: >-
+  How to fix could not find a distribution template for Elementary/odin when
+  executing add-apt-repository.
+tags:
+  - workaround
+  - elementary
+  - troubleshooting
+  - linux-desktop
 ---
 
-# Fix Error: could not find a distribution template for Elementary/odin
+# Error: could not find distribution template for Elementary/odin
 
-![elementary OS: 6 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6%20Odin-007aff)
-![Status: Verified](https://img.shields.io/badge/status-verified-green.svg)
+![elementary OS: 6 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6%20Odin-007aff) ![Status: Verified](https://img.shields.io/badge/status-verified-green.svg)
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
@@ -64,3 +69,4 @@ _Edit `sudo vi /etc/os-release`:_
 ```
 
 After you changed both files, try to execute `add-apt-repository` again.
+

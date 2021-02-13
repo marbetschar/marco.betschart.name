@@ -1,12 +1,19 @@
 ---
-description: How to setup VSCodium (Open Source Visual Studio Code) with Vala autocompletion.
-tags: [how-to, elementary, vala, vscode, programming, linux-desktop]
+description: >-
+  How to setup VSCodium (Open Source Visual Studio Code) with Vala
+  autocompletion.
+tags:
+  - how-to
+  - elementary
+  - vala
+  - vscode
+  - programming
+  - linux-desktop
 ---
 
-# Visual Studio Code: Setup Vala Autocompletion
+# VSCode: Setup Vala Autocompletion
 
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
-![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff) ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
@@ -36,11 +43,11 @@ sudo apt update && sudo apt install codium
 
 To begin with, you need to install the [Vala Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=prince781.vala):
 
-1. Visit the [plugin's website](https://marketplace.visualstudio.com/items?itemName=prince781.vala) and click "Download Extension" (a *.vsix file)
+1. Visit the [plugin's website](https://marketplace.visualstudio.com/items?itemName=prince781.vala) and click "Download Extension" \(a \*.vsix file\)
 2. Run VSCodium
-3. From within VSCodium, open the Extensions tab (`Ctrl + Shift + X`)
+3. From within VSCodium, open the Extensions tab \(`Ctrl + Shift + X`\)
 4. Click `... > Install from VSIX...` on top of the Extensions sidebar
-5. Select the previously downloaded *.vsix file and click `Install`
+5. Select the previously downloaded \*.vsix file and click `Install`
 
 Now you can install the [Vala Language Server](https://github.com/benwaffle/vala-language-server). For this, open a Terminal and execute the following commands:
 
@@ -51,7 +58,8 @@ sudo apt install vala-language-server
 
 ## Further Reading
 
-- [VSCodium: Open Source Binaries of VSCode](https://vscodium.com/)
-- [Vala Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=prince781.vala)
-- [Vala Language Server on GitHub](https://github.com/benwaffle/vala-language-server)
-- [How To Add PPA Repository Manually Without "add-apt-repository" On Ubuntu](https://blog.zackad.dev/en/2017/08/17/add-ppa-simple-way.html)
+* [VSCodium: Open Source Binaries of VSCode](https://vscodium.com/)
+* [Vala Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=prince781.vala)
+* [Vala Language Server on GitHub](https://github.com/benwaffle/vala-language-server)
+* [How To Add PPA Repository Manually Without "add-apt-repository" On Ubuntu](https://blog.zackad.dev/en/2017/08/17/add-ppa-simple-way.html)
+

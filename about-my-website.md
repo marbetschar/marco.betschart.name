@@ -1,7 +1,12 @@
 ---
-description: >-
-  Ein universelles System zur Organisation digitaler Informationen.
-tags: [growth. learning, knowledge, strategy, method, goals, system]
+description: Ein universelles System zur Organisation digitaler Informationen.
+tags:
+  - growth. learning
+  - knowledge
+  - strategy
+  - method
+  - goals
+  - system
 ---
 
 # About my Website

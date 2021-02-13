@@ -1,6 +1,11 @@
 ---
 description: How to install Oracle SQL Developer in your Linux Desktop Environment.
-tags: [how-to, elementary, sql-developer, oracle, linux-desktop]
+tags:
+  - how-to
+  - elementary
+  - sql-developer
+  - oracle
+  - linux-desktop
 ---
 
 # Install Oracle SQL Developer
@@ -13,8 +18,7 @@ If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponso
 
 ## Prerequisites
 
-To be able to execute Oracle SQL Developer we need an installed JDK.
-The following command will install the Java OpenJDK:
+To be able to execute Oracle SQL Developer we need an installed JDK. The following command will install the Java OpenJDK:
 
 ```bash
 sudo apt install openjdk-14-jdk
@@ -24,7 +28,7 @@ sudo apt install openjdk-14-jdk
 
 Download Oracle SQL Developer for "Other Platforms" from Oracle:
 
-- [https://www.oracle.com/tools/downloads/sqldev-downloads.html](https://www.oracle.com/tools/downloads/sqldev-downloads.html)
+* [https://www.oracle.com/tools/downloads/sqldev-downloads.html](https://www.oracle.com/tools/downloads/sqldev-downloads.html)
 
 ## Extract
 
@@ -61,3 +65,4 @@ Categories=Utility;Oracle;Development;SQL;
 ```
 
 That's it: You've completed the installation of Oracle SQL Developer for your Linux Desktop Environment.
+

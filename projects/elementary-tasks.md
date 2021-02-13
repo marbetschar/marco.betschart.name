@@ -1,6 +1,11 @@
 ---
 description: Synced tasks and reminders on elementary OS.
-tags: [vala, evolution, linux-desktop, elementary, gtk]
+tags:
+  - vala
+  - evolution
+  - linux-desktop
+  - elementary
+  - gtk
 ---
 
 # elementary Tasks
