@@ -19,7 +19,7 @@ I'm a software developer who loves to build **digital products** using **open te
 {% tabs %}
 {% tab title="Desktop Developer" %}
 
-Development of graphical applications running on a desktop computer.
+My experience developing graphical applications running on a desktop computer.
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -29,7 +29,7 @@ Development of graphical applications running on a desktop computer.
 
 {% tab title="Server Admin" %}
 
-Management of servers and other infrastructure components.
+My experience managing servers and other infrastructure components.
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -46,7 +46,7 @@ Management of servers and other infrastructure components.
 
 {% tab title="Mobile Developer" %}
 
-Development of mobile first applications running on a smartphone or tablet.
+My experience developing mobile first applications running on a smartphone or tablet.
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -57,7 +57,7 @@ Development of mobile first applications running on a smartphone or tablet.
 
 {% tab title="Web Developer" %}
 
-Development of applications running in a browser.
+My experience developing applications running in a browser.
 
 | Scope | I worked with |
 | :--- | :--- |
