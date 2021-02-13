@@ -1,5 +1,10 @@
 # About
 
+<dl>
+  <dt>Name</dt>
+  <dd>Marco Betschart</dd>
+</dl>
+
 More and more content is coming.
 
 $$
