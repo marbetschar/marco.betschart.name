@@ -15,10 +15,10 @@ Simply drag the arrow to set a timer. Release to start and click to pause. When 
 
 [![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.marbetschar.time-limit)
 
+## Website
+
+{% embed url="https://github.com/marbetschar/time-limit" %}
+
 ## Acknowledgements
 
 * Designed by [Michael Villar](https://github.com/michaelvillar/timer-app)
-
-## External Links
-
-{% embed url="https://github.com/marbetschar/time-limit" %}
