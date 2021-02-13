@@ -53,7 +53,7 @@ My experience developing mobile first applications running on a smartphone or ta
 
 {% tab title="Web Developer" %}
 
-My experience developing applications running in a browser:
+My experience developing applications running in a web browser:
 
 | Scope | I worked with |
 | :--- | :--- |
