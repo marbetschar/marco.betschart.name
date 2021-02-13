@@ -8,5 +8,5 @@ description: Synced tasks and reminders on elementary OS.
 
 {% embed url="https://github.com/elementary/tasks" %}
 
-
+{% embed url="https://github.com/elementary/tasks/issues" %}
 
