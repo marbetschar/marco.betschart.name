@@ -21,7 +21,7 @@ Productivity enthusiasts looking to accomplish more using stock Apple Reminders.
   - [GitHub Pages](https://pages.github.com/)
   - [Jekyll](https://jekyllrb.com/)
 
-## Further Reading
+## More Information
 
 {% embed url="https://progress.rocks/" caption="Website of Progress for Apple Reminders" %}
 

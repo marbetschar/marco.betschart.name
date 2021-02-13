@@ -7,7 +7,7 @@ tags: vala, evolution, linux-desktop, elementary, gtk
 
 ## Built For
 
-For users who need to manage tasks on the Gtk based Linux Desktop distribution named [elementary OS](https://elementary.io/).
+Users who need to manage tasks on the Gtk based Linux Desktop distribution named [elementary OS](https://elementary.io/).
 
 ## Built With
 
@@ -15,6 +15,6 @@ For users who need to manage tasks on the Gtk based Linux Desktop distribution n
 - [Gtk](https://www.gtk.org/)
 - [Vala](https://wiki.gnome.org/Projects/Vala/Tutorial)
 
-## Further Reading
+## More Information
 
 {% embed url="https://github.com/elementary/tasks" caption="GitHub Repository of elementary Tasks" %}

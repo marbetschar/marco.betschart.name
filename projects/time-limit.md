@@ -7,14 +7,14 @@ tags: vala, linux-desktop, elementary, gtk
 
 ## Built For
 
-For users who need to focus for a given time period on the Gtk based Linux Desktop distribution named [elementary OS](https://elementary.io/).
+Users who need to focus for a given time period on the Gtk based Linux Desktop distribution named [elementary OS](https://elementary.io/).
 
 ## Built With
 
 - [Gtk](https://www.gtk.org/)
 - [Vala](https://wiki.gnome.org/Projects/Vala/Tutorial)
 
-## Further Reading
+## More Information
 
 {% embed url="https://github.com/marbetschar/time-limit" caption="GitHub Repository of Time Limit" %}
 
