@@ -23,6 +23,7 @@ Productivity enthusiasts looking to accomplish more using stock Apple Reminders.
 
 ## More Information
 
-{% embed url="https://progress.rocks/" caption="Website of Progress for Apple Reminders" %}
-
-{% embed url="https://sdk.progress.rocks/" caption="Website of ProgressKit - the Framework powering the App, released as Open Source" %}
+- Website of Progress for Apple Reminders:
+  https://progress.rocks/
+- Website of ProgressKit - the Framework powering the App, released as Open Source:
+  https://sdk.progress.rocks/
