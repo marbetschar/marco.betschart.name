@@ -18,40 +18,40 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% tabs %}
 {% tab title="Desktop Developer" %}
-|  | Tools I used in actual Projects |
+| Scope | I worked with |
 | :--- | :--- |
-| **Operating Systems** | Linux \(elementary\), macOS, Windows |
-| **Programming Languages** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
+| **Operating System** | Linux \(elementary\), macOS, Windows |
+| **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
 {% endtab %}
 
 {% tab title="Server Admin" %}
-|  | Tools I used in actual Projects |
+| Scope | I worked with |
 | :--- | :--- |
-| **Operating Systems** | Linux \(CentOS, Ubuntu\), Windows Server |
-| **Programming Languages** | Python, Bash, Batch |
+| **Operating System** | Linux \(CentOS, Ubuntu\), Windows Server |
+| **Programming Language** | Python, Bash, Batch |
 | **Backup** | Bareos |
 | **Container** | Docker, LXC/LXD |
 | **Database** | MySQL, MSSQL, Postgres, Oracle, Couchbase |
 | **Monitoring** | Prometheus |
 | **Virtualization** | VMWare, VirtualBox |
 | **Webserver** | Apache HTTPD, NGINX, PHP |
-| **Others** | Apache Tomcat, Adobe ColdFusion, Cloudron |
+| **Other** | Apache Tomcat, Adobe ColdFusion, Cloudron |
 {% endtab %}
 
 {% tab title="Mobile Developer" %}
-|  | Tools I used in actual Projects |
+| Scope | I worked with |
 | :--- | :--- |
-| **Operating Systems** | Android, iOS |
-| **Platforms** | Native, React Native, Cordova |
-| **Programming Languages** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
+| **Operating System** | Android, iOS |
+| **Platform** | Native, React Native, Cordova |
+| **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
 {% endtab %}
 
 {% tab title="Web Developer" %}
-|  | Tools I used in actual Projects |
+| Scope | I worked with |
 | :--- | :--- |
-| **Platforms** | WordPress, Jekyll, GitHub Pages, Custom |
-| **Programming Languages** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, SQL |
-| **Frameworks** | Angular, Ember.js, jQuery, Hibernate ORM, Kendo UI |
+| **Platform** | WordPress, Jekyll, GitHub Pages, Custom |
+| **Programming Language** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, SQL |
+| **Framework** | Angular, Ember.js, jQuery, Hibernate ORM, Kendo UI |
 {% endtab %}
 {% endtabs %}
 
