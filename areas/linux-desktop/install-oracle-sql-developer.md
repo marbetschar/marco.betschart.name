@@ -6,10 +6,14 @@ tags: how-to, elementary, sql-developer, oracle, linux-desktop
 
 # Install Oracle SQL Developer
 
+{% hint style="info" %}
+If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
+
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
-## Install Java Open JDK
+## Java Open JDK
 
 Execute the following command to install the Java OpenJDK:
 
@@ -17,7 +21,7 @@ Execute the following command to install the Java OpenJDK:
 sudo apt install openjdk-14-jdk
 ```
 
-## Install Oracle SQL Developer
+## Oracle SQL Developer
 
 Download Oracle SQL Developer for "Other Platforms" from the [Oracle Website](https://www.oracle.com/tools/downloads/sqldev-downloads.html) to `~/Downloads`. After the download is completed, execute the following commands to install Oracle SQL Developer to `/opt`:
 

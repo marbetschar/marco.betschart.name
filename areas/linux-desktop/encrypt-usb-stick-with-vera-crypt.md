@@ -6,6 +6,10 @@ tags: how-to, open-source, encryption, elementary
 
 # Encrypt USB Stick with Vera Crypt
 
+{% hint style="info" %}
+If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
+
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
