@@ -6,6 +6,7 @@ description: "Hi, I'm Marco \U0001F44B️ - pleased to meet you!"
 
 I'm a software developer who loves to build **digital products** using **open technologies**. Usually with the goal to **improve productivity** and **expanding knowledge**.
 
+Visit me:
 [![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/)
 [![](.gitbook/assets/twitter-32px.png) **Twitter**](https://twitter.com/marbetschar/)
 
