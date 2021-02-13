@@ -5,6 +5,10 @@ tags: swift, apple, ios, iphone, ipad
 
 ![visualize your to-dos, face your goals and beat the bar!](../.gitbook/assets/progress-for-apple-reminders.png)
 
+{% hint style="info" %}
+If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
+
 ## Built For
 
 Productivity enthusiasts looking to accomplish more using stock Apple Reminders.
