@@ -1,6 +1,6 @@
 # About Me
 
-![My Gravatar](avatar.png){height=128}
+![](.gitbook/assets/c87c34d3cb7f5487017e76ba4520d245.png)
 
 {% hint style="info" %}
 Sponsor me on GitHub!

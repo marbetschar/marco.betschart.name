@@ -1,14 +1,13 @@
 # Encrypt USB Stick with Vera Crypt
 
-_#elementary #encryption #open-source_
+_\#elementary \#encryption \#open-source_
 
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
-![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff) ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
-- [Installation](#installation)
-- [Traveler Disk Setup](#traveler-disk-setup)
-- [Troubleshooting](#troubleshooting)
-- [Further Reading](#further-reading)
+* [Installation](encrypt-usb-stick-with-vera-crypt.md#installation)
+* [Traveler Disk Setup](encrypt-usb-stick-with-vera-crypt.md#traveler-disk-setup)
+* [Troubleshooting](encrypt-usb-stick-with-vera-crypt.md#troubleshooting)
+* [Further Reading](encrypt-usb-stick-with-vera-crypt.md#further-reading)
 
 ## Installation
 
@@ -16,7 +15,7 @@ VeraCrypt is not available on the default Ubuntu repositories. Therefore, to ins
 
 Add PPA repos using the command below. Note that this repository is not related to VeraCrypt even though Unit 193 is Xubuntu developer and he is a great contributor to the open source community;
 
-```
+```text
 sudo add-apt-repository ppa:unit193/encryption
 sudo apt-get update
 sudo apt install veracrypt
@@ -24,21 +23,18 @@ sudo apt install veracrypt
 
 ## Traveler Disk Setup
 
-**PLEASE NOTE:** Since we are not using Windows, there is no `Tools > Traveler Disk Setup` option. This is expected.
-Nevertheless, we can create the Traveler Disk manually:
+**PLEASE NOTE:** Since we are not using Windows, there is no `Tools > Traveler Disk Setup` option. This is expected. Nevertheless, we can create the Traveler Disk manually:
 
-> ... For linux and MAC this option is not available, but the apps are already portable. I just had to copy the executables
-> from `/usr/bin` in Linux and `Applications` in OSX. I've tested them on clean system where TrueCrypt wasn't installed.
-> **[- Ask Ubuntu: Create veracrypt traveler disk in Ubuntu](https://askubuntu.com/questions/847127/create-veracrypt-traveler-disk-in-ubuntu)**
+> ... For linux and MAC this option is not available, but the apps are already portable. I just had to copy the executables from `/usr/bin` in Linux and `Applications` in OSX. I've tested them on clean system where TrueCrypt wasn't installed. [**- Ask Ubuntu: Create veracrypt traveler disk in Ubuntu**](https://askubuntu.com/questions/847127/create-veracrypt-traveler-disk-in-ubuntu)
 
 ### Partition the USB Stick
 
 The first step is to create two Partitions on your USB Stick:
 
-- a small one called `Travel-Disk` using the `NTFS` file system and is `512 MB` in size
-    - this partition won't be encrypted; It will provide the VeraCrypt binaries
-- a big one claiming all of the remaining space of your USB Stick
-    - we are going to encrypt this partition in a minute
+* a small one called `Travel-Disk` using the `NTFS` file system and is `512 MB` in size
+  * this partition won't be encrypted; It will provide the VeraCrypt binaries
+* a big one claiming all of the remaining space of your USB Stick
+  * we are going to encrypt this partition in a minute
 
 ### Copy VeraCrypt binaries
 
@@ -65,9 +61,7 @@ EOF
 
 #### macOS
 
-Unfortunately for macOS there is no standalone version available, because macFUSE 3.10 or newer must be installed too.
-So the best we can do is to [download the latest stable VeraCrypt DMG file](https://www.veracrypt.fr/en/Downloads.html) along with the [latest stable
-macFuse](https://github.com/osxfuse/osxfuse/releases) and copy both files to `Travel-Disk` together with a brief README file:
+Unfortunately for macOS there is no standalone version available, because macFUSE 3.10 or newer must be installed too. So the best we can do is to [download the latest stable VeraCrypt DMG file](https://www.veracrypt.fr/en/Downloads.html) along with the [latest stable macFuse](https://github.com/osxfuse/osxfuse/releases) and copy both files to `Travel-Disk` together with a brief README file:
 
 ```bash
 # Create a macOS directory:
@@ -122,7 +116,7 @@ Now everything is ready to create the encrypted partition:
 3. Select `Create a Volume within a partition/drive`
 4. Select `Standard VeraCrypt volume`
 5. In **Volume Location**, click `Select Device...`
-    - then select the previously created, big partition (probably /dev/sda2)
+   * then select the previously created, big partition \(probably /dev/sda2\)
 6. Enter the local machine's Administrator password when prompted
 7. In **Encryption Options** make sure to select [something different than the defaults](https://blog.elcomsoft.com/2020/03/breaking-veracrypt-containers/)
 8. Then set your **Volume Password**
@@ -136,20 +130,11 @@ Now everything is ready to create the encrypted partition:
 
 ### Error: could not find a distribution template for Elementary/odin
 
-> $ sudo add-apt-repository ppa:unit193/encryption    
-> Traceback (most recent call last):
->   File "/usr/bin/add-apt-repository", line 108, in <module>
->     sp = SoftwareProperties(options=options)
->   File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 118, in __init__
->     self.reload_sourceslist()
->   File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 613, in reload_sourceslist
->     self.distro.get_sources(self.sourceslist)    
->   File "/usr/lib/python3/dist-packages/aptsources/distro.py", line 91, in get_sources
->     raise NoDistroTemplateException(
-> aptsources.distro.NoDistroTemplateException: Error: could not find a distribution template for Elementary/odin
+> $ sudo add-apt-repository ppa:unit193/encryption  
+> Traceback \(most recent call last\): File "/usr/bin/add-apt-repository", line 108, in  sp = SoftwareProperties\(options=options\) File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 118, in **init** self.reload\_sourceslist\(\) File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 613, in reload\_sourceslist self.distro.get\_sources\(self.sourceslist\)  
+> File "/usr/lib/python3/dist-packages/aptsources/distro.py", line 91, in get\_sources raise NoDistroTemplateException\( aptsources.distro.NoDistroTemplateException: Error: could not find a distribution template for Elementary/odin
 
-This error is due to the pre-release nature of elementary 6.0 Odin and should be fixed once the stable version is released.
-Meanwhile you can [apply the existing workaround](https://github.com/elementary/os-patches/issues/136#issuecomment-698652540):
+This error is due to the pre-release nature of elementary 6.0 Odin and should be fixed once the stable version is released. Meanwhile you can [apply the existing workaround](https://github.com/elementary/os-patches/issues/136#issuecomment-698652540):
 
 _Edit `sudo vi /etc/lsb-release`:_
 
@@ -195,11 +180,12 @@ _Edit `sudo vi /etc/os-release`:_
 +UBUNTU_CODENAME=focal
 ```
 
-After you changed both files, try to execute `add-apt-repository` again. 
+After you changed both files, try to execute `add-apt-repository` again.
 
 ## Further Reading
 
-- [VeraCrypt Documentation](https://www.veracrypt.fr/en/Documentation.html)
-- [Create veracrypt traveler disk in Ubuntu](https://askubuntu.com/questions/847127/create-veracrypt-traveler-disk-in-ubuntu)
-- [How to work with DMG files on Linux](https://eastmanreference.com/how-to-work-with-dmg-files-on-linux)
-- [Breaking VeraCrypt containers](https://blog.elcomsoft.com/2020/03/breaking-veracrypt-containers/)
+* [VeraCrypt Documentation](https://www.veracrypt.fr/en/Documentation.html)
+* [Create veracrypt traveler disk in Ubuntu](https://askubuntu.com/questions/847127/create-veracrypt-traveler-disk-in-ubuntu)
+* [How to work with DMG files on Linux](https://eastmanreference.com/how-to-work-with-dmg-files-on-linux)
+* [Breaking VeraCrypt containers](https://blog.elcomsoft.com/2020/03/breaking-veracrypt-containers/)
+
