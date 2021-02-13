@@ -8,6 +8,8 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
+- [![Foo](http://www.google.com.au/images/nav_logo7.png) GitHub](https://github.com/marbetschar/)
+
 ## 🤓️ My Experience: Full Time Nerd since 2004
 
 {% page-ref page="contact.md" %}
