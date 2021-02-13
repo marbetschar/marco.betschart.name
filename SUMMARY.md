@@ -3,7 +3,8 @@
 * [About Me](README.md)
 * [About my Website](about-my-website.md)
 * [Need Help?](contact.md)
-* [Projects](projects.md)
+* Projects
+  * [Projects](projects/time-limit.md)
 * [Areas](areas/README.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
     * [Encrypt USB Stick with Vera Crypt](areas/linux-desktop/encrypt-usb-stick-with-vera-crypt.md)
