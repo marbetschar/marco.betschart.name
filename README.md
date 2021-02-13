@@ -8,9 +8,7 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
-{% hint style="danger" %}
-❤️ **Sponsor Me:** If you like my work, sponsor me [**on GitHub Sponsors**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
+{% page-ref page="contact.md" %}
 
 ## 🤓️ My Experience: Full Time Nerd since 2004
 
@@ -64,5 +62,3 @@ My experience developing applications running in a browser:
 | **Framework** | Angular, Ember.js, jQuery, Hibernate ORM, Kendo UI |
 {% endtab %}
 {% endtabs %}
-
-{% page-ref page="contact.md" %}
