@@ -1,3 +1,5 @@
-# Personal Knowledge Management
+---
+tags: tag1, pkm, tag3
+---
 
-#tag1 #tag2 #tag3
+# Personal Knowledge Management
