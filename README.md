@@ -1,5 +1,7 @@
 ---
-description: "Hi, I'm Marco 👋️ Pleased to meet you!"
+description: |
+  Hi, I'm Marco 👋️
+  Pleased to meet you!
 ---
 
 # About Me
