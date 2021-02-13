@@ -11,7 +11,7 @@ collections:
     permalink: "/:collection/:path/"
     output: true
   docs:
-    permalink: "/:path"
+    permalink: "/:collection/:path"
     output: true
   projects:
     permalink: "/:collection/:path/"
