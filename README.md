@@ -18,14 +18,14 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% tabs %}
 {% tab title="Desktop Developer" %}
-|  | Keywords  |
+|  | Tools I used in actual Projects |
 | :--- | :--- |
 | **Operating Systems** | Linux \(elementary\), macOS, Windows |
 | **Programming Languages** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
 {% endtab %}
 
 {% tab title="Server Admin" %}
-|  | Keywords |
+|  | Tools I used in actual Projects |
 | :--- | :--- |
 | **Operating Systems** | Linux \(CentOS, Ubuntu\), Windows Server |
 | **Programming Languages** | Python, Bash, Batch |
@@ -39,7 +39,7 @@ I'm a software developer who loves to build **digital products** using **open te
 {% endtab %}
 
 {% tab title="Mobile Developer" %}
-|  | Keywords |
+|  | Tools I used in actual Projects |
 | :--- | :--- |
 | **Operating Systems** | Android, iOS |
 | **Platforms** | Native, React Native, Cordova |
@@ -47,7 +47,7 @@ I'm a software developer who loves to build **digital products** using **open te
 {% endtab %}
 
 {% tab title="Web Developer" %}
-|  | Keywords |
+|  | Tools I used in actual Projects |
 | :--- | :--- |
 | **Platforms** | WordPress, Jekyll, GitHub Pages, Custom |
 | **Programming Languages** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, SQL |
