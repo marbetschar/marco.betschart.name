@@ -1,14 +1,14 @@
 # Encrypt USB Stick with Vera Crypt
 
-_#elementary #encryption #open-source_
-
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
+_#elementary #encryption #open-source_
+
 - [Installation](#installation)
 - [Traveler Disk Setup](#traveler-disk-setup)
-- [Further Reading](#further-reading)
 - [Troubleshooting](#troubleshooting)
+- [Further Reading](#further-reading)
 
 ## Installation
 
@@ -132,13 +132,6 @@ Now everything is ready to create the encrypted partition:
 12. Format the Volume
 13. Click `Exit` - and you're done
 
-## Further Reading
-
-- [VeraCrypt Documentation](https://www.veracrypt.fr/en/Documentation.html)
-- [Create veracrypt traveler disk in Ubuntu](https://askubuntu.com/questions/847127/create-veracrypt-traveler-disk-in-ubuntu)
-- [How to work with DMG files on Linux](https://eastmanreference.com/how-to-work-with-dmg-files-on-linux)
-- [Breaking VeraCrypt containers](https://blog.elcomsoft.com/2020/03/breaking-veracrypt-containers/)
-
 ## Troubleshooting
 
 ### Error: could not find a distribution template for Elementary/odin
@@ -203,3 +196,10 @@ _Edit `sudo vi /etc/os-release`:_
 ```
 
 After you changed both files, try to execute `add-apt-repository` again. 
+
+## Further Reading
+
+- [VeraCrypt Documentation](https://www.veracrypt.fr/en/Documentation.html)
+- [Create veracrypt traveler disk in Ubuntu](https://askubuntu.com/questions/847127/create-veracrypt-traveler-disk-in-ubuntu)
+- [How to work with DMG files on Linux](https://eastmanreference.com/how-to-work-with-dmg-files-on-linux)
+- [Breaking VeraCrypt containers](https://blog.elcomsoft.com/2020/03/breaking-veracrypt-containers/)
