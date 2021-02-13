@@ -8,8 +8,7 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
-[![](.gitbook/assets/github-mark-32px.png) GitHub](https://github.com/marbetschar/)
-[![](.gitbook/assets/github-mark-32px.png) Twitter](https://twitter.com/marbetschar/)
+[![](.gitbook/assets/github-mark-32px.png) GitHub](https://github.com/marbetschar/) [![](.gitbook/assets/twitter-32px.png) Twitter](https://twitter.com/marbetschar/)
 
 ## 🤓️ My Experience: Full Time Nerd since 2004
 
