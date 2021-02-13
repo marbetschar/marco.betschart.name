@@ -31,6 +31,10 @@ Extract the downloaded \*`.tar.gz` file to `~/Applications/eclipse`
 
 As last step, create a Desktop Shortcut for your Launcher. To do so, create a new `~/.local/share/applications/eclipse.desktop` file:
 
+{% hint style="warning" %}
+Replace _USER_ with your actual username.
+{% endhint %}
+
 ```text
 [Desktop Entry]
 Name=Eclipse Java EE
@@ -42,6 +46,3 @@ Type=Application
 StartupNotify=true
 Categories=Utility;Java;Development;IDE;
 ```
-
-**IMPORTANT:** Replace _USER_ with your actual username.
-
