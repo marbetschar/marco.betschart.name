@@ -1,7 +1,8 @@
 # Table of contents
 
 * [About Me](README.md)
-* [About this Website](about-this-website.md)
+* [About my Website](about-my-website.md)
+* [Need Help?](contact.md)
 * [Projects](projects.md)
 * [Areas](areas/README.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
@@ -9,5 +10,4 @@
     * [Oracle SQL Developer installation](areas/linux-desktop/oracle-sql-developer-installation.md)
 * [Resources](resources.md)
 * [Archives](archives.md)
-* [Contact](contact.md)
 

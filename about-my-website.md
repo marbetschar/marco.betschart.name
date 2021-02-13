@@ -4,7 +4,7 @@ description: |
   #growth #learning #knowledge #strategy #method #goals #system
 ---
 
-# About this Website
+# About my Website
 
 ##  Die PARA Methode
 
