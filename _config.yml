@@ -1,4 +1,4 @@
-remote_theme: pdmosses/just-the-docs@pages-and-collections
+remote_theme: pmarsceill/just-the-docs@v0.3.3
 logo: "/assets/marco-betschart.png"
 search_enabled: true
 aux_links_new_tab: true
