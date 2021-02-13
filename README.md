@@ -1,5 +1,5 @@
 ---
-description: "Hi there \U0001F44B️"
+description: "Hi, I'm Marco 👋️ Pleased to meet you!"
 ---
 
 # About Me
