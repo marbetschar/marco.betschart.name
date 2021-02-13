@@ -37,3 +37,5 @@ Type=Application
 StartupNotify=true
 Categories=Utility;Java;Development;IDE;
 ```
+
+**IMPORTANT:** Replace _USER_ with your actual username.
