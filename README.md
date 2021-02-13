@@ -1,8 +1,6 @@
 ---
 description: |
-  Hi, I'm Marco 👋️
-  <br/>
-  Pleased to meet you!
+  Hi, I'm Marco 👋️ - Pleased to meet you!
 ---
 
 # About Me
