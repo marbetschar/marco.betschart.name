@@ -6,7 +6,7 @@ description: >-
 # Need Help?
 
 {% hint style="info" %}
-❤️ **Sponsor Me:** If you like my work, sponsor me [**on GitHub Sponsors**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+**Sponsor Me:** If you like my work, sponsor me [**on GitHub Sponsors ❤️**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 ## Drop Me a Line!
