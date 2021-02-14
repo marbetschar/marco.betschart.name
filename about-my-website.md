@@ -12,7 +12,7 @@ tags:
 # About my Website
 
 The content on this website is mainly organized using [The PARA Method](areas/knowledge-management/the-para-method.md) (**P**rojects, **A**reas, **R**esources, **A**rchives).
-The most important part is the distinction between Projects and Areas:
+The most important part is the **distinction between Projects and Areas**:
 
 ## Projects
 
@@ -46,3 +46,18 @@ Examples include:
 - Productivity
 - Writing
 
+## Why the distinction is very important
+
+> Areas of responsibilities are a bad way to measure productivity - if you don't make the distinction, they will eventually kill your motivation.
+
+How can you tell if you "live a healthier life", "learn new things" or "beeing a better spouse"? Exactly: you can't! But its easy to tell if you:
+
+- [ ] made sport 2 times this week
+- [x] planned a night out this month with your spouse
+- [x] subscribed to that new course
+
+Maybe you already sense the pattern here: You came up with projects for your areas of responsibilities. By connecting your projects to your areas of responsibilities and working on them, its easy to tell if you are actively working towards your long-term goals - or if you mainly wasting your time.
+
+## Further Reading
+
+- See [The PARA Method](areas/knowledge-management/the-para-method.md) for a broader explanation
