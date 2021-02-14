@@ -20,7 +20,7 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ### Technologies I worked with …
 
-**… as Desktop Developer**, crafting graphical applications running on a desktop computer:
+**… as Desktop Developer**, crafting graphical applications for computers:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -41,7 +41,7 @@ I'm a software developer who loves to build **digital products** using **open te
 | **Webserver** | Apache HTTPD, NGINX, PHP |
 | **Other** | Apache Tomcat, Adobe ColdFusion, Cloudron |
 
-**… as Mobile Developer**, building mobile first applications running on a smartphone or tablet:
+**… as Mobile Developer**, building mobile first applications for smartphones or tablets:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -49,7 +49,7 @@ I'm a software developer who loves to build **digital products** using **open te
 | **Platform** | Native, React Native, Cordova |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
 
-**… as Web Developer**, creating applications running in a web browser:
+**… as Web Developer**, creating applications for web browsers:
 
 | Scope | I worked with |
 | :--- | :--- |
