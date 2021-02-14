@@ -48,7 +48,9 @@ Examples include:
 
 ## Why the distinction is very important
 
-> Areas of responsibilities are a bad way to measure productivity - if you don't make the distinction, they will eventually kill your motivation.
+{% hint style="danger" %}
+Areas of responsibilities are a bad way to measure productivity - if you don't make the distinction, they will eventually kill your motivation.
+{% endhint %}
 
 How can you tell if you "live a healthier life", "learn new things" or "beeing a better spouse"? Exactly: you can't! But its easy to tell if you:
 
