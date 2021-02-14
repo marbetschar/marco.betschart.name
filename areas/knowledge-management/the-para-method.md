@@ -11,7 +11,7 @@ tags:
 The PARA Method (**P**rojects, **A**reas, **R**esources, **A**rchives) is a tool-agnostic structure to organize digital information,
 with the goals of beeing universal, flexible, simple, actionable, cross-platform, outcome-oriented, modular and opportunistic.
 
-To achieve its goals, the method requires us to every type of information into one of the following four top-level categories:
+To achieve its goals, the method requires us to classify each piece of information into one of four categories:
 
 ## [Projects](projects)
 
