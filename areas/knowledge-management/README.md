@@ -15,7 +15,11 @@ Sometimes this is also referred to as Personal Knowledge Management (PKM).
 {% endhint %}
 
 Here you'll find more information about my insights to Personal Knowledge Mangement along with the
-methods and applications which proved to be working well for me.
+methods and applications which proved to be working well for me:
+
+{% page-ref page="the-para-method.md" %}
+
+{% page-ref page="zettelkasten.md" %}
 
 ## Further Reading
 
