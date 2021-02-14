@@ -1,7 +1,7 @@
 # Table of contents
 
 * [About Me](README.md)
-* [About my Website](about-my-website.md)
+* [About this Website](about-this-website.md)
 * [Need Help?](contact.md)
 * [Projects](projects/README.md)
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)

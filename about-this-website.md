@@ -9,7 +9,7 @@ tags:
   - system
 ---
 
-# About my Website
+# About this Website
 
 The content on this website is mainly organized using [The PARA Method](areas/knowledge-management/the-para-method.md) (**P**rojects, **A**reas, **R**esources, **A**rchives).
 The most important part is the **distinction between Projects and Areas**:
