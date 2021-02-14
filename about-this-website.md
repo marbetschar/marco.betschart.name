@@ -14,7 +14,7 @@ tags:
 The content on this website is mainly organized using [The PARA Method](areas/knowledge-management/the-para-method.md) (**P**rojects, **A**reas, **R**esources, **A**rchives).
 The most important part is the **distinction between Projects and Areas**:
 
-## Projects
+## [Projects](projects)
 
 > A project is a series of tasks linked to a **specific goal, with a deadline**.
 
@@ -29,7 +29,7 @@ Examples include:
 - Develop project plan
 - Pass final exams
 
-## Areas
+## [Areas](areas)
 
 > An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
 
