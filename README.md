@@ -10,13 +10,13 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ## 🤓️ My Experience: Full Time Nerd since 2004
 
-{% page-ref page="contact.md" %}
-
 |  |  |
 | :--- | :--- |
 | 2019 - Today | Bachelor's degree in Computer Science |
 | 2008 - Today | Working in the IT industry |
 | 2004 - 2008 | Swiss Vocational Certificate in Computer Science |
+
+{% page-ref page="contact.md" %}
 
 ### Technologies I worked with
 
