@@ -49,7 +49,7 @@ Examples include:
 ## Why this is important
 
 {% hint style="danger" %}
-Areas of responsibilities are a **bad way to measure productivity** - if you don't make the distinction, **it will kill your motivation**.
+**Areas of responsibilities** are a **bad way to measure productivity** - if you don't make the distinction to projects, **it will kill your motivation**.
 {% endhint %}
 
 How can you tell if you "live a healthier life", "learn new things" or "beeing a better spouse"?
