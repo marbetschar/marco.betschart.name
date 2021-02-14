@@ -13,7 +13,7 @@ with the goals of beeing universal, flexible, simple, actionable, cross-platform
 
 To achieve its goals, the method requires us to classify each piece of information into one of four categories:
 
-## [Projects](projects)
+## Projects
 
 > A project is a series of tasks linked to a **specific goal, with a deadline**.
 
@@ -28,7 +28,7 @@ Examples include:
 - Develop project plan
 - Pass final exams
 
-## [Areas](areas)
+## Areas
 
 > An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
 
