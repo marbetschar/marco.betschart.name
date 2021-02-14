@@ -1,6 +1,5 @@
 ---
-description: |
-  A project is a series of tasks linked to a **specific goal, with a deadline**.
+description: "a series of tasks linked to a specific goal, with a deadline."
 ---
 
 # Projects

@@ -1,11 +1,10 @@
 ---
-description: |
-  An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
+description: "a sphere of activity with a standard to be maintained over time."
 ---
 
 # Areas
 
-An area does not have a specific goal, nor does it have a deadline. The characteristics of an area are:
+An area does not have a specific goal, nor does it have a deadline. The characteristics are:
 
 - **standard** to be maintained
 - **indefinite** end date
