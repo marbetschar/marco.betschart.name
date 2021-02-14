@@ -66,4 +66,4 @@ Maybe you already sense the pattern here: You came up with **projects _in_ your 
 
 ## Further Reading
 
-- See [The PARA Method](areas/knowledge-management/the-para-method.md) for a broader explanation
+- See [The PARA Method](areas/knowledge-management/the-para-method.md) for a more in depth explanation
