@@ -1,12 +1,12 @@
 ---
-description: Don't hesitate - just drop me a line if you think I can help!
+description: Don't hesitate - drop me a line if you think I can help!
 ---
 
 # Need Help?
 
 ## Drop Me a Line!
 
-I'm happy to help, just choose your preferred way of communication:
+Hit me up however you prefer, I'm happy to help:
 
 [![](.gitbook/assets/twitter-32px.png) **Ask me on Twitter**](https://ctt.ac/Ef03H)
 
