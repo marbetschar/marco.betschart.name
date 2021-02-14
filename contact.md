@@ -2,7 +2,7 @@
 description: Don't hesitate - drop me a line if you think I can help!
 ---
 
-# Need Help?
+# Got a Question?
 
 ## Drop Me a Line!
 

@@ -11,7 +11,7 @@ The characteristics of a project are:
 
 [Read why this definition is important.](../about-this-website.md#why-this-is-important)
 
-## Current Projects
+## My Current Projects
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!

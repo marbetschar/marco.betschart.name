@@ -4,7 +4,7 @@ description: "Hi, I'm Marco \U0001F44B️ - pleased to meet you!"
 
 # About Me
 
-I'm a software developer who loves to build **digital products** using **open technologies**. Usually with the goals to **improve productivity** and **expanding knowledge**.
+I'm a software developer who loves to build **digital products** using **open technologies** - with the goal to **improve productivity** and **expanding knowledge**.
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
@@ -12,7 +12,15 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% page-ref page="contact.md" %}
 
-### as Desktop Developer
+|  |  |
+| :--- | :--- |
+| 2019 - Today | Bachelor's degree in Computer Science |
+| 2008 - Today | Working in the IT industry |
+| 2004 - 2008 | Swiss Vocational Certificate in Computer Science |
+
+### Technologies I worked with
+
+#### as Desktop Developer
 
 My experience developing graphical applications running on a desktop computer:
 
@@ -21,7 +29,7 @@ My experience developing graphical applications running on a desktop computer:
 | **Operating System** | Linux \(elementary\), macOS, Windows |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
 
-### as Server Admin
+#### as Server Admin
 
 My experience managing servers and other infrastructure components:
 
@@ -37,7 +45,7 @@ My experience managing servers and other infrastructure components:
 | **Webserver** | Apache HTTPD, NGINX, PHP |
 | **Other** | Apache Tomcat, Adobe ColdFusion, Cloudron |
 
-### as Mobile Developer
+#### as Mobile Developer
 
 My experience developing mobile first applications running on a smartphone or tablet:
 
@@ -47,7 +55,7 @@ My experience developing mobile first applications running on a smartphone or ta
 | **Platform** | Native, React Native, Cordova |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
 
-### as Web Developer
+#### as Web Developer
 
 My experience developing applications running in a web browser:
 
