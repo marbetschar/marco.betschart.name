@@ -18,7 +18,7 @@ The most important part is the **distinction between Projects and Areas**:
 
 > A project is a series of tasks linked to a **specific goal, with a deadline**.
 
-So the characteristics of a project are:
+The characteristics of a project are:
 
 - **goal** to be achieved
 - has a **deadline**
@@ -33,7 +33,7 @@ Examples include:
 
 > An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
 
-No specific goal, no deadline. So the characteristics of an area are:
+An area does not have a specific goal, nor does it have a deadline. The characteristics of an area are:
 
 - **standard** to be maintained
 - **indefinite** end date
@@ -62,7 +62,7 @@ How can you tell if you "live a healthier life", "learn new things" or "beeing a
 Projects always fall into Areas.
 {% endhint %}
 
-Maybe you already sense the pattern here: You came up with projects for your areas of responsibilities. By connecting your projects to your areas of responsibilities and working on them, its easy to tell if you are actively working towards your long-term goals - or if you mainly wasting your time.
+Maybe you already sense the pattern here: You came up with **projects in your areas of responsibilities**. By connecting your projects to your areas of responsibilities and actively working on them, its easy to tell if you are effectively working towards your long-term goals - or if you mainly wasting your time.
 
 ## Further Reading
 
