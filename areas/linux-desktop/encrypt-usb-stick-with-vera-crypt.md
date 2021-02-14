@@ -1,6 +1,6 @@
 ---
 description: How to encrypt an USB stick using Vera Crypt.
-tags: 'how-to, open-source, encryption, elementary'
+tags: [how-to, open-source, encryption, elementary]
 ---
 
 # Encrypt USB Stick with Vera Crypt
