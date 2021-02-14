@@ -1,6 +1,9 @@
-# Areas
+---
+description: |
+  An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
+---
 
-> An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
+# Areas
 
 An area does not have a specific goal, nor does it have a deadline. The characteristics of an area are:
 

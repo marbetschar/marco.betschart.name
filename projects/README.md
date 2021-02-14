@@ -1,10 +1,9 @@
 ---
-description: Here's what I'm currently working on.
+description: |
+  A project is a series of tasks linked to a **specific goal, with a deadline**.
 ---
 
 # Projects
-
-> A project is a series of tasks linked to a **specific goal, with a deadline**.
 
 The characteristics of a project are:
 
