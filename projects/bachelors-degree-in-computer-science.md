@@ -11,7 +11,18 @@ tags:
 
 ## Bachelor's degree in Computer Science
 
-### 3rd Semester: Autumn 2020
+### Now: 4th Semester
+
+| Course | Description |
+| :--- | :--- |
+| **Business for engineers** | Engineers will gain an insight into the most important business fundamentals and interrelationships. They should understand how companies function, be able to classify strategies and processes, and know the basics of financial and management accounting. |
+| **Communication technology** | In virtually all modern applications, data communication is an integral part. The aim of this module is to teach concepts, terms, protocols and mechanisms of data communication for the professional environment, so that students can properly design and use data communication and solve basic problems. |
+| **Higher mathematics for computer scientists 2** | Numerical solution of nonlinear systems of equations, compensatory calculus, numerical integration, numerics of ordinary differential equations. |
+| **Software Development 1** | The module provides the necessary analysis and design skills to develop and implement larger and more complex software systems. |
+| **System-oriented programming** | C and Unix-like operating systems are closely related and are essential in today's computing. You will become familiar with the basics of C and programming applications in C as well as interfacing with the \(Linux\) operating system using POSIX calls and shell scripts. |
+| **Software Project 3** | In this module, students develop a larger and more complex software system. In the process, the analysis and design competencies taught in the SWEN1 module are applied \(knowledge transfer\). Furthermore, realization and project management skills are practiced and social and personal skills are strengthened. |
+
+### Autumn 2020: 3rd Semester
 
 | Course | Description |
 | :--- | :--- |
@@ -22,7 +33,7 @@ tags:
 | **Higher mathematics for computer scientists 1** | Introduction to Python, Computational Arithmetic, Numerical Solution of Zero Problems, Numerical Solution of Linear Systems of Equations. |
 | **Stochastics and statistics** | The module introduces the terms and concepts of probability theory and statistics that are essential for an in-depth understanding of many areas. |
 
-### 2nd Semester: Spring 2020
+### Spring 2020: 2nd Semester
 
 | Course | Description |
 | :--- | :--- |
@@ -33,7 +44,7 @@ tags:
 | **Software Project 2** | In this module, the specialized knowledge from other modules is practically applied and deepened in several small projects or exercises, and the experience of working in software projects is expanded. This includes software analysis and refactoring, project planning and progress tracking, application of development tools in a team, idea generation and evaluation, reflection of project progress and results. |
 | **Theoretical Computer Science** | Basic terms as well as concepts of theoretical computer science, models for assessing the performance of current and future computer systems: Formal languages, automata theory, computability and complexity. |
 
-### 1st Semester: Autumn 2019
+### Autumn 2019: 1st Semester
 
 | Course | Description |
 | :--- | :--- |
