@@ -27,10 +27,6 @@ I'm a software developer who loves to build **digital products** using **open te
 | **Operating System** | Linux \(elementary\), macOS, Windows |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
 
-|  |  |
-| :--- | :--- |
-
-
 **… as Server Admin**, managing servers and other infrastructure components:
 
 | Scope | I worked with |
