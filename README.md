@@ -12,17 +12,17 @@ I'm a software developer who loves to build **digital products** using **open te
 
 {% page-ref page="contact.md" %}
 
-{% tabs %}
-{% tab title="Desktop Developer" %}
+### Desktop Developer
+
 My experience developing graphical applications running on a desktop computer:
 
 | Scope | I worked with |
 | :--- | :--- |
 | **Operating System** | Linux \(elementary\), macOS, Windows |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
-{% endtab %}
 
-{% tab title="Server Admin" %}
+### Server Admin
+
 My experience managing servers and other infrastructure components:
 
 | Scope | I worked with |
@@ -36,9 +36,9 @@ My experience managing servers and other infrastructure components:
 | **Virtualization** | VMWare, VirtualBox |
 | **Webserver** | Apache HTTPD, NGINX, PHP |
 | **Other** | Apache Tomcat, Adobe ColdFusion, Cloudron |
-{% endtab %}
 
-{% tab title="Mobile Developer" %}
+### Mobile Developer
+
 My experience developing mobile first applications running on a smartphone or tablet:
 
 | Scope | I worked with |
@@ -46,9 +46,9 @@ My experience developing mobile first applications running on a smartphone or ta
 | **Operating System** | Android, iOS |
 | **Platform** | Native, React Native, Cordova |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
-{% endtab %}
 
-{% tab title="Web Developer" %}
+### Web Developer
+
 My experience developing applications running in a web browser:
 
 | Scope | I worked with |
@@ -56,9 +56,7 @@ My experience developing applications running in a web browser:
 | **Platform** | WordPress, Jekyll, GitHub Pages, Custom |
 | **Programming Language** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, SQL |
 | **Framework** | Angular, Ember.js, jQuery, Hibernate ORM, Kendo UI |
-{% endtab %}
-{% endtabs %}
 
-Visit me:
+Follow me:
 [![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/)
 [![](.gitbook/assets/twitter-32px.png) **Twitter**](https://twitter.com/marbetschar/)
