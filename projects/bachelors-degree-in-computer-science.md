@@ -11,9 +11,20 @@ tags:
 
 ## Bachelor's degree in Computer Science
 
+### 3rd Semester: Autumn 2020
+
+| Course | Description |
+| :--- | :--- |
+| **Algorithms and Data Structures** | You will know and practice the approach used for algorithmically complex problems. You know the central data structures of computer science and how they are implemented in Java. You will be able to estimate the computational effort. You will learn to apply basic design patterns. |
+| **Communication Competence 3** | Communication in an international and interdisciplinary environment. Language mediation and transfer between English and German. Argumentation and discussion. |
+| **Databases** | Basics of relational databases: relational algebra, entity-relationship design, SQL DDL/DML, efficient and correct database queries in SQL, indexes, triggers, transactions/ACID. |
+| **Fundamentals of electrical engineering and digital technology** | The aim of this course is to teach the physical fundamentals of electrical and digital engineering. The lecture teaches theoretical basics as well as practical knowledge \(e.g. the implementation and measurement of simple circuits\). |
+| **Higher mathematics for computer scientists 1** | Introduction to Python, Computational Arithmetic, Numerical Solution of Zero Problems, Numerical Solution of Linear Systems of Equations. |
+| **Stochastics and statistics** | The module introduces the terms and concepts of probability theory and statistics that are essential for an in-depth understanding of many areas. |
+
 ### 2nd Semester: Spring 2020
 
-| Lecture | Description |
+| Course | Description |
 | :--- | :--- |
 | **Analysis 2** | Basic concepts and methods of differential and integral calculus in one real variable, and their application. |
 | **Communication Competence 2** | Collaborative writing and peer feedback in an academic or professional context. Deepening of research skills Addressee-oriented communication. |
@@ -24,7 +35,7 @@ tags:
 
 ### 1st Semester: Autumn 2019
 
-| Lecture | Description |
+| Course | Description |
 | :--- | :--- |
 | **Analysis 1** | This module teaches basic concepts and methods of differential and integral calculus of a real variable. |
 | **Communication Competence 1** | Research and process information in a scientific context. Developing performance and language skills for presentations. Designing communication and giving feedback in a team |
