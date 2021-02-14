@@ -9,6 +9,7 @@
   * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)
 * [Areas](areas/README.md)
+  * [Knowledge Management](areas/knowledge-management.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
     * [Encrypt USB Stick with Vera Crypt](areas/linux-desktop/encrypt-usb-stick-with-vera-crypt.md)
     * [Error: could not find distribution template for Elementary/odin](areas/linux-desktop/fix-error-distribution-template-for-elementary-odin.md)
