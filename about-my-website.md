@@ -52,7 +52,9 @@ Examples include:
 Areas of responsibilities are a **bad way to measure productivity** - if you don't make the distinction, **it will kill your motivation**.
 {% endhint %}
 
-How can you tell if you "live a healthier life", "learn new things" or "beeing a better spouse"? Exactly: you can't! But its easy to tell if you:
+How can you tell if you "live a healthier life", "learn new things" or "beeing a better spouse"?
+
+Exactly: You can't! But its easy to tell if you:
 
 - [ ] made sport 2 times this week
 - [x] ~~planned a night out this month with your spouse~~
