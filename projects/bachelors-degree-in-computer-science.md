@@ -11,7 +11,18 @@ tags:
 
 ## Bachelor's degree in Computer Science
 
-### 1st Semester: Autumn 2020
+### 2nd Semester: Spring 2020
+
+| Lecture | Description |
+| :--- | :--- |
+| **Analysis 2** | Basic concepts and methods of differential and integral calculus in one real variable, and their application. |
+| **Communication Competence 2** | Collaborative writing and peer feedback in an academic or professional context. Deepening of research skills Addressee-oriented communication. |
+| **Linear Algebra** | The module teaches the basics of linear algebra. Among other things, you will learn how to deal with systems of linear equations, vectors and matrices. |
+| **Programming 2** | This module teaches the advanced concepts of object-oriented programming using the Java programming language and its environment. The overall goal is to create high-quality, understandable and well-maintainable program code with the help of various advanced methods, techniques and tools. |
+| **Software Project 2** | In this module, the specialized knowledge from other modules is practically applied and deepened in several small projects or exercises, and the experience of working in software projects is expanded. This includes software analysis and refactoring, project planning and progress tracking, application of development tools in a team, idea generation and evaluation, reflection of project progress and results. |
+| **Theoretical Computer Science** | Basic terms as well as concepts of theoretical computer science, models for assessing the performance of current and future computer systems: Formal languages, automata theory, computability and complexity. |
+
+### 1st Semester: Autumn 2019
 
 | Lecture | Description |
 | :--- | :--- |
