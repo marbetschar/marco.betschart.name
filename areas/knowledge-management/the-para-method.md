@@ -45,7 +45,31 @@ Examples include:
 - Productivity
 - Writing
 
-## Why this is important
+## Resources
+
+> A resource is "a topic or theme of ongoing interest."
+
+Examples include:
+
+- habit formation
+- project management
+- music
+- online marketing
+- note-taking
+
+## Archives
+
+> Archives include "inactive items from the other three categories."
+
+Examples include:
+
+- projects that have been completed or become inactive
+- areas that you are no longer committed to maintaining
+- resources that you are no longer interested in
+
+## Projects vs. Areas
+
+The distinction between projects and areas is very important and here is why:
 
 {% hint style="danger" %}
 **Areas of responsibilities** are a **bad way to measure productivity** - if you don't make the distinction to projects, **it will kill your motivation**.
