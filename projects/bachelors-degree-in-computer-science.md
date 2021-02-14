@@ -9,9 +9,14 @@ tags:
 
 # Bachelor's degree in Computer Science
 
-## Bachelor's degree in Computer Science
+|  |  |
+| :--- | :--- |
+| University | ZHAW |
+| Format | part-time |
+| Start | September 2019 |
+| Duration | 8 semesters |
 
-### Now: 4th Semester
+## Now: 4th Semester
 
 | Course | Description |
 | :--- | :--- |
@@ -22,7 +27,7 @@ tags:
 | **System-oriented programming** | C and Unix-like operating systems are closely related and are essential in today's computing. You will become familiar with the basics of C and programming applications in C as well as interfacing with the \(Linux\) operating system using POSIX calls and shell scripts. |
 | **Software Project 3** | In this module, students develop a larger and more complex software system. In the process, the analysis and design competencies taught in the SWEN1 module are applied \(knowledge transfer\). Furthermore, realization and project management skills are practiced and social and personal skills are strengthened. |
 
-### Autumn 2020: 3rd Semester
+## Autumn 2020: 3rd Semester
 
 | Course | Description |
 | :--- | :--- |
@@ -33,7 +38,7 @@ tags:
 | **Higher mathematics for computer scientists 1** | Introduction to Python, Computational Arithmetic, Numerical Solution of Zero Problems, Numerical Solution of Linear Systems of Equations. |
 | **Stochastics and statistics** | The module introduces the terms and concepts of probability theory and statistics that are essential for an in-depth understanding of many areas. |
 
-### Spring 2020: 2nd Semester
+## Spring 2020: 2nd Semester
 
 | Course | Description |
 | :--- | :--- |
@@ -44,7 +49,7 @@ tags:
 | **Software Project 2** | In this module, the specialized knowledge from other modules is practically applied and deepened in several small projects or exercises, and the experience of working in software projects is expanded. This includes software analysis and refactoring, project planning and progress tracking, application of development tools in a team, idea generation and evaluation, reflection of project progress and results. |
 | **Theoretical Computer Science** | Basic terms as well as concepts of theoretical computer science, models for assessing the performance of current and future computer systems: Formal languages, automata theory, computability and complexity. |
 
-### Autumn 2019: 1st Semester
+## Autumn 2019: 1st Semester
 
 | Course | Description |
 | :--- | :--- |
