@@ -46,17 +46,17 @@ Examples include:
 - Productivity
 - Writing
 
-## Why the distinction is very important
+## Why this is important
 
 {% hint style="danger" %}
-Areas of responsibilities are a bad way to measure productivity - if you don't make the distinction, they will eventually kill your motivation.
+Areas of responsibilities are a **bad way to measure productivity** - if you don't make the distinction, **it will kill your motivation**.
 {% endhint %}
 
 How can you tell if you "live a healthier life", "learn new things" or "beeing a better spouse"? Exactly: you can't! But its easy to tell if you:
 
 - [ ] made sport 2 times this week
-- [x] planned a night out this month with your spouse
-- [x] subscribed to that new course
+- [x] ~~planned a night out this month with your spouse~~
+- [x] ~~subscribed to that new course~~
 
 {% hint style="info" %}
 Projects always fall into Areas.
