@@ -1,8 +1,10 @@
 ---
-description: Studying part-time to achieve my BSc in Computer Science.
+description: Studying part-time to achieve my Bachelor of Science ZFH in Computer Science.
 tags:
   - education
   - zhaw
+  - growth
+  - learning
 ---
 
 # Bachelor's degree in Computer Science
