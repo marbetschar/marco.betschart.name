@@ -13,14 +13,37 @@ with the goals of beeing universal, flexible, simple, actionable, cross-platform
 
 To achieve its goals, the method requires us to every type of information into one of the following four top-level categories:
 
-1. Projects
-  A project is "a series of tasks linked to a goal, with a deadline."
-2. Areas
-  An area of responsibility is "a sphere of activity with a standard to be maintained over time."
-3. Resources
-  A resource is "a topic or theme of ongoing interest."
-4. Archives
-  Archives include "inactive items from the other three categories."
+## [Projects](projects)
+
+> A project is a series of tasks linked to a **specific goal, with a deadline**.
+
+The characteristics of a project are:
+
+- **goal** to be achieved
+- has a **deadline**
+
+Examples include:
+
+- Complete app website
+- Develop project plan
+- Pass final exams
+
+## [Areas](areas)
+
+> An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
+
+An area does not have a specific goal, nor does it have a deadline. The characteristics of an area are:
+
+- **standard** to be maintained
+- **indefinite** end date
+
+Examples include:
+
+- Health
+- Finances
+- Professional Development
+- Productivity
+- Writing
 
 ## Why this is important
 

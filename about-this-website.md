@@ -14,37 +14,10 @@ tags:
 The content on this website is mainly organized using [The PARA Method](areas/knowledge-management/the-para-method.md) (**P**rojects, **A**reas, **R**esources, **A**rchives).
 The most important part is the **distinction between Projects and Areas**:
 
-## [Projects](projects)
-
-> A project is a series of tasks linked to a **specific goal, with a deadline**.
-
-The characteristics of a project are:
-
-- **goal** to be achieved
-- has a **deadline**
-
-Examples include:
-
-- Complete app website
-- Develop project plan
-- Pass final exams
-
-## [Areas](areas)
-
-> An area of responsibility is "a sphere of activity with a **standard to be maintained over time.**"
-
-An area does not have a specific goal, nor does it have a deadline. The characteristics of an area are:
-
-- **standard** to be maintained
-- **indefinite** end date
-
-Examples include:
-
-- Health
-- Finances
-- Professional Development
-- Productivity
-- Writing
+- **Projects**
+  A project is "a series of tasks linked to a goal, with a deadline."
+- **Areas**
+  An area of responsibility is "a sphere of activity with a standard to be maintained over time."
 
 ## Why this is important
 
