@@ -9,6 +9,8 @@ The characteristics of a project are:
 - **goal** to be achieved
 - has a **deadline**
 
+[See why this definition is important.](../about-this-website.md#why-this-is-important)
+
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
