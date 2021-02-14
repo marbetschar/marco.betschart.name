@@ -59,10 +59,10 @@ How can you tell if you "live a healthier life", "learn new things" or "beeing a
 - [x] ~~subscribed to that new course~~
 
 {% hint style="info" %}
-Projects always fall into Areas.
+Projects always fall into areas.
 {% endhint %}
 
-Maybe you already sense the pattern here: You came up with **projects in your areas of responsibilities**. By connecting your projects to your areas of responsibilities, its easy to tell if you are effectively working towards your long-term goals - or if you mainly wasting your time.
+Maybe you already sense the pattern here: You came up with **projects _in_ your areas of responsibilities**. By connecting your projects to your areas of responsibilities, its easy to tell if you are effectively working towards your long-term goals - or if you mainly wasting your time.
 
 ## Further Reading
 
