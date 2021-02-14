@@ -56,6 +56,10 @@ How can you tell if you "live a healthier life", "learn new things" or "beeing a
 - [x] planned a night out this month with your spouse
 - [x] subscribed to that new course
 
+{% hint style="info" %}
+Projects always fall into Areas.
+{% endhint %}
+
 Maybe you already sense the pattern here: You came up with projects for your areas of responsibilities. By connecting your projects to your areas of responsibilities and working on them, its easy to tell if you are actively working towards your long-term goals - or if you mainly wasting your time.
 
 ## Further Reading
