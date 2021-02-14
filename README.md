@@ -27,7 +27,9 @@ I'm a software developer who loves to build **digital products** using **open te
 | **Operating System** | Linux \(elementary\), macOS, Windows |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
 
----
+|  |  |
+| :--- | :--- |
+
 
 **… as Server Admin**, managing servers and other infrastructure components:
 
@@ -59,6 +61,5 @@ I'm a software developer who loves to build **digital products** using **open te
 | **Programming Language** | ColdFusion, HTML+CSS+JavaScript, Java, PHP, SQL |
 | **Framework** | Angular, Ember.js, jQuery, Hibernate ORM, Kendo UI |
 
-Follow me:
-[![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/)
-[![](.gitbook/assets/twitter-32px.png) **Twitter**](https://twitter.com/marbetschar/)
+Follow me: [![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/) [![](.gitbook/assets/twitter-32px.png) **Twitter**](https://twitter.com/marbetschar/)
+
