@@ -20,8 +20,10 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ### Technologies I worked with
 
+#### as Desktop Developer
+
 {% hint style="info" %}
-**as Desktop Developer:** Technologies I worked with developing graphical applications running on a desktop computer.
+Technologies I worked with developing graphical applications running on a desktop computer.
 {% endhint %}
 
 | Scope | I worked with |
