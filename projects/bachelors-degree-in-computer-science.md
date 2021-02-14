@@ -11,10 +11,10 @@ tags:
 
 |  |  |
 | :--- | :--- |
-| University | ZHAW |
-| Format | part-time |
-| Start | September 2019 |
-| Duration | 8 semesters |
+| **University** | [ZHAW](https://www.zhaw.ch/en/university/) |
+| **Format** | Part-time |
+| **Start** | September 2019 |
+| **Duration** | 8 semesters / 4 years |
 
 ## Now: 4th Semester
 
