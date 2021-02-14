@@ -57,7 +57,7 @@ Whenever you add a note, make sure to link it to already existing notes.
 Whenever you are connecting two notes, make sure to briefly explain why you are linking them.
 
 {% hint style="success" %}
-This is key to ensure you know why you connected the notes in the first place - even it is years down the road.
+This is key to **ensure you know why** you connected the notes in the first place - even it is years down the road.
 {% endhint %}
 
 ### 5. Use your own words
@@ -73,7 +73,7 @@ Use your own words to express an idea, so your future me is able to understand i
 Add the reference to the original source to your note.
 
 {% hint style="success" %}
-This makes it easy for you to revisit the original source later on.
+This makes it easy for you to **revisit the original source** later on.
 {% endhint %}
 
 ### 7. Add your own thoughts
@@ -81,13 +81,16 @@ This makes it easy for you to revisit the original source later on.
 If you have thoughts of your own, add them as notes.
 
 {% hint style="warning" %}
-Make sure you adhere to the principles of atomicity, autonomy, and connecting.
+Make sure you **adhere to the principles of atomicity, autonomy, and linking**.
 {% endhint %}
 
 ### 8. Don't worry about structure
 
 Don't waste time thinking about a neat folder structure or preconceived categories.
-The organization of the Zettelkasten develops organically.
+
+{% hint style="success" %}
+The Zettelkastens **organization develops organically**.
+{% endhint %}
 
 ### 9. Add connection notes
 
@@ -104,7 +107,7 @@ into a particular order to create a story, narrative, or argument.
 Instead, link to new notes that explain what’s wrong with the old ones.
 
 {% hint style="success" %}
-This way, your Zettelkasten will reflect how your thinking has evolved over time.
+This way, your Zettelkasten will **reflect your thinking over time**.
 {% endhint %}
 
 ### 12. Add notes without fear
