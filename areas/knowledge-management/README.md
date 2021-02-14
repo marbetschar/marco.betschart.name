@@ -1,5 +1,5 @@
 ---
-description: My approach to Personal Knowledge Management and my Digital Garden.
+description: My approach to Personal Knowledge Management and a Digital Garden.
 tags:
   - digital-garden
   - knowledge-management
