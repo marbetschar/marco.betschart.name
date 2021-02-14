@@ -32,5 +32,5 @@ Users who need to focus for a given time period on the Gtk based Linux Desktop d
 
 ## Acknowledgements
 
-* Designed by [Michael Villar](https://github.com/michaelvillar/timer-app)
+* Original design by [Michael Villar](https://github.com/michaelvillar/timer-app)
 
