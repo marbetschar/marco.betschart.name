@@ -15,9 +15,9 @@ The content on this website is mainly organized using [The PARA Method](areas/kn
 The most important part is the **distinction between Projects and Areas**:
 
 - **Projects**
-  A project is "a series of tasks linked to a goal, with a deadline."
+  > A project is "a series of tasks linked to a **goal**, with a **deadline**."
 - **Areas**
-  An area of responsibility is "a sphere of activity with a standard to be maintained over time."
+  > An area of responsibility is "a sphere of activity with a **standard to be maintained over time**."
 
 ## Why this is important
 
