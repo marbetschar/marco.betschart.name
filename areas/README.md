@@ -11,6 +11,8 @@ An area does not have a specific goal, nor does it have a deadline. The characte
 
 [Read why this definition is important.](../about-this-website.md#why-this-is-important)
 
+## Current Areas
+
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
