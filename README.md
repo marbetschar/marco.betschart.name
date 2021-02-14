@@ -20,16 +20,14 @@ I'm a software developer who loves to build **digital products** using **open te
 
 ### Technologies I worked with …
 
-**… as Desktop Developer**, to develop graphical applications running on a desktop computer:
+**… as Desktop Developer**, crafting graphical applications running on a desktop computer:
 
 | Scope | I worked with |
 | :--- | :--- |
 | **Operating System** | Linux \(elementary\), macOS, Windows |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript, Vala |
 
-#### … as Server Admin
-
-My experience managing servers and other infrastructure components:
+**… as Server Admin**, managing servers and other infrastructure components:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -43,9 +41,7 @@ My experience managing servers and other infrastructure components:
 | **Webserver** | Apache HTTPD, NGINX, PHP |
 | **Other** | Apache Tomcat, Adobe ColdFusion, Cloudron |
 
-#### … as Mobile Developer
-
-My experience developing mobile first applications running on a smartphone or tablet:
+**… as Mobile Developer**, building mobile first applications running on a smartphone or tablet:
 
 | Scope | I worked with |
 | :--- | :--- |
@@ -53,9 +49,7 @@ My experience developing mobile first applications running on a smartphone or ta
 | **Platform** | Native, React Native, Cordova |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
 
-#### … as Web Developer
-
-My experience developing applications running in a web browser:
+**… as Web Developer**, creating applications running in a web browser:
 
 | Scope | I worked with |
 | :--- | :--- |
