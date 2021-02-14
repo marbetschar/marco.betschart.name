@@ -4,6 +4,7 @@
 * [About my Website](about-my-website.md)
 * [Need Help?](contact.md)
 * [Projects](projects/README.md)
+  * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
   * [elementary Tasks](projects/elementary-tasks.md)
   * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)

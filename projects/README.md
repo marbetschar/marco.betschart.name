@@ -4,6 +4,8 @@ description: Here's what I'm currently working on.
 
 # Projects
 
+{% page-ref page="bachelors-degree-in-computer-science.md" %}
+
 {% page-ref page="elementary-tasks.md" %}
 
 {% page-ref page="progress-for-apple-reminders.md" %}
