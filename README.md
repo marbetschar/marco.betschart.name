@@ -43,6 +43,8 @@ I'm a software developer who loves to build **digital products** using **open te
 | **Webserver** | Apache HTTPD, NGINX, PHP |
 | **Other** | Apache Tomcat, Adobe ColdFusion, Cloudron |
 
+<p>&nbsp;</p>
+
 **… as Mobile Developer**, building mobile first applications for smartphones or tablets:
 
 | Scope | I worked with |
@@ -50,6 +52,8 @@ I'm a software developer who loves to build **digital products** using **open te
 | **Operating System** | Android, iOS |
 | **Platform** | Native, React Native, Cordova |
 | **Programming Language** | HTML+CSS+JavaScript, Java, Swift, TypeScript |
+
+<p>&nbsp;</p>
 
 **… as Web Developer**, creating applications for web browsers:
 
