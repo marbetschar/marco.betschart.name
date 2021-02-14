@@ -1,8 +1,8 @@
 ---
-description: "a series of tasks linked to a specific goal, with a deadline."
+description: "a project is a series of tasks linked to a specific goal, with a deadline."
 ---
 
-# Projects
+# My Projects
 
 The characteristics of a project are:
 
