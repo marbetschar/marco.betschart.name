@@ -49,12 +49,12 @@ This ensures notes
 Whenever you add a note, make sure to link it to already existing notes.
 
 {% hint style="danger" %}
-"A note that is not connected to the network will be lost, will be forgotten by the Zettelkasten" **- Niklas Luhmann**
+"A note that is not connected to the network **will be lost**, will be forgotten by the Zettelkasten" _- Niklas Luhmann_
 {% endhint %}
 
 ### 4. Explain links between notes
 
-Whenever you are connecting two notes by a link, make sure to briefly explain why you are linking them.
+Whenever you are connecting two notes, make sure to briefly explain why you are linking them.
 
 {% hint style="success" %}
 This is key to ensure you know why you connected the notes in the first place - even it is years down the road.
