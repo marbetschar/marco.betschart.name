@@ -66,7 +66,7 @@ in get_sources raise NoDistroTemplateException( aptsources.distro.NoDistroTempla
 Error: could not find a distribution template for Elementary/odin
 ```
 
-**Workaround:** [Follow the documented solution here](fix-error-distribution-template-for-elementary-odin/README.md).
+**Workaround:** [Follow the documented solution here](fix-error-distribution-template-for-elementary-odin.md).
 
 ## 🧙‍♂️️ Window Manager \(Gala\)
 
