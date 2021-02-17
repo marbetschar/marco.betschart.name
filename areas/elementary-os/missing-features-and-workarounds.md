@@ -26,7 +26,7 @@ Beeing able to clone a repository from an url stored in clipboard without leavin
 
 ### Extract / Compress from context menu
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Beeing able to quickly zip and unzip files by simply doing a right click. This was possible on Hera.
 
@@ -36,13 +36,45 @@ Beeing able to quickly zip and unzip files by simply doing a right click. This w
 
 ### Grouped Folders
 
-...
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
+[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/mail/issues/449)
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+ It would be convenient to add grouped folders - at least for well known folder names. That is: Inbox, Archive, Drafts, Sent. I would expect these folders to be shown at the very top, containing the messages from all configured email accounts. This way we can get one single Inbox folder, showing an overview for all received messages, one single Archive folder showing all archived messages, ... etc.
+
+**Workaround:** None.
+
+### Filter & Search for flagged emails
+
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
+[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/mail/issues/236)
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+It should be possible to search and filter only through flagged emails. Ideally through multiple mail accounts at the same time.
+
+**Workaround:** None.
+
+### Save inline image to disk
+
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
+[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/mail/issues/447)
+![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+I don't seem to be able to save an inline image in Mail to the file system. That's a bit unfortunate, since these days the default behaviour for the macOS Mail App seems to be to send images using the builtin share function like this: As inline content - not as regular attachment.
+
+**Workaround:** Go to your webmail and download the image from there.
 
 ## ☁️ Online Accounts
 
+### Manage Mail Accounts
+
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-stalled-purple)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+Managing mail accounts in system settings' Online Accounts.
+
 ### Nextcloud Provider Support
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-stalled-orange)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-stalled-purple)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Managing Contact, Calendar and Task synchronisation for within Online Accounts.
 
@@ -52,7 +84,7 @@ Managing Contact, Calendar and Task synchronisation for within Online Accounts.
 
 ### add-apt-repository fails with Error: could not find a distribution template for Elementary/next
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Executing `add-apt-repository` fails with the following error:
 
@@ -72,7 +104,7 @@ Error: could not find a distribution template for Elementary/odin
 
 ### Glimpse at unlocked Desktop after resume
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/gala/issues/988) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/gala/issues/988) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 When my laptop suspends the screen goes dark, but when I wake it up again I can get a quick glimpse at the unlocked Desktop before the login form is shown.
 
