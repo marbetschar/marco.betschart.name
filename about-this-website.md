@@ -12,7 +12,7 @@ tags:
 # About this Website
 
 The content on this website is mainly organized using [The PARA Method](areas/knowledge-management/the-para-method.md) (**P**rojects, **A**reas, **R**esources, **A**rchives).
-The most important part is the **distinction between Projects and Areas**:
+The most important part is the **distinction between projects and areas**:
 
 ## Projects
 
@@ -22,7 +22,11 @@ A project is a series of tasks linked to a **specific goal, with a deadline**.
 
 An area of responsibility is "a sphere of activity with a **standard to be maintained over time**".
 
-## Why this is important
+## Resources
+
+A resource is a **topic or theme of ongoing interest**.
+
+## Why the distinction between projects and areas is important
 
 {% hint style="danger" %}
 **Areas of responsibilities** are a **bad way to measure productivity** - if you don't make the distinction to projects, **it will kill your motivation**.

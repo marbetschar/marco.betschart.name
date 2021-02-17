@@ -9,7 +9,7 @@ The characteristics of a project are:
 - **goal** to be achieved
 - has a **deadline**
 
-[Read why this definition is important.](../about-this-website.md#why-this-is-important)
+[**Read why the differentiation from areas is important**](../about-this-website.md#why-the-distinction-between-projects-and-areas-is-important)
 
 ## My Current Projects
 

@@ -9,7 +9,7 @@ An area does not have a specific goal, nor does it have a deadline. The characte
 - **standard** to be maintained
 - **indefinite** end date
 
-[Read why this definition is important.](../about-this-website.md#why-this-is-important)
+[**Read why the differentiation from projects is important**](../about-this-website.md#why-the-distinction-between-projects-and-areas-is-important)
 
 ## My Current Areas
 
