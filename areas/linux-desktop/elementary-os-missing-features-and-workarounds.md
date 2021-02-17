@@ -28,13 +28,13 @@ Beeing able to quickly zip and unzip files by simply doing a right click. This w
 
 **Workaround:** Using the Terminal to compress files, using left click to open Archive Manager and extract from there.
 
-## ✉ Mail
+## ✉️ Mail
 
 ### Grouped Folders
 
 ...
 
-## ☁ Online Accounts
+## ☁️ Online Accounts
 
 ### Nextcloud Provider Support
 
@@ -64,7 +64,7 @@ Error: could not find a distribution template for Elementary/odin
 
 **Workaround:** [Follow the documented solution here](https://github.com/marbetschar/marco.betschart.name/tree/788fa7c98021802fa2cbf601eb940f6fad2a353e/areas/linux-desktop/areas/linux-desktop/fix-error-distribution-template-for-elementary-odin/README.md).
 
-## 🧙♂ Window Manager \(Gala\)
+## 🧙‍♂️️ Window Manager \(Gala\)
 
 ### Glimpse at unlocked Desktop after resume
 
