@@ -10,54 +10,45 @@ tags:
 
 # elementary OS: Missing Features & Workarounds
 
-## Files
+## 📂 Files
 
 ### Clone repository from clipboard
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: In Progress](https://img.shields.io/badge/status-in_progress-green)](https://github.com/elementary/files/pull/1310)
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: In Progress](https://img.shields.io/badge/status-in_progress-green)](https://github.com/elementary/files/pull/1310) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
-Beeing able to clone a repository from an url stored in clipboard without leaving elementary Files. The current solution enables this
-behaviour by adding a context menu option if the content of the clipboard contains a valid Git URL.
+Beeing able to clone a repository from an url stored in clipboard without leaving elementary Files. The current solution enables this behaviour by adding a context menu option if the content of the clipboard contains a valid Git URL.
 
 **Workaround:** Execute `git clone ...url...` from Terminal.
 
 ### Extract / Compress from context menu
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136)
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Beeing able to quickly zip and unzip files by simply doing a right click. This was possible on Hera.
 
 **Workaround:** Using the Terminal to compress files, using left click to open Archive Manager and extract from there.
 
-## Mail
+## ✉ Mail
 
 ### Grouped Folders
 
 ...
 
-## Online Accounts
+## ☁ Online Accounts
 
 ### Nextcloud Provider Support
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: Stalled](https://img.shields.io/badge/status-stalled-orange)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121)
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-stalled-orange)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Managing Contact, Calendar and Task synchronisation for within Online Accounts.
 
 **Workaround:** Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure a "Collection Account" there.
 
-## Package Manager (apt)
+## 📦 Package Manager \(apt\)
 
 ### add-apt-repository fails with Error: could not find a distribution template for Elementary/next
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136)
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Executing `add-apt-repository` fails with the following error:
 
@@ -66,15 +57,13 @@ Traceback (most recent call last): File "/usr/bin/add-apt-repository", line 108,
 File "/usr/lib/python3/dist-packages/aptsources/distro.py", line 91, in get_sources raise NoDistroTemplateException( aptsources.distro.NoDistroTemplateException: Error: could not find a distribution template for Elementary/odin
 ```
 
-**Workaround:** [Follow the documented solution here](areas/linux-desktop/fix-error-distribution-template-for-elementary-odin).
+**Workaround:** [Follow the documented solution here](https://github.com/marbetschar/marco.betschart.name/tree/788fa7c98021802fa2cbf601eb940f6fad2a353e/areas/linux-desktop/areas/linux-desktop/fix-error-distribution-template-for-elementary-odin/README.md).
 
-## Window Manager (Gala)
+## 🧙♂ Window Manager \(Gala\)
 
 ### Glimpse at unlocked Desktop after resume
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/gala/issues/988)
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/gala/issues/988) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 When my laptop suspends the screen goes dark, but when I wake it up again I can get a quick glimpse at the unlocked Desktop before the login form is shown.
 
