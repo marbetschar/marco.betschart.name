@@ -53,8 +53,13 @@ Managing Contact, Calendar and Task synchronisation for within Online Accounts.
 Executing `add-apt-repository` fails with the following error:
 
 ```bash
-Traceback (most recent call last): File "/usr/bin/add-apt-repository", line 108, in sp = SoftwareProperties(options=options) File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 118, in init self.reload_sourceslist() File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 613, in reload_sourceslist self.distro.get_sources(self.sourceslist)
-File "/usr/lib/python3/dist-packages/aptsources/distro.py", line 91, in get_sources raise NoDistroTemplateException( aptsources.distro.NoDistroTemplateException: Error: could not find a distribution template for Elementary/odin
+Traceback (most recent call last): File "/usr/bin/add-apt-repository", line 108,
+in sp = SoftwareProperties(options=options) File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 118,
+in init self.reload_sourceslist() File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 613,
+in reload_sourceslist self.distro.get_sources(self.sourceslist)
+File "/usr/lib/python3/dist-packages/aptsources/distro.py", line 91,
+in get_sources raise NoDistroTemplateException( aptsources.distro.NoDistroTemplateException:
+Error: could not find a distribution template for Elementary/odin
 ```
 
 **Workaround:** [Follow the documented solution here](https://github.com/marbetschar/marco.betschart.name/tree/788fa7c98021802fa2cbf601eb940f6fad2a353e/areas/linux-desktop/areas/linux-desktop/fix-error-distribution-template-for-elementary-odin/README.md).
