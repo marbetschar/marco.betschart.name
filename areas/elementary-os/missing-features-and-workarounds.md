@@ -72,6 +72,28 @@ I don't seem to be able to save an inline image in Mail to the file system. That
 
 Managing mail accounts in system settings' Online Accounts.
 
+**Workaround**
+
+Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure the mail accounts there. You'll need the providers IMAP and SMTP settings:
+
+_Office 365_
+
+|  | Server | Port | Encryption |
+|:--|:-:|:-:|:-:|
+| **Incoming Mail (IMAP)** | outlook.office365.com | 993 | SSL/TLS |
+| **Outgoing Mail (SMTP)** | outlook.office365.com | 587 | STARTTLS |
+
+Source: [support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353](https://support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353)
+
+_Yandex_
+
+|  | Server | Port | Encryption |
+|:--|:-:|:-:|:-:|
+| **Incoming Mail (IMAP)** | imap.yandex.com | 993 | SSL |
+| **Outgoing Mail (SMTP)** | smtp.yandex.com | 465 | SSL |
+
+Source: [yandex.com/support/mail/mail-clients.html](https://yandex.com/support/mail/mail-clients.html)
+
 ### Nextcloud Provider Support
 
 ![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-stalled-purple)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
