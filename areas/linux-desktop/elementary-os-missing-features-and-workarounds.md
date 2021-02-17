@@ -10,6 +10,10 @@ tags:
 
 # elementary OS: Missing Features & Workarounds
 
+{% hint style="info" %}
+If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
+
 ## 📂 Files
 
 ### Clone repository from clipboard
