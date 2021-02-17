@@ -10,15 +10,19 @@ tags:
 
 # elementary OS: Missing Features & Workarounds
 
-### Mail
+## Mail
+
+### Grouped Folders
 
 Adding Mail accounts through Online Accounts does not work.
 
 ## Online Accounts
 
-| Last Update | Status | Title | Description | Workaround |
-| :--- | :--- | :--- | :--- | :--- |
-| 2021-02-17 | [Stalled](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) | **Nextcloud Provider Support** | Managing Contact, Calendar and Task synchronisation | Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure a "Collection Account" there |
+### Nextcloud Provider Support
 
-### 
+- Status: [Stalled](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121)
+- Last Update: 2021-02-17
 
+Managing Contact, Calendar and Task synchronisation for within Online Accounts.
+
+**Workaround:** Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure a "Collection Account" there.
