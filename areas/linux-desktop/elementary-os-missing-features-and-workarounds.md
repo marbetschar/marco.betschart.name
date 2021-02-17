@@ -23,7 +23,7 @@ behaviour by adding a context menu option if the content of the clipboard contai
 
 **Workaround:** Execute `git clone ...url...` from Terminal.
 
-## Extract / Compress from context menu
+### Extract / Compress from context menu
 
 ![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
 [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136)
