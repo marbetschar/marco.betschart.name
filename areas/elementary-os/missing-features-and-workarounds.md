@@ -76,7 +76,7 @@ Managing mail accounts in system settings' Online Accounts.
 
 Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure the mail accounts there. You'll need the providers IMAP and SMTP settings:
 
-_Office 365_
+_**Office 365**_
 
 |  | Server | Port | Encryption |
 |:--|:-:|:-:|:-:|
@@ -85,7 +85,7 @@ _Office 365_
 
 [_support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353_](https://support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353)
 
-_Yandex_
+_**Yandex**_
 
 |  | Server | Port | Encryption |
 |:--|:-:|:-:|:-:|
