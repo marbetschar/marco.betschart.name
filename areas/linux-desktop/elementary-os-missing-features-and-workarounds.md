@@ -15,7 +15,7 @@ tags:
 ### Clone repository from clipboard
 
 ![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: In Progress](https://img.shields.io/badge/status-in--progress-blue)](https://github.com/elementary/files/pull/1310)
+[![Status: In Progress](https://img.shields.io/badge/status-in-progress-green)](https://github.com/elementary/files/pull/1310)
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Beeing able to clone a repository from an url stored in clipboard without leaving elementary Files. The current solution enables this
@@ -26,7 +26,7 @@ behaviour by adding a context menu option if the content of the clipboard contai
 ## Extract / Compress from context menu
 
 ![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-green)](https://github.com/elementary/os-patches/issues/136)
+[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136)
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Beeing able to quickly zip and unzip files by simply doing a right click. This was possible on Hera.
@@ -56,7 +56,7 @@ Managing Contact, Calendar and Task synchronisation for within Online Accounts.
 ### add-apt-repository fails with Error: could not find a distribution template for Elementary/next
 
 ![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-green)](https://github.com/elementary/os-patches/issues/136)
+[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/os-patches/issues/136)
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Executing `add-apt-repository` fails with the following error:
@@ -73,7 +73,7 @@ File "/usr/lib/python3/dist-packages/aptsources/distro.py", line 91, in get_sour
 ### Glimpse at unlocked Desktop after resume
 
 ![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-green)](https://github.com/elementary/gala/issues/988)
+[![Status: Confirmed](https://img.shields.io/badge/status-confirmed-blue)](https://github.com/elementary/gala/issues/988)
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 When my laptop suspends the screen goes dark, but when I wake it up again I can get a quick glimpse at the unlocked Desktop before the login form is shown.
