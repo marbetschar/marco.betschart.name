@@ -17,6 +17,6 @@ An area does not have a specific goal, nor does it have a deadline. The characte
 If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-{% page-ref page="knowledge-management/README.md" %}
+{% page-ref page="elementary-os/README.md" %}
 
-{% page-ref page="linux-desktop/README.md" %}
+{% page-ref page="knowledge-management/README.md" %}
