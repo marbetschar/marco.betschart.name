@@ -13,6 +13,7 @@
     * [The PARA Method](areas/knowledge-management/the-para-method.md)
     * [Zettelkasten](areas/knowledge-management/zettelkasten.md)
   * [Linux Desktop](areas/linux-desktop/README.md)
+    * [elementary OS: Missing Features & Workarounds](areas/linux-desktop/elementary-os-missing-features-and-workarounds.md)
     * [Encrypt USB Stick with Vera Crypt](areas/linux-desktop/encrypt-usb-stick-with-vera-crypt.md)
     * [Error: could not find distribution template for Elementary/odin](areas/linux-desktop/fix-error-distribution-template-for-elementary-odin.md)
     * [Install Eclipse Java EE](areas/linux-desktop/install-eclipse-java-ee.md)
