@@ -15,7 +15,7 @@ tags:
 ### Clone repository from clipboard
 
 ![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social)
-[![Status: In Progress](https://img.shields.io/badge/status-in-progress-green)](https://github.com/elementary/files/pull/1310)
+[![Status: In Progress](https://img.shields.io/badge/status-in_progress-green)](https://github.com/elementary/files/pull/1310)
 ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Beeing able to clone a repository from an url stored in clipboard without leaving elementary Files. The current solution enables this
