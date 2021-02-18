@@ -1,5 +1,5 @@
 ---
-description: You are Alyx Vance, and you’re about to spark a revolution.
+description: 'You are Alyx Vance, and you’re about to spark a revolution.'
 tags:
   - xr
   - game
@@ -7,7 +7,7 @@ tags:
 
 # Half Life: Alyx
 
-
+{% embed url="https://youtu.be/O2W0N3uKXmo" %}
 
 ## Story
 
@@ -18,5 +18,6 @@ The loss of the Seven-Hour War is still fresh. In the shadow of a rising Combine
 ## More Information
 
 * Website of Half Life: Alyx:
+
   [www.half-life.com/en/alyx](https://www.half-life.com/en/alyx)
 
