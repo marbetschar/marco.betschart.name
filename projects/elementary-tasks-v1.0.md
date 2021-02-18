@@ -8,7 +8,7 @@ tags:
   - gtk
 ---
 
-# elementary Tasks
+# elementary Tasks v1.0
 
 ![elementary Tasks supports location based reminders](../.gitbook/assets/io.elementary.tasks.png)
 
@@ -30,5 +30,5 @@ Users who need to manage tasks on the Gtk based Linux Desktop distribution named
 
 * GitHub Repository of elementary Tasks:
 
-  [https://github.com/elementary/tasks](https://github.com/elementary/tasks)
+  [github.com/elementary/tasks](https://github.com/elementary/tasks/)
 

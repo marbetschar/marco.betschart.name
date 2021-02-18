@@ -19,7 +19,9 @@ If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponso
 
 {% page-ref page="bachelors-degree-in-computer-science.md" %}
 
-{% page-ref page="elementary-tasks.md" %}
+{% page-ref page="elementary-mail-v2.0.md" %}
+
+{% page-ref page="elementary-tasks-v1.0.md" %}
 
 {% page-ref page="progress-for-apple-reminders.md" %}
 
