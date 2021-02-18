@@ -18,7 +18,8 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-- [ ] [Archive message support: Undo functionality](https://github.com/elementary/mail/pull/542)
+- [ ] [Archive message support](https://github.com/elementary/mail/pull/542)
+- [ ] [Folder icon detection](https://github.com/elementary/mail/issues/262)
 
 ## Built For
 
