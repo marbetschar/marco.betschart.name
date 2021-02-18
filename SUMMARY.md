@@ -5,7 +5,7 @@
 * [Got a Question?](contact.md)
 * [My Projects](projects/README.md)
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
-  * [elementary Mail v2.0](projects/elementary-tasks-v2.0.md)
+  * [elementary Mail v2.0](projects/elementary-mail-v2.0.md)
   * [elementary Tasks v1.0](projects/elementary-tasks-v1.0.md)
   * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)
