@@ -36,7 +36,7 @@ Beeing able to quickly zip and unzip files by simply doing a right click. This w
 
 ### Ability to archive a message
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/mail/issues/260) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-18](https://img.shields.io/badge/last%20update-2021--02--18-lightgrey?style=social) [![Status: in Progress](https://img.shields.io/badge/status-in_progress-green)](https://github.com/elementary/mail/pull/542) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Currently it is not possible to archive a message.
 

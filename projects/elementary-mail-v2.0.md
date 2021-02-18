@@ -12,9 +12,13 @@ tags:
 
 ![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
 
+## Contributions
+
 {% hint style="info" %}
 If you like my contributions, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
+
+- [ ] [Archive message support: Undo functionality](https://github.com/elementary/mail/pull/542)
 
 ## Built For
 
