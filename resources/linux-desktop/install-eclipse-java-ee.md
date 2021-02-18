@@ -46,3 +46,4 @@ Type=Application
 StartupNotify=true
 Categories=Utility;Java;Development;IDE;
 ```
+

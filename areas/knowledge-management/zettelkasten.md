@@ -1,5 +1,7 @@
 ---
-description: "A method to organize knowledge in the way we think: as an entangled web of information."
+description: >-
+  A method to organize knowledge in the way we think: as an entangled web of
+  information.
 tags:
   - growth
   - knowledge-management
@@ -7,19 +9,15 @@ tags:
 
 # Zettelkasten
 
-The "Zettelkasten" is a note-taking system invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann), a German researcher who is considered
-one of the most important social theorists of the 20th century.
+The "Zettelkasten" is a note-taking system invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann), a German researcher who is considered one of the most important social theorists of the 20th century.
 
 {% hint style="info" %}
 "Zettelkasten" is German for "slip box" or "card index".
 {% endhint %}
 
-A Zettelkasten enables you to to organize your notes into an entangled web of information. This in turn allows you to discover
-new ideas and connections between your notes which otherwise would have been kept hidden.
+A Zettelkasten enables you to to organize your notes into an entangled web of information. This in turn allows you to discover new ideas and connections between your notes which otherwise would have been kept hidden.
 
-The bigger your Zettelkasten grows, the valuable it gets: Imagine a Zettelkasten which contains thousands and thousands of ideas.
-If you now have a specific question and start to explore this Zettelkasten it will provide ideas which you've already forgotten a long time ago -
-thus it will probably answer your question in surprising ways.
+The bigger your Zettelkasten grows, the valuable it gets: Imagine a Zettelkasten which contains thousands and thousands of ideas. If you now have a specific question and start to explore this Zettelkasten it will provide ideas which you've already forgotten a long time ago - thus it will probably answer your question in surprising ways.
 
 ## The 12 Principles of a Zettelkasten
 
@@ -40,8 +38,8 @@ Each note should be self-contained and comprehensible on its own.
 {% hint style="success" %}
 This ensures notes
 
-- can be moved, processed, separated, and concatenated **independently of its neighbors**
-- **remain useful** even if the original source of information disappears
+* can be moved, processed, separated, and concatenated **independently of its neighbors**
+* **remain useful** even if the original source of information disappears
 {% endhint %}
 
 ### 3. Always link your notes
@@ -94,13 +92,11 @@ The Zettelkastens **organization develops organically**.
 
 ### 9. Add connection notes
 
-When you start seeing connections among notes, create "connection notes".
-Their purpose is to link together other notes and explain their relationship.
+When you start seeing connections among notes, create "connection notes". Their purpose is to link together other notes and explain their relationship.
 
 ### 10. Add outline notes
 
-An outline note is a note that simply contains a sequence of links to other notes, putting those other notes
-into a particular order to create a story, narrative, or argument.
+An outline note is a note that simply contains a sequence of links to other notes, putting those other notes into a particular order to create a story, narrative, or argument.
 
 ### 11. Never Delete
 
@@ -120,6 +116,7 @@ The bigger your Zettelkasten grows, the valuable it gets.
 
 ## Further Reading
 
-- [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
-- [What is a Zettelkasten?](https://www.reddit.com/r/Zettelkasten/comments/b566a4/what_is_a_zettelkasten/)
-- [Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
+* [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
+* [What is a Zettelkasten?](https://www.reddit.com/r/Zettelkasten/comments/b566a4/what_is_a_zettelkasten/)
+* [Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
+

@@ -10,10 +10,10 @@ tags:
 
 # elementary Mail v2.0
 
-![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
+![](../.gitbook/assets/io.elementary.mail.png)
 
 {% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 ## Built For
