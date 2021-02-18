@@ -3,6 +3,7 @@ description: 'You are Alyx Vance, and you’re about to spark a revolution.'
 tags:
   - xr
   - game
+  - fun
 ---
 
 # Half Life: Alyx
