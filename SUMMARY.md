@@ -7,6 +7,7 @@
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
   * [elementary Mail v2.0](projects/elementary-mail-v2.0.md)
   * [elementary Tasks v1.0](projects/elementary-tasks-v1.0.md)
+  * [Half Life: Alyx](projects/half-life-alyx.md)
   * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)
 * [My Areas](areas/README.md)
