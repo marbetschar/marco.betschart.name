@@ -4,5 +4,7 @@ description: Working with my Linux Desktop of choice and improving it along the 
 
 # elementary OS
 
+![](../../.gitbook/assets/elementary-os.jpg)
+
 The fast, open, and privacy-respecting replacement for Windows and macOS.
 

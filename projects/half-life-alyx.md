@@ -8,7 +8,7 @@ tags:
 
 # Half Life: Alyx
 
-{% embed url="https://youtu.be/O2W0N3uKXmo" %}
+{% embed url="https://youtu.be/O2W0N3uKXmo" caption="" %}
 
 ## Story
 
