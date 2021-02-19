@@ -12,7 +12,7 @@ tags:
 ![Time Limit supports Dark Mode on elementary OS 6 Odin](../.gitbook/assets/com.github.marbetschar.time-limit.jpg)
 
 {% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 ## Built For

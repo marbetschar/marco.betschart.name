@@ -14,12 +14,16 @@ The characteristics of a project are:
 ## My Current Projects
 
 {% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 {% page-ref page="bachelors-degree-in-computer-science.md" %}
 
+{% page-ref page="elementary-mail-v2.0.md" %}
+
 {% page-ref page="elementary-tasks-v1.0.md" %}
+
+{% page-ref page="half-life-alyx.md" %}
 
 {% page-ref page="progress-for-apple-reminders.md" %}
 

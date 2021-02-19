@@ -13,7 +13,7 @@ tags:
 ![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
 
 {% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 ## Contributions

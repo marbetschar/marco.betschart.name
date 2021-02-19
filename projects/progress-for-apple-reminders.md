@@ -13,7 +13,7 @@ tags:
 ![visualize your to-dos, face your goals and beat the bar!](../.gitbook/assets/progress-for-apple-reminders.png)
 
 {% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me on GitHub**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 ## Built For
