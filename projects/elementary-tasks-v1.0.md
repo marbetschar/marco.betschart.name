@@ -23,7 +23,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 - [x] ~~[**Code Style: Initialize Objects with Properites**](https://github.com/elementary/tasks/pull/179)~~ ![Completed: 2020-12-09](https://img.shields.io/badge/completed-2020--12--09-lightgrey?style=social)
 - [x] ~~[**Make description textview useable**](https://github.com/elementary/tasks/pull/177)~~ ![Completed: 2020-12-08](https://img.shields.io/badge/completed-2020--12--08-lightgrey?style=social)
 - [x] ~~[**CalDAV: Add Task List for WebDAV backend**](https://github.com/elementary/tasks/pull/150)~~ ![Completed: 2020-12-08](https://img.shields.io/badge/completed-2020--12--08-lightgrey?style=social)
-- [x] [more »](../contributions.md#elementary-tasks)
+- [x] [**more … »**](../contributions.md#elementary-tasks)
 
 ## Built For
 
