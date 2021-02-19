@@ -33,7 +33,5 @@ Users who work with mails on the Gtk based Linux Desktop distribution named [ele
 
 ## More Information
 
-* GitHub Repository of elementary Tasks:
-
-  [github.com/elementary/mail](https://github.com/elementary/mail)
+* [github.com/elementary/mail](https://github.com/elementary/mail)
 

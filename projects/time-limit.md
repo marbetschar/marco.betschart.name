@@ -36,9 +36,7 @@ Users who need to focus for a given time period on the Gtk based Linux Desktop d
 
 ## More Information
 
-* GitHub Repository of Time Limit:
-
-  [https://github.com/marbetschar/time-limit](https://github.com/marbetschar/time-limit)
+* [github.com/marbetschar/time-limit](https://github.com/marbetschar/time-limit)
 
 ## Acknowledgements
 

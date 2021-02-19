@@ -10,7 +10,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ## elementary Tasks
 
-_Synced tasks and reminders on elementary OS._
+_Synced tasks and reminders on elementary OS. [github.com/elementary/tasks](https://github.com/elementary/tasks/)_
 
 - [x] ~~[**Fix compile errors in EDS v3.39.2+**](https://github.com/elementary/tasks/pull/193)~~ ![Completed: 2021-02-17](https://img.shields.io/badge/completed-2021--02--17-lightgrey?style=social)
 - [x] ~~[**LocationPopover**](https://github.com/elementary/tasks/pull/174)~~ ![Completed: 2020-12-15](https://img.shields.io/badge/completed-2020--12--15-lightgrey?style=social)
@@ -24,14 +24,14 @@ _Synced tasks and reminders on elementary OS._
 
 ## elementary Mail
 
-_Mail app designed for elementary OS ._
+_Mail app designed for elementary OS. [github.com/elementary/mail](https://github.com/elementary/mail)_
 
 - [x] [**Archive message support**](https://github.com/elementary/mail/pull/542)
 - [ ] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
 
 ## Time Limit
 
-_A simple and beautiful timer app for elementary OS ._
+_A simple and beautiful timer app for elementary OS. [github.com/marbetschar/time-limit](https://github.com/marbetschar/time-limit)_
 
 - [ ] [**Show Notifications despite the App was closed**](https://github.com/marbetschar/time-limit/issues/31)
 - [x] ~~[**Bugfix/hibernation support**](https://github.com/marbetschar/time-limit/pull/40)~~ ![Completed: 2020-09-28](https://img.shields.io/badge/completed-2020--09--28-lightgrey?style=social)
