@@ -26,8 +26,8 @@ _[github.com/elementary/tasks](https://github.com/elementary/tasks/) - Synced ta
 
 _[github.com/elementary/mail](https://github.com/elementary/mail) - Mail app designed for elementary OS._
 
-- [x] [**Archive message support**](https://github.com/elementary/mail/pull/542)
-- [ ] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
+- [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
+- [x] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
 
 ## Time Limit
 
