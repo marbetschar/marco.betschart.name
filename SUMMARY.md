@@ -24,4 +24,4 @@
     * [Install Nextcloud Client](resources/linux-desktop/install-nextcloud-client.md)
     * [Install Oracle SQL Developer](resources/linux-desktop/install-oracle-sql-developer.md)
     * [VSCode: Setup Vala Autocompletion](resources/linux-desktop/vscode-setup-vala-autocompletion.md)
-
+* [My Contributions](contributions.md)
