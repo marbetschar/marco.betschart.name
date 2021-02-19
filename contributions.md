@@ -28,3 +28,12 @@ _Mail app designed for elementary OS ._
 
 - [x] [**Archive message support**](https://github.com/elementary/mail/pull/542)
 - [ ] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
+
+## Time Limit
+
+_A simple and beautiful timer app for elementary OS ._
+
+- [x] ~~[**Bugfix/hibernation support**](https://github.com/marbetschar/time-limit/pull/40)~~ ![Completed: 2020-09-28](https://img.shields.io/badge/completed-2020--09--28-lightgrey?style=social)
+- [x] ~~[**Time shift if app is not used**](https://github.com/marbetschar/time-limit/pull/39)~~ ![Completed: 2020-09-28](https://img.shields.io/badge/completed-2020--09--28-lightgrey?style=social)
+- [x] ~~[**Created new app screenshot**](https://github.com/marbetschar/time-limit/pull/35)~~ ![Completed: 2020-06-30](https://img.shields.io/badge/completed-2020--06--30-lightgrey?style=social)
+- [x] ~~[**Remember Window Position**](https://github.com/marbetschar/time-limit/pull/34)~~ ![Completed: 2021-06-30](https://img.shields.io/badge/completed-2021--06--30-lightgrey?style=social)
