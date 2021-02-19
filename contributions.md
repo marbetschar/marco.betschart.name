@@ -1,5 +1,5 @@
 ---
-description: My contributions to the greater good of open source.
+description: All my contributions to the greater good of open source.
 ---
 
 # Contributions
