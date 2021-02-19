@@ -12,11 +12,11 @@ tags:
 
 ![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
 
+## Contributions
+
 {% hint style="info" %}
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
-
-## Contributions
 
 - [x] [**Archive message support**](https://github.com/elementary/mail/pull/542)
 - [ ] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)

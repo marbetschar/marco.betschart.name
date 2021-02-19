@@ -33,6 +33,7 @@ _Mail app designed for elementary OS ._
 
 _A simple and beautiful timer app for elementary OS ._
 
+- [ ] [**Show Notifications despite the App was closed**](https://github.com/marbetschar/time-limit/issues/31)
 - [x] ~~[**Bugfix/hibernation support**](https://github.com/marbetschar/time-limit/pull/40)~~ ![Completed: 2020-09-28](https://img.shields.io/badge/completed-2020--09--28-lightgrey?style=social)
 - [x] ~~[**Time shift if app is not used**](https://github.com/marbetschar/time-limit/pull/39)~~ ![Completed: 2020-09-28](https://img.shields.io/badge/completed-2020--09--28-lightgrey?style=social)
 - [x] ~~[**Created new app screenshot**](https://github.com/marbetschar/time-limit/pull/35)~~ ![Completed: 2020-06-30](https://img.shields.io/badge/completed-2020--06--30-lightgrey?style=social)
