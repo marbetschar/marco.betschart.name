@@ -2,13 +2,15 @@
 description: My contributions to the greater good of open source.
 ---
 
-# My Contributions
+# Contributions
 
 {% hint style="info" %}
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
 ## elementary Tasks
+
+_Synced tasks and reminders on elementary OS._
 
 - [x] ~~[**Fix compile errors in EDS v3.39.2+**](https://github.com/elementary/tasks/pull/193)~~ ![Completed: 2021-02-17](https://img.shields.io/badge/completed-2021--02--17-lightgrey?style=social)
 - [x] ~~[**LocationPopover**](https://github.com/elementary/tasks/pull/174)~~ ![Completed: 2020-12-15](https://img.shields.io/badge/completed-2020--12--15-lightgrey?style=social)
@@ -19,3 +21,10 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 - [x] ~~[**Rename Task List**](https://github.com/elementary/tasks/pull/153)~~ ![Completed: 2020-11-18](https://img.shields.io/badge/completed-2020--11--18-lightgrey?style=social)
 - [x] ~~[**DateTimePopover Entry**](https://github.com/elementary/tasks/pull/159)~~ ![Completed: 2020-11-12](https://img.shields.io/badge/completed-2020--11--12-lightgrey?style=social)
 - [x] ~~[**Fixes missing scheduled list tasks**](https://github.com/elementary/tasks/pull/147)~~ ![Completed: 2020-11-03](https://img.shields.io/badge/completed-2020--11--03-lightgrey?style=social)
+
+## elementary Mail
+
+_Mail app designed for elementary OS ._
+
+- [x] [**Archive message support**](https://github.com/elementary/mail/pull/542)
+- [ ] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)

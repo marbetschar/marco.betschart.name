@@ -18,8 +18,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ## Contributions
 
-* [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
-* [x] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
+- [x] [**Archive message support**](https://github.com/elementary/mail/pull/542)
+- [ ] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
 
 ## Built For
 

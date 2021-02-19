@@ -24,7 +24,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 - [x] ~~[**Make description textview useable**](https://github.com/elementary/tasks/pull/177)~~ ![Completed: 2020-12-08](https://img.shields.io/badge/completed-2020--12--08-lightgrey?style=social)
 - [x] ~~[**CalDAV: Add Task List for WebDAV backend**](https://github.com/elementary/tasks/pull/150)~~ ![Completed: 2020-12-08](https://img.shields.io/badge/completed-2020--12--08-lightgrey?style=social)
 
-[**more … »**](../contributions.md#elementary-tasks)
+[**more »**](../contributions.md#elementary-tasks)
 
 ## Built For
 
