@@ -13,8 +13,10 @@ tags:
 ![elementary Tasks supports location based reminders](../.gitbook/assets/io.elementary.tasks.png)
 
 {% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
+
+Look here to checkSee the full list of all my contributions to elementary Tasks.
 
 ## Built For
 
