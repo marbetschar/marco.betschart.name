@@ -26,11 +26,15 @@ Beeing able to clone a repository from an url stored in clipboard without leavin
 
 ### Extract / Compress from context menu
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-02-21](https://img.shields.io/badge/last%20update-2021--02--21-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Beeing able to quickly zip and unzip files by simply doing a right click. This was possible on Hera.
 
-**Workaround:** Using the Terminal to compress files, using left click to open Archive Manager and extract from there.
+**Workaround:** Execute the following command in your Terminal to install the missing file contractor:
+
+```bash
+sudo apt install io.elementary.contractor.file-roller
+```
 
 ## ✉️ Mail 2.0
 
