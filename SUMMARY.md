@@ -18,6 +18,7 @@
     * [The PARA Method](areas/knowledge-management/the-para-method.md)
     * [Zettelkasten](areas/knowledge-management/zettelkasten.md)
 * [Resources](resources/README.md)
+  * [Dell XPS 7390 eGPU](resources/dell-xps-7390-egpu.md)
   * [Linux Desktop](resources/linux-desktop/README.md)
     * [Encrypt USB Stick with Vera Crypt](resources/linux-desktop/encrypt-usb-stick-with-vera-crypt.md)
     * [Install Eclipse Java EE](resources/linux-desktop/install-eclipse-java-ee.md)
