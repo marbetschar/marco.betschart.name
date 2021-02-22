@@ -25,3 +25,4 @@
     * [Install Oracle SQL Developer](resources/linux-desktop/install-oracle-sql-developer.md)
     * [VSCode: Setup Vala Autocompletion](resources/linux-desktop/vscode-setup-vala-autocompletion.md)
 * [Contributions](contributions.md)
+
