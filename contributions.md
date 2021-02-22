@@ -17,7 +17,7 @@ _[github.com/elementary/calendar](https://github.com/elementary/calendar) - Desk
 - [x] ~~[**Calendar.Store: Renamed Maya.Model.CalendarModel to Calendar.Store**](https://github.com/elementary/calendar/pull/557)~~ ![Completed: 2020-06-26](https://img.shields.io/badge/completed-2020--06--26-lightgrey?style=social)
 - [x] ~~[**Calendar.Store: Update for pot/POTFILES**](https://github.com/elementary/calendar/pull/556)~~ ![Completed: 2020-06-26](https://img.shields.io/badge/completed-2020--06--26-lightgrey?style=social)
 - [x] ~~[**Calendar.Store: Moved all needed utility functions to Calendar.Util**](https://github.com/elementary/calendar/pull/555)~~ ![Completed: 2020-06-26](https://img.shields.io/badge/completed-2020--06--26-lightgrey?style=social)
-
+- [x] ~~[**Calendar.Store: DateRange, DateIterator and some utility functions**](https://github.com/elementary/calendar/pull/554)~~ ![Completed: 2020-06-26](https://img.shields.io/badge/completed-2020--06--26-lightgrey?style=social)
 
 ## elementary Tasks
 
@@ -38,6 +38,26 @@ _[github.com/elementary/tasks](https://github.com/elementary/tasks/) - Synced ta
 - [x] ~~[**Update task asynchronous**](https://github.com/elementary/tasks/pull/144)~~ ![Completed: 2020-10-06](https://img.shields.io/badge/completed-2020--10--06-lightgrey?style=social)
 - [x] ~~[**Made sure README contains libecal-2.0**](https://github.com/elementary/tasks/pull/132)~~ ![Completed: 2021-09-16](https://img.shields.io/badge/completed-2021--09--16-lightgrey?style=social)
 - [x] ~~[**Dropped support for libecal-1.2**](https://github.com/elementary/tasks/pull/130)~~ ![Completed: 2020-09-15](https://img.shields.io/badge/completed-2020--09--15-lightgrey?style=social)
+- [x] ~~[**Fix for calcomponent-created in libecal 1**](https://github.com/elementary/tasks/pull/122)~~ ![Completed: 2020-06-16](https://img.shields.io/badge/completed-2020--06--16-lightgrey?style=social)
+- [x] ~~[**Add a task**](https://github.com/elementary/tasks/pull/116)~~ ![Completed: 2020-06-16](https://img.shields.io/badge/completed-2020--06--16-lightgrey?style=social)
+- [x] ~~[**Scheduled List**](https://github.com/elementary/tasks/pull/120)~~ ![Completed: 2020-05-29](https://img.shields.io/badge/completed-2020--05--29-lightgrey?style=social)
+- [x] ~~[**Complete occurence only**](https://github.com/elementary/tasks/pull/106)~~ ![Completed: 2020-04-11](https://img.shields.io/badge/completed-2020--04--11-lightgrey?style=social)
+- [x] ~~[**Using task model to detach UI from EDS**](https://github.com/elementary/tasks/pull/100)~~ ![Completed: 2020-04-11](https://img.shields.io/badge/completed-2020--04--11-lightgrey?style=social)
+- [x] ~~[**Checkboxes update their color**](https://github.com/elementary/tasks/pull/103)~~ ![Completed: 2020-04-09](https://img.shields.io/badge/completed-2020--04--09-lightgrey?style=social)
+- [x] ~~[**Add task**](https://github.com/elementary/tasks/pull/89)~~ ![Completed: 2020-03-05](https://img.shields.io/badge/completed-2020--03--05-lightgrey?style=social)
+- [x] ~~[**Deleting a task**](https://github.com/elementary/tasks/pull/88)~~ ![Completed: 2020-03-04](https://img.shields.io/badge/completed-2020--03--04-lightgrey?style=social)
+- [x] ~~[**Made inline editing of task summary possible along with some keyboard…**](https://github.com/elementary/tasks/pull/76)~~ ![Completed: 2020-02-12](https://img.shields.io/badge/completed-2020--02--12-lightgrey?style=social)
+- [x] ~~[**Inline editing**](https://github.com/elementary/tasks/pull/78)~~ ![Completed: 2020-02-12](https://img.shields.io/badge/completed-2020--02--12-lightgrey?style=social)
+- [x] ~~[**Persist task changes to ECal backend**](https://github.com/elementary/tasks/pull/61)~~ ![Completed: 2019-12-18](https://img.shields.io/badge/completed-2019--12--18-lightgrey?style=social)
+- [x] ~~[**Edit task UI**](https://github.com/elementary/tasks/pull/59)~~ ![Completed: 2019-11-26](https://img.shields.io/badge/completed-2019--11--26-lightgrey?style=social)
+- [x] ~~[**Accentuate checkbox**](https://github.com/elementary/tasks/pull/55)~~ ![Completed: 2019-10-22](https://img.shields.io/badge/completed-2019--10--22-lightgrey?style=social)
+- [x] ~~[**Output due date where it is set**](https://github.com/elementary/tasks/pull/50)~~ ![Completed: 2019-10-22](https://img.shields.io/badge/completed-2019--10--22-lightgrey?style=social)
+- [x] ~~[** Fixed stripped_line typo to avoid doing same work twice**](https://github.com/elementary/tasks/pull/48)~~ ![Completed: 2019-10-20](https://img.shields.io/badge/completed-2019--10--20-lightgrey?style=social)
+- [x] ~~[**Use a lighter tone for the completed label summary text.**](https://github.com/elementary/tasks/pull/43)~~ ![Completed: 2019-10-19](https://img.shields.io/badge/completed-2019--10--19-lightgrey?style=social)
+- [x] ~~[**Add task description in tasklist**](https://github.com/elementary/tasks/pull/39)~~ ![Completed: 2019-10-19](https://img.shields.io/badge/completed-2019--10--19-lightgrey?style=social)
+- [x] ~~[**Hide disabled sources (tasklists)**](https://github.com/elementary/tasks/pull/38)~~ ![Completed: 2019-10-19](https://img.shields.io/badge/completed-2019--10--19-lightgrey?style=social)
+- [x] ~~[**Load all tasks**](https://github.com/elementary/tasks/pull/44)~~ ![Completed: 2019-10-19](https://img.shields.io/badge/completed-2019--10--19-lightgrey?style=social)
+- [x] ~~[**Upstream changes**](https://github.com/marbetschar/tasks/pull/2)~~ ![Completed: 2019-10-17](https://img.shields.io/badge/completed-2019--10--17-lightgrey?style=social)
 
 ## elementary Mail
 
@@ -64,8 +84,34 @@ _[github.com/marbetschar/time-limit](https://github.com/marbetschar/time-limit) 
 - [x] ~~[**Created new app screenshot (removed desktop background).**](https://github.com/marbetschar/time-limit/pull/35)~~ ![Completed: 2020-07-24](https://img.shields.io/badge/completed-2020--07--24-lightgrey?style=social)
 - [x] ~~[**Remember Window Position**](https://github.com/marbetschar/time-limit/pull/34)~~ ![Completed: 2020-06-30](https://img.shields.io/badge/completed-2020--06--30-lightgrey?style=social)
 
+## One time contributions
 
-## Vala Tester
+### html2pdf
+
+_[github.com/spipu/html2pdf](https://github.com/spipu/html2pdf) - HTML to PDF converter written in PHP._
+
+- [x] ~~[**Allow usage of [[page_cu]] in css class names**](https://github.com/spipu/html2pdf/pull/525)~~ ![Completed: 2020-03-22](https://img.shields.io/badge/completed-2020--03--22-lightgrey?style=social)
+
+### Media Watermark
+
+_[github.com/rubygarage/media-watermark](https://github.com/rubygarage/media-watermark) - GPU/CPU-based iOS Watermark Library for Image and Video Overlay._
+
+- [x] ~~[**Removed Info.plist from Copy Bundle Resources Phase - Fixes #30 bug**](https://github.com/rubygarage/media-watermark/pull/31)~~ ![Completed: 2019-03-12](https://img.shields.io/badge/completed-2019--03--12-lightgrey?style=social)
+
+
+### Tins
+
+_[github.com/marbetschar/tins](https://github.com/marbetschar/tins) - Containers just like Virtual Machines - but with native performance._
+
+- [x] ~~[**Basic functionality for desktop image handling**](https://github.com/marbetschar/tins/pull/20)~~ ![Completed: 2020-05-25](https://img.shields.io/badge/completed-2020--05--25-lightgrey?style=social)
+
+### TypeRocket
+
+_[github.com/TypeRocket](https://github.com/TypeRocket) - The WordPress framework designed for developers._
+
+- [x] ~~[**Trigger change on id set...**](https://github.com/TypeRocket/core/pull/68)~~ ![Completed: 2019-11-20](https://img.shields.io/badge/completed-2019--11--20-lightgrey?style=social)
+
+### Vala Tester
 
 _[github.com/bartzaalberg/vala-tester](https://github.com/bartzaalberg/vala-tester) - Run your Vala Scribbles._
 
