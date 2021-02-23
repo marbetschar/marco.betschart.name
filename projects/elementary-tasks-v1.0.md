@@ -20,7 +20,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 - [ ] [**Keep state across lists**](https://github.com/elementary/tasks/pull/197)
 - [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
-- [ ] [**Show dialog if we fail to carry out the user's intent**](https://github.com/elementary/tasks/pull/189)
+- [x] ~~[**Show dialog if we fail to carry out the user's intent**](https://github.com/elementary/tasks/pull/189)~~ ![Completed: 2021-02-23](https://img.shields.io/badge/completed-2021--02--23-lightgrey?style=social)
 - [x] ~~[**Fix compile errors in EDS v3.39.2+**](https://github.com/elementary/tasks/pull/193)~~ ![Completed: 2021-02-17](https://img.shields.io/badge/completed-2021--02--17-lightgrey?style=social)
 - [x] ~~[**LocationPopover**](https://github.com/elementary/tasks/pull/174)~~ ![Completed: 2020-12-15](https://img.shields.io/badge/completed-2020--12--15-lightgrey?style=social)
 

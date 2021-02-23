@@ -23,9 +23,10 @@ _[github.com/elementary/calendar](https://github.com/elementary/calendar) - Desk
 
 _[github.com/elementary/tasks](https://github.com/elementary/tasks/) - Synced tasks and reminders on elementary OS._
 
+- [ ] [**Added support for X-APPLE-SORT-ORDER**](https://github.com/elementary/tasks/pull/198)
 - [ ] [**Keep state across lists**](https://github.com/elementary/tasks/pull/197)
 - [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
-- [ ] [**Show dialog if we fail to carry out the user's intent**](https://github.com/elementary/tasks/pull/189)
+- [x] ~~[**Show dialog if we fail to carry out the user's intent**](https://github.com/elementary/tasks/pull/189)~~ ![Completed: 2021-02-23](https://img.shields.io/badge/completed-2021--02--23-lightgrey?style=social)
 - [x] ~~[**Fix compile errors in EDS v3.39.2+**](https://github.com/elementary/tasks/pull/193)~~ ![Completed: 2021-02-17](https://img.shields.io/badge/completed-2021--02--17-lightgrey?style=social)
 - [x] ~~[**LocationPopover**](https://github.com/elementary/tasks/pull/174)~~ ![Completed: 2020-12-15](https://img.shields.io/badge/completed-2020--12--15-lightgrey?style=social)
 - [x] ~~[**Code Style: Initialize Objects with Properites**](https://github.com/elementary/tasks/pull/179)~~ ![Completed: 2020-12-09](https://img.shields.io/badge/completed-2020--12--09-lightgrey?style=social)
@@ -120,6 +121,6 @@ _[github.com/bartzaalberg/vala-tester](https://github.com/bartzaalberg/vala-test
 - [x] ~~[**Add support for Gtk 3.0**](https://github.com/bartzaalberg/vala-tester/pull/8)~~ ![Completed: 2020-10-01](https://img.shields.io/badge/completed-2020--10--01-lightgrey?style=social)
 
 
-<!-- 
+<!--
 - [x] ~~[****]()~~ ![Completed: ](https://img.shields.io/badge/completed--lightgrey?style=social)
 -->
