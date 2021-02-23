@@ -23,6 +23,7 @@ _[github.com/elementary/calendar](https://github.com/elementary/calendar) - Desk
 
 _[github.com/elementary/tasks](https://github.com/elementary/tasks/) - Synced tasks and reminders on elementary OS._
 
+- [ ] [**Keep state across lists**](https://github.com/elementary/tasks/pull/197)
 - [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
 - [ ] [**Show dialog if we fail to carry out the user's intent**](https://github.com/elementary/tasks/pull/189)
 - [x] ~~[**Fix compile errors in EDS v3.39.2+**](https://github.com/elementary/tasks/pull/193)~~ ![Completed: 2021-02-17](https://img.shields.io/badge/completed-2021--02--17-lightgrey?style=social)
