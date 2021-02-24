@@ -35,3 +35,7 @@ _My reference archive is powered by [Zotero](https://www.zotero.org/)_
 The world of knowledge is constantly changing: Websites disappear, books may no longer be accessible. Therefore it is wise to store the reference
 material somewhere safe, so we can revisit it in the future. This is where the reference archive comes into play: It allows you to store a local
 snapshot of a website or archiving entire books in an organized way. Therefore the reference archive becomes your own, personal library.
+
+---
+
+<span>Photo by <a href="https://unsplash.com/@syinq?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Susan Yin</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
