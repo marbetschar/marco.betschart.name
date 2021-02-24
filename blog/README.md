@@ -1,5 +1,5 @@
 ---
-description: "a place where you can see what I've been up to lately."
+description: "Here you can see what I've been up to lately."
 ---
 
 # Recent activities
