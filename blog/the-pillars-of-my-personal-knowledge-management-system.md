@@ -1,11 +1,11 @@
 ---
 description: >-
-  Learn how I spent the last couple of weeks defining the pillars of my Personal
-  Knowledge Management System.
+  Learn how I spent the last couple of weeks defining the three pillars of my Personal
+  Knowledge Management system.
 date: '2021-02-24'
 ---
 
-# The pillars of my PKMS
+# The 3 pillars of my PKMS
 
 ![](../.gitbook/assets/personal-knowledge-management-system.jpg)
 
