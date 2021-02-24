@@ -18,8 +18,8 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-- [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
-- [x] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
+* [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
+* [x] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
 
 ## Built For
 
