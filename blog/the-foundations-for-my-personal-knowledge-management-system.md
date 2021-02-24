@@ -7,11 +7,11 @@ date: "2021-02-24"
 
 _February 2021_
 
-The more reference material I read in the last couple of months, the more apparent it became that I need to split my
-Personal Knowledge Management System into different focus areas. Each of which focusing on a different purpose - but they
+The more reference material I read in the last couple of months, the more apparent it became that I need to build my
+Personal Knowledge Management System upon three different pillars. Each of which backing up a different purpose - but they
 all work together as a whole.
 
-This is how I ended up crafting this whole new website - which is my publishing platform; The first out of the three focus areas:
+This is how I ended up crafting this whole new website - which is my Publishing Platform; The first out of three pillars:
 
 ## 1. Publishing Platform
 
