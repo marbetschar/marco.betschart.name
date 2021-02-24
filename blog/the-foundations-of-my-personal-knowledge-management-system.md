@@ -33,5 +33,5 @@ In an entangled web of knowledge. This allows me to store my thoughts and discov
 _My reference archive is powered by [Zotero](https://www.zotero.org/)_
 
 The world of knowledge is constantly changing: Websites disappear, books may no longer be accessible. Therefore it is wise to store the reference
-material somewhere safe, so we can revisit it in the future. This is where a Reference Manager comes into play: It allows you to store a local
-snapshot of a website or archiving entire books in an organized way. Therefore a Reference Manager becomes your own, personal library.
+material somewhere safe, so we can revisit it in the future. This is where the Reference Archive comes into play: It allows you to store a local
+snapshot of a website or archiving entire books in an organized way. Therefore the Reference Archive becomes your own, personal library.
