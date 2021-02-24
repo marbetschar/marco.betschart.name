@@ -3,7 +3,7 @@
 * [About Me](README.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
-  * [The foundations of my PKMS](blog/the-foundations-of-my-personal-knowledge-management-system.md)
+  * [The pillars of my PKMS](blog/the-pillars-of-my-personal-knowledge-management-system.md)
 * [Got a Question?](contact.md)
 * [My Projects](projects/README.md)
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
