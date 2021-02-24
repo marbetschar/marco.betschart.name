@@ -2,8 +2,9 @@
 
 * [About Me](README.md)
 * [About this Website](about-this-website.md)
-* [Got a Question?](contact.md)
 * [Recent activities](blog/README.md)
+  * [Laying the foundations](blog/laying-the-foundations-for-my-knowledge-management-system.md)
+* [Got a Question?](contact.md)
 * [My Projects](projects/README.md)
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
   * [elementary Mail v2.0](projects/elementary-mail-v2.0.md)
