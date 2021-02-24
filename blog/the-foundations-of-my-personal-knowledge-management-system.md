@@ -33,5 +33,5 @@ discover new connections between them. Therefore the Zettelkasten method is the 
 _My reference archive is powered by [Zotero](https://www.zotero.org/)_
 
 The world of knowledge is constantly changing: Websites disappear, books may no longer be accessible. Therefore it is wise to store the reference
-material somewhere near. This way ensure we can revisit it in the future. This is especially true for references, which generated new insights!
-In order to do so, you can use any Reference Manager: They allow you to store a snapshot of a website or archiving of entire books etc.
+material somewhere near. This is important to ensure we can revisit it in the future. In order to do so, you can use any Reference Manager:
+They allow you to store a local snapshot of a website or archiving entire books.
