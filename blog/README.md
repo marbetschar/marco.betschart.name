@@ -8,4 +8,4 @@ description: "Here you can see what I've been up to lately."
 
 _February 2021_
 
-Learn how I spent the last couple of weeks building the foundations of my Personal Knowledge Management System… [**more »**](the-foundations-for-my-personal-knowledge-management-system.md)
+Learn how I spent the last couple of weeks building the foundations of my Personal Knowledge Management System… [**more »**](the-foundations-of-my-personal-knowledge-management-system.md)
