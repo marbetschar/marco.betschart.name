@@ -5,7 +5,7 @@ date: "2021-02-24"
 
 # The pillars of my PKMS
 
-_February 2021_
+_February 2021 - Photo by [Susan Yin](https://unsplash.com/@syinq?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)_
 
 The more reference material I read in the last couple of months, the more apparent it became that I need to build my
 Personal Knowledge Management System upon different pillars. Each of which backing up a different purpose - but they
@@ -35,7 +35,3 @@ _My reference archive is powered by [Zotero](https://www.zotero.org/)_
 The world of knowledge is constantly changing: Websites disappear, books may no longer be accessible. Therefore it is wise to store the reference
 material somewhere safe, so we can revisit it in the future. This is where the reference archive comes into play: It allows you to store a local
 snapshot of a website or archiving entire books in an organized way. Therefore the reference archive becomes your own, personal library.
-
----
-
-_Photo by [Susan Yin](https://unsplash.com/@syinq?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)_
