@@ -24,14 +24,14 @@ On this platform, you'll find everything I'm working on - along with howtos, man
 
 _My Zettelkasten is powered by [Zettlr](https://www.zettlr.com/)_
 
-[The Zettelkasten Method](../areas/knowledge-management/zettelkasten.md) allows me to keep notes usefull over time. It is a note-taking system, which grows organically in a way
-which is similar to the way we tick: In an entangled web of thoughts. This method allows me to store my thoughts as well as
-discover new connections between them. Therefore the Zettelkasten method is the centerpiece of my Personal Knowledge Management System.
+[The Zettelkasten Method](../areas/knowledge-management/zettelkasten.md) is the centerpiece of my Personal Knowledge Management System.
+It ensures my notes stay useful over time. The method is a note-taking system, which grows organically in a way similar to how we think:
+In an entangled web of knowledge. This allows me to store my thoughts and discover new connections between them.
 
 ## 3. Reference Archive
 
 _My reference archive is powered by [Zotero](https://www.zotero.org/)_
 
 The world of knowledge is constantly changing: Websites disappear, books may no longer be accessible. Therefore it is wise to store the reference
-material somewhere near. This is important to ensure we can revisit it in the future. In order to do so, you can use any Reference Manager:
-They allow you to store a local snapshot of a website or archiving entire books.
+material somewhere safe, so we can revisit it in the future. This is where a Reference Manager comes into play: It allows you to store a local
+snapshot of a website or archiving entire books in an organized way. Therefore a Reference Manager becomes your own, personal library.
