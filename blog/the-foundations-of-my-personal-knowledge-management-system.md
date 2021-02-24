@@ -1,5 +1,5 @@
 ---
-description: "Learn how I spent the last couple of weeks building the foundations for my Personal Knowledge Management System."
+description: "Learn how I spent the last couple of weeks building the foundations of my Personal Knowledge Management System."
 date: "2021-02-24"
 ---
 
