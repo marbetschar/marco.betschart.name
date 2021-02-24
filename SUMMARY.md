@@ -2,8 +2,8 @@
 
 * [About Me](README.md)
 * [About this Website](about-this-website.md)
-* [Recent activities](blog/README.md)
-  * [Laying the foundations](blog/laying-the-foundations-for-my-knowledge-management-system.md)
+* [Recent Activities](blog/README.md)
+  * [The foundations of my PKMS](blog/the-foundations-for-my-personal-knowledge-management-system.md)
 * [Got a Question?](contact.md)
 * [My Projects](projects/README.md)
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
