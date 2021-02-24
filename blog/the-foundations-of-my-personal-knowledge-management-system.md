@@ -24,9 +24,9 @@ On this platform, you'll find everything I'm working on - along with howtos, man
 
 _My Zettelkasten is powered by [Zettlr](https://www.zettlr.com/)_
 
-[The Zettelkasten Method](../areas/knowledge-management/zettelkasten.md) is the centerpiece of my Personal Knowledge Management System.
-It ensures my notes stay useful over time. The method is a note-taking system, which grows organically in a way similar to how we think:
-In an entangled web of knowledge. This allows me to store my thoughts and discover new connections between them.
+The centerpiece of my Personal Knowledge Management System is [The Zettelkasten Method](../areas/knowledge-management/zettelkasten.md). This method
+is a note-taking system, which grows organically and works similar to the way we think: Atomic pieces of information build an entangled web of knowledge.
+This approach ensures my notes stay useful over time and also enables me to discover new connections amongst them.
 
 ## 3. Reference Archive
 
