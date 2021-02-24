@@ -15,9 +15,9 @@ This is how I ended up crafting this whole new website - which is my Publishing 
 
 ## 1. Publishing Platform
 
-_My publishing platform is powered by [GitBook](https://www.gitbook.com/) - you are looking at it right now. It's this website._
+_My publishing platform is powered by [GitBook](https://www.gitbook.com/) - you are looking at it right now: It's this website._
 
-The publishing platform is where all my distilled knowledge is available for my future me as well as the broader audience.
+The publishing platform is where all my distilled knowledge is available for my future self as well as the broader audience.
 On this platform, you'll find everything I'm working on - along with howtos, manuals and best practices which proved to be useful for me.
 
 ## 2. Zettelkasten
