@@ -73,6 +73,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/wingpanel_](https://github.com/elementary/wingpanel) _- Stylish top panel that holds indicators and spawns an application launcher_
 
+* [ ] [**Fixed an issue where focus style was not reset to today**](https://github.com/elementary/wingpanel-indicator-datetime/pull/251)
 * [x] [~~**Calculate TimeZone according to Calendar**~~](https://github.com/elementary/wingpanel-indicator-datetime/pull/233) ![Completed: 2020-09-29](https://img.shields.io/badge/completed-2020--09--29-lightgrey?style=social)
 
 ## Time Limit
