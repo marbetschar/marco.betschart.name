@@ -23,6 +23,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
+* [ ] [**Fix #172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Added support for X-APPLE-SORT-ORDER**](https://github.com/elementary/tasks/pull/198)
 * [ ] [**Keep state across lists**](https://github.com/elementary/tasks/pull/197)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
