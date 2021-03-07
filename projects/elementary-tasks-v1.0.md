@@ -19,9 +19,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 {% endhint %}
 
 * [ ] [**Fix #172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
-* [ ] [**Added support for X-APPLE-SORT-ORDER**](https://github.com/elementary/tasks/pull/198)
 * [ ] [**Keep state across lists**](https://github.com/elementary/tasks/pull/197)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
+* [x] [~~**Added support for X-APPLE-SORT-ORDER**~~](https://github.com/elementary/tasks/pull/198) ![Completed: 2021-03-04](https://img.shields.io/badge/completed-2021--03--04-lightgrey?style=social)
 * [x] [~~**Show dialog if we fail to carry out the user's intent**~~](https://github.com/elementary/tasks/pull/189) ![Completed: 2021-02-23](https://img.shields.io/badge/completed-2021--02--23-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-tasks)
