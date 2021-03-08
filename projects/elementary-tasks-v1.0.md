@@ -18,7 +18,7 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-* [ ] [**Fix #172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
+* [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Keep state across lists**](https://github.com/elementary/tasks/pull/197)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
 * [x] [~~**Added support for X-APPLE-SORT-ORDER**~~](https://github.com/elementary/tasks/pull/198) ![Completed: 2021-03-04](https://img.shields.io/badge/completed-2021--03--04-lightgrey?style=social)

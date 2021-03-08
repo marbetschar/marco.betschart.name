@@ -26,14 +26,15 @@ Once you installed Zotero, we need to setup the library sync. To do so, start Zo
 
 Once you are succesfully connected, we now need to setup syncing of attachment files with your Nextcloud backend. This can be done in `Edit > Preferences > Sync` as well. Just make sure you select `✓ Sync attachment files in My Library using: WebDAV` and enter your Nextcloud server details in the shown form:
 
-![Zotero sync attachment files WebDAV](../../assets/Zotero-sync-attachment-files-WebDAV.png)
+![Zotero sync attachment files using WebDAV](../../.gitbook/assets/zotero-sync-attachment-files-webdav.png)
 
 Make sure you use the right WebDAV URL by copying it from the Nextcloud web interface:
 
-![Zotero Nextcloud WebDAV URL](../../assets/Zotero-Nextcloud-WebDAV-URL.png)
+![Retrieve Nextcloud WebDAV URL for Zotero](../../.gitbook/assets/zotero-nextcloud-webdav-url.png)
 
 ## Zotero Connector
 
 As last step, you want to install the Zotero Connector. It makes it easy to add interesting stuff to your library right from your web browser. For installation, [visit the download page of the official Zotero website](https://www.zotero.org/download/) and click `Install Connector`.
 
 **PLEASE NOTE:** Zotero needs to be running for the Connector to work properly.
+

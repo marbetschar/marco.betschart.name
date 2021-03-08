@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn how I spent the last couple of weeks defining the three pillars of my Personal
-  Knowledge Management system.
+  Learn how I spent the last couple of weeks defining the three pillars of my
+  Personal Knowledge Management system.
 date: '2021-02-24'
 ---
 
