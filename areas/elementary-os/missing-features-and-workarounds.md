@@ -24,13 +24,13 @@ Beeing able to clone a repository from an url stored in clipboard without leavin
 
 **Workaround:** Execute `git clone ...url...` from Terminal.
 
-### Extract / Compress from context menu
+### ~~Extract / Compress from context menu~~
 
-![Last Update: 2021-02-21](https://img.shields.io/badge/last%20update-2021--02--21-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-03-08](https://img.shields.io/badge/last%20update-2021--03--08-lightgrey?style=social) [![Status: Fixed](https://img.shields.io/badge/status-fixed-green)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
-Beeing able to quickly zip and unzip files by simply doing a right click. This was possible on Hera.
+~~Beeing able to quickly zip and unzip files by simply doing a right click. This was possible on Hera.~~
 
-**Workaround:** Execute the following command in your Terminal to install the missing file contractor:
+~~**Workaround:** Execute the following command in your Terminal to install the missing file contractor:~~
 
 ```bash
 sudo apt install io.elementary.contractor.file-roller
