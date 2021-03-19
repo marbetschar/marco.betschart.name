@@ -91,7 +91,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ## One time contributions
 
-### CTOP
+### COTP
 
 [_github.com/OTPLibraries/COTP_](https://github.com/OTPLibraries/COTP) _- A simple One Time Password (OTP) library in C_
 
