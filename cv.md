@@ -16,7 +16,8 @@ I love to craft **digital products** using **open technologies** - with the goal
   <tbody>
     <tr>
       <td style="text-align:left">
-        <img src=".gitbook/assets/marco-betschart.png" height="200" alt="Portrait of Marco Betschart"/>
+        <img src=".gitbook/assets/marco-betschart.png" alt="Portrait of Marco Betschart"
+        />
       </td>
       <td style="text-align:left">
         <p><em>Postal address</em>
@@ -74,6 +75,8 @@ _Java based auto-update solution for the in-house eCommerce system, staff traini
 In the local web agency backslash AG I've learned the use of modern technologies to develop ColdFusion based web applications.
 
 _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, \(X\)HTML_
+
+ 
 
 ## Experience
 
