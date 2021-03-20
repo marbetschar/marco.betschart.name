@@ -4,6 +4,8 @@ description: Marco Betschart - professional full-time nerd since 2004.
 
 # Curriculum Vitae
 
+I love to craft **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
+
 <table>
   <thead>
     <tr>
@@ -30,8 +32,6 @@ description: Marco Betschart - professional full-time nerd since 2004.
     </tr>
   </tbody>
 </table>
-
-I love to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ## Career
 
