@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About Me](about/README.md)
+* [About Me](README.md)
   * [Curriculum Vitae](about/cv.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
