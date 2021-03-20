@@ -4,54 +4,55 @@ description: "Marco Betschart"
 
 # Curriculum Vitae
 
-Marco Betschart<br/>
+_Postal address_<br/>
 Forchstrasse 30<br/>
 CH-8008 Zürich
 
+_Contact information_<br/>
 +41 79 688 79 61<br/>
 cv@marco.betschart.name
 
 ![](.gitbook/assets/marco-betschart.png)
 
-I'm a professional, full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
+I'm a professional full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ## Career
 
-**2019 - Now: IT System Operations, midix.com ag**
+### 2019 - Now: IT System Operations, midix.com ag
 
 Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
 
 _CentOS, Java_
 
-**2019 - Now: BSc in Computer Science, ZHAW**
+### 2019 - Now: BSc in Computer Science, ZHAW
 
 [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019.
 
-**2015 - 2018: Software Architect, Valletti**
+### 2015 - 2018: Software Architect, Valletti
 
 Design & Development of the iOS App [Valletti - the smallest office in the world](https://valletti.ch/).
 
 _iOS, Swift, Couchbase, MVVM_
 
-**2013 - 2018: Technical Lead, MANDELKIND**
+### 2013 - 2018: Technical Lead, MANDELKIND
 
 I was Co-Founder of this startup and responsible for all technical aspects.
 
 _WordPress, Docker, Linux, PHP, Java_
 
-**2010 - 2013: Web Architect, Freelance**
+### 2010 - 2013: Web Architect, Freelance
 
 Work as a Web Architect Freelancer for miscellaneous companies.
 
 _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
-**2009 - 2010: Junior ColdFusion Developer**
+### 2009 - 2010: Junior ColdFusion Developer
 
 After my apprenticeship I was hired for the conception and realisation of client specific applications and improving the in-house eCommerce system as well as training staff.
 
 _Java based auto-update solution for the in-house eCommerce system, staff training courses_
 
-**2004 - 2008: ColdFusion Application Developer Apprentice**
+### 2004 - 2008: ColdFusion Application Developer Apprentice
 
 In the local web agency backslash AG I've learned the use of modern technologies to develop ColdFusion based web applications.
 
