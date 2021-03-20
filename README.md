@@ -4,19 +4,19 @@ description: "Hi, I'm Marco \U0001F44B️ - pleased to meet you!"
 
 # About Me
 
-I'm a software developer who loves to build **digital products** using **open technologies** - with the goal to **improve productivity** and **expanding knowledge**.
+I'm a software developer who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
-## 🤓️ My Experience: Full Time Nerd since 2004
+## 🤓️ My Experience: Full-time Nerd since 2004
+
+See my [Curriculum Vitae](cv.md) if you want all the details.
 
 |  |  |
 | :--- | :--- |
 | 2019 - Today | Bachelor's degree in Computer Science |
 | 2008 - Today | Working in the IT industry |
 | 2004 - 2008 | Swiss Vocational Certificate in Computer Science |
-
-See my [Curriculum Vitae](cv.md) for more details.
 
 {% page-ref page="contact.md" %}
 

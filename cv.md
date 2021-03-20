@@ -4,21 +4,59 @@ description: "Marco Betschart"
 
 # Curriculum Vitae
 
-I'm a software developer who loves to build **digital products** using **open technologies** - with the goal to **improve productivity** and **expanding knowledge**.
+I'm a professional, full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
-By now I've got over 16 years of experience in developing and operating software. I started by programming web based applications with ColdFusion (Railo, Adobe) or PHP, JavaScript, HTML & CSS as well as a wide variety of database backends (SQL and NoSQL). However, over the years my focus shifted more and more towards native application development. I worked with Java and Swift to build mobile Apps for example. In addition to software development, I've earned a deep understanding about service based architecture - as well as the management of said architecture on top of a Linux based server infrastructure (virtual and bare metal).
+_I started out by programming web based applications with ColdFusion (Railo, Adobe) or PHP, JavaScript, HTML & CSS as well as a wide variety of database backends (SQL and NoSQL). However, over the years my focus shifted more and more towards native application development. I worked with Java and Swift to build mobile Apps for example. In addition to software development, I've earned a deep understanding about service based architecture - as well as the management of said architecture on top of a Linux based server infrastructure (virtual and bare metal)._
 
-### Open Source
+## Tech I worked with …
 
-....
+**… as Desktop Developer**, crafting graphical applications for computers:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Operating System** | Linux \([elementary](https://elementary.io/)\), macOS, Windows |
+| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/), [Vala](https://wiki.gnome.org/Projects/Vala) |
+
+**… as Server Admin**, managing servers and other infrastructure components:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Operating System** | Linux \([CentOS](https://www.centos.org/), [Ubuntu](https://ubuntu.com/)\), Windows Server |
+| **Programming Language** | [Python](https://www.python.org/), Bash, Batch |
+| **Backup** | [Bareos](https://www.bareos.org) |
+| **Container** | [Docker](https://www.docker.com/), [Linux Containers](https://linuxcontainers.org/) |
+| **Database** | [MySQL](https://www.mysql.com/), [MSSQL](https://www.microsoft.com/sql-server/), [PostgreSQL](https://www.postgresql.org/), [Oracle](https://www.oracle.com/database/technologies/), [Couchbase](https://www.couchbase.com/) |
+| **Domain Name Server** | [BIND](https://www.isc.org/bind/) |
+| **Monitoring** | [Prometheus](https://prometheus.io/) |
+| **Virtualization** | [VMWare](https://www.vmware.com/), [VirtualBox](https://www.virtualbox.org/) |
+| **Webserver** | [Apache HTTPD](http://httpd.apache.org/), [NGINX](https://nginx.org), [PHP](https://www.php.net/) |
+| **Other** | [Apache Tomcat](http://tomcat.apache.org/), [Adobe ColdFusion](https://coldfusion.adobe.com/), [Cloudron](https://www.cloudron.io/) |
+
+**… as Mobile Developer**, building mobile first applications for smartphones or tablets:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Operating System** | [Android](https://www.android.com/), [iOS](https://www.apple.com/ios) |
+| **Platform** | Native, [React Native](https://reactnative.dev/), [Cordova](https://cordova.apache.org/) |
+| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/) |
+
+**… as Web Developer**, creating applications for web browsers:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Platform** | [WordPress](https://wordpress.org/), [Jekyll](https://jekyllrb.com/), [GitHub Pages](https://pages.github.com/), Custom |
+| **Programming Language** | [ColdFusion](https://coldfusion.adobe.com/), HTML+CSS+JavaScript, Java, [PHP](https://www.php.net/), SQL |
+| **Framework** | [Angular](https://angular.io/), [Ember.js](https://emberjs.com/), [jQuery](https://jquery.com/), [Hibernate ORM](https://hibernate.org/orm/), [Kendo UI](https://www.telerik.com/kendo-ui) |
+
+## Career
 
 ### 2019 - Now: IT System Operations, midix.com ag
 
-Management and development of a Linux (CentOS) based server infrastructure as well as the Java based software product.
+Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
 
-_Java, CentOS_
+_CentOS, Java_
 
 ### 2019 - Now: BSc in Computer Science, ZHAW
 
