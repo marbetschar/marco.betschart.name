@@ -1,26 +1,39 @@
 ---
-description: "Marco Betschart"
+description: Marco Betschart
 ---
 
 # Curriculum Vitae
-
-_Postal address_<br/>
-Forchstrasse 30<br/>
-CH-8008 Zürich
-
-_Contact information_<br/>
-+41 79 688 79 61<br/>
-cv@marco.betschart.name
 
 ![](.gitbook/assets/marco-betschart.png)
 
 I'm a professional full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Postal address</th>
+      <th style="text-align:left">Contact information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>Forchstrasse 30</p>
+        <p>CH-8008 Z&#xFC;rich</p>
+      </td>
+      <td style="text-align:left">
+        <p>+41 79 688 79 61</p>
+        <p>cv@marco.betschart.name</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Career
 
 ### 2019 - Now: IT System Operations, midix.com ag
 
-Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
+Management of the Linux \(CentOS\) based server infrastructure and development of the Java based software product.
 
 _CentOS, Java_
 
@@ -56,7 +69,7 @@ _Java based auto-update solution for the in-house eCommerce system, staff traini
 
 In the local web agency backslash AG I've learned the use of modern technologies to develop ColdFusion based web applications.
 
-_Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, (X)HTML_
+_Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, \(X\)HTML_
 
 ## Experience
 
@@ -97,3 +110,4 @@ _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, (X)HTML_
 | **Platform** | [WordPress](https://wordpress.org/), [Jekyll](https://jekyllrb.com/), [GitHub Pages](https://pages.github.com/), Custom |
 | **Programming Language** | [ColdFusion](https://coldfusion.adobe.com/), HTML+CSS+JavaScript, Java, [PHP](https://www.php.net/), SQL |
 | **Framework** | [Angular](https://angular.io/), [Ember.js](https://emberjs.com/), [jQuery](https://jquery.com/), [Hibernate ORM](https://hibernate.org/orm/), [Kendo UI](https://www.telerik.com/kendo-ui) |
+
