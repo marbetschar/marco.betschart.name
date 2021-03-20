@@ -4,13 +4,60 @@ description: "Marco Betschart"
 
 # Curriculum Vitae
 
+Marco Betschart
+Forchstrasse 30
+CH-8008 Zürich
+
++41 79 688 79 61
+cv@marco.betschart.name
+
+![](.gitbook/assets/marco-betschart.png)
+
 I'm a professional, full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
-![Marco Betschart](.gitbook/assets/marco-betschart.png)
+## Career
 
-_I started out by programming web based applications with ColdFusion (Railo, Adobe) or PHP, JavaScript, HTML & CSS as well as a wide variety of database backends (SQL and NoSQL). However, over the years my focus shifted more and more towards native application development. I worked with Java and Swift to build mobile Apps for example. In addition to software development, I've earned a deep understanding about service based architecture - as well as the management of said architecture on top of a Linux based server infrastructure (virtual and bare metal)._
+**2019 - Now: IT System Operations, midix.com ag**
 
-## Tech I worked with …
+Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
+
+_CentOS, Java_
+
+**2019 - Now: BSc in Computer Science, ZHAW**
+
+[Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019.
+
+**2015 - 2018: Software Architect, Valletti**
+
+Design & Development of the iOS App [Valletti - the smallest office in the world](https://valletti.ch/).
+
+_iOS, Swift, Couchbase, MVVM_
+
+**2013 - 2018: Technical Lead, MANDELKIND**
+
+I was Co-Founder of this startup and responsible for all technical aspects.
+
+_WordPress, Docker, Linux, PHP, Java_
+
+**2010 - 2013: Web Architect, Freelance**
+
+Work as a Web Architect Freelancer for miscellaneous companies.
+
+_MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
+
+**2009 - 2010: Junior ColdFusion Developer**
+
+After my apprenticeship I was hired for the conception and realisation of client specific applications and improving the in-house eCommerce system as well as training staff.
+
+_Java based auto-update solution for the in-house eCommerce system, staff training courses_
+
+**2004 - 2008: ColdFusion Application Developer Apprentice**
+
+In the local web agency backslash AG I've learned the use of modern technologies to develop ColdFusion based web applications.
+
+_Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, (X)HTML_
+
+## Experience
 
 **… as Desktop Developer**, crafting graphical applications for computers:
 
@@ -49,45 +96,3 @@ _I started out by programming web based applications with ColdFusion (Railo, Ado
 | **Platform** | [WordPress](https://wordpress.org/), [Jekyll](https://jekyllrb.com/), [GitHub Pages](https://pages.github.com/), Custom |
 | **Programming Language** | [ColdFusion](https://coldfusion.adobe.com/), HTML+CSS+JavaScript, Java, [PHP](https://www.php.net/), SQL |
 | **Framework** | [Angular](https://angular.io/), [Ember.js](https://emberjs.com/), [jQuery](https://jquery.com/), [Hibernate ORM](https://hibernate.org/orm/), [Kendo UI](https://www.telerik.com/kendo-ui) |
-
-## Career
-
-### 2019 - Now: IT System Operations, midix.com ag
-
-Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
-
-_CentOS, Java_
-
-### 2019 - Now: BSc in Computer Science, ZHAW
-
-[Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019.
-
-### 2015 - 2018: Software Architect, Valletti
-
-Design & Development of the iOS App [Valletti - the smallest office in the world](https://valletti.ch/).
-
-_iOS, Swift, Couchbase, MVVM_
-
-### 2013 - 2018: Technical Lead, MANDELKIND
-
-I was Co-Founder of this startup and responsible for all technical aspects.
-
-_WordPress, Docker, Linux, PHP, Java_
-
-### 2010 - 2013: Web Architect, Freelance
-
-Work as a Web Architect Freelancer for miscellaneous companies.
-
-_MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
-
-### 2009 - 2010: Junior ColdFusion Developer
-
-After my apprenticeship I was hired for the conception and realisation of client specific applications and improving the in-house eCommerce system as well as training staff.
-
-_Java based auto-update solution for the in-house eCommerce system, staff training courses_
-
-### 2004 - 2008: ColdFusion Application Developer Apprentice
-
-In the local web agency backslash AG I've learned the use of modern technologies to develop ColdFusion based web applications.
-
-_Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, (X)HTML_
