@@ -1,7 +1,7 @@
 # Table of contents
 
-* [About Me](README.md)
-  * [Curriculum Vitae](cv.md)
+* [About Me](about/README.md)
+  * [Curriculum Vitae](about/cv.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
   * [The 3 pillars of my PKMS](blog/the-pillars-of-my-personal-knowledge-management-system.md)
