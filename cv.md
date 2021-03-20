@@ -4,11 +4,11 @@ description: "Marco Betschart"
 
 # Curriculum Vitae
 
-Marco Betschart
-Forchstrasse 30
+Marco Betschart<br/>
+Forchstrasse 30<br/>
 CH-8008 Zürich
 
-+41 79 688 79 61
++41 79 688 79 61<br/>
 cv@marco.betschart.name
 
 ![](.gitbook/assets/marco-betschart.png)
