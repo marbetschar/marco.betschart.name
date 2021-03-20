@@ -1,8 +1,12 @@
 ---
-description: Marco Betschart
+description: "Marco Betschart - professional full-time nerd since 2004."
 ---
 
 # Curriculum Vitae
+
+![](.gitbook/assets/marco-betschart.png)
+
+I love to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 <table>
   <thead>
@@ -24,10 +28,6 @@ description: Marco Betschart
     </tr>
   </tbody>
 </table>
-
-![](.gitbook/assets/marco-betschart.png)
-
-I'm a professional full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ## Career
 
