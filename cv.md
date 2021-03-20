@@ -1,12 +1,8 @@
 ---
-description: "Marco Betschart - professional full-time nerd since 2004."
+description: Marco Betschart - professional full-time nerd since 2004.
 ---
 
 # Curriculum Vitae
-
-![](.gitbook/assets/marco-betschart.png)
-
-I love to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 <table>
   <thead>
@@ -18,16 +14,24 @@ I love to build **digital products** using **open technologies** - with the goal
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p>Forchstrasse 30</p>
-        <p>CH-8008 Z&#xFC;rich</p>
+        <img src=".gitbook/assets/marco-betschart.png" alt/>
       </td>
       <td style="text-align:left">
+        <p><em>Postal address</em>
+        </p>
+        <p>Forchstrasse 30</p>
+        <p>CH-8008 Z&#xFC;rich</p>
+        <p>
+          <br /><em>Contact information</em>
+        </p>
         <p>+41 79 688 79 61</p>
         <p>cv@marco.betschart.name</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+I love to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ## Career
 
