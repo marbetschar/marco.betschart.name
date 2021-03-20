@@ -4,7 +4,7 @@ description: "Hi, I'm Marco \U0001F44B️ - pleased to meet you!"
 
 # About Me
 
-I'm a software developer who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
+I'm a software developer who loves to craft **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ![Marco Betschart](.gitbook/assets/marco-betschart.png)
 
