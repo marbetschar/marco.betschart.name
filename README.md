@@ -16,6 +16,8 @@ I'm a software developer who loves to build **digital products** using **open te
 | 2008 - Today | Working in the IT industry |
 | 2004 - 2008 | Swiss Vocational Certificate in Computer Science |
 
+See my [Curriculum Vitae](cv.md) for more details.
+
 {% page-ref page="contact.md" %}
 
 ### Technologies I worked with …
