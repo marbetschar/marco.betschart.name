@@ -16,7 +16,7 @@ I love to craft **digital products** using **open technologies** - with the goal
   <tbody>
     <tr>
       <td style="text-align:left">
-        <img src=".gitbook/assets/marco-betschart.png" alt/>
+        <img src=".gitbook/assets/marco-betschart.png" height="200" alt="Portrait of Marco Betschart"/>
       </td>
       <td style="text-align:left">
         <p><em>Postal address</em>
