@@ -4,15 +4,11 @@ description: Marco Betschart
 
 # Curriculum Vitae
 
-![](.gitbook/assets/marco-betschart.png)
-
-I'm a professional full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Postal address</th>
-      <th style="text-align:left">Contact information</th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
@@ -28,6 +24,10 @@ I'm a professional full-time nerd since 2004, who loves to build **digital produ
     </tr>
   </tbody>
 </table>
+
+![](.gitbook/assets/marco-betschart.png)
+
+I'm a professional full-time nerd since 2004, who loves to build **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
 ## Career
 
