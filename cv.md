@@ -1,16 +1,14 @@
 ---
-description: "Hi, I'm Marco \U0001F44B️ - pleased to meet you!"
+description: "Marco Betschart"
 ---
 
 # Curriculum Vitae
 
 By now I've got over 16 years of experience in developing and operating software. I started by programming web based applications with ColdFusion (Railo, Adobe) or PHP, JavaScript, HTML & CSS as well as a wide variety of database backends (SQL and NoSQL). However, over the years my focus shifted more and more towards native application development. I worked with Java and Swift to build mobile Apps for example. In addition to software development, I've earned a deep understanding about service based architecture - as well as the management of said architecture on top of a Linux based server infrastructure (virtual and bare metal).
 
-### Open Source Work
+### Open Source
 
 ....
-
-### Professional Work
 
 ### 2019 - Now: IT System Operations, midix.com ag
 
