@@ -76,7 +76,8 @@ In the local web agency backslash AG I've learned the use of modern technologies
 
 _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, \(X\)HTML_
 
- 
+<br/>
+<br/>
 
 ## Experience
 
