@@ -107,9 +107,10 @@ _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
 ### 2009 - 2010: Junior ColdFusion Developer
 
-After my apprenticeship I was hired for the conception and realisation of client specific applications and improving the in-house eCommerce system as well as training staff.
+After my professional training I was hired for the conception and realisation of client specific applications and improving an in-house eCommerce system.
+Next to software development, I was responsible for further training of internal staff.
 
-_Java based auto-update solution for the in-house eCommerce system, staff training courses_
+_Java based auto-update solution for an in-house eCommerce system, staff training courses_
 
 ### 2004 - 2008: Swiss Vocational Certificate in Computer Science
 
