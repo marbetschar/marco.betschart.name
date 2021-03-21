@@ -111,8 +111,8 @@ After my apprenticeship I was hired for the conception and realisation of client
 
 _Java based auto-update solution for the in-house eCommerce system, staff training courses_
 
-### 2004 - 2008: ColdFusion Application Developer Apprentice
+### 2004 - 2008: Swiss Vocational Certificate in Computer Science
 
-In the local web agency backslash AG I've learned the use of modern technologies to develop ColdFusion based web applications.
+Four years of professional training in Computer Science with a focus on application development.
 
 _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, \(X\)HTML_
