@@ -34,7 +34,7 @@ I love to craft **digital products** using **open technologies** - with the goal
   </tbody>
 </table>
 
-## Career
+## Professional Experience
 
 ### 2019 - Now: IT System Operations, midix.com ag
 
@@ -76,7 +76,7 @@ In the local web agency backslash AG I've learned the use of modern technologies
 
 _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, \(X\)HTML_
 
-## Experience
+## Areas of Expertise
 
 **… as Desktop Developer**, crafting graphical applications for computers:
 
