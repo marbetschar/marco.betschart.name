@@ -87,25 +87,25 @@ _CentOS, Java_
 
 [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019.
 
-### 2015 - 2018: Software Architect, Valletti
+### 2015 - 2019: Software Architect, Valletti
 
 Design & Development of the iOS App [Valletti - the smallest office in the world](https://valletti.ch/).
 
 _iOS, Swift, Couchbase, MVVM_
 
-### 2013 - 2018: Technical Lead, MANDELKIND
+### 2013 - 2019: Technical Lead, MANDELKIND
 
 I was Co-Founder of this startup and responsible for all technical aspects.
 
 _WordPress, Docker, Linux, PHP, Java_
 
-### 2010 - 2013: Web Architect, Freelance
+### 2010 - 2013: Web Architect, Freelancer
 
 Work as a Web Architect Freelancer for miscellaneous companies.
 
 _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
-### 2009 - 2010: Junior ColdFusion Developer
+### 2009 - 2010: Junior Java & ColdFusion Developer
 
 After my professional training I was hired for the conception and realisation of client specific applications and improving an in-house eCommerce system.
 Next to software development, I was responsible for further training of internal staff.
