@@ -21,17 +21,15 @@ I love to craft **digital products** using **open technologies** - with the goal
         />
       </td>
       <td style="text-align:left">
-        <p><em>Postal address</em>
-        </p>
         <p>Forchstrasse 30</p>
         <p>8008 Z&#xFC;rich</p>
         <p>Switzerland</p>
       </td>
       <td style="text-align:left">
-        <p><em>Contact information</em>
-        </p>
         <p>+41 79 688 79 61</p>
         <p>cv@marco.betschart.name</p>
+        <p><a href="https://www.marco.betschart.name">https://marco.betschart.name</a>
+        </p>
       </td>
     </tr>
   </tbody>
