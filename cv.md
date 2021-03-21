@@ -24,7 +24,7 @@ I love to craft **digital products** using **open technologies** - with the goal
         <p>Forchstrasse 30</p>
         <p>8008 Z&#xFC;rich</p>
         <p>Switzerland</p>
-        <p>&nbsp;</p>
+        <p></p>
       </td>
       <td style="text-align:left">
         <p>&#x1F382; 26.06.1988</p>
