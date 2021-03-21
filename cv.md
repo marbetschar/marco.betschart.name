@@ -11,25 +11,27 @@ I love to craft **digital products** using **open technologies** - with the goal
     <tr>
       <th style="text-align:left"></th>
       <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">
-        <img src=".gitbook/assets/marco-betschart.png" alt="Portrait of Marco Betschart"
+        <img src=".gitbook/assets/marco-betschart-120.png" alt="Portrait of Marco Betschart"
         />
       </td>
       <td style="text-align:left">
-        <p><em>Postal address</em>
-        </p>
         <p>Forchstrasse 30</p>
         <p>8008 Z&#xFC;rich</p>
         <p>Switzerland</p>
-        <p>
-          <br /><em>Contact information</em>
+        <p></p>
+      </td>
+      <td style="text-align:left">
+        <p>&#x1F382; 26.06.1988</p>
+        <p>&#x260E;&#xFE0F; +41 79 688 79 61</p>
+        <p>&#x2709;&#xFE0F; cv@marco.betschart.name</p>
+        <p>&#x1F310; <a href="https://www.marco.betschart.name">https://marco.betschart.name</a>
         </p>
-        <p>+41 79 688 79 61</p>
-        <p>cv@marco.betschart.name</p>
       </td>
     </tr>
   </tbody>
@@ -107,8 +109,7 @@ _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
 ### 2009 - 2010: Junior Java & ColdFusion Developer
 
-After my professional training I was hired for the conception and realisation of client specific applications and improving an in-house eCommerce system.
-Next to software development, I was responsible for further training of internal staff.
+After my professional training I was hired for the conception and realisation of client specific applications and improving an in-house eCommerce system. Next to software development, I was responsible for further training of internal staff.
 
 _Java based auto-update solution for an in-house eCommerce system, staff training courses_
 
@@ -117,3 +118,4 @@ _Java based auto-update solution for an in-house eCommerce system, staff trainin
 Four years of professional training in Computer Science with a focus on application development.
 
 _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, \(X\)HTML_
+
