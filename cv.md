@@ -34,7 +34,7 @@ I love to craft **digital products** using **open technologies** - with the goal
   </tbody>
 </table>
 
-## Professional Experience
+## Professional Experience & Education
 
 ### 2019 - Now: IT System Operations, midix.com ag
 
