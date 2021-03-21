@@ -95,13 +95,13 @@ _iOS, Swift, Couchbase, MVVM_
 
 ### 2013 - 2019: Technical Lead, MANDELKIND
 
-I was Co-Founder of this startup and responsible for all technical aspects.
+As Co-Founder of this startup, I was responsible for all technical aspects.
 
 _WordPress, Docker, Linux, PHP, Java_
 
 ### 2010 - 2013: Web Architect, Freelancer
 
-Work as a Web Architect Freelancer for miscellaneous companies.
+Working as freelancer with various companies - primarily focused on web development.
 
 _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
