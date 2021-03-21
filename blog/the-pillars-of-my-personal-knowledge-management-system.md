@@ -29,7 +29,7 @@ The centerpiece of my Personal Knowledge Management System is [The Zettelkasten 
 
 ## 3. Reference Archive
 
-_My reference archive is powered by_ [_Zotero_](https://www.zotero.org/) _- see ["Howto setup Zotero"](../areas/knowledge-management/howto-setup-zotero.md) to get started._
+_My reference archive is powered by_ [_Zotero_](https://www.zotero.org/) _- see_ [_"Howto setup Zotero"_](../areas/knowledge-management/howto-setup-zotero.md) _to get started._
 
 The world of knowledge is constantly changing: Websites disappear, books may no longer be accessible. Therefore it is wise to store the reference material somewhere safe, so we can revisit it in the future. This is where the reference archive comes into play: It allows you to store a local snapshot of a website or archiving entire books in an organized way. Therefore the reference archive becomes your own, personal library.
 
