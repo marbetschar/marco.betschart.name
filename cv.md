@@ -46,6 +46,8 @@ I love to craft **digital products** using **open technologies** - with the goal
 | **Operating System** | Linux \([elementary](https://elementary.io/)\), macOS, Windows |
 | **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/), [Vala](https://wiki.gnome.org/Projects/Vala) |
 
+ 
+
 **… as Server Admin**, managing servers and other infrastructure components:
 
 | Scope | I worked with |
@@ -61,6 +63,8 @@ I love to craft **digital products** using **open technologies** - with the goal
 | **Webserver** | [Apache HTTPD](http://httpd.apache.org/), [NGINX](https://nginx.org), [PHP](https://www.php.net/) |
 | **Other** | [Apache Tomcat](http://tomcat.apache.org/), [Adobe ColdFusion](https://coldfusion.adobe.com/), [Cloudron](https://www.cloudron.io/) |
 
+ 
+
 **… as Mobile Developer**, building mobile first applications for smartphones or tablets:
 
 | Scope | I worked with |
@@ -68,6 +72,8 @@ I love to craft **digital products** using **open technologies** - with the goal
 | **Operating System** | [Android](https://www.android.com/), [iOS](https://www.apple.com/ios) |
 | **Platform** | Native, [React Native](https://reactnative.dev/), [Cordova](https://cordova.apache.org/) |
 | **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/) |
+
+ 
 
 **… as Web Developer**, creating applications for web browsers:
 
