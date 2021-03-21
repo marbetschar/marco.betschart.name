@@ -24,11 +24,13 @@ I love to craft **digital products** using **open technologies** - with the goal
         <p>Forchstrasse 30</p>
         <p>8008 Z&#xFC;rich</p>
         <p>Switzerland</p>
+        <p></p>
       </td>
       <td style="text-align:left">
-        <p>+41 79 688 79 61</p>
-        <p>cv@marco.betschart.name</p>
-        <p><a href="https://www.marco.betschart.name">https://marco.betschart.name</a>
+        <p>&#x1F382; 26.06.1988</p>
+        <p>&#x260E;&#xFE0F; +41 79 688 79 61</p>
+        <p>&#x2709;&#xFE0F; cv@marco.betschart.name</p>
+        <p>&#x1F310; <a href="https://www.marco.betschart.name">https://marco.betschart.name</a>
         </p>
       </td>
     </tr>
