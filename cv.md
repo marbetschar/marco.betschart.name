@@ -23,7 +23,8 @@ I love to craft **digital products** using **open technologies** - with the goal
         <p><em>Postal address</em>
         </p>
         <p>Forchstrasse 30</p>
-        <p>CH-8008 Z&#xFC;rich</p>
+        <p>8008 Z&#xFC;rich</p>
+        <p>Switzerland</p>
         <p>
           <br /><em>Contact information</em>
         </p>
@@ -33,6 +34,46 @@ I love to craft **digital products** using **open technologies** - with the goal
     </tr>
   </tbody>
 </table>
+
+## Areas of Expertise
+
+**… as Desktop Developer**, crafting graphical applications for computers:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Operating System** | Linux \([elementary](https://elementary.io/)\), macOS, Windows |
+| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/), [Vala](https://wiki.gnome.org/Projects/Vala) |
+
+**… as Server Admin**, managing servers and other infrastructure components:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Operating System** | Linux \([CentOS](https://www.centos.org/), [Ubuntu](https://ubuntu.com/)\), Windows Server |
+| **Programming Language** | [Python](https://www.python.org/), Bash, Batch |
+| **Backup** | [Bareos](https://www.bareos.org) |
+| **Container** | [Docker](https://www.docker.com/), [Linux Containers](https://linuxcontainers.org/) |
+| **Database** | [MySQL](https://www.mysql.com/), [MSSQL](https://www.microsoft.com/sql-server/), [PostgreSQL](https://www.postgresql.org/), [Oracle](https://www.oracle.com/database/technologies/), [Couchbase](https://www.couchbase.com/) |
+| **Domain Name Server** | [BIND](https://www.isc.org/bind/) |
+| **Monitoring** | [Prometheus](https://prometheus.io/) |
+| **Virtualization** | [VMWare](https://www.vmware.com/), [VirtualBox](https://www.virtualbox.org/) |
+| **Webserver** | [Apache HTTPD](http://httpd.apache.org/), [NGINX](https://nginx.org), [PHP](https://www.php.net/) |
+| **Other** | [Apache Tomcat](http://tomcat.apache.org/), [Adobe ColdFusion](https://coldfusion.adobe.com/), [Cloudron](https://www.cloudron.io/) |
+
+**… as Mobile Developer**, building mobile first applications for smartphones or tablets:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Operating System** | [Android](https://www.android.com/), [iOS](https://www.apple.com/ios) |
+| **Platform** | Native, [React Native](https://reactnative.dev/), [Cordova](https://cordova.apache.org/) |
+| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/) |
+
+**… as Web Developer**, creating applications for web browsers:
+
+| Scope | I worked with |
+| :--- | :--- |
+| **Platform** | [WordPress](https://wordpress.org/), [Jekyll](https://jekyllrb.com/), [GitHub Pages](https://pages.github.com/), Custom |
+| **Programming Language** | [ColdFusion](https://coldfusion.adobe.com/), HTML+CSS+JavaScript, Java, [PHP](https://www.php.net/), SQL |
+| **Framework** | [Angular](https://angular.io/), [Ember.js](https://emberjs.com/), [jQuery](https://jquery.com/), [Hibernate ORM](https://hibernate.org/orm/), [Kendo UI](https://www.telerik.com/kendo-ui) |
 
 ## Professional Experience & Education
 
@@ -75,44 +116,3 @@ _Java based auto-update solution for the in-house eCommerce system, staff traini
 In the local web agency backslash AG I've learned the use of modern technologies to develop ColdFusion based web applications.
 
 _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, \(X\)HTML_
-
-## Areas of Expertise
-
-**… as Desktop Developer**, crafting graphical applications for computers:
-
-| Scope | I worked with |
-| :--- | :--- |
-| **Operating System** | Linux \([elementary](https://elementary.io/)\), macOS, Windows |
-| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/), [Vala](https://wiki.gnome.org/Projects/Vala) |
-
-**… as Server Admin**, managing servers and other infrastructure components:
-
-| Scope | I worked with |
-| :--- | :--- |
-| **Operating System** | Linux \([CentOS](https://www.centos.org/), [Ubuntu](https://ubuntu.com/)\), Windows Server |
-| **Programming Language** | [Python](https://www.python.org/), Bash, Batch |
-| **Backup** | [Bareos](https://www.bareos.org) |
-| **Container** | [Docker](https://www.docker.com/), [Linux Containers](https://linuxcontainers.org/) |
-| **Database** | [MySQL](https://www.mysql.com/), [MSSQL](https://www.microsoft.com/sql-server/), [PostgreSQL](https://www.postgresql.org/), [Oracle](https://www.oracle.com/database/technologies/), [Couchbase](https://www.couchbase.com/) |
-| **Domain Name Server** | [BIND](https://www.isc.org/bind/) |
-| **Monitoring** | [Prometheus](https://prometheus.io/) |
-| **Virtualization** | [VMWare](https://www.vmware.com/), [VirtualBox](https://www.virtualbox.org/) |
-| **Webserver** | [Apache HTTPD](http://httpd.apache.org/), [NGINX](https://nginx.org), [PHP](https://www.php.net/) |
-| **Other** | [Apache Tomcat](http://tomcat.apache.org/), [Adobe ColdFusion](https://coldfusion.adobe.com/), [Cloudron](https://www.cloudron.io/) |
-
-**… as Mobile Developer**, building mobile first applications for smartphones or tablets:
-
-| Scope | I worked with |
-| :--- | :--- |
-| **Operating System** | [Android](https://www.android.com/), [iOS](https://www.apple.com/ios) |
-| **Platform** | Native, [React Native](https://reactnative.dev/), [Cordova](https://cordova.apache.org/) |
-| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/) |
-
-**… as Web Developer**, creating applications for web browsers:
-
-| Scope | I worked with |
-| :--- | :--- |
-| **Platform** | [WordPress](https://wordpress.org/), [Jekyll](https://jekyllrb.com/), [GitHub Pages](https://pages.github.com/), Custom |
-| **Programming Language** | [ColdFusion](https://coldfusion.adobe.com/), HTML+CSS+JavaScript, Java, [PHP](https://www.php.net/), SQL |
-| **Framework** | [Angular](https://angular.io/), [Ember.js](https://emberjs.com/), [jQuery](https://jquery.com/), [Hibernate ORM](https://hibernate.org/orm/), [Kendo UI](https://www.telerik.com/kendo-ui) |
-
