@@ -24,7 +24,7 @@ I love to craft **digital products** using **open technologies** - with the goal
         <p>Forchstrasse 30</p>
         <p>8008 Z&#xFC;rich</p>
         <p>Switzerland</p>
-        <p></p>
+        <p>&nbsp;</p>
       </td>
       <td style="text-align:left">
         <p>&#x1F382; 26.06.1988</p>
@@ -109,7 +109,7 @@ _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
 ### 2009 - 2010: Junior Java & ColdFusion Developer
 
-After my professional training I was hired for the conception and realisation of client specific applications and improving an in-house eCommerce system. Next to software development, I was responsible for further training of internal staff.
+After my professional training, I was hired for the conception and realisation of client specific applications and improving an in-house eCommerce system. Next to software development, I was responsible for further training of internal staff.
 
 _Java based auto-update solution for an in-house eCommerce system, staff training courses_
 
