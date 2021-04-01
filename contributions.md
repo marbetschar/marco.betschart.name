@@ -26,6 +26,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Keep state across lists**](https://github.com/elementary/tasks/pull/197)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
+* [x] [~~**Use row_activated instead of focus to allow future drag and drop**~~](https://github.com/elementary/tasks/pull/215) ![Completed: 2021-03-31](https://img.shields.io/badge/completed-2021--03--31-lightgrey?style=social)
 * [x] [~~**Added support for X-APPLE-SORT-ORDER**~~](https://github.com/elementary/tasks/pull/198) ![Completed: 2021-03-04](https://img.shields.io/badge/completed-2021--03--04-lightgrey?style=social)
 * [x] [~~**Show dialog if we fail to carry out the user's intent**~~](https://github.com/elementary/tasks/pull/189) ![Completed: 2021-02-23](https://img.shields.io/badge/completed-2021--02--23-lightgrey?style=social)
 * [x] [~~**Fix compile errors in EDS v3.39.2+**~~](https://github.com/elementary/tasks/pull/193) ![Completed: 2021-02-17](https://img.shields.io/badge/completed-2021--02--17-lightgrey?style=social)
@@ -96,7 +97,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 [_github.com/OTPLibraries/COTP_](https://github.com/OTPLibraries/COTP) _- A simple One Time Password \(OTP\) library in C_
 
 * [ ] [**Example implementation in otp-cli tool**](https://github.com/OTPLibraries/COTP/pull/5)
-* [ ] [**Added build script to build test\_c on Ubuntu LTS 20.04**](https://github.com/OTPLibraries/COTP/pull/4)
+* [x] [~~**Added build script to build test\_c on Ubuntu LTS 20.04**~~](https://github.com/OTPLibraries/COTP/pull/4) ![Completed: 2021-03-24](https://img.shields.io/badge/completed-2021--03--24-lightgrey?style=social)
 
 ### html2pdf
 
