@@ -23,7 +23,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 {% page-ref page="elementary-tasks-v1.0.md" %}
 
-{% page-ref page="half-life-alyx.md" %}
+{% page-ref page="elementary-xrdesktop-support.md" %}
 
 {% page-ref page="progress-for-apple-reminders.md" %}
 
