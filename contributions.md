@@ -79,6 +79,10 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [x] [~~**Fixed an issue where focus style was not reset to today**~~](https://github.com/elementary/wingpanel-indicator-datetime/pull/251) ![Completed: 2021-03-02](https://img.shields.io/badge/completed-2021--03--02-lightgrey?style=social)
 * [x] [~~**Calculate TimeZone according to Calendar**~~](https://github.com/elementary/wingpanel-indicator-datetime/pull/233) ![Completed: 2020-09-29](https://img.shields.io/badge/completed-2020--09--29-lightgrey?style=social)
 
+## elementary xrdesktop Support
+
+Enabling Linux users to interact with the beautifulx desktop of elementary in Virtual/Augmented Reality (XR). [Visit the project page](projects/elementary-xrdesktop-support.md) for more information.
+
 ## Time Limit
 
 [_github.com/marbetschar/time-limit_](https://github.com/marbetschar/time-limit) _- A simple and beautiful timer app for elementary OS._

@@ -10,7 +10,7 @@
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
   * [elementary Mail v2.0](projects/elementary-mail-v2.0.md)
   * [elementary Tasks v1.0](projects/elementary-tasks-v1.0.md)
-  * [Half Life: Alyx](projects/half-life-alyx.md)
+  * [Support for xrdesktop in elementary OS (Virtual Reality)](projects/elementary-xrdesktop-support.md)
   * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)
 * [My Areas](areas/README.md)
@@ -29,5 +29,7 @@
     * [Install Nextcloud Client](resources/linux-desktop/install-nextcloud-client.md)
     * [Install Oracle SQL Developer](resources/linux-desktop/install-oracle-sql-developer.md)
     * [VSCode: Setup Vala Autocompletion](resources/linux-desktop/vscode-setup-vala-autocompletion.md)
+* [Archives](archives/README.md)
+  * [Half Life: Alyx](archives/half-life-alyx.md)
 * [Contributions](contributions.md)
 
