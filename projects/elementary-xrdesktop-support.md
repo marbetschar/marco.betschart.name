@@ -10,7 +10,7 @@ tags:
   - XR
 ---
 
-# Support for xrdesktop in elementary OS (Virtual Reality)
+# Support for xrdesktop (Virtual Reality) in elementary
 
 {% embed url="https://youtu.be/RXQnWJpMLn4" caption="" %}
 
