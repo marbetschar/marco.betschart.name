@@ -1,5 +1,5 @@
 ---
-description: Get work done with the Linux desktop of elementary OS in Virtual and Augmented Reality (XR).
+description: Get work done on the Linux desktop - in Virtual or Augmented Reality (XR).
 tags:
   - vala
   - linux-desktop
