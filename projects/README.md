@@ -50,3 +50,4 @@ The best thing would be to have an pre-packaged Jupyter Notebook app in the elem
 - [Official documentation](http://jupyterlab.io/install)
 - [Running Jupyter Lab as a Desktop Application](http://christopherroach.com/articles/jupyterlab-desktop-app/)
 - [Cassidy's Plausibe Web UI Gtk Wrapper](https://github.com/cassidyjames/plausible)
+- [Juno - Jupyter Notebook IDE for iOS](https://apps.apple.com/us/app/juno/id1462586500)
