@@ -29,13 +29,13 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 {% page-ref page="time-limit.md" %}
 
-# Project Ideas
+## Project Ideas
 
 Stuff I'd love would already exist and I might work on in the future.
 
-## elementary OS
+### elementary OS
 
-### Jupyter Notebook as Desktop App
+#### Jupyter Notebook as Desktop App
 
 **Problem**
 
