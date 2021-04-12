@@ -26,7 +26,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
 * [x] [~~**Keep state across lists**~~](https://github.com/elementary/tasks/pull/197) ![Completed: 2021-04-08](https://img.shields.io/badge/completed-2021--04--08-lightgrey?style=social)
-* [x] [~~**Use row_activated instead of focus to allow future drag and drop**~~](https://github.com/elementary/tasks/pull/215) ![Completed: 2021-03-31](https://img.shields.io/badge/completed-2021--03--31-lightgrey?style=social)
+* [x] [~~**Use row\_activated instead of focus to allow future drag and drop**~~](https://github.com/elementary/tasks/pull/215) ![Completed: 2021-03-31](https://img.shields.io/badge/completed-2021--03--31-lightgrey?style=social)
 * [x] [~~**Added support for X-APPLE-SORT-ORDER**~~](https://github.com/elementary/tasks/pull/198) ![Completed: 2021-03-04](https://img.shields.io/badge/completed-2021--03--04-lightgrey?style=social)
 * [x] [~~**Show dialog if we fail to carry out the user's intent**~~](https://github.com/elementary/tasks/pull/189) ![Completed: 2021-02-23](https://img.shields.io/badge/completed-2021--02--23-lightgrey?style=social)
 * [x] [~~**Fix compile errors in EDS v3.39.2+**~~](https://github.com/elementary/tasks/pull/193) ![Completed: 2021-02-17](https://img.shields.io/badge/completed-2021--02--17-lightgrey?style=social)
@@ -81,7 +81,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ## elementary xrdesktop support
 
-Enabling Linux users to interact with the beautifulx desktop of elementary in Virtual/Augmented Reality (XR). [Visit the project page](projects/elementary-xrdesktop-support.md) for more information.
+Enabling Linux users to interact with the beautifulx desktop of elementary in Virtual/Augmented Reality \(XR\). [Visit the project page](projects/elementary-xrdesktop-support.md) for more information.
 
 ## Time Limit
 
