@@ -10,13 +10,13 @@ tags:
   - XR
 ---
 
-# Support for xrdesktop (Virtual Reality) in elementary
+# Support for xrdesktop \(Virtual Reality\) in elementary
 
-{% embed url="https://youtu.be/RXQnWJpMLn4" caption="" %}
+![Rendering elementary desktop windows in VR](../.gitbook/assets/elementary-xrdesktop-support.png)
 
 ## Built For
 
-Users who'd love to interact with the beautiful linux desktop of elementary in Virtual/Augmented Reality (XR).
+Users who'd love to interact with the beautiful linux desktop of elementary in Virtual/Augmented Reality \(XR\).
 
 ## Contributions
 
@@ -26,15 +26,15 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 This project has three parts which work together to create the elementary XR experience:
 
-### Gala Plugin (Window Manager plugin)
+### Gala Plugin \(Window Manager plugin\)
 
-A plugin for the elementary OS Window Manager which enables us to mirror the desktop windows to XR: _https://github.com/elementary/gala/pull/1095_
+A plugin for the elementary OS Window Manager which enables us to mirror the desktop windows to XR: [https://github.com/elementary/gala/pull/1095](https://github.com/elementary/gala/pull/1095)
 
-### Wingpanel Indicator (Top panel plugin)
+### Wingpanel Indicator \(Top panel plugin\)
 
-An indicator for the elementary OS top panel which provides a possibility to enable or disable window mirroring to XR: _https://github.com/marbetschar/wingpanel-indicator-xrdesktop_
+An indicator for the elementary OS top panel which provides a possibility to enable or disable window mirroring to XR: [https://github.com/marbetschar/wingpanel-indicator-xrdesktop](https://github.com/marbetschar/wingpanel-indicator-xrdesktop)
 
-### Switchboard Plug (System settings plugin)
+### Switchboard Plug \(System settings plugin\)
 
 A plugin for the elementary OS system settings to enable the user to configure where and how desktop windows should be mirrored to XR: _Development not started yet._
 
@@ -46,3 +46,4 @@ A plugin for the elementary OS system settings to enable the user to configure w
 * [Wingpanel](https://github.com/elementary/wingpanel/) - The elementary OS top panel that holds indicators and spawns an application launcher.
 * [Switchboard](https://github.com/elementary/switchboard/) - An extensible System Settings app designed for elementary OS.
 * [Vala](https://wiki.gnome.org/Projects/Vala/Tutorial) - a modern programming language to write applications that run on the GNOME runtime libraries
+
