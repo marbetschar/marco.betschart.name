@@ -60,6 +60,7 @@ plugins in Files, Wingpanel, System Settings and other core components of elemen
 
 * [KDE Connect Support #338](https://github.com/elementary/wingpanel/issues/338)
 * [Conecto - a GTK client for KDEConnect](https://github.com/hannesschulze/conecto/)
+* [mconnect](https://github.com/bboozzoo/mconnect)
 * [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
 * [KDE Connect](https://kdeconnect.kde.org/)
 
