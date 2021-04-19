@@ -35,6 +35,33 @@ Stuff I'd love would already exist and I might work on in the future.
 
 ### elementary OS
 
+#### KDE Connect for elementary
+
+**Problem**
+
+There should be a native way to securely connect to mobile devices and other desktops to:
+
+* Share files, links and text
+* Send and receive messages
+* Sync clipboard content
+* Sync contacts
+* Sync notifications
+* Control media players
+* Control system volume
+* Execute predefined commands
+* And more…
+
+**Proposal**
+
+To achieve this, we can add native support for KDE Connect to elementary OS. This probably means to add
+plugins in Files, Wingpanel, System Settings and other core components of elementary OS.
+
+**Prior Art**
+
+* [KDE Connect Support #338](https://github.com/elementary/wingpanel/issues/338)
+* [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
+* [KDE Connect](https://kdeconnect.kde.org/)
+
 #### Jupyter Notebook as Desktop App
 
 **Problem**
