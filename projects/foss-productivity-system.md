@@ -27,5 +27,20 @@ tags:
 |         Archive | ❌ | ❌ |
 |         Delete | ❌ | ✅ |
 |         Flag | ❌ | ✅ |
-|     Search All Flagged Anywhere | ❌ | ❌ |
+|     Filter "Flagged" Anywhere | ❌ | ❌ |
+|     Sync via IMAP/SMTP | ✅ | ✅ |
+| 📋 **Tasks** | \*\*\*\*[**elementary Tasks v1.0**](https://github.com/elementary/tasks/)\*\*\*\* | \*\*\*\*[**Tasks.org**](https://tasks.org/)\*\*\*\* |
+|     Add/Edit/Remove Lists | ✅ | via [DAVx5](https://www.davx5.com/) |
+|     Alert at a Time | ❌ | ✅ |
+|     Alert at a Location | ❌ | ✅ |
+|     Recurring Tasks | ❌ | ✅ |
+|     Custom Sorting | [🏗](https://github.com/elementary/tasks/pull/217)  | ✅ |
+|     Filter Scheduled Tasks | ✅ | ✅ |
+|     Sync via CalDAV | ✅ | via [DAVx5](https://www.davx5.com/) |
+| 📆 **Calendar** | \*\*\*\*[**elementary Calendar**](https://github.com/elementary/calendar/)\*\*\*\* | \*\*\*\*[**Etar Calendar**](https://github.com/Etar-Group/Etar-Calendar)\*\*\*\* |
+|     Add/Edit/Remove Calendars | ❌ | via [DAVx5](https://www.davx5.com/) |
+|     Add/Edit/Remove Events | ✅ | ✅ |
+|     Recurring Events | ✅ | ✅ |
+|     Multiple Calendars | ✅ | ✅ |
+|     Sync via CalDAV | ✅ | via [DAVx5](https://www.davx5.com/) |
 
