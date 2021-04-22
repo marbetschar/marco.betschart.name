@@ -17,15 +17,15 @@ tags:
 
 ## Feature Support Matrix
 
-|  | Desktop: elementary OS | Smartphone: CalyxOS |
+| _last update: 2021-04-22_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
-| **Mail** | **elementary Mail v2.0** | **K-9 Mail** |
-|     Archive | ❌ | ✅ |
+| \*\*\*\*✉ **Mail** | \*\*\*\*[**elementary Mail v2.0**](https://github.com/elementary/mail/)\*\*\*\* | \*\*\*\*[**K-9 Mail**](https://k9mail.app/)\*\*\*\* |
+|     Archive | [🏗](https://github.com/elementary/mail/pull/542)  | ✅ |
 |     Delete | ✅ | ✅ |
 |     Flag | ✅ | ✅ |
 |     Grouped Inbox | ❌ | ✅ |
 |         Archive | ❌ | ❌ |
-|         Delete | ✅ | ✅ |
-|         Flag | ✅ | ✅ |
+|         Delete | ❌ | ✅ |
+|         Flag | ❌ | ✅ |
 |     Search All Flagged Anywhere | ❌ | ❌ |
 
