@@ -15,3 +15,17 @@ tags:
 * Privacy is important _- but should not sabotage daily work_
 * Freedom is key _- the system should favour community driven projects instead of products built by big, profit-oriented companies_
 
+## Feature Support Matrix
+
+|  | Desktop: elementary OS | Smartphone: CalyxOS |
+| :--- | :--- | :--- |
+| **Mail** | **elementary Mail v2.0** | **K-9 Mail** |
+|     Archive | ❌ | ✅ |
+|     Delete | ✅ | ✅ |
+|     Flag | ✅ | ✅ |
+|     Grouped Inbox | ❌ | ✅ |
+|         Archive | ❌ | ❌ |
+|         Delete | ✅ | ✅ |
+|         Flag | ✅ | ✅ |
+|     Search All Flagged Anywhere | ❌ | ❌ |
+
