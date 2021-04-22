@@ -42,5 +42,5 @@ tags:
 |     Add/Edit/Remove Events | ✅ | ✅ |
 |     Recurring Events | ✅ | ✅ |
 |     Multiple Calendars | ✅ | ✅ |
-|     Sync via CalDAV | ✅ | via [DAVx5](https://www.davx5.com/) |
+|     Sync via CalDAV | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
 
