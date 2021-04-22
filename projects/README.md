@@ -25,6 +25,8 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 {% page-ref page="elementary-xrdesktop-support.md" %}
 
+{% page-ref page="foss-productivity-system.md" %}
+
 {% page-ref page="progress-for-apple-reminders.md" %}
 
 {% page-ref page="time-limit.md" %}

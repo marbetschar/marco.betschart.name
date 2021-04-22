@@ -10,6 +10,7 @@
   * [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md)
   * [elementary Mail v2.0](projects/elementary-mail-v2.0.md)
   * [elementary Tasks v1.0](projects/elementary-tasks-v1.0.md)
+  * [FOSS Productivity System](projects/foss-productivity-system.md)
   * [Support for xrdesktop \(Virtual Reality\) in elementary](projects/elementary-xrdesktop-support.md)
   * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)
