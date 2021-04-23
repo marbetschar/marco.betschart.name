@@ -11,9 +11,9 @@ tags:
 
 ## Principles
 
-* Design is _not_ optional _- the whole system should be easy AND enjoyable to use_
-* Privacy is important _- but should not sabotage daily work_
-* Freedom is key _- the system should favour community driven projects instead of products built by big, profit-oriented companies_
+* Design is non-optional _- the whole system should be easy AND enjoyable to use_
+* Privacy is important _- and must not distract_
+* Freedom is sustainable _- the system should favour community driven projects instead of profit-oriented companies_
 
 ## Feature Support Matrix
 
