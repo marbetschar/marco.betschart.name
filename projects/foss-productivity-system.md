@@ -38,6 +38,7 @@ tags:
 |     Filter Scheduled Tasks | ✅ | ✅ |
 |     Sync via CalDAV | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
 | 📆 **Calendar** | \*\*\*\*[**elementary Calendar**](https://github.com/elementary/calendar/)\*\*\*\* | \*\*\*\*[**Etar Calendar**](https://github.com/Etar-Group/Etar-Calendar)\*\*\*\* |
+|     Weekly View | ❌ | ✅ |
 |     Add/Edit/Remove Calendars | ❌ | 💡 via [DAVx5](https://www.davx5.com/) |
 |     Add/Edit/Remove Events | ✅ | ✅ |
 |     Recurring Events | ✅ | ✅ |
