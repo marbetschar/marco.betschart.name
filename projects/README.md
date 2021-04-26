@@ -55,12 +55,11 @@ There should be a native way to securely connect to mobile devices and other des
 
 **Proposal**
 
-To achieve this, we can add native support for KDE Connect to elementary OS. This probably means to add
-plugins in Files, Wingpanel, System Settings and other core components of elementary OS.
+To achieve this, we can add native support for KDE Connect to elementary OS. This probably means to add plugins in Files, Wingpanel, System Settings and other core components of elementary OS.
 
 **Prior Art**
 
-* [KDE Connect Support #338](https://github.com/elementary/wingpanel/issues/338)
+* [KDE Connect Support \#338](https://github.com/elementary/wingpanel/issues/338)
 * [Conecto - a GTK client for KDEConnect](https://github.com/hannesschulze/conecto/)
 * [mconnect](https://github.com/bboozzoo/mconnect)
 * [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)

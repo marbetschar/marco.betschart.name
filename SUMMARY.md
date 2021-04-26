@@ -15,7 +15,7 @@
   * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)
 * [My Areas](areas/README.md)
-  * [CalyxOS](areas/calyx-os/README.md)
+  * [CalyxOS](areas/calyx-os.md)
   * [elementary OS](areas/elementary-os/README.md)
     * [Missing Features & Workarounds](areas/elementary-os/missing-features-and-workarounds.md)
     * [Error: could not find distribution template for Elementary/odin](areas/elementary-os/fix-error-distribution-template-for-elementary-odin.md)
