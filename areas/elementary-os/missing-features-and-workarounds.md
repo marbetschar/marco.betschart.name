@@ -136,3 +136,8 @@ Error: could not find a distribution template for Elementary/odin
 
 When my laptop suspends the screen goes dark, but when I wake it up again I can get a quick glimpse at the unlocked Desktop before the login form is shown.
 
+### Picture-in-Picture: Dynamic placement of action buttons depending on screen location
+
+![Last Update: 2021-04-26](https://img.shields.io/badge/last%20update-2021--04--26-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/gala/issues/1116) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+Its hard to resize the Picture-in-Picture window, if it is placed in the lower right corner of the screen. That's due to the resize button beeing in the bottom right corner - therefore it is not possible to make the Picture-in-Picture window bigger without beeing moved away from the corner first.
