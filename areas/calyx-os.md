@@ -12,3 +12,8 @@ description: Working with my Smartphone OS of choice and improving it along the 
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
+### [Vertical-Life App](https://www.vertical-life.info/)
+
+#### ![Last Update: 2021-04-26](https://img.shields.io/badge/last%20update-2021--04--26-lightgrey?style=social) Discover does not show anything on the map
+
+Sent an email to the Vertical-Life developers - hoping they find a solution.
