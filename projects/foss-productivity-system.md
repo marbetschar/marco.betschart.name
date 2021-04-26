@@ -15,9 +15,9 @@ tags:
 * Privacy is important _- and must not distract_
 * Freedom is sustainable _- the system should favour community driven projects instead of profit-oriented companies_
 
-## Feature Support Matrix
+## Core Features
 
-| _last update: 2021-04-22_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
+| _last update: 2021-04-26_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
 | \*\*\*\*✉ **Mail** | \*\*\*\*[**elementary Mail v2.0**](https://github.com/elementary/mail/)\*\*\*\* | \*\*\*\*[**K-9 Mail**](https://k9mail.app/)\*\*\*\* |
 |     Archive | [🏗](https://github.com/elementary/mail/pull/542)  | ✅ |
@@ -45,3 +45,8 @@ tags:
 |     Multiple Calendars | ✅ | ✅ |
 |     Sync via CalDAV | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
 
+## Convenience Features & Workarounds
+
+### K-9 Mail
+
+- [ ] [Archive action in Android device notification](https://github.com/k9mail/k-9/issues/3530)
