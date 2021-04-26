@@ -19,7 +19,7 @@ tags:
 
 | _last update: 2021-04-26_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
-| \*\*\*\*✉ **Mail** | \*\*\*\*[**elementary Mail v2.0**](https://github.com/elementary/mail/)\*\*\*\* | \*\*\*\*[**K-9 Mail**](https://k9mail.app/)\*\*\*\* |
+| 📧️ **Mail** | [**elementary Mail v2.0**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
 |     Archive | [🏗](https://github.com/elementary/mail/pull/542)  | ✅ |
 |     Delete | ✅ | ✅ |
 |     Flag | ✅ | ✅ |
@@ -29,7 +29,7 @@ tags:
 |         Flag | ❌ | ✅ |
 |     Filter "Flagged" Anywhere | ❌ | ❌ |
 |     Sync via IMAP/SMTP | ✅ | ✅ |
-| 📋 **Tasks** | \*\*\*\*[**elementary Tasks v1.0**](https://github.com/elementary/tasks/)\*\*\*\* | \*\*\*\*[**Tasks.org**](https://tasks.org/)\*\*\*\* |
+| 📋 **Tasks** | [**elementary Tasks v1.0**](https://github.com/elementary/tasks/) | [**Tasks.org**](https://tasks.org/) |
 |     Add/Edit/Remove Lists | ✅ | ✅ |
 |     Alert at a Time | ❌ | ✅ |
 |     Alert at a Location | ❌ | ✅ |
@@ -37,7 +37,7 @@ tags:
 |     Custom Sorting | [🏗](https://github.com/elementary/tasks/pull/217)  | ✅ |
 |     Filter Scheduled Tasks | ✅ | ✅ |
 |     Sync via CalDAV | ✅ | ✅ |
-| 📆 **Calendar** | \*\*\*\*[**elementary Calendar**](https://github.com/elementary/calendar/)\*\*\*\* | \*\*\*\*[**Etar Calendar**](https://github.com/Etar-Group/Etar-Calendar)\*\*\*\* |
+| 📆 **Calendar** | [**elementary Calendar**](https://github.com/elementary/calendar/) | [**Etar Calendar**](https://github.com/Etar-Group/Etar-Calendar) |
 |     Weekly View | ❌ | ✅ |
 |     Add/Edit/Remove Calendars | ❌ | 💡 via [DAVx5](https://www.davx5.com/) |
 |     Add/Edit/Remove Events | ✅ | ✅ |
