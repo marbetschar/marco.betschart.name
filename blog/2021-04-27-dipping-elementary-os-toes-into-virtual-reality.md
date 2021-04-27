@@ -49,5 +49,5 @@ There is no way a regular user can adjust xrdesktop's settings in elementary OS 
 
 ### Add support for Monado
 
-[Monado](https://monado.dev/) is the reference runtime for the OpenXR specification. Since at the time of starting developing SteamVR does provided the better end user experience and was much more stable. Therefore it was chosen to jump start initial work. However, in the long rung we really want to support open software - therefore getting things working on Monado is definately something we need to work on.
+[Monado](https://monado.dev/) is the reference runtime for the OpenXR specification. At the time I started development, SteamVR provided the better end user experience and was much more stable. Therefore I chose SteamVR over Monado to jump start initial work. However, in the long rung we really want to support open software - therefore getting things working on Monado is definitely something we need to work on.
 
