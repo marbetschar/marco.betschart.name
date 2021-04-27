@@ -17,7 +17,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ## What already works
 
-Thanks to the [plugin I wrote](https://github.com/elementary/gala/pull/1095) to support xrdesktop in elementary's window manager "Gala", we are now able to mirror desktop windows to Virtual or Augmented Reality. Although the support is still in a very early stage, its already possible to interact with the windows using the Virtual Reality Controllers and doing some re-positioning stuff. On the other hand, mouse or keyboard interaction is not possible as of now and the current state has been tested in SteamVR using a HTC Vive only.
+Thanks to the [plugin I wrote](https://github.com/elementary/gala/pull/1095) to support [xrdesktop](https://www.collabora.com/news-and-blog/news-and-events/xrdesktop-014-with-openxr-support-released.html) in elementary's window manager "Gala", we are now able to mirror desktop windows to Virtual or Augmented Reality. Although the support is still in a very early stage, its already possible to interact with the windows using the Virtual Reality Controllers and doing some re-positioning stuff. On the other hand, mouse or keyboard interaction is not possible as of now and the current state has been tested in SteamVR using a HTC Vive only.
 
 ## How is it done?
 
