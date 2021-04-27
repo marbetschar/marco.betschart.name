@@ -23,3 +23,4 @@ Sent an email to the customer support.
 #### ![Last Update: 2021-04-26](https://img.shields.io/badge/last%20update-2021--04--26-lightgrey?style=social) Discover does not show anything on the map
 
 Sent an email to the Vertical-Life developers - hoping they find a solution.
+

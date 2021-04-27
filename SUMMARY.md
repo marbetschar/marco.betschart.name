@@ -4,7 +4,7 @@
 * [Curriculum Vitae](cv.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
-  * [Dipping elementary OS' toes into Virtual Reality](blog/2021-04-27-dipping-elementary-OS-toes-into-virtual-reality.md)
+  * [Dipping elementary OS' toes into Virtual Reality](blog/2021-04-27-dipping-elementary-os-toes-into-virtual-reality.md)
   * [The 3 pillars of my PKMS](blog/2021-02-24-the-pillars-of-my-personal-knowledge-management-system.md)
 * [Got a Question?](contact.md)
 * [My Projects](projects/README.md)
