@@ -7,9 +7,11 @@ date: '2021-02-24'
 
 # The 3 pillars of my PKMS
 
+_February 2021_
+
 ![](../.gitbook/assets/personal-knowledge-management-system.jpg)
 
-_February 2021 - Photo by_ [_Susan Yin_](https://unsplash.com/@syinq?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) _on_ [_Unsplash_](https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+_Photo by_ [_Susan Yin_](https://unsplash.com/@syinq?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) _on_ [_Unsplash_](https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 The more reference material I read in the last couple of months, the more apparent it became that I need to build my Personal Knowledge Management System upon different pillars. Each of which backing up a different purpose - but they all work together as a whole.
 

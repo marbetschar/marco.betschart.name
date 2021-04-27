@@ -6,9 +6,9 @@ date: '2021-04-27'
 
 # Dipping elementary OS' toes into Virtual Reality
 
-![elementary OS is rendering its windows in Virtual Reality](../.gitbook/assets/elementary-xrdesktop-support.png)
-
 _April 2021_
+
+![elementary OS is rendering its windows in Virtual Reality](../.gitbook/assets/elementary-xrdesktop-support.png)
 
 {% hint style="info" %}
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
