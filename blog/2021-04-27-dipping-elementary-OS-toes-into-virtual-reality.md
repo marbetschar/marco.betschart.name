@@ -33,7 +33,7 @@ As of now, I worked on 1. and 2. So we have this neat [Wingpanel indicator](wing
 
 ...
 
-In addtion, the corresponding backend which does all the mirroring work [is developed as a Gala plugin](https://github.com/elementary/gala/pull/1095).  Fortunately, there was already a [reference implementation for the GNOME desktop environment](https://gitlab.freedesktop.org/xrdesktop/gnome-shell/-/blob/3.38.4-xrdesktop/src/shell-vr-mirror.c) available. Therefore my task was to translate the existing C code into Vala. For this to work, I also had to build several VAPI's for the xrdesktop libraries as well as doing some OpenGL stuff in Vala.
+In addtion, the corresponding backend which does all the mirroring work [is developed as a Gala plugin](https://github.com/elementary/gala/pull/1095).  Fortunately, there was already a [reference implementation for the GNOME desktop environment](https://gitlab.freedesktop.org/xrdesktop/gnome-shell/-/blob/3.38.4-xrdesktop/src/shell-vr-mirror.c) available. Therefore the main work involved to translate the existing C code into Vala. For this to work, I also had to build several VAPI's for the xrdesktop libraries as well as doing some OpenGL stuff in Vala.
 
 Thankfully, xrdesktop uses GObject so we were able to build most of the [needed VAPI's](https://github.com/elementary/gala/tree/xrdesktop/vapi) automatically using [GObject Introspection](https://gi.readthedocs.io/en/latest/). Although there were some fixes needed upstream to get this running correclty (in [gxr](https://gitlab.freedesktop.org/xrdesktop/gxr), [gulkan](https://gitlab.freedesktop.org/xrdesktop/gulkan) as well as in [xrdesktop](https://gitlab.freedesktop.org/xrdesktop/xrdesktop) itself).
 
