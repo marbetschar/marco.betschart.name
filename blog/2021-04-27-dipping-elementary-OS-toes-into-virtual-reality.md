@@ -25,9 +25,9 @@ no mouse or keyboard interaction is possible currently. The current state has be
 
 Mirroring the elementary OS desktop to Virtual Reality needs three pieces to work together:
 
-1. A user facing toggle to enable or disable VR mirroring
+1. [A user facing toggle to enable or disable VR mirroring](https://github.com/marbetschar/wingpanel-indicator-xrdesktop)
 2. The possibility to adjust some settings on how the mirroring should work
-3. The actual mirroring of the desktop windows
+3. [The actual mirroring of the desktop windows](https://github.com/elementary/gala/pull/1095)
 
 As of now, I worked on 1. and 2. So we have this neat [Wingpanel indicator](wingpanel-indicator-xrdesktop) which allows us to enable/disable the VR desktop mirroring:
 
