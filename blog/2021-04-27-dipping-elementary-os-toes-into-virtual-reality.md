@@ -27,7 +27,7 @@ Mirroring the elementary OS desktop to Virtual Reality needs three pieces to wor
 2. The possibility to adjust some settings on how the mirroring should work
 3. [The actual mirroring of the desktop windows](https://github.com/elementary/gala/pull/1095)
 
-As of now, I worked on 1. and 2. So we have a neat [Wingpanel indicator](https://github.com/marbetschar/marco.betschart.name/tree/59c70dde6c158241f3176bda70c42aae81a187fb/blog/wingpanel-indicator-xrdesktop/README.md) which allows us to enable/disable desktop mirroring to Virtual Reality:
+As of now, I worked on 1. and 2. So we have a neat [Wingpanel indicator](https://github.com/marbetschar/wingpanel-indicator-xrdesktop) which allows us to enable/disable desktop mirroring to Virtual Reality:
 
 ![wingpanel-indicator-xrdesktop to enable/disable desktop mirroring](../.gitbook/assets/wingpanel-indicator-xrdesktop.png)
 
