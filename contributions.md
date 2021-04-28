@@ -23,6 +23,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
+* [ ] [**Separated Scheduled List and Row from regular ones**](https://github.com/elementary/tasks/pull/230)
+* [ ] [**Using ECal util functions for custom properties**](https://github.com/elementary/tasks/pull/229)
 * [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
 * [x] [~~**Refactor: EntryPopover namespace**~~](https://github.com/elementary/tasks/pull/218) ![Completed: 2021-04-16](https://img.shields.io/badge/completed-2021--04--16-lightgrey?style=social)
