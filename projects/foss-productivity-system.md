@@ -51,3 +51,7 @@ tags:
 
 * [ ] [Archive action in Android device notification](https://github.com/k9mail/k-9/issues/3530)
 
+### Integration between elementary OS and CalyxOS
+
+* [ ] [Shared Clipboard](README.md#kde-connect-for-elementary)
+      _Should be possible with KDE Connect._
