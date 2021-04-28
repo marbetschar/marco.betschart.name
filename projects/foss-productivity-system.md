@@ -53,5 +53,7 @@ tags:
 
 ### Integration between elementary OS and CalyxOS
 
+_Should be possible with KDE Connect:_
+
 * [ ] [Shared Clipboard](README.md#kde-connect-for-elementary)
-      _Should be possible with KDE Connect._
+* [ ] [Transfer Files](README.md#kde-connect-for-elementary)
