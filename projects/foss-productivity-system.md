@@ -24,7 +24,7 @@ tags:
 | Delete | ✅ | ✅ |
 | Flag | ✅ | ✅ |
 | Grouped Inbox | ❌ | ✅ |
-| Archive | ❌ | [❓](https://github.com/k9mail/k-9/issues/5264) |
+| Archive | ❌ | [❓](https://github.com/k9mail/k-9/issues/1041) |
 | Delete | ❌ | ✅ |
 | Flag | ❌ | ✅ |
 | Filter "Flagged" Anywhere | ❌ | ❌ |
