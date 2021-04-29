@@ -72,6 +72,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
+* [ ] [**Grouped Folders**](https://github.com/elementary/mail/pull/564)
 * [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
 * [x] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
 
