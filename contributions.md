@@ -24,9 +24,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
 * [ ] [**Separated Scheduled List and Row from regular ones**](https://github.com/elementary/tasks/pull/230)
-* [ ] [**Using ECal util functions for custom properties**](https://github.com/elementary/tasks/pull/229)
 * [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
+* [x] [~~**Using ECal util functions for custom properties**~~](https://github.com/elementary/tasks/pull/229) ![Completed: 2021-04-28](https://img.shields.io/badge/completed-2021--04--28-lightgrey?style=social)
 * [x] [~~**Refactor: EntryPopover namespace**~~](https://github.com/elementary/tasks/pull/218) ![Completed: 2021-04-16](https://img.shields.io/badge/completed-2021--04--16-lightgrey?style=social)
 * [x] [~~**Refactor: Widgets Namespace**~~](https://github.com/elementary/tasks/pull/219) ![Completed: 2021-04-13](https://img.shields.io/badge/completed-2021--04--13-lightgrey?style=social)
 * [x] [~~**Keep state across lists**~~](https://github.com/elementary/tasks/pull/197) ![Completed: 2021-04-08](https://img.shields.io/badge/completed-2021--04--08-lightgrey?style=social)
@@ -72,9 +72,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Grouped Folders**](https://github.com/elementary/mail/pull/564)
+* [ ] [**Unified INBOX (Starting point for Grouped Folders)**](https://github.com/elementary/mail/pull/564)
 * [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
-* [x] [**Folder icon detection**](https://github.com/elementary/mail/pull/545)
+* [x] [~~**Folder icon detection**~~](https://github.com/elementary/mail/pull/545) ![Completed: 2021-04-30](https://img.shields.io/badge/completed-2021--04--30-lightgrey?style=social)
 
 ## elementary Wingpanel
 
