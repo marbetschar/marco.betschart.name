@@ -64,6 +64,7 @@ To achieve this, we can add native support for KDE Connect to elementary OS. Thi
 * [mconnect](https://github.com/bboozzoo/mconnect)
 * [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
 * [KDE Connect](https://kdeconnect.kde.org/)
+* [KDE Connect Indicator](https://github.com/b4j4/indicator-kdeconnect)
 
 #### Jupyter Notebook as Desktop App
 
