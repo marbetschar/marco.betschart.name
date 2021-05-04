@@ -17,7 +17,7 @@ tags:
 
 ## Core Features
 
-| _last update: 2021-04-26_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
+| _last update: 2021-05-04_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
 | 📧️ **Mail** | [**elementary Mail v2.0**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
 | Archive | [👨‍🏭️](https://github.com/elementary/mail/pull/542) | ✅ |
