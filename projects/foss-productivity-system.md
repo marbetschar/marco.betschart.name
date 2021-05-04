@@ -20,13 +20,13 @@ tags:
 | _last update: 2021-04-26_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
 | 📧️ **Mail** | [**elementary Mail v2.0**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
-| Archive | [🏗](https://github.com/elementary/mail/pull/542) | ✅ |
+| Archive | [👨‍🏭️](https://github.com/elementary/mail/pull/542) | ✅ |
 | Delete | ✅ | ✅ |
 | Flag | ✅ | ✅ |
-| Grouped Inbox | ❌ | ✅ |
-| Archive | ❌ | [❓](https://github.com/k9mail/k-9/issues/1041) |
-| Delete | ❌ | ✅ |
-| Flag | ❌ | ✅ |
+| Grouped Inbox | [👨‍🏭️](https://github.com/elementary/mail/pull/564) | ✅ |
+| Grouped Inbox: Archive | [👨‍🏭️](https://github.com/elementary/mail/pull/564) | [❓](https://github.com/k9mail/k-9/issues/1041) |
+| Grouped Inbox: Delete | [👨‍🏭️](https://github.com/elementary/mail/pull/564) | ✅ |
+| Grouped Inbox: Flag | [👨‍🏭️](https://github.com/elementary/mail/pull/564) | ✅ |
 | Filter "Flagged" Anywhere | ❌ | ❌ |
 | Sync via IMAP/SMTP | ✅ | ✅ |
 | 📋 **Tasks** | [**elementary Tasks v1.0**](https://github.com/elementary/tasks/) | [**Tasks.org**](https://tasks.org/) |
@@ -34,7 +34,7 @@ tags:
 | Alert at a Time | ❌ | ✅ |
 | Alert at a Location | ❌ | ✅ |
 | Recurring Tasks | ❌ | ✅ |
-| Custom Sorting | [🏗](https://github.com/elementary/tasks/pull/217) | ✅ |
+| Custom Sorting | [👨‍🏭️](https://github.com/elementary/tasks/pull/217) | ✅ |
 | Filter Scheduled Tasks | ✅ | ✅ |
 | Sync via CalDAV | ✅ | ✅ |
 | 📆 **Calendar** | [**elementary Calendar**](https://github.com/elementary/calendar/) | [**Etar Calendar**](https://github.com/Etar-Group/Etar-Calendar) |
@@ -55,5 +55,6 @@ tags:
 
 _Should be possible with KDE Connect:_
 
-* [ ] [Shared Clipboard](README.md#kde-connect-for-elementary)
-* [ ] [Transfer Files](README.md#kde-connect-for-elementary)
+* [ ] [Shared Clipboard](./#kde-connect-for-elementary)
+* [ ] [Transfer Files](./#kde-connect-for-elementary)
+
