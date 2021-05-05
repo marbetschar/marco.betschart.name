@@ -44,9 +44,15 @@ tags:
 | Recurring Events | ✅ | ✅ |
 | Multiple Calendars | ✅ | ✅ |
 | Sync via CalDAV | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
-| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | ...? |
-| Displaying Annotations | ✅ |  |
-| Editing Annotations | ✅ |  |
+| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | \*\*\*\*[**MuPDF viewer**](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)\*\*\*\* |
+| Displaying Note | ✅ | ❌ |
+| Editing Note | ✅ | ❌ |
+| Displaying Text Highlight | ✅ | ✅ |
+| Editing Text Highlight | ✅ | ❌ |
+| Displaying Text Highlight Note | ✅ | ❌ |
+| Editing Text Highlight Note | ✅ | ❌ |
+| Displaying Freeform Drawings | ✅ | ✅ |
+| Editing Freeform Drawings | ❌ | ❌ |
 
 ## Convenience Features & Workarounds
 
