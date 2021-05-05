@@ -44,6 +44,9 @@ tags:
 | Recurring Events | ✅ | ✅ |
 | Multiple Calendars | ✅ | ✅ |
 | Sync via CalDAV | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
+| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | ...? |
+| Displaying Annotations | ✅ |  |
+| Editing Annotations | ✅ |  |
 
 ## Convenience Features & Workarounds
 
