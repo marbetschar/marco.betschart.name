@@ -16,11 +16,10 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 #### [SBB Mobile App](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&hl=en_US&gl=US)
 
-![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social)
+![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) **Resolving current location does not work**
 
-Resolving current location does not work. Although this is not a deal breaker, it is certainly an inconvenience.
-Having the app automatically determine the current location in order to select the source or destination of traveling
-makes dealing with the app significantly faster.
+Although this is not a deal breaker, it is certainly an inconvenience. Having the app automatically determine the current location
+to select the source or destination of traveling makes dealing with the app significantly faster.
 
 **Action taken**
 
@@ -41,7 +40,7 @@ The customer support responded with the following message (original in German, t
 
 #### [Vertical-Life Climbing App](https://www.vertical-life.info/)
 
-![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) Discover does not show anything on the map
+![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) **Discover does not show anything on the map**
 
 **Action taken**
 
