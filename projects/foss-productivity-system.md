@@ -30,7 +30,7 @@ tags:
 | Grouped Archive | ❌ | [❓](https://github.com/k9mail/k-9/issues/5287) |
 | Grouped Archive: Delete | ❌ | ❌ |
 | Grouped Archive: Flag/Unflag | ❌ | ❌ |
-| Filter Flagged Mails | ❌ | ❌ |
+| Filter/Search/Sort Flagged Mails | ❌ | ✅ |
 | Sync via IMAP/SMTP | ✅ | ✅ |
 | 📋 **Tasks** | [**elementary Tasks v1.0**](https://github.com/elementary/tasks/) | [**Tasks.org**](https://tasks.org/) |
 | Add/Edit/Remove Lists | ✅ | ✅ |
