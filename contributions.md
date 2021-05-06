@@ -72,8 +72,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Grouped Folders: Inbox, Archive, Drafts & Sent**](https://github.com/elementary/mail/pull/564)
-* [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
+* [ ] [**Grouped Folders: Inbox**](https://github.com/elementary/mail/pull/564)
+* [x] [~~**Archive message support**~~](https://github.com/elementary/mail/pull/542) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Folder icon detection**~~](https://github.com/elementary/mail/pull/545) ![Completed: 2021-04-30](https://img.shields.io/badge/completed-2021--04--30-lightgrey?style=social)
 
 ## elementary Wingpanel
@@ -92,7 +92,11 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 [_github.com/marbetschar/time-limit_](https://github.com/marbetschar/time-limit) _- A simple and beautiful timer app for elementary OS._
 
-* [ ] [**Show Notifications despite the App was closed**](https://github.com/marbetschar/time-limit/issues/31)
+* [x] [**Notify, even if app is closed**](https://github.com/marbetschar/time-limit/pull/51)
+* [x] [~~**Flatpak support**~~](https://github.com/marbetschar/time-limit/pull/46) ![Completed: 2021-05-05](https://img.shields.io/badge/completed-2021--05--05-lightgrey?style=social)
+* [x] [~~**Ditched libunity**~~](https://github.com/marbetschar/time-limit/pull/49) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
+* [x] [~~**Use libhandy**~~](https://github.com/marbetschar/time-limit/pull/48) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
+* [x] [~~**Color time and pause**~~](https://github.com/marbetschar/time-limit/pull/47) ![Completed: 2021-05-03](https://img.shields.io/badge/completed-2021--05--03-lightgrey?style=social)
 * [x] [~~**Bugfix/hibernation support**~~](https://github.com/marbetschar/time-limit/pull/40) ![Completed: 2020-09-28](https://img.shields.io/badge/completed-2020--09--28-lightgrey?style=social)
 * [x] [~~**Time shift if app is not used**~~](https://github.com/marbetschar/time-limit/pull/39) ![Completed: 2020-09-28](https://img.shields.io/badge/completed-2020--09--28-lightgrey?style=social)
 * [x] [~~**Created new app screenshot**~~](https://github.com/marbetschar/time-limit/pull/35) ![Completed: 2020-06-30](https://img.shields.io/badge/completed-2020--06--30-lightgrey?style=social)
@@ -107,6 +111,10 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 * [ ] [**Example implementation in otp-cli tool**](https://github.com/OTPLibraries/COTP/pull/5)
 * [x] [~~**Added build script to build test\_c on Ubuntu LTS 20.04**~~](https://github.com/OTPLibraries/COTP/pull/4) ![Completed: 2021-03-24](https://img.shields.io/badge/completed-2021--03--24-lightgrey?style=social)
+
+### elementary Notifications
+
+* [ ] [**Show icons for daemons**](https://github.com/elementary/notifications/pull/118)
 
 ### html2pdf
 

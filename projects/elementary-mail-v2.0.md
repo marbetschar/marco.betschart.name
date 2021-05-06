@@ -18,8 +18,8 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-* [ ] [**Grouped Folders: Inbox, Archive, Drafts & Sent**](https://github.com/elementary/mail/pull/564)
-* [ ] [**Archive message support**](https://github.com/elementary/mail/pull/542)
+* [ ] [**Grouped Folders: Inbox**](https://github.com/elementary/mail/pull/564)
+* [x] [~~**Archive message support**~~](https://github.com/elementary/mail/pull/542) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Folder icon detection**~~](https://github.com/elementary/mail/pull/545) ![Completed: 2021-04-30](https://img.shields.io/badge/completed-2021--04--30-lightgrey?style=social)
 
 ## Built For
