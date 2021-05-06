@@ -38,17 +38,17 @@ sudo apt install io.elementary.contractor.file-roller
 
 ## ✉️ Mail 2.0
 
-### Ability to archive a message
+### ~~Ability to archive a message~~
 
-![Last Update: 2021-02-18](https://img.shields.io/badge/last%20update-2021--02--18-lightgrey?style=social) [![Status: in Progress](https://img.shields.io/badge/status-in_progress-green)](https://github.com/elementary/mail/pull/542) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) [![Status: Fixed](https://img.shields.io/badge/status-fixed-green)](https://github.com/elementary/os-patches/issues/136) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
-Currently it is not possible to archive a message.
+~~Currently it is not possible to archive a message.~~
 
-**Workaround:** Archive your message via other means \(Webmail, iOS, ...\)
+~~**Workaround:** Archive your message via other means \(Webmail, iOS, ...\)~~
 
 ### Grouped Folders
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/mail/issues/449) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) [![Status: In Progress](https://img.shields.io/badge/status-in_progress-green)](https://github.com/elementary/files/pull/1310) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 It would be convenient to add grouped folders - at least for well known folder names. That is: Inbox, Archive, Drafts, Sent. I would expect these folders to be shown at the very top, containing the messages from all configured email accounts. This way we can get one single Inbox folder, showing an overview for all received messages, one single Archive folder showing all archived messages, ... etc.
 
@@ -136,9 +136,9 @@ Error: could not find a distribution template for Elementary/odin
 
 When my laptop suspends the screen goes dark, but when I wake it up again I can get a quick glimpse at the unlocked Desktop before the login form is shown.
 
-### Picture-in-Picture: Dynamic placement of action buttons depending on screen location
+### Picture-in-Picture: hard to resize without moving away from bottom/right edges
 
-![Last Update: 2021-04-26](https://img.shields.io/badge/last%20update-2021--04--26-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/gala/issues/1116) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/gala/issues/1116) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Its hard to resize the Picture-in-Picture window, if it is placed in the lower right corner of the screen. That's due to the resize button beeing in the bottom right corner - therefore it is not possible to make the Picture-in-Picture window bigger without beeing moved away from the corner first.
 
