@@ -21,9 +21,9 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 Although this is not a deal breaker, it is certainly an inconvenience. Having the app automatically determine the current location
 to select the source or destination of traveling makes dealing with the app significantly faster.
 
-**Action taken**
+**Actions taken**
 
-Sent an email to the customer support.
+- Sent an email to the customer support.
 
 **Outcome**
 
@@ -40,11 +40,12 @@ The customer support responded with the following message (original in German, t
 
 #### [Vertical-Life Climbing App](https://www.vertical-life.info/)
 
-![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) **Discover does not show anything on the map**
+![Last Update: 2021-05-09](https://img.shields.io/badge/last%20update-2021--05--09-lightgrey?style=social) **Discover does not show anything on the map**
 
-**Action taken**
+**Actions taken**
 
-Sent an email to the Vertical-Life customer support.
+- Sent an email to the Vertical-Life customer support.
+- Opened an [issue at CalyxOS](https://gitlab.com/CalyxOS/calyxos/-/issues/427)
 
 **Outcome**
 
