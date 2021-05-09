@@ -47,8 +47,8 @@ tags:
 | Recurring Events | ✅ | ✅ |
 | Multiple Calendars | ✅ | ✅ |
 | Sync via CalDAV | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
-| Birthday Calendar | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
-| Holiday Calendar | ✅ | 💡 via [ICSx5](https://icsx5.bitfire.at/) |
+| Birthday Calendar \(from Contacts\) | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
+| Holiday Calendar \(WebCal\) | ✅ | 💡 via [ICSx5](https://icsx5.bitfire.at/) |
 | 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | \*\*\*\*[**MuPDF viewer**](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)\*\*\*\* |
 | Displaying Note | ✅ | ❌ |
 | Editing Note | ✅ | ❌ |
