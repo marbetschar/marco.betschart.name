@@ -27,7 +27,7 @@ tags:
 | Grouped Inbox: Archive | [✅](https://github.com/elementary/mail/pull/564) | [❓](https://github.com/k9mail/k-9/issues/1041) |
 | Grouped Inbox: Delete | [✅](https://github.com/elementary/mail/pull/564) | ✅ |
 | Grouped Inbox: Flag/Unflag | [✅](https://github.com/elementary/mail/pull/564) | ✅ |
-| Grouped Archive | ❌ | [❓](https://github.com/k9mail/k-9/issues/5287) |
+| Grouped Archive | ❌ | 💡 via [Saved Search](https://github.com/k9mail/k-9/issues/3398) |
 | Grouped Archive: Delete | ❌ | ❌ |
 | Grouped Archive: Flag/Unflag | ❌ | ❌ |
 | Filter/Search/Sort Flagged Mails | ❌ | ✅ |
