@@ -17,7 +17,7 @@ tags:
 
 ## Core Features
 
-| _last update: 2021-05-10_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
+| _last update: 2021-05-11_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
 | 📧️ **Mail** | [**elementary Mail v2.0**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
 | Archive | [✅](https://github.com/elementary/mail/pull/542) | ✅ |
@@ -49,15 +49,15 @@ tags:
 | Sync via CalDAV | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
 | Birthday Calendar \(from Contacts\) | ✅ | 💡 via [DAVx5](https://www.davx5.com/) |
 | Holiday Calendar \(WebCal\) | [❓](https://github.com/elementary/calendar/issues/665) | 💡 via [ICSx5](https://icsx5.bitfire.at/) |
-| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | \*\*\*\*[**MuPDF viewer**](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)\*\*\*\* |
-| Displaying Note | ✅ | ❌ |
-| Editing Note | ✅ | ❌ |
+| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | \*\*\*\*[**Xodo**](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader)\*\*\*\* |
+| Displaying Note | ✅ | ✅ |
+| Editing Note | ✅ | ✅ |
 | Displaying Text Highlight | ✅ | ✅ |
-| Editing Text Highlight | ✅ | ❌ |
-| Displaying Text Highlight Note | ✅ | ❌ |
-| Editing Text Highlight Note | ✅ | ❌ |
+| Editing Text Highlight | ✅ | ✅ |
+| Displaying Text Highlight Note | ✅ | ✅ |
+| Editing Text Highlight Note | ✅ | ✅ |
 | Displaying Freeform Drawings | ✅ | ✅ |
-| Editing Freeform Drawings | ❌ | ❌ |
+| Editing Freeform Drawings | ❌ | ✅ |
 
 ## Convenience Features & Workarounds
 
