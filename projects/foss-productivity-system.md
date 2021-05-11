@@ -49,7 +49,7 @@ tags:
 | Sync via CalDAV | ✅ | ✅ via [DAVx5](https://www.davx5.com/) |
 | Birthday Calendar \(from Contacts\) | ✅ | ✅ via [DAVx5](https://www.davx5.com/) |
 | Holiday Calendar \(WebCal\) | [❓](https://github.com/elementary/calendar/issues/665) | ✅ via [ICSx5](https://icsx5.bitfire.at/) |
-| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | \*\*\*\*[**Xodo**](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader)\*\*\*\* |
+| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | ⚠️ [**Xodo**](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader)\*\*\*\* |
 | Displaying Note | ✅ | ✅ |
 | Editing Note | ✅ | ✅ |
 | Displaying Text Highlight | ✅ | ✅ |
