@@ -67,8 +67,9 @@ To retrieve a backtrace at this state, simply execute the `backtrace` command:
 In this case you want to abort the program as soon as a warning or critical message is logged. To do so, the `G_DEBUG` environment variable comes in handy:
 
 ```bash
-# Causes GLib to abort the program at the first call to g_warning() or g_critical().
-# Use of this flag is not recommended except when debugging:
+# Causes GLib to abort the program at the first call to g_warning()
+# or g_critical(). Use of this flag is not recommended except when
+# debugging:
 export G_DEBUG=fatal-warnings
 
 # Causes GLib to abort the program at the first call to g_critical().
@@ -80,10 +81,10 @@ Once the environment variable is set, it causes the application to crash at the 
 
 ## Using core dumps
 
-You can let Linux automatically collect the required information for a backtrace whenever an application crashes unexpectedly. This information is stored in a so called core dump which contains the recorded state of the complete memory content from the application which crashed. Those core dumps are especially useful for errors which occur seemingly at random, because you don't need to explicitly start the application using GNU Debugger and you are still able to retrieve a backtrace after a crash.
+You can let Linux automatically collect the required information for a backtrace whenever an application crashes unexpectedly. This information is stored in a so called "core dump" file which contains the recorded state of the complete memory from the crashed application. Those core dumps are especially useful for errors which occur seemingly at random, because you don't need to explicitly start the application using GNU Debugger and you are still able to retrieve a backtrace after a crash.
 
 {% hint style="info" %}
-Please be aware that core dumps may contain sensitive information due to their very nature: They are really just a full dump of the memory for a given application at a given state. This may or may not include sensitive information such as passwords etc.
+Please be aware that core dumps **may contain sensitive information** due to their very nature: They are really just a copy of the app's memory at a given point in time. This may or may not include sensitive information such as passwords etc.
 {% endhint %}
 
 ### Installing systemd-coredump
