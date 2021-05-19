@@ -72,6 +72,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
+* [x] [~~**Lock access to threads to avoid race conditions**~~](https://github.com/elementary/tasks/pull/579) ![Completed: 2021-05-19](https://img.shields.io/badge/completed-2021--05--19-lightgrey?style=social)
 * [x] [~~**Grouped Folders Added: Archive**~~](https://github.com/elementary/tasks/pull/578) ![Completed: 2021-05-18](https://img.shields.io/badge/completed-2021--05--18-lightgrey?style=social)
 * [x] [~~**Grouped Folders: Made Type Configurable**~~](https://github.com/elementary/tasks/pull/572) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
 * [x] [~~**Show unread count of grouped Inbox**~~](https://github.com/elementary/tasks/pull/571) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
