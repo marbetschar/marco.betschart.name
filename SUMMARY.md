@@ -27,6 +27,7 @@
 * [Resources](resources/README.md)
   * [Dell XPS 7390 eGPU](resources/dell-xps-7390-egpu.md)
   * [Linux Desktop](resources/linux-desktop/README.md)
+    * [Debug Vala or C App](resources/linux-desktop/debug-vala-or-c-app.md)
     * [Encrypt USB Stick with Vera Crypt](resources/linux-desktop/encrypt-usb-stick-with-vera-crypt.md)
     * [Install Eclipse Java EE](resources/linux-desktop/install-eclipse-java-ee.md)
     * [Install Nextcloud Client](resources/linux-desktop/install-nextcloud-client.md)
