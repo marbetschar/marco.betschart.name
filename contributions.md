@@ -72,8 +72,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Grouped Folders: Made Type Configurable**](https://github.com/elementary/tasks/pull/572)
-* [ ] [**Show unread count of grouped Inbox**](https://github.com/elementary/tasks/pull/571)
+* [x] [~~**Grouped Folders Added: Archive**~~](https://github.com/elementary/tasks/pull/578) ![Completed: 2021-05-18](https://img.shields.io/badge/completed-2021--05--18-lightgrey?style=social)
+* [x] [~~**Grouped Folders: Made Type Configurable**~~](https://github.com/elementary/tasks/pull/572) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
+* [x] [~~**Show unread count of grouped Inbox**~~](https://github.com/elementary/tasks/pull/571) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
 * [x] [~~**Grouped Folders: Inbox**~~](https://github.com/elementary/mail/pull/564) ![Completed: 2021-05-07](https://img.shields.io/badge/completed-2021--05--07-lightgrey?style=social)
 * [x] [~~**Archive message support**~~](https://github.com/elementary/mail/pull/542) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Folder icon detection**~~](https://github.com/elementary/mail/pull/545) ![Completed: 2021-04-30](https://img.shields.io/badge/completed-2021--04--30-lightgrey?style=social)
@@ -113,6 +114,10 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 * [ ] [**Example implementation in otp-cli tool**](https://github.com/OTPLibraries/COTP/pull/5)
 * [x] [~~**Added build script to build test\_c on Ubuntu LTS 20.04**~~](https://github.com/OTPLibraries/COTP/pull/4) ![Completed: 2021-03-24](https://img.shields.io/badge/completed-2021--03--24-lightgrey?style=social)
+
+### elementary Contributor Docs
+
+* [x] [~~**Code Review Guidelines**~~](https://github.com/elementary/contributor-docs/pull/1) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
 
 ### elementary Notifications
 
