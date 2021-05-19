@@ -18,7 +18,7 @@
 * [My Areas](areas/README.md)
   * [CalyxOS](areas/calyx-os.md)
   * [elementary OS](areas/elementary-os/README.md)
-    * [Debug a Vala or C App](areas/elementary-os/linux-desktop/debug-vala-or-c-app.md)
+    * [Debug a Vala or C App](areas/elementary-os/debug-vala-or-c-app.md)
     * [Error: could not find distribution template for Elementary/odin](areas/elementary-os/fix-error-distribution-template-for-elementary-odin.md)
     * [Missing Features & Workarounds](areas/elementary-os/missing-features-and-workarounds.md)
   * [Knowledge Management](areas/knowledge-management/README.md)
