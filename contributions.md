@@ -80,6 +80,16 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [x] [~~**Archive message support**~~](https://github.com/elementary/mail/pull/542) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Folder icon detection**~~](https://github.com/elementary/mail/pull/545) ![Completed: 2021-04-30](https://img.shields.io/badge/completed-2021--04--30-lightgrey?style=social)
 
+## elementary Online Accounts
+
+[_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
+
+* [x] [~~**Auto Update Account List**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/169) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
+* [x] [~~**Separate tasklists and calendars**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/165) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
+* [x] [~~**Create basic AccountsModel**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/161) ![Completed: 2021-05-26](https://img.shields.io/badge/completed-2021--05--26-lightgrey?style=social)
+* [x] [~~**Start prototyping IMAP**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/157) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
+* [x] [~~**CalDAV: Save account information**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/159) ![Completed: 2021-05-26](https://img.shields.io/badge/completed-2021--05--26-lightgrey?style=social)
+
 ## elementary Wingpanel
 
 [_github.com/elementary/wingpanel_](https://github.com/elementary/wingpanel) _- Stylish top panel that holds indicators and spawns an application launcher_
