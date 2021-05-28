@@ -33,7 +33,7 @@ export G_MESSAGES_DEBUG=all
 sudo apt install gdb
 ```
 
-### Retrieve a backtrace (e.g. to debug a Segmentation fault)
+### Retrieve a backtrace \(e.g. to debug a Segmentation fault\)
 
 Run the program in question with GNU Debugger:
 
@@ -117,4 +117,5 @@ $ sudo coredumpctl debug /path/to/executable
 
 ## Further Reading
 
-- [Running and debugging GLib Applications](https://developer.gnome.org/glib/stable/glib-running.html)
+* [Running and debugging GLib Applications](https://developer.gnome.org/glib/stable/glib-running.html)
+

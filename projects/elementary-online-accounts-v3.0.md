@@ -1,5 +1,7 @@
 ---
-description: A plugin for System Settings which allows you to configure your Online Accounts.
+description: >-
+  A plugin for System Settings which allows you to configure your Online
+  Accounts.
 tags:
   - vala
   - evolution
@@ -10,7 +12,7 @@ tags:
 
 # elementary Online Accounts v3.0
 
-![elementary Online Accounts](../.gitbook/assets/io.elementary.mail.png)
+![elementary Online Accounts](../.gitbook/assets/io.elementary.switchboard.onlineaccounts.png)
 
 ## Contributions
 

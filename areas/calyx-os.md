@@ -18,23 +18,21 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 ![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) **Resolving current location does not work**
 
-Although this is not a deal breaker, it is certainly an inconvenience. Having the app automatically determine the current location
-to select the source or destination of traveling makes dealing with the app significantly faster.
+Although this is not a deal breaker, it is certainly an inconvenience. Having the app automatically determine the current location to select the source or destination of traveling makes dealing with the app significantly faster.
 
 **Actions taken**
 
-- Sent an email to the customer support.
+* Sent an email to the customer support.
 
 **Outcome**
 
-The customer support responded with the following message (original in German, translated to English):
+The customer support responded with the following message \(original in German, translated to English\):
 
 > Dear Mr Betschart
 >
 > Thank you very much for your inquiry.
 >
-> We support only SBB Mobile app versions downloaded using the official Google PlayStore (Android) or App Store (iOS).
-> For any other sources we don't provide any guarantees. Alternatives are not planned.
+> We support only SBB Mobile app versions downloaded using the official Google PlayStore \(Android\) or App Store \(iOS\). For any other sources we don't provide any guarantees. Alternatives are not planned.
 >
 > Best regards
 
@@ -44,8 +42,8 @@ The customer support responded with the following message (original in German, t
 
 **Actions taken**
 
-- Sent an email to the Vertical-Life customer support.
-- Opened an [issue at CalyxOS](https://gitlab.com/CalyxOS/calyxos/-/issues/427)
+* Sent an email to the Vertical-Life customer support.
+* Opened an [issue at CalyxOS](https://gitlab.com/CalyxOS/calyxos/-/issues/427)
 
 **Outcome**
 
@@ -53,7 +51,7 @@ The customer support responded with the following message:
 
 > Hello Marco,
 >
-> Thank you for your message and the detailed explanation of your issue. Please keep in mind that we only support phones with google services installed.
-> If you don’t have a change to register with Google, we would be happy to refund you the subscription. Please let me know.
+> Thank you for your message and the detailed explanation of your issue. Please keep in mind that we only support phones with google services installed. If you don’t have a change to register with Google, we would be happy to refund you the subscription. Please let me know.
 >
 > Kind regards
+
