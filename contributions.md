@@ -35,6 +35,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
+* [x] [~~**Fix Mail setup**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/184) ![Completed: 2021-06-04](https://img.shields.io/badge/completed-2021--06--04-lightgrey?style=social)
 * [x] [~~**Auto Update Account List**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/169) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
 * [x] [~~**Separate tasklists and calendars**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/165) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
 * [x] [~~**Create basic AccountsModel**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/161) ![Completed: 2021-05-26](https://img.shields.io/badge/completed-2021--05--26-lightgrey?style=social)

@@ -72,15 +72,15 @@ I don't seem to be able to save an inline image in Mail to the file system. That
 
 ## ☁️ Online Accounts
 
-### Manage Mail Accounts
+### ~~Manage Mail Accounts~~
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-06-06](https://img.shields.io/badge/last%20update-2021--06--06-lightgrey?style=social) [![Status: Fixed](https://img.shields.io/badge/status-fixed-green)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/184) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
-Managing mail accounts in system settings' Online Accounts.
+~~Managing mail accounts in system settings' Online Accounts.~~
 
-**Workaround**
+~~**Workaround**~~
 
-Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure the mail accounts there. You'll need the providers IMAP and SMTP settings:
+~~Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure the mail accounts there. You'll need the providers IMAP and SMTP settings:~~
 
 _**Office 365**_
 
@@ -102,11 +102,11 @@ _**Yandex**_
 
 ### Nextcloud Provider Support
 
-![Last Update: 2021-02-17](https://img.shields.io/badge/last%20update-2021--02--17-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-stalled-purple)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-06-06](https://img.shields.io/badge/last%20update-2021--06--06-lightgrey?style=social) [![Status: Stalled](https://img.shields.io/badge/status-stalled-purple)](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/121) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Managing Contact, Calendar and Task synchronisation for within Online Accounts.
 
-**Workaround:** Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure a "Collection Account" there.
+**Workaround:** To configure Calendar and Task synchronization, you can simply add a CalDAV account in `System Settings > Online Accounts` as of elementary OS 6 Beta.
 
 ## 📦 Package Manager \(apt\)
 
