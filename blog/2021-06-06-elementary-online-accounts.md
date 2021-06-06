@@ -1,6 +1,6 @@
 ---
 description: >-
-  Basic functionality for Online Accounts finally landed in elementary OS 6 Beta!
+  Our work on the Online Accounts essentials are now available in the latest elementary OS 6 Beta!
 date: '2021-06-06'
 ---
 
