@@ -80,7 +80,7 @@ I don't seem to be able to save an inline image in Mail to the file system. That
 
 ~~**Workaround**~~
 
-~~Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure the mail accounts there. You'll need the providers IMAP and SMTP settings:~~
+~~Install~~ [~~Evolution~~](https://wiki.gnome.org/Apps/Evolution/) ~~and configure the mail accounts there. You'll need the providers IMAP and SMTP settings:~~
 
 ~~_**Office 365**_~~
 
@@ -108,7 +108,7 @@ I don't seem to be able to save an inline image in Mail to the file system. That
 
 ~~**Workaround**~~
 
-~~Install [Evolution](https://wiki.gnome.org/Apps/Evolution/) and configure a "Collection Account" there.~~
+~~Install~~ [~~Evolution~~](https://wiki.gnome.org/Apps/Evolution/) ~~and configure a "Collection Account" there.~~
 
 ## 📦 Package Manager \(apt\)
 
