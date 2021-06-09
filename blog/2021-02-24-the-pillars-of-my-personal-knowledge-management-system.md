@@ -29,7 +29,7 @@ _My Zettelkasten is powered by_ [_Zettlr_](https://www.zettlr.com/)
 
 The centerpiece of my Personal Knowledge Management System is [The Zettelkasten Method](../areas/knowledge-management/zettelkasten.md). This method is a note-taking system, which grows organically and works similar to the way we think: Atomic pieces of information build an entangled web of knowledge. This approach ensures my notes stay useful over time and also enables me to discover new connections amongst them.
 
-> “each note is just an element that derives its quality from the network of links in the system. A note that is not connected to the network will be lost, will be forgotten by the Zettelkasten” [\[Niklas Luhman, p. 164\]](https://www.uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt_zettelkasten-als-uberraschungsgenerator.pdf)
+> “each note is just an element that derives its quality from the network of links in the system. A note that is not connected to the network will be lost, will be forgotten by the Zettelkasten” - [Niklas Luhman, p. 164](https://www.uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt_zettelkasten-als-uberraschungsgenerator.pdf)
 
 **Pro Tip:** Use [NoteExplorer](https://github.com/cdaven/noteexplorer) as Zettlr companion. NoteExplorer is a neat little CLI utility which is capable to discover notes with _no outgoing_ links \("sinks"\) or notes with _no incoming and no outgoing_ links \("isolated" notes\) in your Zettelkasten. This helps to identify areas which need more work in order to improve the overall quality of your Zettelkasten.
 
