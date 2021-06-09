@@ -39,6 +39,20 @@ Stuff I'd love would already exist and I might work on in the future.
 
 ### elementary OS
 
+#### ASCII-Art drawing tool for elementary AppCenter
+
+**Problem**
+
+It would be great to have an offline capable, ASCII-Art drawing tool available through elementary OS AppCenter. This would allow to create simple graphics in a standardized and long-lasting format - which is especially useful for a Zettelkasten.
+
+**Proposal**
+
+There is already a quite good web application called ASCIIFlow which is capable of creating simple ASCII Drawings. It is open source as well, so it would be great to simply re-package it in Flatpak and distribute it through AppCenter for offline usage.
+
+**Prior Art**
+
+* Cassidy already built a [template for embedding a Web-App](https://github.com/cassidyjames/plausible)
+
 #### KDE Connect for elementary
 
 **Problem**
