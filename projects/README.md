@@ -54,6 +54,22 @@ There is already a quite good web application called ASCIIFlow which is capable 
 * Cassidy already built a [template for embedding a Web-App](https://github.com/cassidyjames/plausible)
 * [Monodraw for macOS](https://monodraw.helftone.com/)
 
+### elementary Calendar Weekly View
+
+**Problem**
+
+The elementary OS Calendar App currently only features a monthly view for events. While this works Ok, it is not my preferred way for scheduling. I'd prefer a weekly view, since I tend to schedule weeks in advance and block time slots in my days for specific projects. Therefore it is crucial for me to see the available hours per day.
+
+**Proposal**
+
+The WeekView is not trivial to implement, since it needs to consider a lot of local factors such as LTR/RTL, timezones, start day of week \(Sunday vs. Monday\) etc. It also needs to support draggability in order to be actually useful.
+
+But still: It is worth the effort, because I miss this view each and every day.
+
+**Prior Art**
+
+* There have been [several requests and attempts](https://github.com/elementary/calendar/issues/500) to add this feature to Calendar.
+
 ### Jupyter Notebook as elementary OS Desktop App
 
 **Problem**
