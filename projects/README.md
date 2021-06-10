@@ -37,9 +37,9 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 Stuff I'd love would already exist and I might work on in the future.
 
-### elementary OS
+_**A-Z**_
 
-#### ASCII-Art drawing tool for elementary AppCenter
+### ASCII-Art drawing tool for elementary OS AppCenter
 
 **Problem**
 
@@ -52,8 +52,26 @@ There is already a quite good web application called ASCIIFlow which is capable 
 **Prior Art**
 
 * Cassidy already built a [template for embedding a Web-App](https://github.com/cassidyjames/plausible)
+* [Monodraw for macOS](https://monodraw.helftone.com/)
 
-#### KDE Connect for elementary
+### Jupyter Notebook as elementary OS Desktop App
+
+**Problem**
+
+Installing and using Jupyter Notebook on the Linux Desktop feels a bit clunky: All happens on the command line - although Jupyter itself is GUI oriented. I'd love to have better desktop integration - even just a start menu icon which automatically starts the server and a browser which points at the right URL would be a massive improvement.
+
+**Proposal**
+
+The best thing would be to have an pre-packaged Jupyter Notebook app in the elementary AppCenter, which installs everything needed. As GUI we probably can use a Gtk web wrapper, similar to the way Cassidy did it in [his Plausibe app for elementary OS](https://github.com/cassidyjames/plausible). We probably also want to [adjust the default Jupyter Notebook GUI](http://christopherroach.com/articles/jupyterlab-desktop-app/), so it provides a more integrated experience on the Desktop. Of course, starting/stopping the desktop GUI should automatically take care of starting/stopping the Jupyter Notebook server.
+
+**Prior Art**
+
+* [Official documentation](http://jupyterlab.io/install)
+* [Running Jupyter Lab as a Desktop Application](http://christopherroach.com/articles/jupyterlab-desktop-app/)
+* [Cassidy's Plausibe Web UI Gtk Wrapper](https://github.com/cassidyjames/plausible)
+* [Juno - Jupyter Notebook IDE for iOS](https://apps.apple.com/us/app/juno/id1462586500)
+
+### KDE Connect for elementary OS
 
 **Problem**
 
@@ -81,21 +99,4 @@ To achieve this, we can add native support for KDE Connect to elementary OS. Thi
 * [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
 * [KDE Connect](https://kdeconnect.kde.org/)
 * [KDE Connect Indicator](https://github.com/b4j4/indicator-kdeconnect)
-
-#### Jupyter Notebook as Desktop App
-
-**Problem**
-
-Installing and using Jupyter Notebook on the Linux Desktop feels a bit clunky: All happens on the command line - although Jupyter itself is GUI oriented. I'd love to have better desktop integration - even just a start menu icon which automatically starts the server and a browser which points at the right URL would be a massive improvement.
-
-**Proposal**
-
-The best thing would be to have an pre-packaged Jupyter Notebook app in the elementary AppCenter, which installs everything needed. As GUI we probably can use a Gtk web wrapper, similar to the way Cassidy did it in [his Plausibe app for elementary OS](https://github.com/cassidyjames/plausible). We probably also want to [adjust the default Jupyter Notebook GUI](http://christopherroach.com/articles/jupyterlab-desktop-app/), so it provides a more integrated experience on the Desktop. Of course, starting/stopping the desktop GUI should automatically take care of starting/stopping the Jupyter Notebook server.
-
-**Prior Art**
-
-* [Official documentation](http://jupyterlab.io/install)
-* [Running Jupyter Lab as a Desktop Application](http://christopherroach.com/articles/jupyterlab-desktop-app/)
-* [Cassidy's Plausibe Web UI Gtk Wrapper](https://github.com/cassidyjames/plausible)
-* [Juno - Jupyter Notebook IDE for iOS](https://apps.apple.com/us/app/juno/id1462586500)
 
