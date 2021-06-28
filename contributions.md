@@ -133,6 +133,8 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 ### elementary Granite
 
+\_\_[_github.com/elementary/granite_](https://github.com/elementary/granite) _- Library that extends GTK with common widgets and utilities_
+
 * [ ] \*\*\*\*[**HyperTextView**](https://github.com/elementary/granite/pull/507)\*\*\*\*
 
 ### html2pdf
