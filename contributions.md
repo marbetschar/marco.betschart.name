@@ -131,9 +131,9 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 * [x] [~~**Code Review Guidelines**~~](https://github.com/elementary/contributor-docs/pull/1) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
 
-### elementary Notifications
+### elementary Granite
 
-* [ ] [**Show icons for daemons**](https://github.com/elementary/notifications/pull/118)
+* [ ] \*\*\*\*[**HyperTextView**](https://github.com/elementary/granite/pull/507)\*\*\*\*
 
 ### html2pdf
 
