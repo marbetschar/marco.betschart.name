@@ -44,7 +44,7 @@ description: My personal checklist for setting up a fresh elementary OS installa
 
 * [ ] [Download the Paymo Desktop App from the Website](https://www.paymoapp.com/downloads-and-integrations/)
 * [ ] Open the downloaded AppImage in Files \(double click\)
-* [ ] Confirm `~/Applications` as integration target destination directory
+  * [ ] If prompted, confirm `~/Applications` as integration target destination directory
 * [ ] Click `Integrate and run`
 * [ ] Login to Paymo Account
 
@@ -93,6 +93,7 @@ Add the SSH Public Key to the following portals:
 * [ ] [GitLab.com](https://gitlab.com/-/profile/keys)
 * [ ] [GNOME GitLab](https://gitlab.gnome.org/-/profile/keys)
 * [ ] Gitea @Work
+* [ ] GitHub @Studies
 
 ## elementary Development
 
@@ -105,4 +106,21 @@ Add the SSH Public Key to the following portals:
 * [ ] Install with: `sudo apt install ~/Downloads/Zettlr-*.deb`
 * [ ] Clone Zettelkasten with Git from Remote using SSH to `~/Zettelkasten`
 * [ ] Add `~/Zettelkasten` to Bookmarks in `Files`
+
+## Cryptomator
+
+* [ ] [Download the Cryptomator App from the Website](https://cryptomator.org/downloads/)
+* [ ] Open the downloaded AppImage in Files \(double click\)
+  * [ ] If prompted, confirm `~/Applications` as integration target destination directory
+* [ ] Click `Integrate and run`
+* [ ] Add Vaults as needed
+
+## VPN
+
+* [ ] Work: Configure as documented in Zettelkasten
+* [ ] Studies
+  * [ ] `sudo apt install network-manager-openconnect`
+  * [ ] Click `+` in `System Settings > Network > VPN`
+  * [ ] Select `Cisco AnyConnect or openconnect (OpenConnect)`
+  * [ ] 
 
