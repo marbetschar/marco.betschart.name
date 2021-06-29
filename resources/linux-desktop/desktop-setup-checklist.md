@@ -85,10 +85,10 @@ Add the SSH Public Key to the following portals:
 * [ ] [GitHub.com](https://github.com/settings/keys)
 * [ ] [GitLab.com](https://gitlab.com/-/profile/keys)
 * [ ] [GNOME GitLab](https://gitlab.gnome.org/-/profile/keys)
-* [ ] midix.com ag Gitea
+* [ ] Gitea @Work
 
-## Development Environment
+## elementary Development
 
 * [ ] [Install VSCodium with Vala Autocompletion as documented](vscode-setup-vala-autocompletion.md)
-* [ ] * [ ] Install elementary
+* [ ] Install elementary Development Libraries: `sudo apt install elementary-sdk`
 
