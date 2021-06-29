@@ -117,10 +117,11 @@ Add the SSH Public Key to the following portals:
 
 ## VPN
 
-* [ ] Work: Configure as documented in Zettelkasten
+* [ ] Work
+  * [ ] Configure as documented in Zettelkasten
 * [ ] Studies
-  * [ ] `sudo apt install network-manager-openconnect`
+  * [ ] `sudo apt install network-manager-openconnect-gnome`
   * [ ] Click `+` in `System Settings > Network > VPN`
-  * [ ] Select `Cisco AnyConnect or openconnect (OpenConnect)`
-  * [ ] 
+  * [ ] Select `Cisco AnyConnect or openconnect (OpenConnect)` and click `Create…`
+  * [ ] Enter `ras.zhaw.ch` as Gateway
 
