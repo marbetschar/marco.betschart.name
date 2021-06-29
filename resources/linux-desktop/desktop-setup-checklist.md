@@ -68,5 +68,27 @@ Setup Online Accounts in `System Settings > Online Accounts`:
 
 [_support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353_](https://support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353)
 
+## Git
 
+Execute the following commands in the Terminal:
+
+```text
+sudo apt install git
+git config --global user.name "Your Name"
+git config --global user.email "your.name@domain.tld"
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+```
+
+Add the SSH Public Key to the following portals:
+
+* [ ] [GitHub.com](https://github.com/settings/keys)
+* [ ] [GitLab.com](https://gitlab.com/-/profile/keys)
+* [ ] [GNOME GitLab](https://gitlab.gnome.org/-/profile/keys)
+* [ ] midix.com ag Gitea
+
+## Development Environment
+
+* [ ] [Install VSCodium with Vala Autocompletion as documented](vscode-setup-vala-autocompletion.md)
+* [ ] * [ ] Install elementary
 
