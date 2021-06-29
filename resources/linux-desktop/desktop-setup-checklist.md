@@ -1,5 +1,5 @@
 ---
-description: A checklist for setting up a fresh elementary OS installation.
+description: My personal checklist for setting up a fresh elementary OS installation.
 ---
 
 # Setup Checklist
