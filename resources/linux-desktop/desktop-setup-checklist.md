@@ -34,5 +34,32 @@ description: My personal checklist for setting up a fresh elementary OS installa
 * [ ] Click `Integrate and run`
 * [ ] Login to Paymo Account
 
+## Online Accounts
+
+Setup Online Accounts in `System Settings > Online Accounts`:
+
+**Private**
+
+* [ ] Calendar and Tasks stored in Nextcloud \(needs application specific password\)
+* [ ] Mail
+
+|  | Server | Port | Encryption |
+| :--- | :---: | :---: | :---: |
+| **Incoming Mail \(IMAP\)** | imap.yandex.com | 993 | SSL |
+| **Outgoing Mail \(SMTP\)** | smtp.yandex.com | 465 | SSL |
+
+[_yandex.com/support/mail/mail-clients.html_](https://yandex.com/support/mail/mail-clients.html)
+
+**Work and Studies**
+
+* [ ] Mail
+
+|  | Server | Port | Encryption |
+| :--- | :---: | :---: | :---: |
+| **Incoming Mail \(IMAP\)** | outlook.office365.com | 993 | SSL/TLS |
+| **Outgoing Mail \(SMTP\)** | outlook.office365.com | 587 | STARTTLS |
+
+[_support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353_](https://support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353)
+
 
 
