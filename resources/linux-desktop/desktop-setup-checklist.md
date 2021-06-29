@@ -8,6 +8,12 @@ description: My personal checklist for setting up a fresh elementary OS installa
 
 * [ ] Start `Files` and click `Keep in Dock`
 * [ ] Set `⌘+E` in `System Settings > Keyboard > Shortcuts > Applications > Home Folder`
+* [ ] Set correct `Format and Temperature` in `System Settings > Language & Region` \(you may need to complete language support installation before\)
+* [ ] Adjust System Settings &gt; Date & Time:
+  * [ ] Disable `Based on location`
+  * [ ] Select correct Time zone
+  * [ ] Enable `Show week numbers`
+* [ ] Log out and back in again
 
 ## Firefox
 
