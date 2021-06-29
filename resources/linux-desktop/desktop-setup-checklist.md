@@ -7,4 +7,5 @@ description: My personal checklist for setting up a fresh elementary OS installa
 ## Install Software
 
 * [ ] Firefox from AppCenter
+* [ ] [Nextcloud Client](install-nextcloud-client.md)
 
