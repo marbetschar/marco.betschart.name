@@ -99,3 +99,10 @@ Add the SSH Public Key to the following portals:
 * [ ] [Install VSCodium with Vala Autocompletion as documented](vscode-setup-vala-autocompletion.md)
 * [ ] Install elementary Development Libraries: `sudo apt install elementary-sdk`
 
+## Zettelkasten
+
+* [ ] [Download the \*.deb package from the Zettlr website](https://www.zettlr.com/download)
+* [ ] Install with: `sudo apt install ~/Downloads/Zettlr-*.deb`
+* [ ] Clone Zettelkasten with Git from Remote using SSH to `~/Zettelkasten`
+* [ ] Add `~/Zettelkasten` to Bookmarks in `Files`
+
