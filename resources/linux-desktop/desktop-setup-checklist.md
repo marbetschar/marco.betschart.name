@@ -13,6 +13,7 @@ description: My personal checklist for setting up a fresh elementary OS installa
   * [ ] Disable `Based on location`
   * [ ] Select correct Time zone
   * [ ] Enable `Show week numbers`
+* [ ] Increase pointer speed one mark in `System Settings > Mouse & Touchpad > Touchpad`
 * [ ] Log out and back in again
 
 ## Firefox
