@@ -29,6 +29,13 @@ description: My personal checklist for setting up a fresh elementary OS installa
 * [ ] Start Nextcloud desktop sync client and login to Nextcloud account
 * [ ] Make sure Nextcloud is listed to autostart in `System Settings > Applications > Startup`
 
+## Signal Desktop
+
+* [ ] Click `Install` on [Signal's FlatHub.org page](https://flathub.org/apps/details/org.signal.Signal)
+* [ ] Choose `Open with Sideload`
+* [ ] Select `I understand` and click `Install Anyway`
+* [ ] Select `Move *.flatpakref to Trash` and click `Open App`
+
 ## AppImageLauncher
 
 * [ ] [Install as documented](https://github.com/TheAssassin/AppImageLauncher/wiki/Install-on-Ubuntu-or-Debian)
