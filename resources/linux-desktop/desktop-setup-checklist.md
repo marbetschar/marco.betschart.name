@@ -4,7 +4,7 @@ description: My personal checklist for setting up a fresh elementary OS installa
 
 # Setup Checklist
 
-## Desktop
+## System
 
 * [ ] Start `Files` and click `Keep in Dock`
 * [ ] Set `⌘+E` in `System Settings > Keyboard > Shortcuts > Applications > Home Folder`
