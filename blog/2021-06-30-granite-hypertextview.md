@@ -12,7 +12,7 @@ Coming from macOS, I was used to simply click on URI's in any displayed text and
 
 Earlier this month Cassidy published a Tweet, indicating he is missing the very same feature:
 
-[https://twitter.com/CassidyJames/status/1404848863395991558](https://twitter.com/CassidyJames/status/1404848863395991558)
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Hey GNOME/GTK/Vala peeps: is there an easy way to detect arbitrary links in text in order to hyperlink them? I have seen app developers doing this pretty manually in a few places and never know if I should recommend an easier way.</p>&mdash; Cassidy James Blaede (@CassidyJames) <a href="https://twitter.com/CassidyJames/status/1404848863395991558?ref_src=twsrc%5Etfw">June 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 Thats when it clicked on my end: Time to dedicate some hours for this! As of today, I built a working, reusable implementation: [`Granite.Widgets.HyperTextView`](https://github.com/elementary/granite/pull/507)- which is a drop in replacement for `Gtk.TextView`. This basically means, as a developer, you can replace any GTK TextView in your application with the new Granite Widget and get the aforementioned URI detection and clickability for free - no additional effort needed!
 
