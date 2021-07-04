@@ -35,23 +35,3 @@ The customer support responded with the following message \(original in German, 
 > We support only SBB Mobile app versions downloaded using the official Google PlayStore \(Android\) or App Store \(iOS\). For any other sources we don't provide any guarantees. Alternatives are not planned.
 >
 > Best regards
-
-#### [Vertical-Life Climbing App](https://www.vertical-life.info/)
-
-![Last Update: 2021-05-09](https://img.shields.io/badge/last%20update-2021--05--09-lightgrey?style=social) **Discover does not show anything on the map**
-
-**Actions taken**
-
-* Sent an email to the Vertical-Life customer support.
-* Opened an [issue at CalyxOS](https://gitlab.com/CalyxOS/calyxos/-/issues/427)
-
-**Outcome**
-
-The customer support responded with the following message:
-
-> Hello Marco,
->
-> Thank you for your message and the detailed explanation of your issue. Please keep in mind that we only support phones with google services installed. If you don’t have a change to register with Google, we would be happy to refund you the subscription. Please let me know.
->
-> Kind regards
-
