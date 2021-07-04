@@ -18,11 +18,11 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
+* [] [**Fix Warnings in Vala Code**](https://github.com/elementary/tasks/pull/600)
+* [] [**Save Draft: Bare minimum**](https://github.com/elementary/tasks/pull/599)
 * [x] [~~**Lock access to threads to avoid race conditions**~~](https://github.com/elementary/tasks/pull/579) ![Completed: 2021-05-19](https://img.shields.io/badge/completed-2021--05--19-lightgrey?style=social)
 * [x] [~~**Grouped Folders Added: Archive**~~](https://github.com/elementary/tasks/pull/578) ![Completed: 2021-05-18](https://img.shields.io/badge/completed-2021--05--18-lightgrey?style=social)
 * [x] [~~**Grouped Folders: Made Type Configurable**~~](https://github.com/elementary/tasks/pull/572) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
-* [x] [~~**Show unread count of grouped Inbox**~~](https://github.com/elementary/tasks/pull/571) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
-* [x] [~~**Grouped Folders: Inbox**~~](https://github.com/elementary/mail/pull/564) ![Completed: 2021-05-07](https://img.shields.io/badge/completed-2021--05--07-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-mail)
 

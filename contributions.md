@@ -23,6 +23,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
+* [] [**Fix Warnings in Vala Code**](https://github.com/elementary/tasks/pull/600)
+* [] [**Save Draft: Bare minimum**](https://github.com/elementary/tasks/pull/599)
 * [x] [~~**Lock access to threads to avoid race conditions**~~](https://github.com/elementary/tasks/pull/579) ![Completed: 2021-05-19](https://img.shields.io/badge/completed-2021--05--19-lightgrey?style=social)
 * [x] [~~**Grouped Folders Added: Archive**~~](https://github.com/elementary/tasks/pull/578) ![Completed: 2021-05-18](https://img.shields.io/badge/completed-2021--05--18-lightgrey?style=social)
 * [x] [~~**Grouped Folders: Made Type Configurable**~~](https://github.com/elementary/tasks/pull/572) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
@@ -133,9 +135,9 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 ### elementary Granite
 
-\_\_[_github.com/elementary/granite_](https://github.com/elementary/granite) _- Library that extends GTK with common widgets and utilities_
+[_github.com/elementary/granite_](https://github.com/elementary/granite) _- Library that extends GTK with common widgets and utilities_
 
-* [ ] \*\*\*\*[**HyperTextView**](https://github.com/elementary/granite/pull/507)\*\*\*\*
+* [ ] [**HyperTextView**](https://github.com/elementary/granite/pull/507)
 
 ### html2pdf
 
