@@ -36,6 +36,7 @@
     * [Install Eclipse Java EE](resources/linux-desktop/install-eclipse-java-ee.md)
     * [Install Nextcloud Client](resources/linux-desktop/install-nextcloud-client.md)
     * [Install Oracle SQL Developer](resources/linux-desktop/install-oracle-sql-developer.md)
+    * [Install Steam](resources/linux-desktop/install-steam.md)
     * [VSCode: Setup Vala Autocompletion](resources/linux-desktop/vscode-setup-vala-autocompletion.md)
 * [Archives](archives/README.md)
   * [Half Life: Alyx](archives/half-life-alyx.md)
