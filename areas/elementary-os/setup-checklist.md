@@ -115,6 +115,11 @@ Add the SSH Public Key to the following portals:
 * [ ] Click `Integrate and run`
 * [ ] Add Vaults as needed
 
+## Espanso
+
+* [ ] [Clone Linux User Home Configuration Files as documented](https://github.com/marbetschar/config/)
+* [ ] [Install espanso from DEB package as documented](https://espanso.org/install/linux/)
+
 ## VPN
 
 * [ ] Work
@@ -124,4 +129,3 @@ Add the SSH Public Key to the following portals:
   * [ ] Click `+` in `System Settings > Network > VPN`
   * [ ] Select `Cisco AnyConnect or openconnect (OpenConnect)` and click `Create…`
   * [ ] Enter `ras.zhaw.ch` as Gateway
-
