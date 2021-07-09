@@ -4,6 +4,10 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
+## [Granite HyperTextView](2021-06-30-granite-hypertextview.md)
+
+_June 2021_ - Adding hyperlink support to elementary OS text rendering… [**more »**](2021-06-30-granite-hypertextview.md)\*\*\*\*
+
 ## [elementary Online Accounts](2021-06-06-elementary-online-accounts.md)
 
 _May 2021_ - Our work on the Online Accounts essentials landed in the elementary OS 6 Beta… [**more »**](2021-06-06-elementary-online-accounts.md)
