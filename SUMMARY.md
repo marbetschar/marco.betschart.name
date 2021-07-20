@@ -37,6 +37,7 @@
     * [Install Nextcloud Client](resources/linux-desktop/install-nextcloud-client.md)
     * [Install Oracle SQL Developer](resources/linux-desktop/install-oracle-sql-developer.md)
     * [Install Steam](resources/linux-desktop/install-steam.md)
+    * [Setup HP Color Laser Jet Pro MFP M281 fdw](resources/linux-desktop/setup-hp-color-laser-jet-pro-mfp-m281-fdw.md)
     * [VSCode: Setup Vala Autocompletion](resources/linux-desktop/vscode-setup-vala-autocompletion.md)
 * [Archives](archives/README.md)
   * [Half Life: Alyx](archives/half-life-alyx.md)
