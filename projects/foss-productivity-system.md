@@ -17,7 +17,7 @@ tags:
 
 ## Core Features
 
-| _last update: 2021-05-19_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
+| _last update: 2021-07-20_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
 | 📧️ **Mail** | [**elementary Mail v2.0**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
 | Archive | [✅](https://github.com/elementary/mail/pull/542) | ✅ |
@@ -49,7 +49,7 @@ tags:
 | Sync via CalDAV | ✅ | ✅ via [DAVx5](https://www.davx5.com/) |
 | Birthday Calendar \(from Contacts\) | ✅ | ✅ via [DAVx5](https://www.davx5.com/) |
 | Holiday Calendar \(WebCal\) | [❓](https://github.com/elementary/calendar/issues/665) | ✅ via [ICSx5](https://icsx5.bitfire.at/) |
-| 📑️ **PDF Handling** | \*\*\*\*[**Evince**](https://wiki.gnome.org/Apps/Evince)\*\*\*\* | ⚠️ [**Xodo**](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader)\*\*\*\* |
+| 📑️ **PDF Handling** | ⚠️ [**PDF Studio**](https://www.qoppa.com/pdfstudio/)\*\*\*\* | ⚠️ [**Xodo**](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader)\*\*\*\* |
 | Displaying Note | ✅ | ✅ |
 | Editing Note | ✅ | ✅ |
 | Displaying Text Highlight | ✅ | ✅ |
@@ -57,7 +57,7 @@ tags:
 | Displaying Text Highlight Note | ✅ | ✅ |
 | Editing Text Highlight Note | ✅ | ✅ |
 | Displaying Freeform Drawings | ✅ | ✅ |
-| Editing Freeform Drawings | ❌ | ✅ |
+| Editing Freeform Drawings | ✅ | ✅ |
 
 ## Convenience Features & Workarounds
 
