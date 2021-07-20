@@ -133,3 +133,25 @@ Add the SSH Public Key to the following portals:
 ## Printing & Scanning
 
 * [ ] [Setup HP Color Laser Jet Pro MFP M281 fdw as documented](../../resources/linux-desktop/setup-hp-color-laser-jet-pro-mfp-m281-fdw.md)
+
+## PDF Studio Pro
+
+* [ ] [Go to the Qopppa Software download page](https://kbpdfstudio.qoppa.com/download-previous-versions/)
+* [ ] Select PDF Studio 2020
+* [ ] Enter the License Key stored at `Resources/Akten` to download PDF Studio 2020
+* [ ] Start the installer from Terminal: `sh ~/Downloads/PDFStudio_*.sh`
+* [ ] Activate the software using the License Key stored at `Resources/Akten`
+* [ ] Go to `File > Preferences > Display` and select:
+  * [ ] `Look & Feel: Metal`
+  * [ ] `Document Resolution: System Setting`
+* [ ] Go to `File > Preferences > Application` and **deactivate** `Run in background`
+* [ ] Restart the application
+* [ ] Go to `File > Preferences > General` and select:
+  * [ ] `Units: Centimeters`
+  * [ ] `Default Page Size: A4`
+* [ ] Go to `File > Preferences > OCR` and:
+  * [ ] Click `Download OCR Languages`
+  * [ ] Select `English` and `German - Deutsch`
+  * [ ] Click `Download`
+  * [ ] Set `Primary Language: German - Deutsch`
+  * [ ] Check `Enable Secondary Language: English`
