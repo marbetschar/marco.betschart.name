@@ -23,12 +23,15 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Fix Warnings in Vala Code**](https://github.com/elementary/tasks/pull/600)
-* [ ] [**Save Draft: Bare minimum**](https://github.com/elementary/tasks/pull/599)
-* [x] [~~**Lock access to threads to avoid race conditions**~~](https://github.com/elementary/tasks/pull/579) ![Completed: 2021-05-19](https://img.shields.io/badge/completed-2021--05--19-lightgrey?style=social)
-* [x] [~~**Grouped Folders Added: Archive**~~](https://github.com/elementary/tasks/pull/578) ![Completed: 2021-05-18](https://img.shields.io/badge/completed-2021--05--18-lightgrey?style=social)
-* [x] [~~**Grouped Folders: Made Type Configurable**~~](https://github.com/elementary/tasks/pull/572) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
-* [x] [~~**Show unread count of grouped Inbox**~~](https://github.com/elementary/tasks/pull/571) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
+* [ ] [**Handle subject in ComposerWidget**](https://github.com/elementary/mail/pull/603)
+* [ ] [**Fix Warnings in Vala Code**](https://github.com/elementary/mail/pull/600)
+* [x] [~~**Send sent to Sent**~~](https://github.com/elementary/mail/pull/607) ![Completed: 2021-07-16](https://img.shields.io/badge/completed-2021--07--16-lightgrey?style=social)
+* [x] [~~**Save Draft**~~](https://github.com/elementary/mail/pull/599) ![Completed: 2021-07-13](https://img.shields.io/badge/completed-2021--07--13-lightgrey?style=social)
+* [x] [~~**Set and show subject on Reply**~~](https://github.com/elementary/mail/pull/602) ![Completed: 2021-07-07](https://img.shields.io/badge/completed-2021--07--07-lightgrey?style=social)
+* [x] [~~**Lock access to threads to avoid race conditions**~~](https://github.com/elementary/mail/pull/579) ![Completed: 2021-05-19](https://img.shields.io/badge/completed-2021--05--19-lightgrey?style=social)
+* [x] [~~**Grouped Folders Added: Archive**~~](https://github.com/elementary/mail/pull/578) ![Completed: 2021-05-18](https://img.shields.io/badge/completed-2021--05--18-lightgrey?style=social)
+* [x] [~~**Grouped Folders: Made Type Configurable**~~](https://github.com/elementary/mail/pull/572) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
+* [x] [~~**Show unread count of grouped Inbox**~~](https://github.com/elementary/mail/pull/571) ![Completed: 2021-05-14](https://img.shields.io/badge/completed-2021--05--14-lightgrey?style=social)
 * [x] [~~**Grouped Folders: Inbox**~~](https://github.com/elementary/mail/pull/564) ![Completed: 2021-05-07](https://img.shields.io/badge/completed-2021--05--07-lightgrey?style=social)
 * [x] [~~**Archive message support**~~](https://github.com/elementary/mail/pull/542) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Folder icon detection**~~](https://github.com/elementary/mail/pull/545) ![Completed: 2021-04-30](https://img.shields.io/badge/completed-2021--04--30-lightgrey?style=social)
@@ -37,6 +40,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
+* [ ] [**Verify E-Mail Credentials**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189)
+* [x] [~~**Hide local_mbox account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/190) ![Completed: 2021-07-13](https://img.shields.io/badge/completed-2021--07--13-lightgrey?style=social)
 * [x] [~~**Fix Mail setup**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/184) ![Completed: 2021-06-04](https://img.shields.io/badge/completed-2021--06--04-lightgrey?style=social)
 * [x] [~~**Auto Update Account List**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/169) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
 * [x] [~~**Separate tasklists and calendars**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/165) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
