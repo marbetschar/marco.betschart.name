@@ -130,6 +130,7 @@ Add the SSH Public Key to the following portals:
   * [ ] Select `Cisco AnyConnect or openconnect (OpenConnect)` and click `Create…`
   * [ ] Enter `ras.zhaw.ch` as Gateway
 
+
 ## Printing & Scanning
 
 * [ ] [Setup HP Color Laser Jet Pro MFP M281 fdw as documented](../../resources/linux-desktop/setup-hp-color-laser-jet-pro-mfp-m281-fdw.md)
