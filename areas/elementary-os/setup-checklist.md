@@ -134,6 +134,12 @@ Add the SSH Public Key to the following portals:
 
 * [ ] [Setup HP Color Laser Jet Pro MFP M281 fdw as documented](../../resources/linux-desktop/setup-hp-color-laser-jet-pro-mfp-m281-fdw.md)
 
+## Gscan2pdf
+
+* [ ] `sudo apt install gscan2pdf tesseract-ocr-deu tesseract-ocr-eng`
+* [ ] Start Gscan2pdf and navigate to `Edit > Preferences > General Options`:
+  * [ ] Set Default PDF & DjVu filename to `%Dy%Dm%Dd %Dt %Da.%De`
+
 ## PDF Studio Pro
 
 * [ ] [Go to the Qopppa Software download page](https://kbpdfstudio.qoppa.com/download-previous-versions/)
