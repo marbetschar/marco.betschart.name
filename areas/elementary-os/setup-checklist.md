@@ -25,7 +25,7 @@ description: My personal checklist for setting up a fresh elementary OS installa
 
 ## Nextcloud Client
 
-* [ ] [Install as documented](install-nextcloud-client.md)
+* [ ] [Install as documented](../../resources/linux-desktop/install-nextcloud-client.md)
 * [ ] Start Nextcloud desktop sync client and login to Nextcloud account
 * [ ] Make sure Nextcloud is listed to autostart in `System Settings > Applications > Startup`
 
@@ -97,7 +97,7 @@ Add the SSH Public Key to the following portals:
 
 ## elementary Development
 
-* [ ] [Install VSCodium with Vala Autocompletion as documented](vscode-setup-vala-autocompletion.md)
+* [ ] [Install VSCodium with Vala Autocompletion as documented](../../resources/linux-desktop/vscode-setup-vala-autocompletion.md)
 * [ ] Install elementary Development Libraries: `sudo apt install elementary-sdk`
 
 ## Zettelkasten
