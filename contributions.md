@@ -23,8 +23,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Handle subject in ComposerWidget**](https://github.com/elementary/mail/pull/603)
-* [ ] [**Fix Warnings in Vala Code**](https://github.com/elementary/mail/pull/600)
+* [x] [~~**Make composer insensitive during send**~~](https://github.com/elementary/mail/pull/621) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
+* [x] [~~**Fix Warnings in Vala Code**~~](https://github.com/elementary/mail/pull/600) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
+* [x] [~~**Handle subject in ComposerWidget**~~](https://github.com/elementary/mail/pull/603) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Send sent to Sent**~~](https://github.com/elementary/mail/pull/607) ![Completed: 2021-07-16](https://img.shields.io/badge/completed-2021--07--16-lightgrey?style=social)
 * [x] [~~**Save Draft**~~](https://github.com/elementary/mail/pull/599) ![Completed: 2021-07-13](https://img.shields.io/badge/completed-2021--07--13-lightgrey?style=social)
 * [x] [~~**Set and show subject on Reply**~~](https://github.com/elementary/mail/pull/602) ![Completed: 2021-07-07](https://img.shields.io/badge/completed-2021--07--07-lightgrey?style=social)
