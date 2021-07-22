@@ -18,11 +18,11 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
+* [ ] [**Fixes #608: Random crash when changing folder**](https://github.com/elementary/mail/pull/624)
 * [x] [~~**Make composer insensitive during send**~~](https://github.com/elementary/mail/pull/621) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Fix Warnings in Vala Code**~~](https://github.com/elementary/mail/pull/600) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Handle subject in ComposerWidget**~~](https://github.com/elementary/mail/pull/603) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Send sent to Sent**~~](https://github.com/elementary/mail/pull/607) ![Completed: 2021-07-16](https://img.shields.io/badge/completed-2021--07--16-lightgrey?style=social)
-* [x] [~~**Save Draft**~~](https://github.com/elementary/mail/pull/599) ![Completed: 2021-07-13](https://img.shields.io/badge/completed-2021--07--13-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-mail)
 

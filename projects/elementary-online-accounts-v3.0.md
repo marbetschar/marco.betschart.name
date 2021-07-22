@@ -21,10 +21,10 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 {% endhint %}
 
 * [ ] [**Verify E-Mail Credentials**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189)
+* [x] [~~**Add support for well known google folders**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/194) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
+* [x] [~~**Configuring well known folder URIs**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
+* [x] [~~**Popdown Popover when a button is clicked**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/193) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
 * [x] [~~**Hide local_mbox account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/190) ![Completed: 2021-07-13](https://img.shields.io/badge/completed-2021--07--13-lightgrey?style=social)
-* [x] [~~**Fix Mail setup**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/184) ![Completed: 2021-06-04](https://img.shields.io/badge/completed-2021--06--04-lightgrey?style=social)
-* [x] [~~**Auto Update Account List**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/169) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
-* [x] [~~**Separate tasklists and calendars**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/165) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-online-accounts)
 

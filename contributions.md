@@ -23,6 +23,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
+* [ ] [**Fixes #608: Random crash when changing folder**](https://github.com/elementary/mail/pull/624)
 * [x] [~~**Make composer insensitive during send**~~](https://github.com/elementary/mail/pull/621) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Fix Warnings in Vala Code**~~](https://github.com/elementary/mail/pull/600) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Handle subject in ComposerWidget**~~](https://github.com/elementary/mail/pull/603) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
@@ -42,6 +43,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
 * [ ] [**Verify E-Mail Credentials**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189)
+* [x] [~~**Add support for well known google folders**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/194) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
+* [x] [~~**Configuring well known folder URIs**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
+* [x] [~~**Popdown Popover when a button is clicked**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/193) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
 * [x] [~~**Hide local_mbox account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/190) ![Completed: 2021-07-13](https://img.shields.io/badge/completed-2021--07--13-lightgrey?style=social)
 * [x] [~~**Fix Mail setup**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/184) ![Completed: 2021-06-04](https://img.shields.io/badge/completed-2021--06--04-lightgrey?style=social)
 * [x] [~~**Auto Update Account List**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/169) ![Completed: 2021-05-27](https://img.shields.io/badge/completed-2021--05--27-lightgrey?style=social)
