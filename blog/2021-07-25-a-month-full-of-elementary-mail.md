@@ -16,11 +16,11 @@ What a month! Passed my exams, went on holiday and still got plenty of time to g
 
 ### Support for Well Known Folders
 
-Quite a few elementary Mail features rely well known folders such as `Inbox`, `Drafts`, `Archive` and `Sent`. That said, it is crucial to correctly detect those folders upon setup - otherwise parts of the user interface will not work as expected. As it turned out, detecting those folders is quite a challenge since different mail providers adhere to different naming schemes. However, in the latest version of Mail [most of the folders should be recognized correctly most of the time](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192).
+Quite a few elementary Mail features rely well known folders such as `Inbox`, `Drafts`, `Archive` and `Sent`. That said, it is crucial to correctly detect those folders upon setup - otherwise parts of the user interface will not work as expected. It turned out, detecting those folders is quite a challenge since different mail providers adhere to different naming schemes. However, in the latest version of Mail [most of the folders should be recognized correctly most of the time](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192).
 
 ### Store copy of sent mail in Sent folder
 
-Even though sending emails already worked in elementary Mail, it did not always store a copy of the sent mail in the `Sent` folder. I fixed this in the latest version of elementary Mail and you can expect all sent mails to be stored correctly in the Sent folder - regardles off your mail provider. Please note: This was a non-issue for Office 365 and Gmail users.
+Even though sending emails already worked in elementary Mail, it did not always store a copy of the sent mail in the `Sent` folder. I fixed this in the latest version of elementary Mail and you can now expect all sent mails to be stored correctly in the Sent folder - regardles off your mail provider. Please note: This was a non-issue for Office 365 and Gmail users.
 
 ### Handle reply subject
 
@@ -32,8 +32,8 @@ Up until now, the new elementary Mail was not capable of saving a draft. Inevita
 
 ### Edit draft
 
-Saving drafts is fine to avoid data loss. However, they are even more useful if they can be edited again. This feature is exactly what [my Pull Request #626](https://github.com/elementary/mail/pull/626) is going to add. Its not quite done yet, but its nearly there!
+Saving drafts is fine to avoid data loss. However, drafts are even more useful if they can be edited again. This feature is exactly what [my pull request #626](https://github.com/elementary/mail/pull/626) is going to add. Its not quite there yet, but its nearly done!
 
 ### Online Accounts: Verify credentials
 
-There is one more thing: The mail account setup in `System Settings > Online Accounts` does now [verify your IMAP/SMTP credentials before they got saved](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189). Once the setup is sucessful, you can be sure the mail account actually works in elementary Mail. This fixes a bunch of issues where users did not see any mails - even though the Online Accounts setup (wrongly) indicated it was sucessful.
+And there is one more thing: The mail account setup in `System Settings > Online Accounts` now does [verify your IMAP/SMTP credentials _before_ they got stored](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189). So now you can be sure the mail account works correctly in elementary Mail, once the setup in Online Accounts is sucessful. This fixes a bunch of issues where users did not see any mails at all - even though Online Accounts (wrongly) claimed everything is fine.
