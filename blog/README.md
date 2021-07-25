@@ -6,7 +6,11 @@ description: Here you can see what I've been up to lately.
 
 ## [Granite HyperTextView](2021-06-30-granite-hypertextview.md)
 
-_June 2021_ - Adding hyperlink support to elementary OS text rendering… [**more »**](2021-06-30-granite-hypertextview.md)\*\*\*\*
+_July 2021_ - A month full of elementary Mail… [**more »**](2021-07-25-a-month-full-of-elementary-mail.md)
+
+## [Granite HyperTextView](2021-06-30-granite-hypertextview.md)
+
+_June 2021_ - Adding hyperlink support to elementary OS text rendering… [**more »**](2021-06-30-granite-hypertextview.md)
 
 ## [elementary Online Accounts](2021-06-06-elementary-online-accounts.md)
 
