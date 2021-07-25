@@ -46,13 +46,13 @@ sudo apt install io.elementary.contractor.file-roller
 
 ~~**Workaround:** Archive your message via other means \(Webmail, iOS, ...\)~~
 
-### Grouped Folders
+### ~~Grouped Folders~~
 
-![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) [![Status: In Progress](https://img.shields.io/badge/status-in_progress-green)](https://github.com/elementary/files/pull/1310) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-07-25](https://img.shields.io/badge/last%20update-2021--07--25-lightgrey?style=social) [![Status: Fixed](https://img.shields.io/badge/status-fixed-green)](https://github.com/elementary/files/pull/1310) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
-It would be convenient to add grouped folders - at least for well known folder names. That is: Inbox, Archive, Drafts, Sent. I would expect these folders to be shown at the very top, containing the messages from all configured email accounts. This way we can get one single Inbox folder, showing an overview for all received messages, one single Archive folder showing all archived messages, ... etc.
+~~It would be convenient to add grouped folders - at least for well known folder names. That is: Inbox, Archive, Drafts, Sent. I would expect these folders to be shown at the very top, containing the messages from all configured email accounts. This way we can get one single Inbox folder, showing an overview for all received messages, one single Archive folder showing all archived messages, ... etc.~~
 
-**Workaround:** None.
+~~**Workaround:** None.~~
 
 ### Filter & Search for flagged emails
 
