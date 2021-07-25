@@ -4,6 +4,7 @@
 * [Curriculum Vitae](cv.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
+  * [A month full of elementary Mail](blog/2021-07-25-a-month-full-of-elementary-mail.md)
   * [Granite HyperTextView](blog/2021-06-30-granite-hypertextview.md)
   * [elementary Online Accounts](blog/2021-06-06-elementary-online-accounts.md)
   * [Dipping elementary OS' toes into Virtual Reality](blog/2021-04-27-dipping-elementary-os-toes-into-virtual-reality.md)
