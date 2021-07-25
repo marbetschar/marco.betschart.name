@@ -1,5 +1,5 @@
 ---
-description: My contributions to elementary Mail during the month.
+description: My contributions to elementary Mail during this month.
 ---
 
 # A month full of elementary Mail
