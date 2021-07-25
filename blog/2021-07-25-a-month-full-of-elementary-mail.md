@@ -1,5 +1,5 @@
 ---
-description: A month full of elementary Mail
+description: My contributions to elementary Mail during the month.
 ---
 
 # A month full of elementary Mail
@@ -12,9 +12,9 @@ _July 2021_
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-What a month! Passed my exams, went on holiday and still got plenty of time left to provide some love to the all new elementary Mail. In case you are not aware yet: elementary Mail was rewritten from scratch to integrate with the local Evolution Data Server backend. This is the very same backend elementary Calendar as well as elementary Tasks are using for synchronization. So, what exactly can you expect from my work this month?
+What a month! Passed my exams, went on holiday and still got plenty of time to give elementary Mail some love. In case you are not aware yet: elementary Mail was rewritten from scratch to integrate with the local Evolution Data Server backend. This is the very same backend elementary Calendar as well as elementary Tasks are using for synchronization. So, what exactly can you expect from my work this month?
 
-### Support for well known folders
+### Support for Well Known Folders
 
 Quite a few elementary Mail features rely on a handful well known folders such as `Inbox`, `Drafts`, `Archive` and `Sent`. That said, it is crucial to correctly detect those folders upon setup - otherwise parts of the user interface will not work as expected. As it turned out, detecting those folders is quite a challenge since different mail provider adhere to different naming schemes. However, in the latest version of Mail [most of the folders should be recognized correctly most of the time](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192).
 

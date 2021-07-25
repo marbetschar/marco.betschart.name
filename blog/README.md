@@ -4,9 +4,9 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
-## [Granite HyperTextView](2021-06-30-granite-hypertextview.md)
+## [](2021-07-25-a-month-full-of-elementary-mail.md)
 
-_July 2021_ - A month full of elementary Mail… [**more »**](2021-07-25-a-month-full-of-elementary-mail.md)
+_July 2021_ - What a month! Passed my exams, went on holiday and still got plenty of time to give elementary Mail some love… [**more »**](2021-07-25-a-month-full-of-elementary-mail.md)
 
 ## [Granite HyperTextView](2021-06-30-granite-hypertextview.md)
 
