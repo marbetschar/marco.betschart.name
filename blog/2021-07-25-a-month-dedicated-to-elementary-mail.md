@@ -8,10 +8,6 @@ _July 2021_
 
 ![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 In case you are not aware yet: elementary Mail was rewritten from scratch to integrate with the local Evolution Data Server backend. This is the very same backend powering elementary Calendar and elementary Tasks. So, what exactly can you expect from my work this month?
 
 ### Support for Well Known Folders
@@ -21,6 +17,10 @@ Quite a few elementary Mail features rely well known folders such as `Inbox`, `D
 ### Store copy of sent mail in Sent folder
 
 Even though sending emails already worked in elementary Mail, it did not always store a copy of the sent mail in the `Sent` folder. I fixed this in the latest version of elementary Mail and you can now expect all sent mails to be stored correctly in the Sent folder - regardles off your mail provider. Please note: This was a non-issue for Office 365 and Gmail users.
+
+{% hint style="info" %}
+If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
 
 ### Handle reply subject
 
