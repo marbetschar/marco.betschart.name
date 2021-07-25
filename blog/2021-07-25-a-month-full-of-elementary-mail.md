@@ -6,7 +6,7 @@ description: A month full of elementary Mail
 
 _July 2021_
 
-![The new hyperlink detection in action](../.gitbook/assets/granite-hypertextview.gif)
+![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
 
 {% hint style="info" %}
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
