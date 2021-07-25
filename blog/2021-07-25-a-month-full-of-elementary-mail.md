@@ -36,4 +36,4 @@ Saving drafts is fine to avoid data loss. However, drafts are even more useful i
 
 ### Online Accounts: Verify credentials
 
-And there is one more thing: The mail account setup in `System Settings > Online Accounts` now does [verify your IMAP/SMTP credentials _before_ they got stored](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189). So now you can be sure the mail account works correctly in elementary Mail, once the setup in Online Accounts is sucessful. This fixes a bunch of issues where users did not see any mails at all - even though Online Accounts (wrongly) claimed everything is fine.
+And there is one more thing: The mail account setup in `System Settings > Online Accounts` now does [verify your IMAP/SMTP credentials _before_ they got stored](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189). So now you can be sure your mail account works correctly in elementary Mail, once the setup in Online Accounts is completed. This fixes a bunch of issues where users did not see any mails at all - even though Online Accounts (wrongly) claimed everything is fine.
