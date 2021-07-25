@@ -1,5 +1,5 @@
 ---
-description: My contributions to elementary Mail during this month.
+description: What a month! Passed my exams, went on holiday and still got plenty of time to give elementary Mail some love. 
 ---
 
 # A month dedicated to elementary Mail
@@ -12,7 +12,7 @@ _July 2021_
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-What a month! Passed my exams, went on holiday and still got plenty of time to give elementary Mail some love. In case you are not aware yet: elementary Mail was rewritten from scratch to integrate with the local Evolution Data Server backend. This is the very same backend powering elementary Calendar and elementary Tasks. So, what exactly can you expect from my work this month?
+In case you are not aware yet: elementary Mail was rewritten from scratch to integrate with the local Evolution Data Server backend. This is the very same backend powering elementary Calendar and elementary Tasks. So, what exactly can you expect from my work this month?
 
 ### Support for Well Known Folders
 
