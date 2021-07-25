@@ -130,6 +130,22 @@ Error: could not find a distribution template for Elementary/odin
 
 **Workaround:** [Follow the documented solution here](fix-error-distribution-template-for-elementary-odin.md).
 
+## 🎞️ Videos
+
+### Does not play anything
+
+![Last Update: 2021-07-25](https://img.shields.io/badge/last%20update-2021--07--35-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/videos/issues/226#issuecomment-865081897) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+After a fresh install of elementary OS 6 Daily, the Videos app does not play any videos because no proprietary codecs are installed.
+
+**Workaround:**
+
+Execute the following in your Terminal to fix the issue:
+
+```bash
+sudo apt install ubuntu-restricted-extras
+```
+
 ## 🧙‍♂️️ Window Manager \(Gala\)
 
 ### Glimpse at unlocked Desktop after resume
