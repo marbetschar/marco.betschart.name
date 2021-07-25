@@ -18,6 +18,8 @@ Quite a few elementary Mail features rely well known folders such as `Inbox`, `D
 
 Even though sending emails already worked in elementary Mail, it did not always store a copy of the sent mail in the `Sent` folder. I fixed this in the latest version of elementary Mail and you can now expect all sent mails to be stored correctly in the Sent folder - regardles off your mail provider. Please note: This was a non-issue for Office 365 and Gmail users.
 
+---
+
 {% hint style="info" %}
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
