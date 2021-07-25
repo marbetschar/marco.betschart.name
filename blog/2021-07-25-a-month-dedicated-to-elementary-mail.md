@@ -2,7 +2,7 @@
 description: My contributions to elementary Mail during this month.
 ---
 
-# A month full of elementary Mail
+# A month dedicated to elementary Mail
 
 _July 2021_
 
