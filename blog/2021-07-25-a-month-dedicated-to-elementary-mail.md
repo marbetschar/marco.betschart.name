@@ -14,11 +14,11 @@ In case you are not aware yet: elementary Mail was rewritten from scratch to int
 
 ## Support for Well Known Folders
 
-Quite a few elementary Mail features rely well known folders such as `Inbox`, `Drafts`, `Archive` and `Sent`. That said, it is crucial to correctly detect those folders upon setup - otherwise parts of the user interface will not work as expected. It turned out, detecting those folders is quite a challenge since different mail providers adhere to different naming schemes. However, in the latest version of Mail [most of the folders should be recognized correctly most of the time](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192).
+Quite a few elementary Mail features rely on well known folders such as `Inbox`, `Drafts`, `Archive` and `Sent`. That said, it is crucial to correctly detect those folders upon setup - otherwise parts of the user interface will not work as expected. It turned out, detecting those folders is quite a challenge since different mail providers adhere to different naming schemes. However, in the latest version of Mail [most of the folders should be recognized correctly most of the time](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192).
 
 ## Store copy of sent mail in Sent folder
 
-Even though sending emails already worked in elementary Mail, it did not always store a copy of the sent mail in the `Sent` folder. I fixed this in the latest version of elementary Mail and you can now expect all sent mails to be stored correctly in the Sent folder - regardles off your mail provider. Please note: This was a non-issue for Office 365 and Gmail users.
+Even though sending emails already worked in elementary Mail, it did not always store a copy of the sent mail in the `Sent` folder. [I fixed this](https://github.com/elementary/mail/pull/607) in the latest version of elementary Mail and you can now expect all sent mails to be stored correctly in the Sent folder - regardles off your mail provider. Please note: This was a non-issue for Office 365 and Gmail users.
 
 |  |  |
 | :--- | :--- |
@@ -42,5 +42,5 @@ Saving drafts is fine to avoid data loss. However, drafts are even more useful i
 
 ## Online Accounts: Verify credentials
 
-And there is one more thing: The mail account setup in `System Settings > Online Accounts` now does [verify your IMAP/SMTP credentials _before_ they got stored](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189). So now you can be sure your mail account works correctly in elementary Mail, once the setup in Online Accounts is completed. This fixes a bunch of issues where users did not see any mails at all - even though Online Accounts \(wrongly\) claimed everything is fine.
+And there is one more thing: The mail account setup in `System Settings > Online Accounts` now does [verify your IMAP/SMTP credentials _before_ they got stored](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189). So now you can be sure your mail account works correctly in elementary Mail, once the setup in Online Accounts is completed. This fixes a bunch of issues where users did not see any mails at all - even though Online Accounts \(falsely\) claimed everything is fine.
 
