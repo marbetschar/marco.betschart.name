@@ -23,6 +23,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
+* [ ] [**Edit draft**](https://github.com/elementary/mail/pull/626)
+* [ ] [**Don't store two copies in Sent for Office 365 and Google**](https://github.com/elementary/mail/pull/625)
 * [ ] [**Fixes #608: Random crash when changing folder**](https://github.com/elementary/mail/pull/624)
 * [x] [~~**Make composer insensitive during send**~~](https://github.com/elementary/mail/pull/621) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Fix Warnings in Vala Code**~~](https://github.com/elementary/mail/pull/600) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
@@ -42,7 +44,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
-* [ ] [**Verify E-Mail Credentials**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189)
+* [x] [~~**Verify E-Mail Credentials**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189) ![Completed: 2021-07-24](https://img.shields.io/badge/completed-2021--07--24-lightgrey?style=social)
 * [x] [~~**Add support for well known google folders**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/194) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
 * [x] [~~**Configuring well known folder URIs**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
 * [x] [~~**Popdown Popover when a button is clicked**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/193) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
