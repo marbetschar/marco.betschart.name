@@ -34,7 +34,7 @@ elementary Mail now [correctly displays the subject field](https://github.com/el
 
 ## Save draft
 
-Up until now, the new elementary Mail was not capable of saving a draft. Inevitably mails got lost because they were not sent. Now elementary Mail [automatically saves](https://github.com/elementary/mail/pull/599) the draft whenever you leave the compositor.
+Up until now, the new elementary Mail was not capable of saving a draft. Inevitably mails got lost because they were not sent. Now elementary Mail [automatically saves](https://github.com/elementary/mail/pull/599) the draft whenever you leave the composer.
 
 ## Edit draft
 
