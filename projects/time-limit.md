@@ -9,7 +9,7 @@ tags:
 
 # Time Limit
 
-![Time Limit supports Dark Mode on elementary OS 6 Odin](../.gitbook/assets/com.github.marbetschar.time-limit.jpg)
+![Time Limit supports dark mode on elementary OS 6](../.gitbook/assets/com.github.marbetschar.time-limit.png)
 
 ## Contributions
 

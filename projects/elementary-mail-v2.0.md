@@ -18,10 +18,9 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-
 * [ ] [**Edit draft**](https://github.com/elementary/mail/pull/626)
 * [ ] [**Don't store two copies in Sent for Office 365 and Google**](https://github.com/elementary/mail/pull/625)
-* [ ] [**Fixes #608: Random crash when changing folder**](https://github.com/elementary/mail/pull/624)
+* [ ] [**Fixes \#608: Random crash when changing folder**](https://github.com/elementary/mail/pull/624)
 * [x] [~~**Make composer insensitive during send**~~](https://github.com/elementary/mail/pull/621) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Fix Warnings in Vala Code**~~](https://github.com/elementary/mail/pull/600) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 

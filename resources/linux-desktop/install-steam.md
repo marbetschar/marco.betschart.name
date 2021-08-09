@@ -29,6 +29,7 @@ Then install Steam:
 sudo apt install steam
 ```
 
-### Source
+## Source
 
-- [lubuntu installing steam "steam has no installation candidate"](https://askubuntu.com/questions/958957/lubuntu-installing-steam-steam-has-no-installation-candidate#958965)
+* [lubuntu installing steam "steam has no installation candidate"](https://askubuntu.com/questions/958957/lubuntu-installing-steam-steam-has-no-installation-candidate#958965)
+

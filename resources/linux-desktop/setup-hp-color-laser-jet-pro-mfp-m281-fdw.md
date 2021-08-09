@@ -46,10 +46,11 @@ Enter option (d=download*, p=specify path, q=quit) ? d
 ...
 
 Do you accept the license terms for the plug-in (y=yes*, n=no, q=quit) ? y
- 
+
 Done.
 ```
 
 ## Further Reading
 
-- [bugs.launchpad.net/hplip/+bug/1822762](https://bugs.launchpad.net/hplip/+bug/1822762#yui_3_10_3_1_1626764399201_586)
+* [bugs.launchpad.net/hplip/+bug/1822762](https://bugs.launchpad.net/hplip/+bug/1822762#yui_3_10_3_1_1626764399201_586)
+

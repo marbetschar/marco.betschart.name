@@ -35,3 +35,4 @@ The customer support responded with the following message \(original in German, 
 > We support only SBB Mobile app versions downloaded using the official Google PlayStore \(Android\) or App Store \(iOS\). For any other sources we don't provide any guarantees. Alternatives are not planned.
 >
 > Best regards
+
