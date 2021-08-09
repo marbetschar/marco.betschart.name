@@ -9,7 +9,7 @@ tags:
 
 # Time Limit
 
-![Time Limit supports dark mode on elementary OS 6](../.gitbook/assets/com.github.marbetschar.time-limit.png)
+![Time Limit supports dark mode and accent colors on elementary OS 6](../.gitbook/assets/com.github.marbetschar.time-limit.png)
 
 ## Contributions
 
