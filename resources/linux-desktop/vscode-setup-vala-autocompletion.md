@@ -52,7 +52,6 @@ To begin with, you need to install the [Vala Plugin for Visual Studio Code](http
 Now you can install the [Vala Language Server](https://github.com/benwaffle/vala-language-server). For this, open a Terminal and execute the following commands:
 
 ```bash
-sudo add-apt-repository ppa:prince781/vala-language-server
 sudo apt install vala-language-server
 ```
 
