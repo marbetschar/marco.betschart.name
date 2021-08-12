@@ -49,7 +49,7 @@ To begin with, you need to install the [Vala Plugin for Visual Studio Code](http
 4. Click `... > Install from VSIX...` on top of the Extensions sidebar
 5. Select the previously downloaded \*.vsix file and click `Install`
 
-Now you can install the [Vala Language Server](https://github.com/benwaffle/vala-language-server). For this, open a Terminal and execute the following commands:
+Now you can install the [Vala Language Server](https://github.com/benwaffle/vala-language-server). For this, open a Terminal and execute the following command:
 
 ```bash
 sudo apt install vala-language-server
