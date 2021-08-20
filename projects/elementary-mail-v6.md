@@ -8,7 +8,7 @@ tags:
   - gtk
 ---
 
-# elementary Mail v2.0
+# elementary Mail v6
 
 ![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
 
