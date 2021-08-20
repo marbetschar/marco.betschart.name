@@ -124,7 +124,7 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 [_github.com/marbetschar/time-limit_](https://github.com/marbetschar/time-limit) _- A simple and beautiful timer app for elementary OS._
 
-* [x] [~~**Notify, even if app is closed**~~](https://github.com/marbetschar/time-limit/pull/51) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
+* [x] [~~**Keep alive while timer runs**~~](https://github.com/marbetschar/time-limit/pull/56) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
 * [x] [~~**Flatpak support**~~](https://github.com/marbetschar/time-limit/pull/46) ![Completed: 2021-05-05](https://img.shields.io/badge/completed-2021--05--05-lightgrey?style=social)
 * [x] [~~**Ditched libunity**~~](https://github.com/marbetschar/time-limit/pull/49) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Use libhandy**~~](https://github.com/marbetschar/time-limit/pull/48) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
