@@ -23,9 +23,12 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Edit draft**](https://github.com/elementary/mail/pull/626)
-* [ ] [**Don't store two copies in Sent for Office 365 and Google**](https://github.com/elementary/mail/pull/625)
-* [ ] [**Fixes \#608: Random crash when changing folder**](https://github.com/elementary/mail/pull/624)
+* [ ] [**Set the correct from address on reply in multi account environments**](https://github.com/elementary/mail/pull/634)
+* [x] [~~**Fix \#619: Don't save draft if no changes were made**~~](https://github.com/elementary/mail/pull/630) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
+* [x] [~~**Moved undo toast to message view**~~](https://github.com/elementary/mail/pull/629) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
+* [x] [~~**Edit draft**~~](https://github.com/elementary/mail/pull/626) ![Completed: 2021-07-28](https://img.shields.io/badge/completed-2021--07--28-lightgrey?style=social)
+* [x] [~~**Don't store two copies in Sent for Office 365 and Google**~~](https://github.com/elementary/mail/pull/625) ![Completed: 2021-07-28](https://img.shields.io/badge/completed-2021--07--28-lightgrey?style=social)
+* [x] [~~**Fixes \#608: Random crash when changing folder**~~](https://github.com/elementary/mail/pull/624) ![Completed: 2021-07-28](https://img.shields.io/badge/completed-2021--07--28-lightgrey?style=social)
 * [x] [~~**Make composer insensitive during send**~~](https://github.com/elementary/mail/pull/621) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Fix Warnings in Vala Code**~~](https://github.com/elementary/mail/pull/600) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
 * [x] [~~**Handle subject in ComposerWidget**~~](https://github.com/elementary/mail/pull/603) ![Completed: 2021-07-21](https://img.shields.io/badge/completed-2021--07--21-lightgrey?style=social)
@@ -60,7 +63,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
-* [ ] [**Separated Scheduled List and Row from regular ones**](https://github.com/elementary/tasks/pull/230)
+* [ ] [**Separate scheduled list from regular task list**](https://github.com/elementary/tasks/pull/274)
 * [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
 * [x] [~~**Using ECal util functions for custom properties**~~](https://github.com/elementary/tasks/pull/229) ![Completed: 2021-04-28](https://img.shields.io/badge/completed-2021--04--28-lightgrey?style=social)
