@@ -23,7 +23,10 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
+* [ ] [**Automatically select next message after delete**](https://github.com/elementary/mail/pull/660)
+* [ ] [**Fix \#647: Cannot delete emails**](https://github.com/elementary/mail/pull/656)
 * [ ] [**Set the correct from address on reply in multi account environments**](https://github.com/elementary/mail/pull/634)
+* [x] [~~**Fix \#582: Calculate the page height correctly**~~](https://github.com/elementary/mail/pull/655) ![Completed: 2021-08-23](https://img.shields.io/badge/completed-2021--08--23-lightgrey?style=social)
 * [x] [~~**Fix \#619: Don't save draft if no changes were made**~~](https://github.com/elementary/mail/pull/630) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
 * [x] [~~**Moved undo toast to message view**~~](https://github.com/elementary/mail/pull/629) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
 * [x] [~~**Edit draft**~~](https://github.com/elementary/mail/pull/626) ![Completed: 2021-07-28](https://img.shields.io/badge/completed-2021--07--28-lightgrey?style=social)
@@ -47,6 +50,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
+* [ ] [**New feature: Editing a CalDAV account**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216)
+* [x] [~~**New feature: Edit mail account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/208) ![Completed: 2021-08-24](https://img.shields.io/badge/completed-2021--08--24-lightgrey?style=social)
+* [x] [~~**Auto detect auth mechanism for IMAP and SMTP**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/211) ![Completed: 2021-08-24](https://img.shields.io/badge/completed-2021--08--24-lightgrey?style=social)
 * [x] [~~**Verify E-Mail Credentials**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189) ![Completed: 2021-07-24](https://img.shields.io/badge/completed-2021--07--24-lightgrey?style=social)
 * [x] [~~**Add support for well known google folders**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/194) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
 * [x] [~~**Configuring well known folder URIs**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
@@ -63,6 +69,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
+* [ ] [**Avoid accidentally deleting a list**](https://github.com/elementary/tasks/pull/279)
 * [ ] [**Separate scheduled list from regular task list**](https://github.com/elementary/tasks/pull/274)
 * [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
 * [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)

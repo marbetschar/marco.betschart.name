@@ -20,11 +20,11 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
+* [ ] [**New feature: Editing a CalDAV account**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216)
+* [x] [~~**New feature: Edit mail account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/208) ![Completed: 2021-08-24](https://img.shields.io/badge/completed-2021--08--24-lightgrey?style=social)
+* [x] [~~**Auto detect auth mechanism for IMAP and SMTP**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/211) ![Completed: 2021-08-24](https://img.shields.io/badge/completed-2021--08--24-lightgrey?style=social)
 * [x] [~~**Verify E-Mail Credentials**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/189) ![Completed: 2021-07-24](https://img.shields.io/badge/completed-2021--07--24-lightgrey?style=social)
 * [x] [~~**Add support for well known google folders**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/194) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
-* [x] [~~**Configuring well known folder URIs**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/192) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
-* [x] [~~**Popdown Popover when a button is clicked**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/193) ![Completed: 2021-07-22](https://img.shields.io/badge/completed-2021--07--22-lightgrey?style=social)
-* [x] [~~**Hide local\_mbox account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/190) ![Completed: 2021-07-13](https://img.shields.io/badge/completed-2021--07--13-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-online-accounts)
 
