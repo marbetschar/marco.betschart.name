@@ -72,8 +72,6 @@ It is now possible to edit an existing mail or calendar account in `System Setti
 
 Synchronizing subscribed calendars threw an error under certain circumstances. Because there is no way for us to know the correct credentials for such subscriptions, we are simply ignoring those for now. In case you use calendar subscriptions, you need to add them in the corresponding app directly.
 
-
-
 |  |  |
 | :--- | :--- |
 
