@@ -84,5 +84,5 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ### Bypass Do Not Disturb \([\#84](https://github.com/elementary/switchboard-plug-notifications/pull/84)\)
 
-And one more thing: I also worked on a feature allowing you to allow specific apps to bypass "Do Not Disturb". This way you'll be able to fully focus on the task at hand by turning off all notifications - except those few you really rely on, such as meeting notifications or a [timer](https://appcenter.elementary.io/com.github.marbetschar.time-limit/).
+And one more thing: I also worked on a feature which allows you to configure specific apps to bypass "Do Not Disturb". This way you'll be able to fully focus on the task at hand by turning off all notifications - except those few you really rely on, such as meeting notifications or a [timer](https://appcenter.elementary.io/com.github.marbetschar.time-limit/).
 
