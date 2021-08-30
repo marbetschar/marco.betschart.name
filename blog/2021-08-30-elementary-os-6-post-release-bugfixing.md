@@ -26,7 +26,7 @@ New software always contains bugs which slipped through. That's why I dedicated 
 
 ### Some mails did not load  \([\#655](https://github.com/elementary/mail/pull/655)\)
 
-As you're maybe aware, calculating heights in the web is not an easy task. And we figured, a wrongly calculated height was exactly the reason why some mails were not rendered correctly. Now, the height calculation is fixed and all mails render as expected.
+As you're maybe aware, calculating heights in the web is not an easy task. And we figured, a wrongly calculated height was exactly the reason why some mails were not rendered correctly. Now, the height calculation is fixed and all mails render as expected. 🤞
 
 ### Deleting mails sometimes doesn't work \([\#656](https://github.com/elementary/mail/pull/656)\)
 
