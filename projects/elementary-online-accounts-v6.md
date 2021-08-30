@@ -10,7 +10,7 @@ tags:
   - gtk
 ---
 
-# elementary Online Accounts v3.0
+# elementary Online Accounts v6
 
 ![elementary Online Accounts](../.gitbook/assets/io.elementary.switchboard.onlineaccounts.png)
 

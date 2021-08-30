@@ -19,11 +19,9 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 {% page-ref page="bachelors-degree-in-computer-science.md" %}
 
-{% page-ref page="elementary-mail-v2.0.md" %}
+{% page-ref page="elementary-online-accounts-v6.md" %}
 
-{% page-ref page="elementary-online-accounts-v3.0.md" %}
-
-{% page-ref page="elementary-tasks-v1.0.md" %}
+{% page-ref page="elementary-tasks-v6.md" %}
 
 {% page-ref page="elementary-xrdesktop-support.md" %}
 

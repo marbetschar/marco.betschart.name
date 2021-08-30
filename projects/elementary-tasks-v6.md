@@ -8,7 +8,7 @@ tags:
   - gtk
 ---
 
-# elementary Tasks v1.0
+# elementary Tasks v6
 
 ![elementary Tasks supports location based reminders](../.gitbook/assets/io.elementary.tasks.png)
 
