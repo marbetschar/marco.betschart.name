@@ -12,7 +12,7 @@ It's here: elementary OS 6 Odin was released earlier this month! Please see [the
 
 ![I was squashing bugs in elementary OS 6 Odin this month.](../.gitbook/assets/elementary-os-6-odin-squashing-bugs.gif)
 
-Because new software always contains bugs which slip through the cracks, I dedicated this month to squash as many bugs as possible in the all new elementary OS 6 Odin.
+Because new software always contains bugs which slip through the cracks, I dedicated this month to squash as many bugs as possible in the all new elementary OS 6 Odin - and I managed to get quite some of them! Read on to see what's been fixed.
 
 {% hint style="warning" %}
 **Please note:** Not all of the fixes described below are already released. Some are still undergoing testings and reviews. So it might take a little more time until those are available to you.
