@@ -65,25 +65,23 @@ An issue while sorting the task lists caused the account name in the sidebar to 
 
 Whenever a task description was completely removed, the UI did not reflect this state correctly.
 
-## System Settings
+## System Settings: Online Accounts
 
-### Online Accounts
-
-#### Auto detect auth mechanism ([#211](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/211))
+### Auto detect auth mechanism ([#211](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/211))
 
 Some users weren't able to add their mail accounts in `System Settings > Online Accounts`, because of the authentication method used under the hood.
 Online Accounts is capable to probe for authentication methods supported by the server and chooses the right one automatically.
 
-#### Edit Mail and CalDAV account ([#208](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/208), #[216](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216))
+### Edit Mail and CalDAV account ([#208](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/208), #[216](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216))
 
 It is now possible to edit an existing mail as well as calendar account in `System Settings > Online Accounts` ([#208]).
 
-#### Ignore Calendar Subscriptions ([#218](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218))
+### Ignore Calendar Subscriptions ([#218](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218))
 
 Synchronizing subscribed calendars threw an error under certain circumstances. Because there is no way for us to know the correct credentials for such calendar subscriptions, we are simply ignoring any subscriptions for now. In case you use subscriptions, you need to add those in the corresponding app.
 
-### Notifications
+## System Settings: Notifications
 
-#### Bypass Do Not Disturb ([#84](https://github.com/elementary/switchboard-plug-notifications/pull/84))
+### Bypass Do Not Disturb ([#84](https://github.com/elementary/switchboard-plug-notifications/pull/84))
 
 And there is one last thing: I also worked on a feature allowing user specific apps to bypass Do Not Disturb. Once this is released, you'll be able to fully focus on the task at hand by turning off all notifications - except those few you really rely on.
