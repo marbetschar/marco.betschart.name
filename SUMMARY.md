@@ -4,7 +4,7 @@
 * [Curriculum Vitae](cv.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
-  * [elementary OS 6: Post Release Bugfixing](blog/2021-08-30-elementary-OS-6-post-release-bugfixing.md)
+  * [elementary OS 6: Post Release Bugfixing](blog/2021-08-30-elementary-os-6-post-release-bugfixing.md)
   * [A month dedicated to elementary Mail](blog/2021-07-25-a-month-dedicated-to-elementary-mail.md)
   * [Granite HyperTextView](blog/2021-06-30-granite-hypertextview.md)
   * [elementary Online Accounts](blog/2021-06-06-elementary-online-accounts.md)
