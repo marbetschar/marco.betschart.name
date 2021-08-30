@@ -52,7 +52,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ### Password not found
 
-Some users claimed they weren't able to access task lists after the account setup. Turned out we ran into a sandbox issue with Flatpak. Solving this "the right way" needs [some more serious engineering effort](https://github.com/elementary/switchboard-plug-onlineaccounts/issues/209), therefore we are shipping Tasks as Debian package again - which solves the issue for now.
+Some users claimed they weren't able to access task lists after the account setup. Turned out we ran into a sandbox issue with Flatpak. Solving this "the right way" needs [some more serious engineering effort](https://github.com/elementary/switchboard-plug-onlineaccounts/issues/209), therefore we are shipping Tasks as Debian package again - which mitigates the issue for now.
 
 ### Avoid accidentally deleting a list \([\#279](https://github.com/elementary/tasks/pull/279)\)
 
