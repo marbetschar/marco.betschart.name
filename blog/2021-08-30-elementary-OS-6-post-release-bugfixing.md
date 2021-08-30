@@ -5,6 +5,10 @@ description: >-
 
 # elementary OS 6: Post Release Bugfixing
 
+{% hint style="danger" %}
+This is a draft and will most likely be changed.
+{% endhint %}
+
 _August 2021_
 
 It's available: elementary OS 6 Odin was released earlier this month! Please see the [elementary blog](https://blog.elementary.io/elementary-os-6-odin-released/) for a complete overview on what's new.
