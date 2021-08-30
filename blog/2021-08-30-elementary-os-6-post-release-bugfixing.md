@@ -40,14 +40,6 @@ This little improvement automatically selects the next conversation in the list 
 
 If you configured multiple mail accounts, elementary Mail sometimes used the wrong account to send mails from. I fixed this wrong behavior and also made sure you can see the `From:` input field while composing a message. This way you can be 100% sure, your mail is sent from the correct account - and even switch to another one if you like.
 
-|  |  |
-| :--- | :--- |
-
-
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## Tasks
 
 ### Password not found
@@ -79,6 +71,16 @@ It is now possible to edit an existing mail or calendar account in `System Setti
 ### Ignore Calendar Subscriptions \([\#218](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218)\)
 
 Synchronizing subscribed calendars threw an error under certain circumstances. Because there is no way for us to know the correct credentials for such subscriptions, we are simply ignoring those for now. In case you use calendar subscriptions, you need to add them in the corresponding app directly.
+
+
+
+|  |  |
+| :--- | :--- |
+
+
+{% hint style="info" %}
+If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
 
 ## System Settings: Notifications
 
