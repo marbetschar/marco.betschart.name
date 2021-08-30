@@ -4,6 +4,10 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
+## [elementary OS 6: Post Release Bugfixing](2021-08-30-elementary-os-6-post-release-bugfixing.md)
+
+_August 2021_ - I dedicated this month to squash as many bugs as possible in the all new elementary OS 6 Odin.… [**more »**](2021-08-30-elementary-os-6-post-release-bugfixing.md)\*\*\*\*
+
 ## [A month dedicated to elementary Mail](2021-07-25-a-month-dedicated-to-elementary-mail.md)
 
 _July 2021_ - What a month! Passed my exams, went on holiday and still got plenty of time to give elementary Mail some love… [**more »**](2021-07-25-a-month-dedicated-to-elementary-mail.md)
