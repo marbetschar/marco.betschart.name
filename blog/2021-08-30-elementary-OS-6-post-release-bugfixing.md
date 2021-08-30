@@ -15,8 +15,8 @@ Whenever new software is released, there are some edge cases and bugs which slip
 to squash bugs in the all new elementary OS 6 Odin.
 
 {% hint style="warning" %}
-**Please note:** Not all of the fixes described below are already released. Some are still undergoing testings and reviews before releases.
-So it might take some more time till those fixes are available to you.
+**Please note:** Not all of the fixes described below are already released. Some are still undergoing testings and reviews.
+So it might take some more time till all of those fixes are available to you.
 {% endhint %}
 
 ## Mail
