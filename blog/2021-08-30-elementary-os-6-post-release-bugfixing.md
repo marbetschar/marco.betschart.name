@@ -80,5 +80,5 @@ Synchronizing subscribed calendars threw an error under certain circumstances. B
 
 ### Bypass Do Not Disturb \([\#84](https://github.com/elementary/switchboard-plug-notifications/pull/84)\)
 
-And there is one last thing: I also worked on a feature allowing user specific apps to bypass Do Not Disturb. Once this is released, you'll be able to fully focus on the task at hand by turning off all notifications - except those few you really rely on.
+And there is one last thing: I also worked on a feature allowing you to select specific apps which are allowed to bypass Do Not Disturb. This way you'll be able to fully focus on the task at hand by turning off all notifications - except those few you really rely on.
 
