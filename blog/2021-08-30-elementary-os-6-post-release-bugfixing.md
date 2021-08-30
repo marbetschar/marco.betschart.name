@@ -10,7 +10,7 @@ _August 2021_
 
 It's here: elementary OS 6 Odin was released earlier this month! Please see [the official blog post](https://blog.elementary.io/elementary-os-6-odin-released/) for a complete overview on what's new - and make sure to keep an eye on [the elementary blog](https://blog.elementary.io/) for more news all around elementary!
 
-![I was squashing bugs in elementary OS 6 Odin this month.](../.gitbook/assets/elementary-os-6-odin-squashing-bugs.png)
+![I was squashing bugs in elementary OS 6 Odin this month.](../.gitbook/assets/elementary-os-6-odin-squashing-bugs.gif)
 
 Because new software always contains bugs which slip through the cracks, I dedicated this month to squash as many bugs as possible in the all new elementary OS 6 Odin.
 
