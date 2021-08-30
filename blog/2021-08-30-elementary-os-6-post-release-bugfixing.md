@@ -12,7 +12,7 @@ This is a draft and will most likely be changed.
 
 _August 2021_
 
-It's available: elementary OS 6 Odin was released earlier this month! Please see the [elementary blog](https://blog.elementary.io/elementary-os-6-odin-released/) for a complete overview on what's new.
+It's available: elementary OS 6 Odin was released earlier this month! Please see [this elementary blog post](https://blog.elementary.io/elementary-os-6-odin-released/) for a complete overview on what's new.
 
 ![elementary OS 6 Odin](../.gitbook/assets/elementary-os-6-odin.png)
 
