@@ -18,11 +18,11 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-* [ ] [**Automatically select next message after delete**](https://github.com/elementary/mail/pull/660)
-* [ ] [**Fix \#647: Cannot delete emails**](https://github.com/elementary/mail/pull/656)
-* [ ] [**Set the correct from address on reply in multi account environments**](https://github.com/elementary/mail/pull/634)
-* [x] [~~**Fix \#582: Calculate the page height correctly**~~](https://github.com/elementary/mail/pull/655) ![Completed: 2021-08-23](https://img.shields.io/badge/completed-2021--08--23-lightgrey?style=social)
-* [x] [~~**Fix \#619: Don't save draft if no changes were made**~~](https://github.com/elementary/mail/pull/630) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
+* [ ] [**Show time in message header**](https://github.com/elementary/mail/pull/683)
+* [ ] [**Re-Adding "Send by Email"**](https://github.com/elementary/files/pull/1822)
+* [ ] [**Add Support for the org.freedesktop.portal.Email**](https://github.com/elementary/mail/pull/682)
+* [ ] [**Manual Refresh**](https://github.com/elementary/mail/pull/680)
+* [ ] [**Notifications**](https://github.com/elementary/mail/pull/679)
 
 [**more »**](../contributions.md#elementary-mail)
 
