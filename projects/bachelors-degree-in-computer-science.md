@@ -16,7 +16,18 @@ tags:
 | **Start** | September 2019 |
 | **Duration** | 8 semesters / 4 years |
 
-## Now: 4th Semester
+## Now: 5th Semester
+
+| Course | Description |
+| :--- | :--- |
+| **Bionics** | The Biomimicry Institute defines biomimicry as "an approach to innovation that seeks sustainable solutions to human challenges by mimicking nature's proven patterns and strategies." In this course, you will learn concepts and a process model to apply biomimicry/bionics thinking to the development of sustainable \(product\) solutions. You will work on your own challenge, apply the design approach and develop, for example, new drone designs inspired by nature. Working in interdisciplinary teams is another goal of the course besides expanding your English skills in a scientific context. |
+| **Computing Technology** | The module deals with the cooperation of hardware and software for the realization of a computer system. It teaches the structure and operation of a processor from the programmer's point of view and shows how programs are transformed into executable machine code. |
+| **IT Security** | Includes basics on development and operation of secure systems: cryptography \(secret and public key, hash functions, signatures/MAC\), secure protocols \(EAP, TLS\), authentication and authorization. |
+| **Machine Learning and Data Mining** | The digitization of processes and environments presents computer scientists with new challenges. Software development is no longer in the foreground here, but rather the expert processing and analysis of various types and quantities of data. For this purpose, it is essential to have some basic experience in the field of data analysis and its most important methods from the field of machine learning. This module provides a practical introduction to elementary data mining using machine learning methods. The focus here is on an overview and clean methodology; proofs and details of the methods are left to later courses. Participants will consolidate what they have learned by doing practical work on their own. |
+| **Visual Computing 1** | Retrieve 3D information from 2D pictures. |
+| **Web Development** | Web technologies play a central role in IT today. Many IT systems use web interfaces as cross-platform user interfaces, with a whole range of options available from simple web front ends to complex single page applications. Mobile and native desktop applications are also frequently implemented on the basis of web technologies in the form of hybrid applications. At the center of this development is the JavaScript programming language, which has been completely revised and comprehensively expanded in recent years. |
+
+## Spring 2021: 4th Semester
 
 | Course | Description |
 | :--- | :--- |
