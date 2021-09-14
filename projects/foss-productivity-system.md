@@ -30,7 +30,7 @@ tags:
 | Grouped Archive | [✅](https://github.com/elementary/mail/pull/564) | ❌ via [Saved Search](https://github.com/k9mail/k-9/issues/3398) |
 | Grouped Archive: Delete | [✅](https://github.com/elementary/mail/pull/564) | ❌ |
 | Grouped Archive: Flag/Unflag | [✅](https://github.com/elementary/mail/pull/564) | ❌ |
-| Filter/Search/Sort Flagged Mails | 👨‍🏭[️](https://github.com/elementary/mail/pull/678) | ✅ |
+| Filter/Search/Sort Flagged Mails | [👨‍🏭️](https://github.com/elementary/mail/pull/678) | ✅ |
 | Sync via IMAP/SMTP | ✅ | ✅ |
 | Move Message to Folder | ❌ | ✅ |
 | 📋 **Tasks** | [**elementary Tasks**](https://github.com/elementary/tasks/) | [**Tasks.org**](https://tasks.org/) |
