@@ -17,29 +17,31 @@ tags:
 
 ## Core Features
 
-| _last update: 2021-07-20_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
+| _last update: 2021-09-14_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
-| 📧️ **Mail** | [**elementary Mail v2.0**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
+| 📧️ **Mail** | [**elementary Mail**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
 | Archive | [✅](https://github.com/elementary/mail/pull/542) | ✅ |
 | Delete | ✅ | ✅ |
 | Flag | ✅ | ✅ |
 | Grouped Inbox | [✅](https://github.com/elementary/mail/pull/564) | ✅ |
-| Grouped Inbox: Archive | [✅](https://github.com/elementary/mail/pull/564) | [❓](https://github.com/k9mail/k-9/issues/1041) |
+| Grouped Inbox: Archive | [✅](https://github.com/elementary/mail/pull/564) | [✅](https://github.com/k9mail/k-9/pull/5492) |
 | Grouped Inbox: Delete | [✅](https://github.com/elementary/mail/pull/564) | ✅ |
 | Grouped Inbox: Flag/Unflag | [✅](https://github.com/elementary/mail/pull/564) | ✅ |
-| Grouped Archive | [✅](https://github.com/elementary/mail/pull/564) | 💡 via [Saved Search](https://github.com/k9mail/k-9/issues/3398) |
+| Grouped Archive | [✅](https://github.com/elementary/mail/pull/564) | ❌ via [Saved Search](https://github.com/k9mail/k-9/issues/3398) |
 | Grouped Archive: Delete | [✅](https://github.com/elementary/mail/pull/564) | ❌ |
 | Grouped Archive: Flag/Unflag | [✅](https://github.com/elementary/mail/pull/564) | ❌ |
-| Filter/Search/Sort Flagged Mails | ❌ | ✅ |
+| Filter/Search/Sort Flagged Mails | 👨‍🏭[️](https://github.com/elementary/mail/pull/678) | ✅ |
 | Sync via IMAP/SMTP | ✅ | ✅ |
-| 📋 **Tasks** | [**elementary Tasks v1.0**](https://github.com/elementary/tasks/) | [**Tasks.org**](https://tasks.org/) |
+| Move Message to Folder | ❌ | ✅ |
+| 📋 **Tasks** | [**elementary Tasks**](https://github.com/elementary/tasks/) | [**Tasks.org**](https://tasks.org/) |
 | Add/Edit/Remove Lists | ✅ | ✅ |
 | Alert at a Time | ❌ | ✅ |
 | Alert at a Location | ❌ | ✅ |
 | Recurring Tasks | ❌ | ✅ |
-| Custom Sorting | [👨‍🏭️](https://github.com/elementary/tasks/pull/217) | ✅ |
+| Custom Sorting | ❌ | ✅ |
 | Filter Scheduled Tasks | ✅ | ✅ |
 | Sync via CalDAV | ✅ | ✅ |
+| Move Task to List | ❌ | ✅ |
 | 📆 **Calendar** | [**elementary Calendar**](https://github.com/elementary/calendar/) | [**Etar Calendar**](https://github.com/Etar-Group/Etar-Calendar) |
 | Weekly View | ❌ | ✅ |
 | Add/Edit/Remove Calendars | ❌ | ✅ via [DAVx5](https://www.davx5.com/) |
@@ -48,7 +50,7 @@ tags:
 | Multiple Calendars | ✅ | ✅ |
 | Sync via CalDAV | ✅ | ✅ via [DAVx5](https://www.davx5.com/) |
 | Birthday Calendar \(from Contacts\) | ✅ | ✅ via [DAVx5](https://www.davx5.com/) |
-| Holiday Calendar \(WebCal\) | [❓](https://github.com/elementary/calendar/issues/665) | ✅ via [ICSx5](https://icsx5.bitfire.at/) |
+| Holiday Calendar \(WebCal\) | [✅](https://www.webcal.guru) | ✅ via [ICSx5](https://icsx5.bitfire.at/) |
 | 📑️ **PDF Handling** | ⚠️ [**PDF Studio**](https://www.qoppa.com/pdfstudio/)\*\*\*\* | ⚠️ [**Xodo**](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader)\*\*\*\* |
 | Displaying Note | ✅ | ✅ |
 | Editing Note | ✅ | ✅ |
@@ -58,6 +60,11 @@ tags:
 | Editing Text Highlight Note | ✅ | ✅ |
 | Displaying Freeform Drawings | ✅ | ✅ |
 | Editing Freeform Drawings | ✅ | ✅ |
+
+* ⚠️ - the app is proprietary
+* ✅ - the feature is available
+* 👨‍🏭 - the feature is beeing worked on
+* ❌ - the feature is neither available nor actively beeing worked on
 
 ## Convenience Features & Workarounds
 
