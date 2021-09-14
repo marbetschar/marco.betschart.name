@@ -14,6 +14,16 @@ tags:
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
+## 📆️ Calendar
+
+### Weekly View
+
+![Last Update: 2021-09-14](https://img.shields.io/badge/last%20update-2021--09--14-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/calendar/issues/500) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+Beeing able to plan events using a weekly grid which shows 7 full days instead of one square per day in a month.
+
+**Workaround:** Use another app which provides a weekly view.
+
 ## 📂 Files
 
 ### Clone repository from clipboard
@@ -25,6 +35,14 @@ Beeing able to clone a repository from an url stored in clipboard without leavin
 **Workaround:** Execute `git clone ...url...` from Terminal.
 
 ## ✉️ Mail
+
+### Drag message to another folder
+
+![Last Update: 2021-09-14](https://img.shields.io/badge/last%20update-2021--09--14-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/mail/issues/633) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+It should be possible to drag a message to another folder.
+
+**Workaround:** Login into your webmail and move the message there.
 
 ### Filter & Search for flagged emails
 
@@ -41,6 +59,16 @@ It should be possible to search and filter only through flagged emails. Ideally 
 I don't seem to be able to save an inline image in Mail to the file system. That's a bit unfortunate, since these days the default behaviour for the macOS Mail App seems to be to send images using the builtin share function like this: As inline content - not as regular attachment.
 
 **Workaround:** Go to your webmail and download the image from there.
+
+## ☑️ Tasks
+
+### Drag task to another list
+
+![Last Update: 2021-09-14](https://img.shields.io/badge/last%20update-2021--09--14-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/tasks/issues/168) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+
+It should be possible to drag a task to another list.
+
+**Workaround:** Login into your backend and move the task there - or use another task app to do so (e.g. from your smartphone).
 
 ## 🎞️ Videos
 
