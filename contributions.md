@@ -12,6 +12,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/calendar_](https://github.com/elementary/calendar) _- Desktop calendar app designed for elementary OS._
 
+* [x] [~~**Fix POTFILE**~~](https://github.com/elementary/calendar/pull/703) ![Completed: 2021-09-13](https://img.shields.io/badge/completed-2021--09--13-lightgrey?style=social)
+* [x] [~~**Fix Notifications: Embedded daemon in one unified binary**~~](https://github.com/elementary/calendar/pull/702) ![Completed: 2021-09-13](https://img.shields.io/badge/completed-2021--09--13-lightgrey?style=social)
 * [x] [~~**Calendar.Store =&gt; Calendar.EventStore**~~](https://github.com/elementary/calendar/pull/595) ![Completed: 2020-09-16](https://img.shields.io/badge/completed-2020--09--16-lightgrey?style=social)
 * [x] [~~**Calendar.Store: vapi changes to complete a task**~~](https://github.com/elementary/calendar/pull/558) ![Completed: 2020-06-27](https://img.shields.io/badge/completed-2020--06--27-lightgrey?style=social)
 * [x] [~~**Calendar.Store: Renamed Maya.Model.CalendarModel to Calendar.Store**~~](https://github.com/elementary/calendar/pull/557) ![Completed: 2020-06-26](https://img.shields.io/badge/completed-2020--06--26-lightgrey?style=social)
@@ -27,13 +29,13 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [ ] [**Re-Adding "Send by Email"**](https://github.com/elementary/files/pull/1822)
 * [ ] [**Add Support for the org.freedesktop.portal.Email**](https://github.com/elementary/mail/pull/682)
 * [ ] [**Manual Refresh**](https://github.com/elementary/mail/pull/680)
-* [ ] [**Notifications**](https://github.com/elementary/mail/pull/679)
 * [ ] [**Filter conversations for "Unread" and/or "Starred"**](https://github.com/elementary/mail/pull/678)
 * [ ] [**Improve search performance**](https://github.com/elementary/mail/pull/676)
 * [ ] [**MessageListBox: Hide other children while InlineComposer is shown**](https://github.com/elementary/mail/pull/672)
 * [ ] [**Automatically select next message after delete**](https://github.com/elementary/mail/pull/660)
 * [ ] [**Fix \#647: Cannot delete emails**](https://github.com/elementary/mail/pull/656)
 * [ ] [**Set the correct from address on reply in multi account environments**](https://github.com/elementary/mail/pull/634)
+* [x] [~~**Notifications**~~](https://github.com/elementary/mail/pull/679) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 * [x] [~~**Fix \#582: Calculate the page height correctly**~~](https://github.com/elementary/mail/pull/655) ![Completed: 2021-08-23](https://img.shields.io/badge/completed-2021--08--23-lightgrey?style=social)
 * [x] [~~**Fix \#619: Don't save draft if no changes were made**~~](https://github.com/elementary/mail/pull/630) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
 * [x] [~~**Moved undo toast to message view**~~](https://github.com/elementary/mail/pull/629) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
@@ -58,8 +60,10 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
-* [ ] [**Set refresh interval for IMAP**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/222)
+* [ ] [**Caldav set calendar url of collection source**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/227)
 * [ ] [**New feature: Editing a CalDAV account**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216)
+* [x] [~~**Set refresh interval for IMAP**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/222) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
+* [x] [~~**Retrieve login methods from camel**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/225) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 * [x] [~~**Ignore Calendar Subscriptions**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218) ![Completed: 2021-09-04](https://img.shields.io/badge/completed-2021--09--04-lightgrey?style=social)
 * [x] [~~**Fixes #210: Close dialog on ESC key release**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/219) ![Completed: 2021-09-03](https://img.shields.io/badge/completed-2021--09--03-lightgrey?style=social)
 * [x] [~~**New feature: Edit mail account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/208) ![Completed: 2021-08-24](https://img.shields.io/badge/completed-2021--08--24-lightgrey?style=social)
@@ -80,13 +84,11 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
+* [ ] [**Load only non-completed tasks by default**](https://github.com/elementary/tasks/pull/295)
 * [ ] [**Fix cursor placing on focus**](https://github.com/elementary/tasks/pull/293)
 * [ ] [**Self contained scheduled list**](https://github.com/elementary/tasks/pull/292)
 * [ ] [**Fixes an Issue when removing task description**](https://github.com/elementary/tasks/pull/286)
-* [ ] [**Avoid accidentally deleting a list**](https://github.com/elementary/tasks/pull/279)
-* [ ] [**Separate scheduled list from regular task list**](https://github.com/elementary/tasks/pull/274)
-* [ ] [**Fix \#172: Allow manual refresh with Ctrl+r**](https://github.com/elementary/tasks/pull/200)
-* [ ] [**Sort Task Lists using calendar-order**](https://github.com/elementary/tasks/pull/192)
+* [x] [~~**Avoid accidentally deleting a list**~~](https://github.com/elementary/tasks/pull/279) ![Completed: 2021-08-30](https://img.shields.io/badge/completed-2021--08--30-lightgrey?style=social)
 * [x] [**Refactor: Splits TaskListGrid into two classes**](https://github.com/elementary/tasks/pull/289) ![Completed: 2021-09-02](https://img.shields.io/badge/completed-2021--09--02-lightgrey?style=social)
 * [x] [**Fix account header in sidebar**](https://github.com/elementary/tasks/pull/287) ![Completed: 2021-09-01](https://img.shields.io/badge/completed-2021--09--01-lightgrey?style=social)
 * [x] [**Renamed ListView to TaskListGrid**](https://github.com/elementary/tasks/pull/288) ![Completed: 2021-08-31](https://img.shields.io/badge/completed-2021--08--31-lightgrey?style=social)

@@ -22,7 +22,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [ ] [**Re-Adding "Send by Email"**](https://github.com/elementary/files/pull/1822)
 * [ ] [**Add Support for the org.freedesktop.portal.Email**](https://github.com/elementary/mail/pull/682)
 * [ ] [**Manual Refresh**](https://github.com/elementary/mail/pull/680)
-* [ ] [**Notifications**](https://github.com/elementary/mail/pull/679)
+* [x] [~~**Notifications**~~](https://github.com/elementary/mail/pull/679) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-mail)
 
