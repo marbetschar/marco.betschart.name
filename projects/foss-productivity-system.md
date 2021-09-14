@@ -17,6 +17,11 @@ tags:
 
 ## Core Features
 
+* ⚠️ - the app is proprietary
+* ✅ - the feature is available
+* 👨‍🏭 - the feature is actively worked on
+* ❌ - the feature is neither available nor actively worked on
+
 | _last update: 2021-09-14_ | 💻 [elementary OS](https://elementary.io/) | 📱 [CalyxOS](https://calyxos.org/) |
 | :--- | :--- | :--- |
 | 📧️ **Mail** | [**elementary Mail**](https://github.com/elementary/mail/) | [**K-9 Mail**](https://k9mail.app/) |
@@ -60,11 +65,6 @@ tags:
 | Editing Text Highlight Note | ✅ | ✅ |
 | Displaying Freeform Drawings | ✅ | ✅ |
 | Editing Freeform Drawings | ✅ | ✅ |
-
-* ⚠️ - the app is proprietary
-* ✅ - the feature is available
-* 👨‍🏭 - the feature is actively worked on
-* ❌ - the feature is neither available nor actively worked on
 
 ## Convenience Features & Workarounds
 
