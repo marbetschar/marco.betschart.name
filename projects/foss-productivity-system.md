@@ -63,8 +63,8 @@ tags:
 
 * ⚠️ - the app is proprietary
 * ✅ - the feature is available
-* 👨‍🏭 - the feature is beeing worked on
-* ❌ - the feature is neither available nor actively beeing worked on
+* 👨‍🏭 - the feature is actively worked on
+* ❌ - the feature is neither available nor actively worked on
 
 ## Convenience Features & Workarounds
 
