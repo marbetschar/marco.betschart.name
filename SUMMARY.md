@@ -24,7 +24,6 @@
   * [CalyxOS](areas/calyx-os.md)
   * [elementary OS](areas/elementary-os/README.md)
     * [Debug a Vala or C App](areas/elementary-os/debug-vala-or-c-app.md)
-    * [Error: could not find distribution template for Elementary/odin](areas/elementary-os/fix-error-distribution-template-for-elementary-odin.md)
     * [Missing Features & Workarounds](areas/elementary-os/missing-features-and-workarounds.md)
     * [Setup Checklist](areas/elementary-os/setup-checklist.md)
   * [Knowledge Management](areas/knowledge-management/README.md)
@@ -43,5 +42,6 @@
     * [VSCode: Setup Vala Autocompletion](resources/linux-desktop/vscode-setup-vala-autocompletion.md)
 * [Archives](archives/README.md)
   * [Half Life: Alyx](archives/half-life-alyx.md)
+  * [Error: could not find distribution template for Elementary/odin](archives/fix-error-distribution-template-for-elementary-odin.md)
 * [Contributions](contributions.md)
 
