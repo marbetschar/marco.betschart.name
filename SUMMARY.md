@@ -43,5 +43,5 @@
 * [Archives](archives/README.md)
   * [Half Life: Alyx](archives/half-life-alyx.md)
   * [Error: could not find distribution template for Elementary/odin](archives/fix-error-distribution-template-for-elementary-odin.md)
-* [Contributions](contributions.md)
+* [Open Source Contributions](contributions.md)
 
