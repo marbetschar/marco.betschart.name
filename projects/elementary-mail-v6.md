@@ -20,9 +20,9 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 * [ ] [**Show time in message header**](https://github.com/elementary/mail/pull/683)
 * [ ] [**Re-Adding "Send by Email"**](https://github.com/elementary/files/pull/1822)
-* [ ] [**Add Support for the org.freedesktop.portal.Email**](https://github.com/elementary/mail/pull/682)
 * [ ] [**Manual Refresh**](https://github.com/elementary/mail/pull/680)
-* [x] [~~**Notifications**~~](https://github.com/elementary/mail/pull/679) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
+* [ ] [**Filter conversations for "Unread" and/or "Starred"**](https://github.com/elementary/mail/pull/678)
+* [ ] [**Improve search performance**](https://github.com/elementary/mail/pull/676)
 
 [**more »**](../contributions.md#elementary-mail)
 
