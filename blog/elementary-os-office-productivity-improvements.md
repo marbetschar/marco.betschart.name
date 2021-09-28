@@ -14,9 +14,17 @@ See below to see what you can expect from my work on elementary OS during this S
 
 ## Mail
 
+Once [again](2021-07-25-a-month-dedicated-to-elementary-mail), I dedicated quite some time to elementary Mail. With a bunch of improvements as a result:
+
+Mail now sends a notification to inform you about new messages \([\#679](https://github.com/elementary/mail/pull/679)\) and in case you feel like there is a message missing in your inbox, you are now able to manually refresh the currently selected folder \([\#680](https://github.com/elementary/mail/pull/680)\).
+
+![Mail notifies you about new messages](../.gitbook/assets/elementary-mail-notifications.png)
+
+Also the user interface feels much smoother when you are searching for messages \([\#676](https://github.com/elementary/mail/pull/676)\) and on top of that, you are now even able to hide already read or un-starred conversations from the list \([\#678](https://github.com/elementary/mail/pull/678)\)[!](https://github.com/elementary/mail/pull/678]%29!)
+
 ![New functionality in elementary Mail: Refresh and Filter](../.gitbook/assets/elementary-mail-refresh-and-filter.png)
 
-I dedicated [again](2021-07-25-a-month-dedicated-to-elementary-mail) quite some time to elementary Mail this month - which resulted in a bunch of improvements: Mail now sends a notification to inform you about new messages \([\#679](https://github.com/elementary/mail/pull/679)\) and in case you feel like there is a message missing in your inbox, you are now able to manually refresh the currently selected folder \([\#680](https://github.com/elementary/mail/pull/680)\). Also the user interface feels much smoother when you are now searching for messages \([\#676](https://github.com/elementary/mail/pull/676)\) and on top of that, you are now even able to filter already read or un-starred conversations from the list \([\#678](https://github.com/elementary/mail/pull/678)\)[!](https://github.com/elementary/mail/pull/678]%29!) Last but not least, some bug fixes also made their way into the latest version of Mail: It now avoids to store messages twice in the "Sent" folder for users of outlook.com \([\#702](https://github.com/elementary/mail/pull/702)\) and it also automatically selects the next message after you delete the current one - which lets you delete at light speed \([\#660](https://github.com/elementary/mail/pull/660)[\)!](https://github.com/elementary/mail/pull/660%29!)
+Last but not least, some bug fixes also made their way into the latest version of Mail: It now avoids to store messages twice in the "Sent" folder for users of outlook.com \([\#702](https://github.com/elementary/mail/pull/702)\) and it also automatically selects the next message after you delete the current one - which lets you delete at light speed \([\#660](https://github.com/elementary/mail/pull/660)[\)!](https://github.com/elementary/mail/pull/660%29!)
 
 |  |  |
 | :--- | :--- |
