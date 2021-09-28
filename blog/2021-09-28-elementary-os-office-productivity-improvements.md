@@ -38,7 +38,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 ![elementary Tasks: Drag task to another list](../.gitbook/assets/elementary-tasks-drag-and-drop.png)
 
-In the near future it will be possible to drag and drop tasks to other lists \([\#296](https://github.com/elementary/tasks/pull/296)\). For me, this addition is huge because the lack of it was the main reason why Tasks was _not quite_ ready for me - so I'm very excited about this one!
+In the near future it will be possible to drag and drop tasks to another list \([\#296](https://github.com/elementary/tasks/pull/296)\). For me, this addition is huge! The lack of it was the main reason for me, why Tasks was _not quite usable_ - so I'm very excited about this one!
 
 In addition to this new drag and drop feature, I also fixed two bugs:
 
