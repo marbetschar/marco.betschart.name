@@ -28,7 +28,7 @@ Beeing able to plan events using a weekly grid which shows 7 full days instead o
 
 ### Clone repository from clipboard
 
-![Last Update: 2021-09-14](https://img.shields.io/badge/last%20update-2021--09--14-lightgrey?style=social) [![Status: Won't Fix](https://img.shields.io/badge/status-wontfix-red)](https://github.com/elementary/files/pull/1310) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+![Last Update: 2021-09-14](https://img.shields.io/badge/last%20update-2021--09--14-lightgrey?style=social) [![Status: Won&apos;t Fix](https://img.shields.io/badge/status-wontfix-red)](https://github.com/elementary/files/pull/1310) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Beeing able to clone a repository from an url stored in clipboard without leaving elementary Files. The current solution enables this behaviour by adding a context menu option if the content of the clipboard contains a valid Git URL.
 
@@ -68,7 +68,7 @@ I don't seem to be able to save an inline image in Mail to the file system. That
 
 It should be possible to drag a task to another list.
 
-**Workaround:** Login into your backend and move the task there - or use another task app to do so (e.g. from your smartphone).
+**Workaround:** Login into your backend and move the task there - or use another task app to do so \(e.g. from your smartphone\).
 
 ## 🎞️ Videos
 
@@ -99,3 +99,4 @@ When my laptop suspends the screen goes dark, but when I wake it up again I can 
 ![Last Update: 2021-05-06](https://img.shields.io/badge/last%20update-2021--05--06-lightgrey?style=social) [![Status: Confirmed](https://img.shields.io/badge/status-confirmed-orange)](https://github.com/elementary/gala/issues/1116) ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
 
 Its hard to resize the Picture-in-Picture window, if it is placed in the lower right corner of the screen. That's due to the resize button beeing in the bottom right corner - therefore it is not possible to make the Picture-in-Picture window bigger without beeing moved away from the corner first.
+
