@@ -1,12 +1,14 @@
 ---
-description: Another month and even more office productivity improvements!
+description: >-
+  End of summer office productivity boost! Read on to see how I improved
+  elementary Mail, Tasks, Calendar and Online Accounts this month.
 ---
 
 # elementary OS: Office Productivity Improvements
 
 _September 2021_
 
-See below to see what you can expect from my work on elementary OS during this September.
+Since elementary OS 6 was released in the beginning of August, traction all around elementary is really high. So make sure to also step by [the elementary blog](https://blog.elementary.io/) from time to time to stay up to date of what's happening!
 
 {% hint style="warning" %}
 **Please note:** Not all of the features described below are already released. Some are still undergoing testings and reviews. So it might take a little more time until those are available to you.
@@ -18,7 +20,7 @@ See below to see what you can expect from my work on elementary OS during this S
 
 Mail now notifies you about new messages \([\#679](https://github.com/elementary/mail/pull/679)\) and in case you feel like there is a message missing, you can manually refresh the currently selected folder at any time \([\#680](https://github.com/elementary/mail/pull/680)\).
 
-![Mail notifies you about new messages](../.gitbook/assets/elementary-mail-notifications.png)
+![Mail now notifies you about new messages](../.gitbook/assets/elementary-mail-notifications.png)
 
 Also the search feels much more responsive \([\#676](https://github.com/elementary/mail/pull/676)\) and on top of that, you are now even able to hide already read or un-starred conversations from the list \([\#678](https://github.com/elementary/mail/pull/678)\)[!](https://github.com/elementary/mail/pull/678]%29!)
 
