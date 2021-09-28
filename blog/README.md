@@ -4,9 +4,13 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
+## [elementary OS: Office Productivity Improvements](2021-09-28-elementary-os-office-productivity-improvements.md)
+
+_September 2021_ - End of summer office productivity boost! Read on to see how I improved elementary Mail, Tasks, Calendar and Online Accounts this month… [**more »**](2021-09-28-elementary-os-office-productivity-improvements.md)
+
 ## [elementary OS 6: Post Release Bugfixing](2021-08-30-elementary-os-6-post-release-bugfixing.md)
 
-_August 2021_ - I dedicated this month to squash as many bugs as possible in the all new elementary OS 6 Odin.… [**more »**](2021-08-30-elementary-os-6-post-release-bugfixing.md)\*\*\*\*
+_August 2021_ - I dedicated this month to squash as many bugs as possible in the all new elementary OS 6 Odin… [**more »**](2021-08-30-elementary-os-6-post-release-bugfixing.md)
 
 ## [A month dedicated to elementary Mail](2021-07-25-a-month-dedicated-to-elementary-mail.md)
 
