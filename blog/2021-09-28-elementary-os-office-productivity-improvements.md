@@ -14,7 +14,7 @@ See below to see what you can expect from my work on elementary OS during this S
 
 ## Mail
 
-[Once again](https://www.marco.betschart.name/blog/2021-07-25-a-month-dedicated-to-elementary-mail), I dedicated quite some time to elementary Mail. The result are a bunch of improvements:
+[Once again](https://www.marco.betschart.name/blog/2021-07-25-a-month-dedicated-to-elementary-mail), I dedicated quite some time to elementary Mail. The result is a bunch of improvements:
 
 Mail now sends a notification to inform you about new messages \([\#679](https://github.com/elementary/mail/pull/679)\) and in case you feel like there is a message missing, you are now able to manually refresh the currently selected folder \([\#680](https://github.com/elementary/mail/pull/680)\).
 
