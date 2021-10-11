@@ -18,11 +18,11 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-* [ ] [**Show time in message header**](https://github.com/elementary/mail/pull/683)
 * [ ] [**Re-Adding "Send by Email"**](https://github.com/elementary/files/pull/1822)
-* [ ] [**Manual Refresh**](https://github.com/elementary/mail/pull/680)
-* [ ] [**Filter conversations for "Unread" and/or "Starred"**](https://github.com/elementary/mail/pull/678)
-* [ ] [**Improve search performance**](https://github.com/elementary/mail/pull/676)
+* [ ] [**Fix \#647: Cannot delete emails**](https://github.com/elementary/mail/pull/656)
+* [x] [~~**Manual Refresh**~~](https://github.com/elementary/mail/pull/680) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [~~**Automatically select next message after delete**~~](https://github.com/elementary/mail/pull/660) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [~~**Avoid storing to "Sent" twice for outlook.com**~~](https://github.com/elementary/mail/pull/702) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-mail)
 

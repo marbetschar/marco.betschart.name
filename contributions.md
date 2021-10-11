@@ -25,14 +25,14 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Show time in message header**](https://github.com/elementary/mail/pull/683)
 * [ ] [**Re-Adding "Send by Email"**](https://github.com/elementary/files/pull/1822)
-* [ ] [**Manual Refresh**](https://github.com/elementary/mail/pull/680)
-* [ ] [**Filter conversations for "Unread" and/or "Starred"**](https://github.com/elementary/mail/pull/678)
-* [ ] [**Improve search performance**](https://github.com/elementary/mail/pull/676)
-* [ ] [**MessageListBox: Hide other children while InlineComposer is shown**](https://github.com/elementary/mail/pull/672)
-* [ ] [**Automatically select next message after delete**](https://github.com/elementary/mail/pull/660)
 * [ ] [**Fix \#647: Cannot delete emails**](https://github.com/elementary/mail/pull/656)
+* [x] [~~**Manual Refresh**~~](https://github.com/elementary/mail/pull/680) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [~~**Automatically select next message after delete**~~](https://github.com/elementary/mail/pull/660) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [~~**Avoid storing to "Sent" twice for outlook.com**~~](https://github.com/elementary/mail/pull/702) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [~~**Filter conversations for "Unread" and/or "Starred"**~~](https://github.com/elementary/mail/pull/678) ![Completed: 2021-09-22](https://img.shields.io/badge/completed-2021--09--22-lightgrey?style=social)
+* [x] [~~**Show time in message header**~~](https://github.com/elementary/mail/pull/683) ![Completed: 2021-09-20](https://img.shields.io/badge/completed-2021--09--20-lightgrey?style=social)
+* [x] [~~**Improve search performance**~~](https://github.com/elementary/mail/pull/676) ![Completed: 2021-09-17](https://img.shields.io/badge/completed-2021--09--17-lightgrey?style=social)
 * [x] [~~**Add Support for the org.freedesktop.portal.Email**~~](https://github.com/elementary/mail/pull/682) ![Completed: 2021-09-13](https://img.shields.io/badge/completed-2021--09--13-lightgrey?style=social)
 * [x] [~~**Notifications**~~](https://github.com/elementary/mail/pull/679) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 * [x] [~~**Set the correct from address on reply in multi account environments**~~](https://github.com/elementary/mail/pull/634) ![Completed: 2021-08-30](https://img.shields.io/badge/completed-2021--08--30-lightgrey?style=social)
@@ -60,8 +60,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
-* [ ] [**Caldav set calendar url of collection source**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/227)
 * [ ] [**New feature: Editing a CalDAV account**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216)
+* [x] [~~**Caldav set calendar url of collection source**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/227) ![Completed: 2021-09-14](https://img.shields.io/badge/completed-2021--09--14-lightgrey?style=social)
 * [x] [~~**Set refresh interval for IMAP**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/222) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 * [x] [~~**Retrieve login methods from camel**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/225) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 * [x] [~~**Ignore Calendar Subscriptions**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218) ![Completed: 2021-09-04](https://img.shields.io/badge/completed-2021--09--04-lightgrey?style=social)
@@ -84,10 +84,11 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
-* [ ] [**Load only non-completed tasks by default**](https://github.com/elementary/tasks/pull/295)
-* [ ] [**Fix cursor placing on focus**](https://github.com/elementary/tasks/pull/293)
+* [ ] [**Drag Task to another List**](https://github.com/elementary/tasks/pull/296)
 * [ ] [**Self contained scheduled list**](https://github.com/elementary/tasks/pull/292)
-* [ ] [**Fixes an Issue when removing task description**](https://github.com/elementary/tasks/pull/286)
+* [x] [~~**Fix cursor placing on focus**~~](https://github.com/elementary/tasks/pull/293) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
+* [x] [~~**Load only non-completed tasks by default**~~](https://github.com/elementary/tasks/pull/295) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
+* [x] [~~**Fixes an Issue when removing task description**~~](https://github.com/elementary/tasks/pull/286) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 * [x] [~~**Avoid accidentally deleting a list**~~](https://github.com/elementary/tasks/pull/279) ![Completed: 2021-08-30](https://img.shields.io/badge/completed-2021--08--30-lightgrey?style=social)
 * [x] [**Refactor: Splits TaskListGrid into two classes**](https://github.com/elementary/tasks/pull/289) ![Completed: 2021-09-02](https://img.shields.io/badge/completed-2021--09--02-lightgrey?style=social)
 * [x] [**Fix account header in sidebar**](https://github.com/elementary/tasks/pull/287) ![Completed: 2021-09-01](https://img.shields.io/badge/completed-2021--09--01-lightgrey?style=social)

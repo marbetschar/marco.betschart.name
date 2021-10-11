@@ -18,11 +18,11 @@ tags:
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-* [ ] [**Load only non-completed tasks by default**](https://github.com/elementary/tasks/pull/295)
-* [ ] [**Fix cursor placing on focus**](https://github.com/elementary/tasks/pull/293)
+* [ ] [**Drag Task to another List**](https://github.com/elementary/tasks/pull/296)
 * [ ] [**Self contained scheduled list**](https://github.com/elementary/tasks/pull/292)
-* [ ] [**Fixes an Issue when removing task description**](https://github.com/elementary/tasks/pull/286)
-* [x] [~~**Avoid accidentally deleting a list**~~](https://github.com/elementary/tasks/pull/279) ![Completed: 2021-08-30](https://img.shields.io/badge/completed-2021--08--30-lightgrey?style=social)
+* [x] [~~**Fix cursor placing on focus**~~](https://github.com/elementary/tasks/pull/293) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
+* [x] [~~**Load only non-completed tasks by default**~~](https://github.com/elementary/tasks/pull/295) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
+* [x] [~~**Fixes an Issue when removing task description**~~](https://github.com/elementary/tasks/pull/286) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 
 [**more »**](../contributions.md#elementary-tasks)
 
