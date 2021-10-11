@@ -17,7 +17,7 @@ description: My free and open source productivity system.
 * 👨‍🏭 - the feature is actively worked on
 * ❌ - the feature is neither available nor actively worked on
 
-| _last update: 2021-09-14_         | 💻 [elementary OS](https://elementary.io)                          | 📱 [CalyxOS](https://calyxos.org)                                                    |
+| _last update: _2021-10-11         | 💻 [elementary OS](https://elementary.io)                          | 📱 [CalyxOS](https://calyxos.org)                                                    |
 | --------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | 📧️ **Mail**                      | [**elementary Mail**](https://github.com/elementary/mail/)         | [**K-9 Mail**](https://k9mail.app)                                                   |
 | Archive                           | [✅](https://github.com/elementary/mail/pull/542)                   | ✅                                                                                    |
