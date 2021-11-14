@@ -11,7 +11,7 @@ _October 2021_
 The end is nigh - at least for the current year :smile: So I took the opportunity to rethink my personal finances and experiment with different - open source - accounting tools. The result of this effort is a personal finance dashboard which turns data from a local GnuCash file into a neat overview of your financial situation.
 
 {% hint style="info" %}
-****[**GnuCash**](https://gnucash.org) is a free and open source accounting software which has been around for decades. It is highly stable, actively maintained and supports double-entry accounting.
+[**GnuCash**](https://gnucash.org) is a free and open source accounting software which has been around for decades. It is highly stable, actively maintained and supports double-entry accounting.
 {% endhint %}
 
 ![This is how my GnuCash Dashboard looks like](../.gitbook/assets/GnuCash-Dashboard-Screenshot.png)
