@@ -6,7 +6,7 @@ description: Here you can see what I've been up to lately.
 
 ## [GnuCash Dashboard](2021-11-14-gnucash-dashboard.md)
 
-_October 2021_ - a personal finance dashboard which turns data from a local GnuCash file into a neat overview of your financial situation.
+_October 2021_ - a personal finance dashboard which turns data from a local GnuCash file into a neat overview of your financial situation… [**more »**](2021-11-14-gnucash-dashboard.md)
 
 ## [elementary OS: Office Productivity Improvements](2021-09-28-elementary-os-office-productivity-improvements.md)
 
