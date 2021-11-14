@@ -19,6 +19,9 @@ personal financial situation:
 
 The dashboard can freely be used and modified as I release it under GPL. Simply head over to [its GitHub repository](https://github.com/marbetschar/GnuCash-Dashboard) and hit the download button.
 
+> **Please Note:** I only ever tested the current state of work on elementary OS 6 (based on Ubuntu 20.04 LTS). If you'd like to run the dashboard on another
+> platfrom and run into issues, feel free to let me know in the issues section of the GitHub repository.
+
 {% hint style="info" %}
 If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
