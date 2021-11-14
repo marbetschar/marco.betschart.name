@@ -4,6 +4,10 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
+## [GnuCash Dashboard](2021-11-14-gnucash-dashboard.md)
+
+_October 2021_ - a personal finance dashboard which turns data from a local GnuCash file into a neat overview of your financial situation.
+
 ## [elementary OS: Office Productivity Improvements](2021-09-28-elementary-os-office-productivity-improvements.md)
 
 _September 2021_ - End of summer office productivity boost! Read on to see how I improved elementary Mail, Tasks, Calendar and Online Accounts this month… [**more »**](2021-09-28-elementary-os-office-productivity-improvements.md)
