@@ -16,7 +16,7 @@ The end is nigh - at least for the current year :smile: So I took the opportunit
 
 ![This is how my GnuCash Dashboard looks like](../.gitbook/assets/GnuCash-Dashboard-Screenshot.png)
 
-You are free to used and modify the GnuCash Dashboard as you wish, because I release it under GPL. Simply head over to [its GitHub repository](https://github.com/marbetschar/GnuCash-Dashboard), hit the download button and you are ready to go!
+You are free to use and modify the GnuCash Dashboard as you wish, because I released it under GPLv3 :tada: Simply head over to [its GitHub repository](https://github.com/marbetschar/GnuCash-Dashboard), hit the download button and you are ready to go!
 
 > **Please Note:** The current state of work is tested on elementary OS 6 (based on Ubuntu 20.04 LTS). If you'd like to run the dashboard on another platform and run into issues, feel free to let me know in the [issues section of the GitHub repository](https://github.com/marbetschar/GnuCash-Dashboard/issues).
 
