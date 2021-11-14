@@ -14,7 +14,7 @@ The end is nigh - at least for the current year :smile: So I took the opportunit
 [**GnuCash**](https://gnucash.org) is a free and open source accounting software which has been around for decades. It is highly stable, actively maintained and supports double-entry accounting.
 {% endhint %}
 
-![This is how my GnuCash Dashboard looks like](../.gitbook/assets/GnuCash-Dashboard-Screenshot.png)
+![This is how the GnuCash Dashboard looks like](../.gitbook/assets/GnuCash-Dashboard-Screenshot.png)
 
 You are free to use and modify the GnuCash Dashboard as you wish, because I released it under GPLv3 :tada: Simply head over to [its GitHub repository](https://github.com/marbetschar/GnuCash-Dashboard), hit the download button and you are ready to go!
 
