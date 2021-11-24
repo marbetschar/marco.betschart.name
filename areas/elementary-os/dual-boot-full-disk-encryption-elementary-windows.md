@@ -48,7 +48,7 @@ To do so, we boot elementary OS in Demo Mode:
    - Select your keyboard layout
 3. On the "Try or Install" step, choose "Try Demo Mode" and confirm
 
-Once elementary OS is booted, start GParted from the Applications Menu.
+Once elementary OS is booted, start "GParted" from the Applications Menu.
 
 In GParted:
 
@@ -56,19 +56,17 @@ In GParted:
 2. Create a new partition which occupies the entire hard disk (just use the default file system)
 3. Click "Apply All Operations". You should end up with one partition
 
-In my case the partition device is named `/dev/nvme0n1p1`:
-
-_The new partition which occupies the entire hard disk_
+In my case the partition device is named `/dev/nvme0n1p1`.
 
 At this point we need to fall back to the Terminal, because GParted is [not able to create encrypted LUKS containers yet](https://gparted.org/features.php).
 Open the Terminal and run the following commands:
 
 ```bash
 # Create a LUKS container ("luksFormat" is case sensitive):
-sudo cryptsetup luksFormat /dev/nvme0n1p1
+sudo cryptsetup luksFormat /dev/nvme0n1pX
 
 # Open the previously created LUKS container with name 'cryptdrive' ("luksOpen" is case sensitive):
-sudo cryptsetup luksOpen /dev/nvme0n1p1 cryptdrive
+sudo cryptsetup luksOpen /dev/nvme0n1pX cryptdrive
 
 # Wipe entire cryptdrive by fill it completely with random data (this took about 1h on my 1TB drive):
 sudo dd if=/dev/zero of=/dev/mapper/cryptdrive bs=16M
@@ -94,7 +92,7 @@ Since we are going to create encrypted LUKS containers, we need to boot elementa
 **IMPORTANT:** There's currently no easy way to make grub work with an encrypted partition.
 **Make sure `/boot` and `/boot/EFI` are their own partitions and left unencrypted**.
 
-Once elementary OS is booted, start GParted from the Applications Menu. Then in GParted:
+Once elementary OS is booted, start "GParted" from the Applications Menu. Then in GParted:
 
 1. Delete all already existing partitions and click `Apply All Operations`
 2. Create a new GPT partition table (required for EFI):
@@ -128,9 +126,97 @@ At this point, you could enable encryption, install additional drivers etc. But 
 
 # 4. Install elementary OS
 
-...
+## 4.1 Boot elementary OS in Demo Mode
 
+Since we are going to create encrypted LUKS containers, we need to boot elementary OS in Demo Mode:
 
-# Sources
+1. Boot from elementary OS USB stick
+2. After the installer starts:
+   - Select your language
+   - Select your keyboard layout
+3. On the "Try or Install" step, choose "Try Demo Mode" and confirm
 
-- [XPS 15 9570 - DualBoot with Encryption (Windows 10 with BitLocker + Ubuntu 18.04 with LVM on LUKS)](https://gist.github.com/mdziekon/221bdb597cf32b46c50ffab96dbec08a)
+## 4.2 Create encrypted LUKS container
+
+Next, we are going to create the encrypted LUKS partition where we are going to install elementary OS into in GParted:
+
+1. Start "GParted" from the Applications Menu in elementary OS
+2. Create a single partition with all of the remaining unallocated space - this will become the encrypted LUKS container containing all data of elementary OS
+  - the file system doesn't matter yet, just use the default one
+3. Click "Apply All Operations" and you'll end up with a new partition
+
+In my case the partition device is named `/dev/nvme0n1p5`.
+
+4. At this point we need to fall back to the Terminal, because GParted is [not able to create encrypted LUKS containers yet](https://gparted.org/features.php). Open the Terminal and run the following commands:
+
+```bash
+# LUKS: Create a container ("luksFormat" is case sensitive):
+sudo cryptsetup luksFormat /dev/nvme0n1pX
+
+# LUKS: Open the previously created container with name 'elementary' ("luksOpen" is case sensitive):
+sudo cryptsetup luksOpen /dev/nvme0n1pX elementary
+
+# Wipe entire container 'elementary' by fill it completely with random data (this took about 20mins on my 600 GiB drive):
+sudo dd if=/dev/zero of=/dev/mapper/elementary bs=16M
+
+# LVM: Create a Physical Volume
+sudo pvcreate /dev/mapper/elementary
+
+# LVM: Create a Volume Group
+sudo vgcreate elementary /dev/mapper/elementary
+
+# LVM: Create a Logical Volume which occupies all the available space
+# Of course you can add multiple logical volumes with different sizes (like swap, home, root, ...) if you want
+sudo lvcreate --name root --extends 100%FREE elementary
+```
+
+## 4.3 Install
+
+1. Start "Install elementary OS" from the Applications Menu in elementary OS Demo Mode
+2. Confirm Logout
+3. Select your language
+4. Select your keyoard layout
+5. Select `Custom Install (Advanced)`
+6. Click on the encrypted LUKS partition:
+  - Password: Enter the previously chosen LUKS password
+  - Device name: `elementary`
+
+You should now see a second device in the installer which resembles the previously created LUKS container with its LVM volume.
+
+7. Click on the LVM volume:
+  - Enable `Use Partition`
+  - Use as: `Root (/)`
+  - Filesystem: `Default (ext4)`
+
+To make things bootable, we also need to assign the `/boot/uefi` and `/boot` mount points. Those will be stored in the first two partitions we created in 2.1.3 on the **non-encrypted, physical hard drive**:
+
+8. Click on the 550 MiB fat32 partition on the non-encrypted, physical hard drive:
+  - Enable `Use Partition`
+  - Enable `Format`
+  - Use as: `Boot (/boot/efi)`
+  - Filesystem: `fat32`
+9. Click on the 500 MiB ext4 partition on the non-encrypted, physical hard drive:
+  - Enable `Use Partition`
+  - Enable `Format`
+  - Use as: `Custom`
+  - Custom: `/boot`
+  - Filesystem: `Default (ext4)`
+10. **Double Check Everything** - any mistakes at this step and you have to start all over
+  - Once you are sure everything is correct, click `Erase and install`
+
+After a the installation your computer restarts and prompts for the disk password. Enter the password and complete the initial elementary OS setup.
+
+# 5. Add Windows to Boot Menu
+
+~~After you sucessfuly started elementary OS from the encrypted partition and completed the initial setup, we still need to add a way to choose between
+elementary OS and Windows 10 upon boot. To do so, execute the following commands in the elementary OS Terminal:~~
+
+```bash
+sudo update-grub
+```
+
+**_This is probably not needed at all. I should re-test everything simply with a single `/boot/uefi` partition of 550 MiB in size (don't create an extra `/boot`)._**
+
+# Acknowledgements
+
+Credits go to [Luis Pabon](https://gist.github.com/luispabon) and [Michal Dziekonski](https://gist.github.com/mdziekon) for their work on this fabulous step by step guide: [Ubuntu + Windows 10 dualboot with LUKS encryption](https://gist.github.com/luispabon/db2c9e5f6cc73bb37812a19a40e137bc)
