@@ -110,8 +110,8 @@ Once elementary OS is booted, start GParted from the Applications Menu. Then in 
   - Click `Apply All Operations`
 4. Mark FAT32 partition as EFI:
   - Right click on the FAT32 partition
-  - In the context menu, choose `Manage Flags`
-  - Set `esp` (this also sets `boot`)
+  - In the context menu, click `Manage Flags`
+  - In the new window, enable `esp` (this also enables `boot`)
   - Click `Close`
 
 Now we are ready to install Windows!
