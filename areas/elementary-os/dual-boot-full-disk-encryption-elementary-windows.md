@@ -2,7 +2,7 @@
 description: >-
   Howto dual boot Windows alongside elementary OS with full disk encryption enabled for both operating systems.
 tags:
-  - linux-desktop
+  - setup
   - elementary
   - windows
   - security
