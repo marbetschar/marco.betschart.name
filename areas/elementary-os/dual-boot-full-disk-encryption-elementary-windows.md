@@ -91,6 +91,9 @@ Since we are going to create encrypted LUKS containers, we need to boot elementa
 
 ## 2.2 Create Partitions in GParted
 
+**IMPORTANT:** There's currently no easy way to make grub work with an encrypted partition.
+**Make sure `/boot` and `/boot/EFI` are their own partitions and left unencrypted**.
+
 Once elementary OS is booted, start GParted from the Applications Menu. Then in GParted:
 
 1. Delete all already existing partitions and click `Apply All Operations`
@@ -99,8 +102,8 @@ Once elementary OS is booted, start GParted from the Applications Menu. Then in 
   - Select new partition table type: `gpt`
   - Click `Apply`
 3. Create the following partitions:
-  - 550 MiB FAT32 (EFI)
-  - 500 MiB EXT4 (Linux /boot)
+  - 550 MiB FAT32 (for `/boot/EFI`)
+  - 500 MiB EXT4 (for `/boot`)
   - X GiB NTFS (for Windows)
   - **IMPORTANT:** Leave any remaining space unallocated. We will create partitions for elementary OS later on, because Windows will add another 16 MiB partition upon its installation.
   - Click `Apply All Operations`
