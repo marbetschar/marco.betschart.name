@@ -105,7 +105,8 @@ Once elementary OS is booted, start GParted from the Applications Menu. Then in 
   - 550 MiB FAT32 (for `/boot/EFI`)
   - 500 MiB EXT4 (for `/boot`)
   - X GiB NTFS (for Windows)
-  - **IMPORTANT:** Leave any remaining space unallocated. We will create partitions for elementary OS later on, because Windows will add another 16 MiB partition upon its installation.
+  - **PLEASE NOTE:**
+    - Leave any remaining space unallocated. We will create partitions for elementary OS later on, because Windows will add another 16 MiB partition upon its installation.
   - Click `Apply All Operations`
 4. Mark FAT32 partition as EFI:
   - Right click on the FAT32 partition
