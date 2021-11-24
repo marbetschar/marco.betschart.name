@@ -114,7 +114,7 @@ Now we are ready to install Windows!
 
 # 3. Install Windows
 
-**PLEASE NOTE:** Windows was not able to recognize my hard disk during install on a Dell XPS 9310. The solution was to change the storage type from RAID to AHCI/NVMe in the BIOS.
+**PLEASE NOTE:** Windows was not able to recognize my hard disk during install on a Dell XPS 9310. The solution was to change the storage type from RAID to AHCI/NVMe in the BIOS ([see this Dell community question](https://www.dell.com/community/XPS/Pros-Cons-AHCI-vs-Raid-On-XPS13-9300-NVMe/td-p/7636984) for more information about the different types).
 
 1. Boot from the Windows USB stick
 2. Install Windows on the partition you created in step 2.
@@ -130,4 +130,3 @@ At this point, you could enable encryption, install additional drivers etc. But 
 # Sources
 
 - [XPS 15 9570 - DualBoot with Encryption (Windows 10 with BitLocker + Ubuntu 18.04 with LVM on LUKS)](https://gist.github.com/mdziekon/221bdb597cf32b46c50ffab96dbec08a)
-- [Pros/Cons: AHCI vs. Raid On (XPS13 9300 NVMe)](https://www.dell.com/community/XPS/Pros-Cons-AHCI-vs-Raid-On-XPS13-9300-NVMe/td-p/7636984)
