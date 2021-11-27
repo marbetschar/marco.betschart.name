@@ -251,6 +251,6 @@ Congratulations! You successfuly setup dual boot between elementary OS and Windo
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-# Acknowledgements
+## Acknowledgements
 
 Credits go to [Luis Pabon](https://gist.github.com/luispabon) and [Michal Dziekonski](https://gist.github.com/mdziekon) for their work on this fabulous step by step guide: [Ubuntu + Windows 10 dualboot with LUKS encryption](https://gist.github.com/luispabon/db2c9e5f6cc73bb37812a19a40e137bc)
