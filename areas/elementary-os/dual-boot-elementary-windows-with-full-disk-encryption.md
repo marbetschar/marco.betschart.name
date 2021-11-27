@@ -21,7 +21,11 @@ tags:
 {% endhint %}
 
 {% hint style="danger" %}
-**MAKE BACKUPS:** When following this guide you will loose everything which is currently stored on your hard drive. So make you have backups of the data you want to keep!
+**MAKE BACKUPS:** When following this guide you will loose everything which is currently stored on your hard drive. So make sure you have backups of the data you want to keep!
+{% endhint %}
+
+{% hint style="info" %}
+**PLEASE NOTE:** This is not an officially supported way of installing elementary OS - so use at your own risk.
 {% endhint %}
 
 ## 1. Prerequisites
