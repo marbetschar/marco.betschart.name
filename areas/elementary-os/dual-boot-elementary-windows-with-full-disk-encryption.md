@@ -42,9 +42,11 @@ The following applies if you are already on elementary OS. If not, please search
 8. Create the Windows 10 USB stick: `~/Downloads/woeusb-*.bash --device ~/Downloads/Win10_*.iso /dev/sdX`
 9. Done.
 
-### 1.3 Completely Wipe Hard Drive (Optional)
+### 1.3 Completely Wipe Hard Drive (Recommended, Optional)
 
-While this step is optional, it is highly recommended to wipe the entire hard drive before starting this setup. This ensures ...
+While this step is optional, it is highly recommended to wipe the entire hard drive before starting this setup. This ensures your complete hard drive is filled
+with random data, which makes it much harder to decrypt your data after your completed this setup. It also makes sure you don't have any remainings of a (potential)
+previous install on your hard disk.
 
 To do so, we boot elementary OS in Demo Mode:
 
