@@ -22,15 +22,13 @@ tags:
 
 {% hint style="warning" %}
 **BE AWARE:** For this approach to work, we need an \*un-\*encrypted boot partition. This still allows for some attacks to work such as the [Evil Maid Attack](https://www.schneier.com/blog/archives/2009/10/evil\_maid\_attac.html). But the primarily goal here is to protect your data against physical theft - not a coup executed by a 3-letter-organisation.
+
+**MAKE BACKUPS:** When following this guide you will loose everything which is currently stored on your hard drive. So make sure you have backups of the data you want to keep!
 {% endhint %}
 
 ## 1. Prerequisites
 
 We will need to boot into Windows and elementary OS multiple times during this setup. Therefore it is recommended to create a dedicated installation media for each operating system.
-
-{% hint style="danger" %}
-**MAKE BACKUPS:** When following this guide you will loose everything which is currently stored on your hard drive. So make sure you have backups of the data you want to keep!
-{% endhint %}
 
 ### 1.1 Create a bootable elementary OS USB stick
 
