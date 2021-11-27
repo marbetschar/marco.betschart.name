@@ -14,11 +14,11 @@ tags:
 
 # Dual Boot elementary OS and Windows with Full Disk Encryption
 
+![elementary OS side by side with Windows and both of them encrypted](../../.gitbook/assets/dual-boot-elementary-windows-with-full-disk-encryption.jpg)
+
 {% hint style="info" %}
 **PLEASE NOTE:** This is not an officially supported way of installing elementary OS - so use at your own risk.
 {% endhint %}
-
-![elementary OS side by side with Windows and both of them encrypted](../../.gitbook/assets/dual-boot-elementary-windows-with-full-disk-encryption.jpg)
 
 {% hint style="warning" %}
 **BE AWARE:** For this approach to work, we need an \*un-\*encrypted boot partition. This still allows for some attacks to work such as the [Evil Maid Attack](https://www.schneier.com/blog/archives/2009/10/evil\_maid\_attac.html). But the primarily goal here is to protect your data against physical theft - not a coup executed by a 3-letter-organisation.
