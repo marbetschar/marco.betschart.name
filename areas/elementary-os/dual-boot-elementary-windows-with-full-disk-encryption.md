@@ -13,6 +13,12 @@ tags:
 
 # Dual Boot elementary OS and Windows with Full Disk Encryption
 
+{% hint style="warning" %}
+**PLEASE NOTE:** For this approach to work, we need an _un-_encrypted boot partition. This still allows for
+some attacks to work such as the [Evil Maid Attack](https://www.schneier.com/blog/archives/2009/10/evil_maid_attac.html).
+But the primarily goal here is to protect your data in case the device is stolen by a regular thief - not by a 3-letter-organisation.
+{% endhint %}
+
 ## 1. Prerequisites
 
 We will need to boot into Windows and elementary OS multiple times during this setup. Therefore it is recommended to create a dedicated installation media for each operating system.
