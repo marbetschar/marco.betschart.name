@@ -21,7 +21,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 To be able to execute Oracle SQL Developer we need an installed JDK. The following command will install the Java OpenJDK:
 
 ```bash
-sudo apt install openjdk-14-jdk
+sudo apt install openjdk-17-jdk
 ```
 
 ## Download
@@ -32,33 +32,23 @@ Download Oracle SQL Developer for "Other Platforms" from Oracle:
 
 ## Extract
 
-After the download is completed, execute the following commands to extract Oracle SQL Developer to `/opt`:
-
-```bash
-cd /opt
-sudo unzip ~/Downloads/sqldeveloper-*.zip
-sudo ln -s /opt/sqldeveloper/sqldeveloper.sh /usr/local/bin/sqldeveloper
-```
+After the download is completed, extract the `~/Downloads/sqldeveloper-*.zip` to `~/Applications/sqldeveloper`.
 
 ## Integrate
 
-We need to update the `sqldeveloper.sh` file, to allow execution from any directory:
+As last step, we are create a desktop integration file in `~/.local/share/applications/sqldeveloper.desktop`:
 
-```diff
-#!/bin/bash
--cd "`dirname $0`"/sqldeveloper/bin && bash sqldeveloper $*
-+/opt/sqldeveloper/sqldeveloper/bin/sqldeveloper $*
-```
-
-As last step, we are create a desktop integration file in `/usr/share/applications/sqldeveloper.desktop`:
+{% hint style="warning" %}
+Replace _USER_ with your actual username.
+{% endhint %}
 
 ```text
 [Desktop Entry]
 Name=Oracle SQL Developer
 Comment=SQL Developer from Oracle
 GenericName=SQL Tool
-Exec=/usr/local/bin/sqldeveloper
-Icon=/opt/sqldeveloper/icon.png
+Exec=/home/USER/Applications/sqldeveloper/sqldeveloper/bin/sqldeveloper $*
+Icon=/home/USER/Applications/sqldeveloper/icon.png
 Type=Application
 StartupNotify=true
 Categories=Utility;Oracle;Development;SQL;
