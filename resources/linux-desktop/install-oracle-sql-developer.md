@@ -10,9 +10,7 @@ tags:
 
 # Install Oracle SQL Developer
 
-{% hint style="success" %}
-**Verified For:** elementary OS 6.0 Odin
-{% endhint %}
+> **Verified For:** elementary OS 6.0 Odin
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
