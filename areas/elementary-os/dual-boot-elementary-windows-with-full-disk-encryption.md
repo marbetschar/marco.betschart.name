@@ -14,6 +14,10 @@ tags:
 
 # Dual Boot elementary OS and Windows with Full Disk Encryption
 
+> ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+> ![Windows 10](https://img.shields.io/badge/windows%C2%A010-007aff)
+> ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+
 ![elementary OS side by side with Windows and both of them encrypted](../../.gitbook/assets/dual-boot-elementary-windows-with-full-disk-encryption.jpg)
 
 {% hint style="info" %}
@@ -260,6 +264,10 @@ UEFI Firmware Settings
 2. A password prompt should appear, which asks you to `Please unlock disk elementary`
 3. Enter the previously chosen LUKS password
 4. Complete the Initial Setup of elementary OS
+
+## 6. Reboot into Windows
+
+At this point you want to test if your Windows 10 is still working. It will probably prompt you to enter the recovery key because the elementary OS installation changed the boot partition. If so, simply enter the recovery key and Windows boots just fine.
 
 ## 5. Enjoy
 
