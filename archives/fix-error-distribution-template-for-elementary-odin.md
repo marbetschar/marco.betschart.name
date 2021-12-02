@@ -11,7 +11,8 @@ tags:
 
 # Error: could not find distribution template for Elementary/odin
 
-![elementary OS: 6 Odin Pre-Release](https://img.shields.io/badge/elementary%C2%A0OS-6%20Odin%20Pre_Release-007aff) ![Status: Verified](https://img.shields.io/badge/status-verified-green.svg)
+> ![elementary OS: 6 Odin Pre-Release](https://img.shields.io/badge/elementary%C2%A0OS-6%20Odin%20Pre_Release-007aff)
+> ![Status: Verified](https://img.shields.io/badge/status-verified-green.svg)
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!

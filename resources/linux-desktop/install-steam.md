@@ -9,7 +9,8 @@ tags:
 
 # Install Steam
 
-![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff) ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+> ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+> ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
