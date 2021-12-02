@@ -69,8 +69,8 @@ Once elementary OS is booted, start "GParted" from the Applications Menu.
 
 In GParted:
 
-1. Delete all available partitions
-2. Create a new partition which occupies the entire hard disk (just use the default file system) 6 . Click "Apply All Operations". You should end up with one partition
+4. Delete all available partitions
+5. Create a new partition which occupies the entire hard disk (just use the default file system) 6 . Click "Apply All Operations". You should end up with one partition
 
 In my case the partition device is named `/dev/nvme0n1p1`.
 
@@ -115,7 +115,7 @@ Once elementary OS is booted, start "GParted" from the Applications Menu. Then i
 * Select new partition table type: `gpt`
 * Click `Apply`
 
-1. Create the following partitions:
+3. Create the following partitions:
 
 * 550 MiB FAT32 (for `/boot/EFI`)
 * 500 MiB EXT4 (for `/boot`)
@@ -124,7 +124,7 @@ Once elementary OS is booted, start "GParted" from the Applications Menu. Then i
   * Windows will add another 16 MiB partition upon its installation, therefore we create the partition for elementary OS later on
 * Click `Apply All Operations`
 
-1. Mark FAT32 partition as EFI:
+4. Mark FAT32 partition as EFI:
 
 * Right click on the FAT32 partition
 * In the context menu, click `Manage Flags`
@@ -143,9 +143,9 @@ Now we are ready to install Windows!
 
 Next, we are going to enable Windows Device Encryption (BitLocker):
 
-1. Once Windows is started, open `Manage BitLocker` from the start menu
-2. Click `Turn BitLocker on` to enable encryption for your Operating system drive
-3. Perform the following steps to enable encryption in the BitLocker assistant:
+4. Once Windows is started, open `Manage BitLocker` from the start menu
+5. Click `Turn BitLocker on` to enable encryption for your Operating system drive
+6. Perform the following steps to enable encryption in the BitLocker assistant:
 
 * Preparing your drive for BitLocker: Click `Next`
 * BitLocker Drive Encryption Setup: Click `Next`
@@ -180,11 +180,11 @@ Next, we are going to create the encrypted LUKS partition where we are going to 
 
 * the file system doesn't matter yet, just use the default one
 
-1. Click "Apply All Operations" and you'll end up with a new partition
+3. Click "Apply All Operations" and you'll end up with a new partition
 
 In my case the partition device is named `/dev/nvme0n1p6`.
 
-1. At this point we need to fall back to the Terminal, because GParted is [not able to create encrypted LUKS containers yet](https://gparted.org/features.php). Open the Terminal and run the following commands:
+4. At this point we need to fall back to the Terminal, because GParted is [not able to create encrypted LUKS containers yet](https://gparted.org/features.php). Open the Terminal and run the following commands:
 
 ```bash
 # LUKS: Create a container ("luksFormat" is case sensitive):
@@ -217,14 +217,14 @@ sudo lvcreate --name root --extends 100%FREE elementary
 
 To make things bootable, we need to assign the `/boot/uefi` and `/boot` mount points. Those will be stored in the first two partitions we created in 2.1.3 on the **non-encrypted, physical hard drive**:
 
-1. Click on the 550 MiB fat32 partition on the non-encrypted, physical hard drive:
+6. Click on the 550 MiB fat32 partition on the non-encrypted, physical hard drive:
 
 * Enable `Use Partition`
 * **!! DON'T `Format` !!**
 * Use as: `Boot (/boot/efi)`
 * Filesystem: `fat32`
 
-1. Click on the 500 MiB ext4 partition on the non-encrypted, physical hard drive:
+7. Click on the 500 MiB ext4 partition on the non-encrypted, physical hard drive:
 
 * Enable `Use Partition`
 * Enable `Format`
@@ -234,20 +234,20 @@ To make things bootable, we need to assign the `/boot/uefi` and `/boot` mount po
 
 Now we unlock the encrypted partition to install elementary OS into it:
 
-1. Click on the encrypted LUKS partition:
+8. Click on the encrypted LUKS partition:
 
 * Password: Enter the previously chosen LUKS password
 * Device name: `elementary`
 
 You should now see a second device in the installer which resembles the previously created LUKS container with its LVM volume(s).
 
-1. Click on the LVM volume:
+9. Click on the LVM volume:
 
 * Enable `Use Partition`
 * Use as: `Root (/)`
 * Filesystem: `Default (ext4)`
 
-1. **!! Double Check Everything - any mistakes at this step and you have to start all over !!**
+10. **!! Double Check Everything - any mistakes at this step and you have to start all over !!**
 
 * Once you are sure everything is correct, click `Erase and install`
 
@@ -260,16 +260,16 @@ Windows Boot Manager (on /dev/nvme0n1p1)
 UEFI Firmware Settings
 ```
 
-1. Select Elementary
-2. A password prompt should appear, which asks you to `Please unlock disk elementary`
-3. Enter the previously chosen LUKS password
-4. Complete the Initial Setup of elementary OS
+11. Select Elementary
+12. A password prompt should appear, which asks you to `Please unlock disk elementary`
+13. Enter the previously chosen LUKS password
+14. Complete the Initial Setup of elementary OS
 
 ## 6. Reboot into Windows
 
 At this point you want to test if your Windows 10 is still working. It will probably prompt you to enter the recovery key because the elementary OS installation changed the boot partition. If so, simply enter the recovery key and Windows boots just fine.
 
-## 5. Enjoy
+## 7. Enjoy
 
 Congratulations! You successfuly setup dual boot between elementary OS and Windows along with full disk encryption!
 
