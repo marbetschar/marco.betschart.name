@@ -204,7 +204,7 @@ sudo vgcreate elementary /dev/mapper/elementary
 
 # LVM: Create a Logical Volume which occupies all the available space (of course you can
 # add multiple logical volumes with different sizes like swap, home, root etc. if you want)
-sudo lvcreate --name root --extends 100%FREE elementary
+sudo lvcreate --name root --extents 100%FREE elementary
 ```
 
 ### 4.3 Install
