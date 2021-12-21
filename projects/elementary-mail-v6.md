@@ -10,7 +10,7 @@ tags:
 
 # elementary Mail v6
 
-![elementary Mail](../.gitbook/assets/io.elementary.mail.png)
+![elementary Mail](../.gitbook/assets/elementary-mail-refresh-and-filter.png)
 
 ## Contributions
 

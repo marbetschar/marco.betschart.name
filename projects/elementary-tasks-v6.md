@@ -10,7 +10,7 @@ tags:
 
 # elementary Tasks v6
 
-![elementary Tasks supports location based reminders](../.gitbook/assets/io.elementary.tasks.png)
+![elementary Tasks](../.gitbook/assets/elementary-tasks-drag-and-drop.png)
 
 ## Contributions
 
