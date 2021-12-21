@@ -20,7 +20,6 @@
   * [elementary Tasks v6](projects/elementary-tasks-v6.md)
   * [FOSS Productivity System](projects/foss-productivity-system.md)
   * [Support for xrdesktop \(Virtual Reality\) in elementary](projects/elementary-xrdesktop-support.md)
-  * [Progress for Apple Reminders](projects/progress-for-apple-reminders.md)
   * [Time Limit](projects/time-limit.md)
 * [My Areas](areas/README.md)
   * [CalyxOS](areas/calyx-os.md)
@@ -46,5 +45,6 @@
 * [Archives](archives/README.md)
   * [Half Life: Alyx](archives/half-life-alyx.md)
   * [Error: could not find distribution template for Elementary/odin](archives/fix-error-distribution-template-for-elementary-odin.md)
+  * [Progress for Apple Reminders](archives/progress-for-apple-reminders.md)
 * [Open Source Contributions](contributions.md)
 
