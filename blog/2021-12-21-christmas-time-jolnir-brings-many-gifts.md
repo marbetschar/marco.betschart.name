@@ -1,6 +1,6 @@
 ---
 description: >-
-  Jólnir has a lot to give and in this post I'm going to highlight some contributions of mine I'm very excited about.
+  Jólnir has a lot to give. In this post I'm going to highlight some of my contributions I'm very excited about.
 ---
 
 # It's Christmas Time: Jólnir brings many gifts
