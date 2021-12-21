@@ -25,8 +25,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/mail_](https://github.com/elementary/mail) _- Mail app designed for elementary OS._
 
-* [ ] [**Re-Adding "Send by Email"**](https://github.com/elementary/files/pull/1822)
-* [ ] [**Fix \#647: Cannot delete emails**](https://github.com/elementary/mail/pull/656)
+* [x] [~~**Re-Adding "Send by Email"**~~](https://github.com/elementary/files/pull/1822) ![Completed: 2021-11-02](https://img.shields.io/badge/completed-2021--11--02-lightgrey?style=social)
+* [x] [~~**Fix \#647: Cannot delete emails**~~](https://github.com/elementary/mail/pull/656) ![Completed: 2021-10-26](https://img.shields.io/badge/completed-2021--10--26-lightgrey?style=social)
 * [x] [~~**Manual Refresh**~~](https://github.com/elementary/mail/pull/680) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 * [x] [~~**Automatically select next message after delete**~~](https://github.com/elementary/mail/pull/660) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 * [x] [~~**Avoid storing to "Sent" twice for outlook.com**~~](https://github.com/elementary/mail/pull/702) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
@@ -56,11 +56,19 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [x] [~~**Archive message support**~~](https://github.com/elementary/mail/pull/542) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Folder icon detection**~~](https://github.com/elementary/mail/pull/545) ![Completed: 2021-04-30](https://img.shields.io/badge/completed-2021--04--30-lightgrey?style=social)
 
-## elementary Online Accounts
+## elementary System Settings
+
+### Notifications
+
+[_github.com/elementary/switchboard-plug-notifications_](https://github.com/elementary/switchboard-plug-notifications) _- A plugin for System Settings which allows you to configure Notifications._
+
+* [ ] [**Bypass Do Not Disturb**](https://github.com/elementary/switchboard-plug-notifications/pull/84)
+
+### Online Accounts
 
 [_github.com/elementary/switchboard-plug-onlineaccounts_](https://github.com/elementary/switchboard-plug-onlineaccounts) _- A plugin for System Settings which allows you to configure your Online Accounts._
 
-* [ ] [**New feature: Editing a CalDAV account**](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216)
+* [x] [~~**New feature: Editing a CalDAV account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216) ![Completed: 2021-12-09](https://img.shields.io/badge/completed-2021--12--09-lightgrey?style=social)
 * [x] [~~**Caldav set calendar url of collection source**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/227) ![Completed: 2021-09-14](https://img.shields.io/badge/completed-2021--09--14-lightgrey?style=social)
 * [x] [~~**Set refresh interval for IMAP**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/222) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 * [x] [~~**Retrieve login methods from camel**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/225) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
@@ -84,8 +92,8 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/tasks_](https://github.com/elementary/tasks/) _- Synced tasks and reminders on elementary OS._
 
-* [ ] [**Drag Task to another List**](https://github.com/elementary/tasks/pull/296)
-* [ ] [**Self contained scheduled list**](https://github.com/elementary/tasks/pull/292)
+* [x] [~~**Drag Task to another List**~~](https://github.com/elementary/tasks/pull/296) ![Completed: 2021-12-08](https://img.shields.io/badge/completed-2021--12--08-lightgrey?style=social)
+* [x] [~~**Self contained scheduled list**~~](https://github.com/elementary/tasks/pull/292) ![Completed: 2021-11-04](https://img.shields.io/badge/completed-2021--11--04-lightgrey?style=social)
 * [x] [~~**Fix cursor placing on focus**~~](https://github.com/elementary/tasks/pull/293) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
 * [x] [~~**Load only non-completed tasks by default**~~](https://github.com/elementary/tasks/pull/295) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
 * [x] [~~**Fixes an Issue when removing task description**~~](https://github.com/elementary/tasks/pull/286) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
@@ -139,7 +147,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 
 [_github.com/elementary/wingpanel_](https://github.com/elementary/wingpanel) _- Stylish top panel that holds indicators and spawns an application launcher_
 
-* [ ] [**Display tasks in Wingpanel**](https://github.com/elementary/wingpanel-indicator-datetime/pull/252)
+* [x] [~~**Display tasks in Wingpanel**~~](https://github.com/elementary/wingpanel-indicator-datetime/pull/252) ![Completed: 2021-12-02](https://img.shields.io/badge/completed-2021--12--02-lightgrey?style=social)
 * [x] [~~**Fixed an issue where focus style was not reset to today**~~](https://github.com/elementary/wingpanel-indicator-datetime/pull/251) ![Completed: 2021-03-02](https://img.shields.io/badge/completed-2021--03--02-lightgrey?style=social)
 * [x] [~~**Calculate TimeZone according to Calendar**~~](https://github.com/elementary/wingpanel-indicator-datetime/pull/233) ![Completed: 2020-09-29](https://img.shields.io/badge/completed-2020--09--29-lightgrey?style=social)
 
@@ -179,7 +187,7 @@ Enabling Linux users to interact with the beautifulx desktop of elementary in Vi
 
 [_github.com/elementary/granite_](https://github.com/elementary/granite) _- Library that extends GTK with common widgets and utilities_
 
-* [ ] [**HyperTextView**](https://github.com/elementary/granite/pull/507)
+* [x] [~~**HyperTextView**~~](https://github.com/elementary/granite/pull/507) ![Completed: 2021-11-04](https://img.shields.io/badge/completed-2021--11--04-lightgrey?style=social)
 
 ### html2pdf
 
