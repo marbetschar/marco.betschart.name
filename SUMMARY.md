@@ -4,6 +4,7 @@
 * [Curriculum Vitae](cv.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
+  * [It's Christmas Time: Jólnir brings many gifts](blog/2021-12-21-christmas-time-jolnir-brings-many-gifts.md)
   * [GnuCash Dashboard](blog/2021-11-14-gnucash-dashboard.md)
   * [elementary OS: Office Productivity Improvements](blog/2021-09-28-elementary-os-office-productivity-improvements.md)
   * [elementary OS 6: Post Release Bugfixing](blog/2021-08-30-elementary-os-6-post-release-bugfixing.md)
