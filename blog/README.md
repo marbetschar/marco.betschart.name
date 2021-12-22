@@ -4,6 +4,10 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
+## [It's Christmas Time: Jólnir brings many gifts](2021-12-22-christmas-time-jolnir-brings-many-gifts.md)
+
+_December 2021_ - In this post, I'm going to highlight some features I contributed to Jólnir and I'm very excited about… [**more »**](2021-12-22-christmas-time-jolnir-brings-many-gifts.md)
+
 ## [GnuCash Dashboard](2021-11-14-gnucash-dashboard.md)
 
 _October 2021_ - a personal finance dashboard which turns data from a local GnuCash file into a neat overview of your financial situation… [**more »**](2021-11-14-gnucash-dashboard.md)
