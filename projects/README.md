@@ -1,5 +1,5 @@
 ---
-description: 'a project is a series of tasks linked to a specific goal, with a deadline.'
+description: a project is a series of tasks linked to a specific goal, with a deadline.
 ---
 
 # My Projects
@@ -17,19 +17,33 @@ The characteristics of a project are:
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-{% page-ref page="bachelors-degree-in-computer-science.md" %}
+{% content-ref url="bachelors-degree-in-computer-science.md" %}
+[bachelors-degree-in-computer-science.md](bachelors-degree-in-computer-science.md)
+{% endcontent-ref %}
 
-{% page-ref page="elementary-online-accounts-v6.md" %}
+{% content-ref url="elementary-online-accounts-v6.md" %}
+[elementary-online-accounts-v6.md](elementary-online-accounts-v6.md)
+{% endcontent-ref %}
 
-{% page-ref page="elementary-tasks-v6.md" %}
+{% content-ref url="elementary-tasks-v6.md" %}
+[elementary-tasks-v6.md](elementary-tasks-v6.md)
+{% endcontent-ref %}
 
-{% page-ref page="elementary-xrdesktop-support.md" %}
+{% content-ref url="elementary-xrdesktop-support.md" %}
+[elementary-xrdesktop-support.md](elementary-xrdesktop-support.md)
+{% endcontent-ref %}
 
-{% page-ref page="foss-productivity-system.md" %}
+{% content-ref url="foss-productivity-system.md" %}
+[foss-productivity-system.md](foss-productivity-system.md)
+{% endcontent-ref %}
 
-{% page-ref page="progress-for-apple-reminders.md" %}
+{% content-ref url="../archives/progress-for-apple-reminders.md" %}
+[progress-for-apple-reminders.md](../archives/progress-for-apple-reminders.md)
+{% endcontent-ref %}
 
-{% page-ref page="time-limit.md" %}
+{% content-ref url="time-limit.md" %}
+[time-limit.md](time-limit.md)
+{% endcontent-ref %}
 
 ## Project Ideas
 
@@ -50,7 +64,7 @@ There is already a quite good web application called ASCIIFlow which is capable 
 **Prior Art**
 
 * Cassidy already built a [template for embedding a Web-App](https://github.com/cassidyjames/plausible)
-* [Monodraw for macOS](https://monodraw.helftone.com/)
+* [Monodraw for macOS](https://monodraw.helftone.com)
 
 ### elementary Calendar Weekly View
 
@@ -60,7 +74,7 @@ The elementary OS Calendar App currently only features a monthly view for events
 
 **Proposal**
 
-The WeekView is not trivial to implement, since it needs to consider a lot of local factors such as LTR/RTL, timezones, start day of week \(Sunday vs. Monday\) etc. It also needs to support draggability in order to be actually useful.
+The WeekView is not trivial to implement, since it needs to consider a lot of local factors such as LTR/RTL, timezones, start day of week (Sunday vs. Monday) etc. It also needs to support draggability in order to be actually useful.
 
 But still: It is worth the effort, because I miss this view each and every day.
 
@@ -107,10 +121,9 @@ To achieve this, we can add native support for KDE Connect to elementary OS. Thi
 
 **Prior Art**
 
-* [KDE Connect Support \#338](https://github.com/elementary/wingpanel/issues/338)
+* [KDE Connect Support #338](https://github.com/elementary/wingpanel/issues/338)
 * [Conecto - a GTK client for KDEConnect](https://github.com/hannesschulze/conecto/)
 * [mconnect](https://github.com/bboozzoo/mconnect)
 * [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
-* [KDE Connect](https://kdeconnect.kde.org/)
+* [KDE Connect](https://kdeconnect.kde.org)
 * [KDE Connect Indicator](https://github.com/b4j4/indicator-kdeconnect)
-
