@@ -64,7 +64,7 @@ Setup Online Accounts in `System Settings > Online Accounts`:
 
 [_yandex.com/support/mail/mail-clients.html_](https://yandex.com/support/mail/mail-clients.html)
 
-**Work and Studies**
+**Study**
 
 * [ ] Mail
 
@@ -74,6 +74,14 @@ Setup Online Accounts in `System Settings > Online Accounts`:
 | _Outgoing Mail \(SMTP\)_ | outlook.office365.com | 587 | STARTTLS |
 
 [_support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353_](https://support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353)
+
+**Work**
+
+* [ ] Calendar and Tasks
+* [ ] Mail
+
+Follow the instructions provided in [Missing Features & Workarounds to setup an Office 365 account using Modern Authentication (OAuth)](missing-features-and-workarounds.md#oauth-support-modern-authentication).
+
 
 ## Git
 
