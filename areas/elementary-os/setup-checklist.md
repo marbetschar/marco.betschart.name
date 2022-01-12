@@ -105,7 +105,7 @@ Add the SSH Public Key to the following portals:
 
 ## elementary Development
 
-* [ ] [Install VSCodium with Vala Autocompletion as documented](../../resources/linux-desktop/vscode-setup-vala-autocompletion.md)
+* [ ] [Install VSCodium for Vala Development as documented](../../resources/linux-desktop/vscode-vala-development.md)
 * [ ] Install elementary Development Libraries: `sudo apt install elementary-sdk`
 
 ## Zettelkasten
