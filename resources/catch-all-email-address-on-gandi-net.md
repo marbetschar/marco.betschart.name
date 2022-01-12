@@ -10,15 +10,17 @@ tags:
 
 > ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
-I like to use a catch all email address for the very same reason as Rob does, who first published this workaround [at this blog](https://robsblog.robertwatts.com/2020/02/25/gandi-catchall-email-address-work-around/). To simply quote Rob:
+I like to use a catch all email address for the very same reason as Rob does, who first published this workaround [at this blog](https://robsblog.robertwatts.com/2020/02/25/gandi-catchall-email-address-work-around/). So, to simply quote him:
 
-> Catchall email addresses are a nice thing to have, because you can give out customised email addresses to each company you do business with, and if you start to receive spam addressed to that address you can block it without affecting your normal email traffic.
+> Catchall email addresses are a nice thing to have, because you can give out customised email addresses to each company you do business with, and if you start to receive spam addressed to that address you can block it without affecting your normal email traffic [**- Robert Watts**](https://robsblog.robertwatts.com/2020/02/25/gandi-catchall-email-address-work-around/)
 
 Unfortunately, Gandi.net does not provide an official way to configure such an email address. However, there is a neat little workaround which enables us to achieve the same thing:
 
 Gandi.net allows us to configure **unlimited aliases** for an email account. These aliases are allowed to contain a wildcard (`*`) with one restriction: In order to use the wildcard, the alias must contain at least two other characters.
 
-In conclusion: We can add the below list of aliases to a specific email account and will end up with the desired catch-all effect - at least for all addresses where the first two characters of the username only contain numbers and letters:
+## Conclusion 
+
+We can add the below list of aliases to a specific email account and will end up with the desired catch-all effect; at least for all addresses where the first two characters of the username only contain numbers and letters:
 
 ```
 0
