@@ -34,6 +34,7 @@
     * [Zettelkasten](areas/knowledge-management/zettelkasten.md)
     * [Howto setup Zotero](areas/knowledge-management/howto-setup-zotero.md)
 * [Resources](resources/README.md)
+  * [Catch-All E-Mail Address on Gandi.net](resources/catch-all-email-address-on-gandi-net.md)
   * [Dell XPS 7390 eGPU](resources/dell-xps-7390-egpu.md)
   * [Linux Desktop](resources/linux-desktop/README.md)
     * [Encrypt USB Stick with Vera Crypt](resources/linux-desktop/encrypt-usb-stick-with-vera-crypt.md)
