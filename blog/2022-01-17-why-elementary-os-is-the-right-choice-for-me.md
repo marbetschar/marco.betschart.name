@@ -82,7 +82,7 @@ Even though the classic package format (`*.deb`) is fine for software management
 
 **Problem 2: Freshness**
 
-Being able to install the latest version of each application using a traditional package format such as `*.deb` is difficult, because this format relies on shared libraries and binaries provides by the underlying operating system. If the underlying operating system gets older, the provided versions of the shared libraries and binaries may no longer be compatible with the latest version of the desktop application. Therefore, keeping everything in sync gets harder and harder over time.
+Being able to install the latest version of each application using a traditional package format such as `*.deb` is difficult, because this format relies on shared libraries and binaries provided by the underlying operating system. If the underlying operating system gets older, the provided versions of the shared libraries and binaries may no longer be compatible with the latest version of the desktop application. Therefore, keeping everything in sync gets harder and harder over time.
 
 **Solution: App Sandboxing**
 
