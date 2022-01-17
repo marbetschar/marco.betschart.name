@@ -96,7 +96,7 @@ If you want to know more, make sure to read the [Flatpak article on the elementa
 
 **Why is this relevant?**
 
-Traditionally, in the Linux world I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with older versions which are better tested and more stable. This choice not only affected the desktop software used but the entire operating system. To put it bluntly: You had to choose between brand new, unstable distributions with potential high risk of breakage or older, better tested and therefore low risk distributions.
+Traditionally in the Linux world, I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with older versions which are better tested and therefore more stable. This choice not only affects desktop software, it affects the entire operating system. Or to put it bluntly: You had to choose between brand new, unstable distributions with potential high risk of breakage or older, better tested and therefore lower risk distributions.
 
 The first option is good for developers and tinkerers, the second option is a solid choice for servers. But for an everyday user which needs access to new features but does not want to compromise on stability? Either one of them is bad.
 
