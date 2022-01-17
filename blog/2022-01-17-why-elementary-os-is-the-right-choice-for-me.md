@@ -14,7 +14,7 @@ A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/stat
 **Be Aware:** The statements below represent my own personal opinion. They neither reflect an official point of view of elementary nor anyone else.
 {% endhint %}
 
-## Philosophical Reasoning
+## Philosophical Reasons
 
 _Things I like about the self-perception of elementary and how it guides its decisions._
 
@@ -61,7 +61,7 @@ Let's face it: The whole privacy discussion boils down to one thing - and that's
 
 Therefore, I [neither want to be the product](https://blog.elementary.io/you-are-not-the-product/), [nor share private data with anyone I'm not fully aware of](https://blog.elementary.io/privacy-and-elementary-os/). So choosing elementary OS in terms of privacy was a no-brainer for me.
 
-## Technical Reasoning
+## Technical Reasons
 
 _Technical decisions made by the elementary OS team are in line with my personal needs._
 
