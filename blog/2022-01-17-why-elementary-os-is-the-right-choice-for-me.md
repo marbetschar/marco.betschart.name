@@ -92,7 +92,8 @@ If you want to know more, make sure to read the [Flatpak article on the elementa
 
 Traditionally, in the Linux world I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with older versions which are better tested and more stable. This choice not only affected the desktop software used but the entire operating system. To put it bluntly: You had to choose between brand new, unstable distributions with potential high risk of breakage or older, better tested and therefore low risk distributions.
 
-The first option is good for developers and tinkerers, the second option is a solid choice for servers. But for a regular day to day user with basic needs? Either one of them is bad.
+The first option is good for developers and tinkerers, the second option is a solid choice for servers. But for an everyday user which needs access to new features but does
+not want to compromise on stability? Either one of them is bad.
 
 That's why I love elementary OS' unique approach: The foundation is built using the highly stable low maintenance Ubuntu LTS release. This means it is well tested and I don't have to worry about it. But at the same time, I can use the latest and greates desktop applications which may require newer libraries - which are shipped within their own sandbox thanks to Flatpak. So both approaches can coexist and complement each other.
 
