@@ -118,7 +118,7 @@ Don't get me wrong: As with any software out there, elementary OS is by no means
 
 And if that's the case, it would be great to [get you involved too](https://elementary.io/get-involved)! As mentioned before its a lot of fun working with the elementary team and seeing your own contributions released to the world is just awesome! The beautiful side effect: It makes elementary OS better for all of us!
 
-Last but not least: In case you are currently using macOS and thinking about taking the leap, make sure to read the 5-part series written by [@CassidyJames](https://twitter.com/CassidyJames) on the elementary Blog about…
+Last but not least: In case you are currently using macOS and thinking about taking the leap, make sure to read the 5-part series written by [@CassidyJames](https://twitter.com/CassidyJames) on the elementary blog about…
 
 **Switching from macOS:**
 
