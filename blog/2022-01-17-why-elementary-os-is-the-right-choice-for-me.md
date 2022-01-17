@@ -9,10 +9,6 @@ _January 2021_
 
 ... my personal thoughts and experience and opinion alone ...
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## Philosophical Reasoning
 
 ### Community and Communication
@@ -41,6 +37,8 @@ And this approach really shows in to the overall UX of elementary OS in which [A
 For example, the elementary OS [installer offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
 
 ... MOVIE ...
+
+Other things I really like in terms of design and UX in elementary OS are [Multi Touch Gestures](https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/) and the [Dark Style](https://blog.elementary.io/dark-style-progress/).
 
 ### Open Source does not imply Free Labour
 
@@ -108,17 +106,16 @@ If you want to know more, make sure to read the [Flatpak article on the elementa
 
 **Why is this important?**
 
-Traditionally, in the Linux world I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with a older versions which are better
+Traditionally, in the Linux world I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with older versions which are better
 tested and more stable. This choice not only affected the desktop software used but the entire operating system. To put it bluntly: You had to choose
-between brand new, unstable operating systems with potential high maintenance effort or a bit older, well tested and therefore low maintenance effort operating systems.
+between brand new, unstable distributions with potential high maintenance effort or a bit older, well tested and therefore low maintenance effort distributions.
 
 The first option is good for developers and tinkerers, the second option is a solid choice for servers. But for a regular day to day user with basic needs? Either one of them
 is bad.
 
-Thats why I love elementary OS for its unique approach: The foundation is built on the highly stable low maintenance Ubuntu LTS release. This means the foundation is well tested and I don't have to worry too much about its core. But at the same time, I can use the latest and greates desktop applications which may require newer core
-libraries - thanks to Flatpak.
-
-### Upstreaming wherever possible
+Thats why I love elementary OS' unique approach: The foundation is built using the highly stable low maintenance Ubuntu LTS release. This means it is well tested and I don't 
+have to worry about it. But at the same time, I can use the latest and greates desktop applications which may require newer libraries - which are shipped within their own
+sandbox thanks to Flatpak. So both approaches can coexist and complement each other.
 
 ### Documentation
 
@@ -131,13 +128,23 @@ They provide a [developer welcome page](https://developer.elementary.io/), [desi
 On top of all that, in case you want to contribute to the operating system itself, there is even a [Contributor Guide](https://docs.elementary.io/contributor-guide/)
 which helps you to get started with this as well.
 
-## Things I Love
+## Final Words
 
-### Multi Touch
+In case you are thinking to switch to elementary OS: Do me favour and give it a fair chance. Try to get used to the way elementary OS accomplish things. You would not expect 
+macOS to work the same way as Windows does, right? There are uniquenesses on each platform - regardless if its Windows, macOS or elementary OS. Getting used to a new platform
+takes some time and not each platform is for everybody. If its not for you, thats fine - but it does not make it a bad platform.
 
-- https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/
+Don't get me wrong: As with any software out there, elementary OS is by no means perfect. There are things which - I think - are still [missing or need some workarounds](https://www.marco.betschart.name/areas/elementary-os/missing-features-and-workarounds) and you'll probably find other things which are missing for you.
 
-### Dark Style
+If that's the case, it would be great to [have you involved](https://elementary.io/get-involved)! As mentioned above its a lot of fun working with the elementary Team and see
+your own contributions released to the world - which in turn makes elementary OS better for all of us.
 
-- https://blog.elementary.io/dark-style-progress/
-- https://blog.elementary.io/the-need-for-a-freedesktop-dark-style-preference/
+And in case you are currently using macOS and thinking about taking the leap, make sure to read the 5-part series written by [@CassidyJames](https://twitter.com/CassidyJames) on the elementary Blog about…
+
+**Switching from macOS:**
+
+1. [The Basics](https://blog.elementary.io/switching-from-macos-the-basics/)
+2. [Developer Environment](https://blog.elementary.io/switching-from-macos-developer-environment/)
+3. [Creative Work](https://blog.elementary.io/switching-from-macos-creative-work/)
+4. [Hardware](https://blog.elementary.io/switching-from-macos-hardware/)
+5. [Open Source](https://blog.elementary.io/switching-from-macos-open-source/)
