@@ -1,5 +1,5 @@
 ---
-description: A few days ago I was asked on Twitter, why I like elementary OS. Here is why!
+description: A few days ago I was asked on Twitter, why I like elementary OS - and here is why!
 ---
 
 # Why elementary OS is the right choice for me
@@ -9,7 +9,7 @@ _January 2021_
 A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/status/1481970455267487746), why I like elementary OS. Because the answer is hard to condense into a handful of Tweets, I decided to write things up in a full blown blog post. Here you have it [@MarkKour](https://twitter.com/MarkKour)! I hope this is helpful to you an others.
 
 {% hint style="warning" %}
-**Be Aware:** The statements below represent my own personal opinion. They do not reflect an official point of view of elementary nor anyone else.
+**Be Aware:** The statements below represent my own personal opinion. They don't reflect an official point of view of elementary nor anyone else.
 {% endhint %}
 
 ## Philosophical Reasoning
@@ -28,13 +28,13 @@ In my opinion this way of communication and the urge to truly understand the mot
 
 The [elementary Design Philosophy](https://docs.elementary.io/hig/design-philosophy) is right on point: Design is something deeply integrated in whatever you create. Its the sum of all the tiny little decisions. Its not something you can think of in an aftermath - its an intrinsic part of what you build. And the effectiveness of a design is measurable: If the problem the design tries to solve is well understood, then the effectiveness of different designs can objectively be compared at solving this problem.
 
-Here we come full circle: As I mentioned, the community and communication all around elementary is about understanding the specific problem at hand - always with the goal in mind to find the best possible solution.
+And now we come full circle: As I mentioned, the community and communication all around elementary is about understanding the specific problem at hand - always with the goal in mind to find the best possible solution.
 
-And this approach really shows in to the overall UX of elementary OS in which [Accessibility Features Are Just Features](https://blog.elementary.io/accessibility-features-are-just-features/): For example, the elementary OS [installer offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
+This whole approach really shows in to the overall UX of elementary OS in which [Accessibility Features Are Just Features](https://blog.elementary.io/accessibility-features-are-just-features/). One very nice example is the elementary OS installer: [It offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
 
 ![eOS installer offers to switch to left-handed setup](../.gitbook/assets/eOS-installer-offers-to-switch-to-left-handed-setup.gif)
 
-Other things I really like in terms of design and UX in elementary OS are [Multi Touch Gestures](https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/) and the [Dark Style](https://blog.elementary.io/dark-style-progress/).
+Some other things I really like in terms of UX in elementary OS are [Multi Touch Gestures](https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/) and the [Dark Style](https://blog.elementary.io/dark-style-progress/).
 
 ### Open Source does not imply Free Labor
 
