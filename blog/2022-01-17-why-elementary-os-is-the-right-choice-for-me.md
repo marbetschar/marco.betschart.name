@@ -64,7 +64,7 @@ _Technical decisions made by the elementary OS team are in line with my personal
 
 elementary OS is build on top of the latest [Ubuntu LTS (Long Term Support)](https://ubuntu.com/blog/what-is-an-ubuntu-lts-release). This basically means the foundation of elementary OS is guaranteed to receive bug fixes and security updates for years to come. Because all of these are well tested, elementary OS is built on top of highly stable computing platform which needs very low maintenance effort.
 
-And just in case you do have an issue at some point: Ubuntu is a widely used general purpose computing platform - so there is a huge community surrounding it to reach out for help.
+And just in case things go wrong at some point: Ubuntu is widely used - so there is a huge community to reach out for help.
 
 ### Flatpak: App Sandboxing
 
