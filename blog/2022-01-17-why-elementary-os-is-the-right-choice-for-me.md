@@ -9,7 +9,7 @@ _January 2021_
 A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/status/1481970455267487746), why I like elementary OS. Because the answer is hard to condense into a handful of Tweets, I decided to write things up in a full blown blog post. Here you have it [@MarkKour](https://twitter.com/MarkKour)! I hope this is helpful to you an others.
 
 {% hint style="warning" %}
-**Be Aware:** The statements below represent my own personal opinion. They don't reflect an official point of view of elementary nor anyone else.
+**Be Aware:** The statements below represent my own personal opinion. They neither reflect an official point of view of elementary nor anyone else.
 {% endhint %}
 
 ## Philosophical Reasoning
