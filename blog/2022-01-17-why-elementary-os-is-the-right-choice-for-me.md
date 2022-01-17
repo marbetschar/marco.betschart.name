@@ -1,14 +1,20 @@
 ---
-description: ...
+description: A few days ago I was asked on Twitter, why I like elementary OS. Here is why!
 ---
 
 # Why elementary OS is the right choice for me
 
 _January 2021_
 
-... my personal thoughts and experience and opinion alone ...
+A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/status/1481970455267487746), why I like elementary OS. Because the answer is hard to condense into a handful of Tweets, I decided to write things up in a full blown blog post. Here you have it [@MarkKour](https://twitter.com/MarkKour)! I hope this is helpful to you an others.
+
+{% hint style="warning" %}
+**Be Aware:** The statements below represent my own personal opinion. They do not reflect an official point of view of elementary nor anyone else.
+{% endhint %}
 
 ## Philosophical Reasoning
+
+_Things I like about the self-perception of elementary and how it guides its day to day decisions._
 
 ### Community and Communication
 
@@ -44,19 +50,15 @@ And the best part of it: AppCenter is not limited to elementary OS. The [AppCent
 AppCenter for Everyone: elementary Apps can be installed on other distributions as well
 {% endembed %}
 
-> Folks on other Linux desktops can add AppCenter to their remotes and install apps with GNOME Software either by downloading a Flatpak ref file from [https://t.co/oxcVTVldnO](https://t.co/oxcVTVldnO) or with the terminal command:\
-> \
-> “flatpak remote-add --if-not-exists --user appcenter [https://t.co/utDSsuDYyT](https://t.co/utDSsuDYyT)”
->
-> — elementary (@elementary) [January 14, 2022](https://twitter.com/elementary/status/1482104137961508864?ref\_src=twsrc%5Etfw)
-
 ### Privacy
 
-Let's face it: At the end of the day the whole privacy discussion boils down to one thing - and that is trust. If you are working with some proprietary platform and trust it to not share your data with an unwanted party, that's fine. But as you can't verify your trust, you shouldn't be too surprised if its unjustified. At the end of the day this proprietary platform exists in a profit-oriented world and its hard to keep such a platform accountable based on its marketing claims.
+Let's face it: At the end of the day the whole privacy discussion boils down to one thing - and that is trust. If you are working with some proprietary platform and trust it to not share your data with an unwanted party, that's fine. But as you can't verify your trust, you shouldn't be too surprised if its unjustified. At the end of the day this proprietary platform exists in a profit-oriented world and its hard to keep such a platform accountable solely based on its marketing claims.
 
 Therefore, I [neither want to be the product](https://blog.elementary.io/you-are-not-the-product/) [nor share private data with anyone I'm not fully aware of](https://blog.elementary.io/privacy-and-elementary-os/). So choosing elementary OS in terms of Privacy was a no-brainer for me.
 
 ## Technical Reasoning
+
+_Technical decisions made by the elementary OS team are in line with my personal needs._
 
 ### Based on Ubuntu LTS: A stable, widely used low maintenance foundation
 
@@ -86,7 +88,7 @@ Last but not least, Flatpak also allows to install, update or remove an app for 
 
 If you want to know more, make sure to read the [Flatpak article on the elementary blog](https://blog.elementary.io/elementary-appcenter-flatpak/).
 
-**Why is this important?**
+**Why is this relevant?**
 
 Traditionally, in the Linux world I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with older versions which are better tested and more stable. This choice not only affected the desktop software used but the entire operating system. To put it bluntly: You had to choose between brand new, unstable distributions with potential high maintenance effort or a bit older, well tested and therefore low maintenance effort distributions.
 
