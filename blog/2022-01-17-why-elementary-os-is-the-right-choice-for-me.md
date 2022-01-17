@@ -71,9 +71,52 @@ Therefore, I [neither want to be the product](https://blog.elementary.io/you-are
 
 ### Based on Ubuntu LTS: A stable, widely used low maintenance foundation
 
+elementary OS is build on top of the latest [Ubuntu LTS (Long Term Support)](https://ubuntu.com/blog/what-is-an-ubuntu-lts-release). This basically means the foundation of
+elementary OS is guaranteed to receive bugfixes and security updates for years to come. Because all of these are well tested, elementary OS is built on top of highly stable
+computing platform which needs very low maintenance effort.
+
+And just in case you do have an issue at some point: Ubuntu is a widely used general purpose computing platform - so there is a huge community surrounding it to reach out for help.
+
 ### Flatpak: App Sandboxing
 
-- https://blog.elementary.io/elementary-appcenter-flatpak/
+Even though the classic package format (`*.deb`) is fine for software management on operating system level, it comes with some downsides when used for desktop applications:
+
+**Problem 1: Security**
+
+`*.deb` packages are always installed by `root` (the Administrator of Linux), but the ultimate actions triggered during installation are defined by the package itself. This 
+basically means, each time you install, update or remove a `*.deb` package you give it full access and therefore full control over your entire hard drive with all data stored
+on it. Unfortunately there is no way to mitigate this, because it is not possible to install, update or remove a `*.deb` package as a regular user.
+
+**Problem 2: Freshness**
+
+Beeing able to install the latest version of each application using a traditional package format such as `*.deb` is difficult, because this format relies on shared libraries
+and binaries provides by the underlying operating system. If the underlying operating system gets older, the provided versions of the shared libraries and binaries may no longer
+be compatible with the latest version of the desktop application. Therefore, keeping everything in sync gets harder and harder over time.
+
+**Solution: App Sandboxing**
+
+Flatpak solves these issues by providing a package format which allows the developer to shield its app from the surrounding operating system. This mechanism is called
+sandboxing. Since the app now lives within a sandbox, the developer can also add all additionally needed libraries and binaries to the app's sandbox and therefore increase the
+apps portability.
+
+But the sandbox does not only protect the app from unsupported library versions, it also works the other way around: The sandbox does not allow the app to access surrounding 
+operating system resources - unless explicitly granted by the user. This includes hard drive access as well as access to other hardware such as webcams or microphones.
+
+Last but not least, Flatpak also allows to install, update or remove an app for one specific user only. So there is no `root` permission needed to manage applications.
+
+If you want to know more, make sure to read the [Flatpak article on the elementary blog](https://blog.elementary.io/elementary-appcenter-flatpak/).
+
+**Why is this important?**
+
+Traditionally, in the Linux world I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with a older versions which are better
+tested and more stable. This choice not only affected the desktop software used but the entire operating system. To put it bluntly: You had to choose
+between brand new, unstable operating systems with potential high maintenance effort or a bit older, well tested and therefore low maintenance effort operating systems.
+
+The first option is good for developers and tinkerers, the second option is a solid choice for servers. But for a regular day to day user with basic needs? Either one of them
+is bad.
+
+Thats why I love elementary OS for its unique approach: The foundation is built on the highly stable low maintenance Ubuntu LTS release. This means the foundation is well tested and I don't have to worry too much about its core. But at the same time, I can use the latest and greates desktop applications which may require newer core
+libraries - thanks to Flatpak.
 
 ### Upstreaming wherever possible
 
