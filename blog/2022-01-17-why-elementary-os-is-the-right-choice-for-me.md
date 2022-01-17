@@ -34,7 +34,7 @@ The [elementary Design Philosophy](https://docs.elementary.io/hig/design-philoso
 
 And here we come full circle now: As mentioned, the community and communication all around elementary is all about understanding the specific problem at hand - always with the goal in mind to find the best possible solution.
 
-This whole approach really shows in to the overall UX of elementary OS in which [Accessibility Features Are Just Features](https://blog.elementary.io/accessibility-features-are-just-features/). One very nice example is the elementary OS installer: [It offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
+This whole approach really shows in the overall User Experience (UX) of elementary OS. For example [Accessibility Features Are Just Features](https://blog.elementary.io/accessibility-features-are-just-features/). Or another very nice example is the elementary OS installer: [It offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
 
 ![eOS installer offers to switch to left-handed setup](<../.gitbook/assets/eOS-installer-offers-to-switch-to-left-handed-setup (1).gif>)
 
