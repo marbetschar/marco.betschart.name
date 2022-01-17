@@ -1,6 +1,6 @@
 ---
 description: >-
-  A few days ago I was asked on Twitter, why I like elementary OS - and here is
+  A few days ago I was asked on Twitter why I like elementary OS - and here is
   why!
 ---
 
@@ -114,9 +114,9 @@ So I was very pleased to find elementary OS does a marvelous job in terms of doc
 
 In case you are thinking to switch to elementary OS: Try to give it a fair chance by getting used to the way elementary OS accomplish things. You would not expect macOS to work the same way as Windows does, right? There are uniquenesses on each platform - regardless if its Windows, macOS or elementary OS. Getting acustomed to a new platform takes some time. And if its not for you, that's fine - but it does not make it automatically a bad platform.
 
-Don't get me wrong: As with any software out there, elementary OS is by no means perfect. There are things which - I think - are still [missing or need some annoying workarounds](https://www.marco.betschart.name/areas/elementary-os/missing-features-and-workarounds). You'll probably find some things which are missing for you as well.
+Don't get me wrong: As with any software out there, elementary OS is by no means perfect. There are things which - I think - are still [missing or need some annoying workarounds](https://www.marco.betschart.name/areas/elementary-os/missing-features-and-workarounds). You'll probably find some quirks yourself as well.
 
-If that's the case, it would be great to [have you involved](https://elementary.io/get-involved)! As mentioned above its a lot of fun working with the elementary team and seeing your own contributions released to the world is just awesome! And it makes elementary OS better for all of us ;)
+And if that's the case, it would be great to [get you involved too](https://elementary.io/get-involved)! As mentioned before its a lot of fun working with the elementary team and seeing your own contributions released to the world is just awesome! The beautiful side effect: It makes elementary OS better for all of us!
 
 Last but not least: In case you are currently using macOS and thinking about taking the leap, make sure to read the 5-part series written by [@CassidyJames](https://twitter.com/CassidyJames) on the elementary Blog about…
 
