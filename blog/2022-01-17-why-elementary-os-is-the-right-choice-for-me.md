@@ -58,7 +58,7 @@ AppCenter for Everyone: elementary Apps can be installed on other Linux distribu
 
 Let's face it: The whole privacy discussion boils down to one thing - and that's trust. If you are working with some proprietary platform and trust it to not share your data with an unwanted party, that's fine. But as you can't verify your trust, you shouldn't be too surprised if its unjustified. At the end of the day this proprietary platform exists in a profit-oriented world and its hard to keep such a platform accountable solely based on its marketing claims.
 
-Therefore, I [neither want to be the product](https://blog.elementary.io/you-are-not-the-product/), [nor share private data with anyone I'm not fully aware of](https://blog.elementary.io/privacy-and-elementary-os/). So choosing elementary OS in terms of Privacy was a no-brainer for me.
+Therefore, I [neither want to be the product](https://blog.elementary.io/you-are-not-the-product/), [nor share private data with anyone I'm not fully aware of](https://blog.elementary.io/privacy-and-elementary-os/). So choosing elementary OS in terms of privacy was a no-brainer for me.
 
 ## Technical Reasoning
 
