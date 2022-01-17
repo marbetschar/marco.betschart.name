@@ -79,14 +79,14 @@ Therefore, I [neither want to be the product](https://blog.elementary.io/you-are
 
 ### Documentation
 
-As a developer coming from macOS, I was pretty much spoiled by the Apple ecosystem. Especially in terms of its documentation for design best practices
-(Human Interface Guidelines), development and release processes and programming API's.
+As a developer coming from macOS, I was pretty much spoiled by the Apple ecosystem. Especially in terms of its documentation: Design best practices
+(Human Interface Guidelines), development, release processes and programming API's - everything is documented and a lot of examples are supplied.
 
-So I was very pleased to find elementary OS does a marvellous job in terms of documentation to really help people getting involved: They provide
-a [developer welcome page](https://developer.elementary.io/), [design best practices (Human Interface Guidelines)](https://docs.elementary.io/hig/),
-[development and release process documentation](https://docs.elementary.io/develop/), [documentation for programming API's](https://valadoc.org/) as well.
-And on top of that, if you want to contribute to the OS itself, there is even a [Contributor Guide](https://docs.elementary.io/contributor-guide/) which helps
-you to get started there as well.
+So I was very pleased to find elementary OS does a marvellous job in terms of documentation too. Their documentation really helps getting involved:
+They provide a [developer welcome page](https://developer.elementary.io/), [design best practices (Human Interface Guidelines)](https://docs.elementary.io/hig/),
+[development and release process documentation](https://docs.elementary.io/develop/) and a [documentation for programming API's](https://valadoc.org/) as well.
+On top of all that, in case you want to contribute to the operating system itself, there is even a [Contributor Guide](https://docs.elementary.io/contributor-guide/)
+which helps you to get started with this as well.
 
 ## Things I Love
 
