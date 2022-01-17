@@ -105,13 +105,13 @@ So I was very pleased to find elementary OS does a marvelous job in terms of doc
 
 ## Final Thoughts
 
-In case you are thinking to switch to elementary OS: Do me favor and give it a fair chance. Try to get used to the way elementary OS accomplish things. You would not expect macOS to work the same way as Windows does, right? There are uniquenesses on each platform - regardless if its Windows, macOS or elementary OS. Getting used to a new platform takes some time and not each platform is for everybody. If its not for you, that's fine - but it does not make it a bad platform.
+In case you are thinking to switch to elementary OS: Try to give it a fair chance by getting used to the way elementary OS accomplish things. You would not expect macOS to work the same way as Windows does, right? There are uniquenesses on each platform - regardless if its Windows, macOS or elementary OS. Getting acustomed to a new platform takes some time. And if its not for you, that's fine - but it does not make it automatically a bad platform.
 
-Don't get me wrong: As with any software out there, elementary OS is by no means perfect. There are things which - I think - are still [missing or need some workarounds](https://www.marco.betschart.name/areas/elementary-os/missing-features-and-workarounds) and you'll probably find other things which are missing for you.
+Don't get me wrong: As with any software out there, elementary OS is by no means perfect. There are things which - I think - are still [missing or need some annoying workarounds](https://www.marco.betschart.name/areas/elementary-os/missing-features-and-workarounds). You'll probably find some things which are missing for you as well.
 
-If that's the case, it would be great to [have you involved](https://elementary.io/get-involved)! As mentioned above its a lot of fun working with the elementary Team and see your own contributions released to the world - which in turn makes elementary OS better for all of us.
+If that's the case, it would be great to [have you involved](https://elementary.io/get-involved)! As mentioned above its a lot of fun working with the elementary team and seeing your own contributions released to the world is just awesome! And it makes elementary OS better for all of us ;)
 
-And in case you are currently using macOS and thinking about taking the leap, make sure to read the 5-part series written by [@CassidyJames](https://twitter.com/CassidyJames) on the elementary Blog about…
+Last but not least: In case you are currently using macOS and thinking about taking the leap, make sure to read the 5-part series written by [@CassidyJames](https://twitter.com/CassidyJames) on the elementary Blog about…
 
 **Switching from macOS:**
 
