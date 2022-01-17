@@ -1,5 +1,7 @@
 ---
-description: A few days ago I was asked on Twitter, why I like elementary OS - and here is why!
+description: >-
+  A few days ago I was asked on Twitter, why I like elementary OS - and here is
+  why!
 ---
 
 # Why elementary OS is the right choice for me
@@ -14,7 +16,7 @@ A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/stat
 
 ## Philosophical Reasoning
 
-_Things I like about the self-perception of elementary and how it guides its day to day decisions._
+![Things I like about the self-perception of elementary and how it guides its day to day decisions.](../.gitbook/assets/tj-holowaychuk.jpg)
 
 ### Community and Communication
 
@@ -32,7 +34,7 @@ And here we come full circle now: As mentioned, the community and communication 
 
 This whole approach really shows in to the overall UX of elementary OS in which [Accessibility Features Are Just Features](https://blog.elementary.io/accessibility-features-are-just-features/). One very nice example is the elementary OS installer: [It offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
 
-![eOS installer offers to switch to left-handed setup](../.gitbook/assets/eOS-installer-offers-to-switch-to-left-handed-setup.gif)
+![eOS installer offers to switch to left-handed setup](<../.gitbook/assets/eOS-installer-offers-to-switch-to-left-handed-setup (1).gif>)
 
 Some other things I really like in terms of UX in elementary OS are [Multi Touch Gestures](https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/) and the [Dark Style](https://blog.elementary.io/dark-style-progress/).
 
@@ -44,9 +46,7 @@ And here comes the catch: A lot of people tend to ignore that Open Source is not
 
 That's why I really like the Pay-What-You-Can pricing model of elementary and its [AppCenter](https://appcenter.elementary.io): It makes the labor involved far more prominent and at the same time its much easier to send a few bucks of appreciation.
 
-You are now probably thinking about Walled Gardens. But before you are jumping to conclusions, you need to know that AppCenter is not limited to elementary OS!
-The [AppCenter for Everyone initiative](https://www.indiegogo.com/projects/appcenter-for-everyone/#/) launched by the elementary team itself enables
-AppCenter on other Linux distributions as well.
+You are now probably thinking about Walled Gardens. But before you are jumping to conclusions, you need to know that AppCenter is not limited to elementary OS! The [AppCenter for Everyone initiative](https://www.indiegogo.com/projects/appcenter-for-everyone/#/) launched by the elementary team itself enables AppCenter on other Linux distributions as well.
 
 {% embed url="https://twitter.com/elementary/status/1482104137961508864" %}
 AppCenter for Everyone: elementary Apps can be installed on other Linux distributions as well
@@ -60,7 +60,7 @@ Therefore, I [neither want to be the product](https://blog.elementary.io/you-are
 
 ## Technical Reasoning
 
-_Technical decisions made by the elementary OS team are in line with my personal needs._
+![Technical decisions made by the elementary OS team are in line with my personal needs.](../.gitbook/assets/photo-by-space-x.jpg)
 
 ### Based on Ubuntu LTS: A stable, widely used low maintenance foundation
 
@@ -94,8 +94,7 @@ If you want to know more, make sure to read the [Flatpak article on the elementa
 
 Traditionally, in the Linux world I had to make a choice: Either I want to be able to use the latest available software - or I'm fine with older versions which are better tested and more stable. This choice not only affected the desktop software used but the entire operating system. To put it bluntly: You had to choose between brand new, unstable distributions with potential high risk of breakage or older, better tested and therefore low risk distributions.
 
-The first option is good for developers and tinkerers, the second option is a solid choice for servers. But for an everyday user which needs access to new features but does
-not want to compromise on stability? Either one of them is bad.
+The first option is good for developers and tinkerers, the second option is a solid choice for servers. But for an everyday user which needs access to new features but does not want to compromise on stability? Either one of them is bad.
 
 That's why I love elementary OS' unique approach: The foundation is built using the highly stable low maintenance Ubuntu LTS release. This means it is well tested and I don't have to worry about it. But at the same time, I can use the latest and greates desktop applications which may require newer libraries - which are shipped within their own sandbox thanks to Flatpak. So both approaches can coexist and complement each other.
 
