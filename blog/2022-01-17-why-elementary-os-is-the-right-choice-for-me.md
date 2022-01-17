@@ -22,13 +22,13 @@ The elementary team does a great job of keeping the community in the loop by pub
 
 In my experience everything around elementary and its team is very open and forthcoming. Whenever I reached out with a question, I received a helpful answer and if things weren't obvious the team truly tried to understand the matter before jumping to conclusions.
 
-In my opinion this way of communication and the urge to truly understand the motivation _behind_ a request is what makes the difference. Therefore, [getting involved](https://elementary.io/get-involved) is at the same time a lot of fun and rewarding.
+In my opinion this way of communication and the urge to truly understand the motivation _behind_ a request is what makes the difference. Therefore, [getting involved](https://elementary.io/get-involved) is at the same time a lot of fun as well as rewarding.
 
 ### Design is neither an add-on nor an opinion
 
-The [elementary Design Philosophy](https://docs.elementary.io/hig/design-philosophy) is right on point: Design is something deeply integrated in whatever you create. Its the sum of all the tiny little decisions. Its not something you can think of in an aftermath - its an intrinsic part of what you build. And the effectiveness of a design is measurable: If the problem the design tries to solve is well understood, then the effectiveness of different designs can objectively be compared at solving this problem.
+The [elementary Design Philosophy](https://docs.elementary.io/hig/design-philosophy) is right on point: Design is something deeply integrated in whatever you create. Its the sum of all the tiny little decisions. Its not something you can think of in an aftermath - and the effectiveness of a design is measurable: If the problem is well understood, then the effectiveness of different designs can objectively be compared.
 
-And now we come full circle: As I mentioned, the community and communication all around elementary is about understanding the specific problem at hand - always with the goal in mind to find the best possible solution.
+And here we come full circle now: As mentioned, the community and communication all around elementary is all about understanding the specific problem at hand - always with the goal in mind to find the best possible solution.
 
 This whole approach really shows in to the overall UX of elementary OS in which [Accessibility Features Are Just Features](https://blog.elementary.io/accessibility-features-are-just-features/). One very nice example is the elementary OS installer: [It offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
 
