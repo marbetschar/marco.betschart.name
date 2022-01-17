@@ -16,7 +16,9 @@ A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/stat
 
 ## Philosophical Reasoning
 
-![Things I like about the self-perception of elementary and how it guides its day to day decisions.](../.gitbook/assets/tj-holowaychuk.jpg)
+_Things I like about the self-perception of elementary and how it guides its day to day decisions._
+
+![elementary OS wallpaper by Tj Holowaychuk](../.gitbook/assets/tj-holowaychuk.jpg)
 
 ### Community and Communication
 
@@ -60,7 +62,9 @@ Therefore, I [neither want to be the product](https://blog.elementary.io/you-are
 
 ## Technical Reasoning
 
-![Technical decisions made by the elementary OS team are in line with my personal needs.](../.gitbook/assets/photo-by-space-x.jpg)
+_Technical decisions made by the elementary OS team are in line with my personal needs._
+
+![elementary OS wallpaper by SpaceX](../.gitbook/assets/photo-by-space-x.jpg)
 
 ### Based on Ubuntu LTS: A stable, widely used low maintenance foundation
 
@@ -105,6 +109,8 @@ As a developer coming from macOS, I was pretty much spoiled by the Apple ecosyst
 So I was very pleased to find elementary OS does a marvelous job in terms of documentation too. Their documentation really helps getting involved: They provide a [developer welcome page](https://developer.elementary.io), [design best practices (Human Interface Guidelines)](https://docs.elementary.io/hig/), [development and release process documentation](https://docs.elementary.io/develop/) and a [documentation for programming API's](https://valadoc.org) as well. On top of all that, in case you want to contribute to the operating system itself, there is even a [Contributor Guide](https://docs.elementary.io/contributor-guide/) which helps you to get started with this as well.
 
 ## Final Thoughts
+
+![elementary OS wallpaper by Julia Craice](../.gitbook/assets/julia-craice.jpg)
 
 In case you are thinking to switch to elementary OS: Try to give it a fair chance by getting used to the way elementary OS accomplish things. You would not expect macOS to work the same way as Windows does, right? There are uniquenesses on each platform - regardless if its Windows, macOS or elementary OS. Getting acustomed to a new platform takes some time. And if its not for you, that's fine - but it does not make it automatically a bad platform.
 
