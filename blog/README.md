@@ -4,6 +4,10 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
+## [Why elementary OS is the right choice for me](2022-01-17-why-elementary-os-is-the-right-choice-for-me.md)
+
+_January 2021_ - A few days ago I was asked on Twitter why I like elementary OS - and here is why… [**more »**](2022-01-17-why-elementary-os-is-the-right-choice-for-me.md)
+
 ## [It's Christmas Time: Jólnir brings many gifts](2021-12-22-christmas-time-jolnir-brings-many-gifts.md)
 
 _December 2021_ - In this post, I'm going to highlight some features I contributed to Jólnir and I'm very excited about… [**more »**](2021-12-22-christmas-time-jolnir-brings-many-gifts.md)
