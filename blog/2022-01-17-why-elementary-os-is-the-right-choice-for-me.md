@@ -22,7 +22,7 @@ _Things I like about the self-perception of elementary and how it guides its day
 
 ### Community and Communication
 
-The elementary team does a great job of keeping the community in the loop by publishing a summary of last month's updates on [their blog](https://blog.elementary.io). Those summaries are a joy to read because they are very well written and full of screenshots which showcase the improvements described.
+The elementary team does a great job of keeping the community in the loop by publishing a summary of each month's updates on [their blog](https://blog.elementary.io). Those summaries are a joy to read because they are very well written and full of screenshots which showcase the improvements described.
 
 In my experience everything around elementary and its team is very open and forthcoming. Whenever I reached out with a question, I received a helpful answer and if things weren't obvious the team truly tried to understand the matter before jumping to conclusions.
 
