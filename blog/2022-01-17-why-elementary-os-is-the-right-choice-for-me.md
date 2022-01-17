@@ -128,7 +128,7 @@ They provide a [developer welcome page](https://developer.elementary.io/), [desi
 On top of all that, in case you want to contribute to the operating system itself, there is even a [Contributor Guide](https://docs.elementary.io/contributor-guide/)
 which helps you to get started with this as well.
 
-## Final Words
+## Final Thoughts
 
 In case you are thinking to switch to elementary OS: Do me favour and give it a fair chance. Try to get used to the way elementary OS accomplish things. You would not expect 
 macOS to work the same way as Windows does, right? There are uniquenesses on each platform - regardless if its Windows, macOS or elementary OS. Getting used to a new platform
