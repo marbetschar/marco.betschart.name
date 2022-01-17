@@ -8,7 +8,7 @@ description: >-
 
 _January 2021_
 
-A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/status/1481970455267487746), why I like elementary OS. Because the answer is hard to condense into a handful of Tweets, I decided to write things up in a full blown blog post.
+A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/status/1481970455267487746), why I like elementary OS. Because the answer is hard to condense into a handful of Tweets, I decided to write this blog post.
 
 {% hint style="warning" %}
 **Be Aware:** The statements below represent my own personal opinion. They neither reflect an official point of view of elementary nor anyone else.
