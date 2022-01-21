@@ -6,7 +6,7 @@ description: >-
 
 # Why elementary OS is the right choice for me
 
-_January 2021_
+_January 2022_
 
 A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/status/1481970455267487746), why I like elementary OS. Because the answer is hard to condense into a handful of Tweets, I decided to write this blog post.
 
