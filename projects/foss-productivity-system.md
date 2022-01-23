@@ -67,8 +67,6 @@ description: My free and open source productivity system.
 
 ## Convenience Features & Workarounds
 
-*
-
 ### Integration between elementary OS and CalyxOS
 
 _Should be possible with KDE Connect:_
