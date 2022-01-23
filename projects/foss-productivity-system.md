@@ -12,8 +12,6 @@ description: My free and open source productivity system.
 
 ## Core Features
 
-
-
 * ⚠️ - the app is proprietary / the feature is there, but does not work 100% as intended
 * ✅ - the feature is available
 * 👨‍🏭 - the feature is actively worked on
@@ -21,7 +19,7 @@ description: My free and open source productivity system.
 
 | _last update: 2022-01-23_           | 💻 [elementary OS](https://elementary.io)                          | 📱 [CalyxOS](https://calyxos.org)                                                |
 | ----------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
-| 📧️ **Mail**                        | [**elementary Mail**](https://github.com/elementary/mail/)         | [**FairEmail**](https://email.faircode.eu)****                                   |
+| 📧️ **Mail**                        | [**elementary Mail**](https://github.com/elementary/mail/)         | [**FairEmail**](https://email.faircode.eu)                                       |
 | Archive Conversation                | [✅](https://github.com/elementary/mail/pull/542)                   | ✅                                                                                |
 | Trash Conversation                  | [⚠️](https://github.com/elementary/mail/issues/657)                | ✅                                                                                |
 | Flag Conversation                   | ✅                                                                  | ✅                                                                                |
