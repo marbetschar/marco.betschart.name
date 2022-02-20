@@ -16,10 +16,6 @@ tags:
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-- [Install Flatpak](#install-flatpak)
-- [Install from PPA](#install-from-ppa)
-- [Start and Configure](#start-and-configure)
-
 ![elementary Files Nextcloud integration](../../.gitbook/assets/elementary-files-cloud-provider-nextcloud.png)
 
 ## Install Flatpak
@@ -32,7 +28,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 ## Install from PPA
 
 {% hint style="warning" %}
-**DEPRECATED:** Please prefer installing from Flathub, because PPA's are not officially supported on elementary OS.
+**DEPRECATED:** Please prefer installing the Flatpak version above, because custom PPA's are not officially supported on elementary OS.
 {% endhint %}
 
 ### Add Nextcloud client PPA
