@@ -137,6 +137,15 @@ Add the SSH Public Key to the following portals:
   * [ ] Click `+` in `System Settings > Network > VPN`
   * [ ] Select `Cisco AnyConnect or openconnect (OpenConnect)` and click `Create…`
   * [ ] Enter `ras.zhaw.ch` as Gateway
+  * [ ] Connect and enter when prompted:
+    * [ ] GROUP: `ZHAW-Edu`
+    * [ ] Username: `user@domain.tld`
+    * [ ] Password: `***`
+
+{% hint style="danger" %}
+**Troubleshoot Cisco AnyConnect:** In case you are experiencing any issues with the Cisco AnyConnect Gateway, try to connect via console directly:
+`sudo openconnect --user=user@domain.tld --passwd-on-stdin ras.zhaw.ch`
+{% endhint %}
 
 ## Printing & Scanning
 
