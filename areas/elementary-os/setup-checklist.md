@@ -142,7 +142,7 @@ Add the SSH Public Key to the following portals:
     * [ ] Username: `user@domain.tld`
     * [ ] Password: `***`
 
-{% hint style="danger" %}
+{% hint style="info" %}
 **Troubleshoot Cisco AnyConnect:** In case you are experiencing any issues with the Cisco AnyConnect Gateway, try to connect via console directly:
 `sudo openconnect --user=user@domain.tld --passwd-on-stdin ras.zhaw.ch`
 {% endhint %}
