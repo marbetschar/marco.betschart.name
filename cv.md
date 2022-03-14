@@ -52,7 +52,13 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
-### 2019 - Now: IT System Operations, midix.com ag
+### 2022 - Now: Backend Engineer, aXedras AG
+
+Backend development for a trusted digital network based on Distributed Ledger Technology (DLT).
+
+__[_R3 Corda Blockchain Platform_](https://www.r3.com/corda-platform/)_, Docker, Spring-Boot, Kotlin_
+
+### 2019 - 2022: IT System Operations, midix.com ag
 
 Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
 
