@@ -118,8 +118,8 @@ Once elementary OS is booted, start "GParted" from the Applications Menu. Then i
 3. Create the following partitions:
 
 * 550 MiB FAT32 (for `/boot/EFI`)
-* 500 MiB EXT4 (for `/boot`)
-* X GiB NTFS (for Windows)
+* 1 GiB EXT4 (for `/boot`)
+* 300 GiB NTFS (for Windows)
 * **Leave any remaining space unallocated**
   * Windows will add another 16 MiB partition upon its installation, therefore we create the partition for elementary OS later on
 * Click `Apply All Operations`
@@ -224,7 +224,7 @@ To make things bootable, we need to assign the `/boot/uefi` and `/boot` mount po
 * Use as: `Boot (/boot/efi)`
 * Filesystem: `fat32`
 
-7. Click on the 500 MiB ext4 partition on the non-encrypted, physical hard drive:
+7. Click on the 1 GiB ext4 partition on the non-encrypted, physical hard drive:
 
 * Enable `Use Partition`
 * Enable `Format`
