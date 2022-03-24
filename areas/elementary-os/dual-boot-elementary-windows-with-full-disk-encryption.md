@@ -55,7 +55,7 @@ The following applies if you are already on elementary OS. If not, please search
 
 ### 1.3 Completely Wipe Hard Drive (Recommended, Optional)
 
-While this step is optional, it is highly recommended to wipe the entire hard drive before starting this setup. This ensures your complete hard drive is filled with random data, which makes it much harder to decrypt your data after your completed this setup. It also makes sure you don't have any remainings of a (potential) previous install on your hard disk.
+While this step is optional, it is highly recommended to wipe the entire hard drive before starting the setup. This ensures your complete hard drive is filled with random data, which makes it much harder to decrypt your data once you're done setting everything up. It also makes sure, you don't have any remainings of a (potential) previous install on your hard disk.
 
 To do so, we boot elementary OS in Demo Mode:
 
