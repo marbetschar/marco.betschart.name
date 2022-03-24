@@ -104,7 +104,7 @@ Since we are going to create encrypted LUKS containers, we need to boot elementa
 
 ### 2.2 Create Partitions in GParted
 
-**IMPORTANT:** There's currently no easy way to make grub work with an encrypted partition. **Therefore make sure `/boot` and `/boot/EFI` are their own partitions and are **_**not**_** encrypted**.
+**IMPORTANT:** There's currently no easy way to make grub work with an encrypted partition. **Therefore make sure `/boot` and `/boot/EFI` are their own partitions and are _not_ encrypted**.
 
 Once elementary OS is booted, start "GParted" from the Applications Menu. Then in GParted:
 
