@@ -14,7 +14,7 @@ tags:
 
 # Dual Boot elementary OS and Windows with Full Disk Encryption
 
-> ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
+> ![elementary OS: 6.1 Jólnir](https://img.shields.io/badge/elementary%C2%A0OS-6.1%20Jólnir-007aff)
 > ![Windows: 10](https://img.shields.io/badge/Windows-10-007aff)
 > ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
