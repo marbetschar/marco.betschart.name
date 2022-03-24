@@ -50,7 +50,7 @@ The following applies if you are already on elementary OS. If not, please search
 5. Make WoeUSB executable: `chmod +x ~/Downloads/woeusb-*.bash`
 6. Plugin the USB stick you want to overwrite
 7. Figure out the device name of the USB stick by executing `sudo fdisk -l` from Terminal (in my case its `/dev/sda`)
-8. Create the Windows 10 USB stick: `~/Downloads/woeusb-*.bash --device ~/Downloads/Win10_*.iso /dev/sdX`
+8. Create the Windows 10 USB stick: `sudo ~/Downloads/woeusb-*.bash --device ~/Downloads/Win10_*.iso /dev/sdX`
 9. Done.
 
 ### 1.3 Completely Wipe Hard Drive (Recommended, Optional)
