@@ -59,10 +59,10 @@ Setup Online Accounts in `System Settings > Online Accounts`:
 
 |  | Server | Port | Encryption |
 | :--- | :---: | :---: | :---: |
-| _Incoming Mail \(IMAP\)_ | imap.yandex.com | 993 | SSL |
-| _Outgoing Mail \(SMTP\)_ | smtp.yandex.com | 465 | SSL |
+| _Incoming Mail \(IMAP\)_ | mail.gandi.net | 993 | SSL |
+| _Outgoing Mail \(SMTP\)_ | mail.gandi.net | 587 | STARTTLS |
 
-[_yandex.com/support/mail/mail-clients.html_](https://yandex.com/support/mail/mail-clients.html)
+[_docs.gandi.net/en/gandimail/standard_email_settings/_](https://docs.gandi.net/en/gandimail/standard_email_settings/)
 
 **Study**
 
@@ -91,9 +91,14 @@ Execute the following commands in the Terminal:
 sudo apt install git
 git config --global user.name "Your Name"
 git config --global user.email "your.name@domain.tld"
-ssh-keygen -t rsa
-cat ~/.ssh/id_rsa.pub
+ssh-keygen -t ed25519 -C "your.name@domain.tld"
+cat .ssh/id_ed25519.pub
 ```
+
+{% hint style="info" %}
+**If it does not work:** If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+`ssh-keygen -t rsa -b 4096 -C "your.name@domain.tld"`
+{% endhint %}
 
 Add the SSH Public Key to the following portals:
 
