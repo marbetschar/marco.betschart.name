@@ -22,19 +22,6 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 ## VSCodium
 
-### Install Flatpak
-
-* [ ] Click `Install` on [VSCodium's FlatHub.org page](https://flathub.org/apps/details/com.vscodium.codium)
-* [ ] Choose `Open with Sideload`
-* [ ] Select `I understand` and click `Install Anyway`
-* [ ] Select `Move *.flatpakref to Trash` and click `Open App`
-
-### Install from PPA
-
-{% hint style="warning" %}
-**DEPRECATED:** Please prefer installing the Flatpak version above, because custom PPA's are not officially supported on elementary OS.
-{% endhint %}
-
 _Install VSCodium from deb package (as documented on [the official website](https://vscodium.com/#install))._
 
 Add the GPG key of the repository:
