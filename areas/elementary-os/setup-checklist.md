@@ -144,11 +144,6 @@ Add the SSH Public Key to the following portals:
     * [ ] Connect to: `ras.zhaw.ch`
     * [ ] Click: `Connect`
 
-{% hint style="info" %}
-**Troubleshoot Cisco AnyConnect:** In case you are experiencing any issues with the Cisco AnyConnect Gateway, try to connect via console directly:
-`sudo openconnect --user=user@domain.tld --passwd-on-stdin ras.zhaw.ch`
-{% endhint %}
-
 ## Printing & Scanning
 
 * [ ] [Setup HP Color Laser Jet Pro MFP M281 fdw as documented](../../resources/linux-desktop/setup-hp-color-laser-jet-pro-mfp-m281-fdw.md)
