@@ -140,7 +140,7 @@ Add the SSH Public Key to the following portals:
 * [ ] Studies
   * [ ] Visit [ras.zhaw.ch](https://ras.zhaw.ch) in your browser and login
   * [ ] Follow the provided instructions to install `Cisco Anyconnect Secure Mobility Client`
-  * [ ] Start from the Applications menu and:
+  * [ ] Start `Cisco Anyconnect Secure Mobility Client` from the Applications menu and:
     * [ ] Connect to: `ras.zhaw.ch`
     * [ ] Click: `Connect`
 
