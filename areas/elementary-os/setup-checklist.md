@@ -138,14 +138,11 @@ Add the SSH Public Key to the following portals:
 * [ ] Work
   * [ ] Configure as documented in Zettelkasten
 * [ ] Studies
-  * [ ] `sudo apt install network-manager-openconnect-gnome`
-  * [ ] Click `+` in `System Settings > Network > VPN`
-  * [ ] Select `Cisco AnyConnect or openconnect (OpenConnect)` and click `Create…`
-  * [ ] Enter `ras.zhaw.ch` as Gateway
-  * [ ] Connect and enter when prompted:
-    * [ ] GROUP: `ZHAW-Edu`
-    * [ ] Username: `user@domain.tld`
-    * [ ] Password: `***`
+  * [ ] Visit [ras.zhaw.ch](https://ras.zhaw.ch) in your browser and login
+  * [ ] Follow the provided instructions to install `Cisco Anyconnect Secure Mobility Client`
+  * [ ] Start from the Applications menu and:
+    * [ ] Connect to: `ras.zhaw.ch`
+    * [ ] Click: `Connect`
 
 {% hint style="info" %}
 **Troubleshoot Cisco AnyConnect:** In case you are experiencing any issues with the Cisco AnyConnect Gateway, try to connect via console directly:
