@@ -57,7 +57,7 @@ kube-node-lease   Active   20m
 To make things easier to work with, you can add the local k3s connection to the default kubectl configuration file.
 This allows even third party tools such as [K9S](https://k9scli.io/) to manage your local deployment without any further configuration needed.
 
-To do so, copy the following parts from the `k3s.yaml` to the `~/.kube/config` file - and make sure to change the name from `default` to `k3s-local` to avoid any future confusion:
+To do so, copy the following parts from the `/etc/rancher/k3s/k3s.yaml` to the `~/.kube/config` file - and make sure to change the name from `default` to `k3s-local` to avoid any future confusion:
 
 ```yaml
 # /etc/rancher/k3s/k3s.yaml
