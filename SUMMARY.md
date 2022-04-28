@@ -44,6 +44,7 @@
     * [Install Oracle SQL Developer](resources/linux-desktop/install-oracle-sql-developer.md)
     * [Install Steam](resources/linux-desktop/install-steam.md)
     * [Setup HP Color Laser Jet Pro MFP M281 fdw](resources/linux-desktop/setup-hp-color-laser-jet-pro-mfp-m281-fdw.md)
+    * [Setup Local Kubernetes Development Environment](resources/setup-local-kubernetes-development-environment.md)
     * [VSCode: Vala Development](resources/linux-desktop/vscode-vala-development.md)
 * [Archives](archives/README.md)
   * [Half Life: Alyx](archives/half-life-alyx.md)
