@@ -28,7 +28,13 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 Set the environment variable `G_MESSAGES_DEBUG` to `all` to get all log messages printed to stdout:
 
 ```bash
-export G_MESSAGES_DEBUG=all
+G_MESSAGES_DEBUG=all com.github.marbetschar.my-app
+```
+
+Or if the app in question is a Flatpak app, you'll need to start the app with `flatpak run`:
+
+```bash
+G_MESSAGES_DEBUG=all flatpak run com.github.marbetschar.my-app
 ```
 
 ## Using GNU Debugger
@@ -44,9 +50,11 @@ sudo apt install gdb
 Run the program in question with GNU Debugger:
 
 ```bash
-$ gdb /path/to/executable
+$ gdb com.github.marbetschar.my-app
 ...
-Reading symbols from /path/to/executable...
+Reading symbols from com.github.marbetschar.my-app...
+...
+# Now type `run` and hit enter to start the app:
 (gdb) run
 ```
 
@@ -65,6 +73,7 @@ To retrieve a backtrace at this state, simply execute the `backtrace` command:
 #0  0x00007ffff709b434 in my_function_in_which_the_code_crashed () at /lib/x86_64-linux-gnu/libxyz-1.6.so.62
 #1  0x00005555555962ef in my_previously_executed_function (node=0x7fffffffcbc0, highest=1537725293) at ../src/MyCode/UsefulStuff.vala:168
 ...
+# Now type `quit` and hit enter to exit:
 (gdb) quit
 ```
 
