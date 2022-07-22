@@ -3,7 +3,7 @@
 > ![elementary OS: 6 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6%20Odin-007aff)
 > ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
-## Table of Content
+## Table of Contents
 
 - [Setup](#setup)
 - [Remove DRM from eBook](#remove-drm-from-ebook)
@@ -89,6 +89,10 @@ Now, all you need to remove DRM from your eBook is its path. By default Adobe Di
 ```
 python ~/.wine/drive_c/DeDRM/DeDRM_Plugin/ineptepub.py ~/.wine/drive_c/DeDRM/DeDRM_Plugin/adobekey_1.der ~/Documents/My\ Digital\ Editions/eBook.epub ~/Downloads/eBook-DRM-Free.epub
 ```
+
+{% hint style="info" %}
+If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
+{% endhint %}
 
 ## Further Reading
 
