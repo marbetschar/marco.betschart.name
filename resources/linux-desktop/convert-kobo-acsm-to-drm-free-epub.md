@@ -4,7 +4,7 @@ description: How to convert ACSM file to a DRM free ePub
 
 # Convert Kobo ACSM to DRM free ePub
 
-> ![elementary OS: 5.1 Hera](https://img.shields.io/badge/elementary%C2%A0OS-5.1%20Hera-007aff)
+> ![elementary OS: 6.1 Jólnir](https://img.shields.io/badge/elementary%C2%A0OS-6.1%20Jólnir-007aff)
 > ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
 {% hint style="info" %}
