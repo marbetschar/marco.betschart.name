@@ -3,8 +3,7 @@ description: How to convert ACSM file to a DRM free ePub
 tags:
   - how-to
   - open-source
-  - ePub
-  - elementary
+  - reading
 ---
 
 # Convert Kobo ACSM file to a DRM free ePub
