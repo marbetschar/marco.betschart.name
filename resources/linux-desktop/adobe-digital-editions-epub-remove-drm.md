@@ -1,7 +1,11 @@
 # Adobe Digital Editions ePub Book Remove DRM
 
-> ![elementary OS: 6 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6%20Odin-007aff)
-> ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+> ![elementary OS: 6.1 Jólnir](https://img.shields.io/badge/elementary%C2%A0OS-6%20Jólnir-007aff)
+> ![Status: Broken](https://img.shields.io/badge/status-broken-red)
+
+{% hint style="danger" %}
+**Deprecated:** This way of conversion is broken due to multiple issues. It has been superseded by [How to convert ACSM files to DRM free ePub]( convert-kobo-acsm-to-drm-free-epub.md)
+{% endhint %}
 
 ## Table of Contents
 
@@ -52,21 +56,22 @@ wget -O ~/Downloads/python-2.7.18.amd64.msi https://www.python.org/ftp/python/2.
 wine msiexec /i ~/Downloads/python-2.7.18.amd64.msi
 ```
 
-Download [VCForPython27.msi](https://www.microsoft.com/en-us/download/details.aspx?id=44266) which is needed for PyCrypto. Then install python, pip, vcforpython, and pycyrpt in your wine environment:
+Click **Download ZIP** [to fetch the VCForPython27.msi](https://gist.github.com/marbetschar/85567f4b3251ad2bd5b5d6f6fc1ffe9a) which is needed for PyCrypto. Then install python, pip, vcforpython, and pycyrpt in your wine environment:
 
 ```
-wine msiexec /i ~/Downloads/VCForPython27.msi
+unzip ~/Downloads/85567f4b3251ad2bd5b5d6f6fc1ffe9a-*.zip -d ~/Downloads
+wine msiexec /i ~/Downloads/85567f4b3251ad2bd5b5d6f6fc1ffe9a-*/VCForPython27.msi
 wine "C:\Python27\python.exe" -m pip install pycrypto
 wine "C:\Python27\python.exe" -m pip install six
 ```
 
 ### DeDRM Tool
 
-Download the latest release of apprenticeharper's [DeDRM Tool from GitHub](https://github.com/apprenticeharper/DeDRM_tools/releases). Then unzip the files to your wine prefix:
+Download the latest v6 release of apprenticeharper's [DeDRM Tool from GitHub](https://github.com/apprenticeharper/DeDRM_tools/releases). Then unzip the files to your wine prefix:
 
 ```
-cp -p ~/Downloads/DeDRM_tools_6.8.0.zip ~/.wine/drive_c/
-(cd ~/.wine/drive_c/ && unzip DeDRM_tools_6.8.0.zip -d DeDRM)
+cp -p ~/Downloads/DeDRM_tools_6*.zip ~/.wine/drive_c/
+(cd ~/.wine/drive_c/ && unzip DeDRM_tools_6*.zip -d DeDRM)
 (cd ~/.wine/drive_c/DeDRM && unzip DeDRM_Plugin.zip -d DeDRM_Plugin)
 ```
 
