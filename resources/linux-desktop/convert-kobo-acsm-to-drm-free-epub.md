@@ -31,12 +31,13 @@ Head over to the Kobo website and download the previously purchased book. Your b
 Now let `knock` do the download and the conversion:
 
 ```
-cd ~/Downloads
-./knock ./URLLink
+$ cd ~/Downloads
+$ ./knock ./URLLink
 downloading the file from Adobe...
 Download 100%
 removing DRM from the file...
-DRM-free EPUB file generated at ./URLLink.epub
+DRM-free EPUB file generated at .epub
+$ mv .epub Book.epub
 ```
 
 **And that's it: You now own a DRM free copy of your purchased book!**
