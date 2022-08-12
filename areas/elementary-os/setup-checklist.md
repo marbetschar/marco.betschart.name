@@ -64,24 +64,14 @@ Setup Online Accounts in `System Settings > Online Accounts`:
 
 [_docs.gandi.net/en/gandimail/standard_email_settings/_](https://docs.gandi.net/en/gandimail/standard_email_settings/)
 
-**Study**
-
-* [ ] Mail
-
-|  | Server | Port | Encryption |
-| :--- | :---: | :---: | :---: |
-| _Incoming Mail \(IMAP\)_ | outlook.office365.com | 993 | SSL/TLS |
-| _Outgoing Mail \(SMTP\)_ | outlook.office365.com | 587 | STARTTLS |
-
-[_support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353_](https://support.microsoft.com/en-us/office/pop-imap-and-stmp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353)
-
-**Work**
+**Study & Work**
 
 * [ ] Calendar and Tasks
 * [ ] Mail
 
-Follow the instructions provided in [Missing Features & Workarounds to setup an Office 365 account using Modern Authentication (OAuth)](missing-features-and-workarounds.md#oauth-support-modern-authentication).
-
+Follow the instructions provided in [Missing Features & Workarounds to setup an Office 365 account using Modern Authentication (OAuth)](missing-features-and-workarounds.md#oauth-support-modern-authentication). In case you run into any troubles due to the
+Evolution application ID not beeing authorized by your Office 365 administrator, use the last Evolution application ID with the
+Redirect URI set to `urn:ietf:wg:oauth:2.0:oob` [as descrdibed in the GNOME Wiki](https://wiki.gnome.org/Apps/Evolution/EWS/OAuth2).
 
 ## Git
 
@@ -146,7 +136,7 @@ Add the SSH Public Key to the following portals:
 
 ## Printing & Scanning
 
-* [ ] [Setup HP Color Laser Jet Pro MFP M281 fdw as documented](../../resources/linux-desktop/setup-hp-color-laser-jet-pro-mfp-m281-fdw.md)
+* [ ] [Setup Brother MFC-L2710DW as documented](../../resources/linux-desktop/setup-printer-and-scanner.md#brother-mfc-l2710dw)
 
 ## Gscan2pdf
 

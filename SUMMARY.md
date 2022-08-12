@@ -30,6 +30,7 @@
     * [Dual Boot elementary OS and Windows with Full Disk Encryption](areas/elementary-os/dual-boot-elementary-windows-with-full-disk-encryption.md)
     * [Missing Features & Workarounds](areas/elementary-os/missing-features-and-workarounds.md)
     * [Setup Checklist](areas/elementary-os/setup-checklist.md)
+  * [Endeavour OS](areas/endeavour-os/README.md)
   * [Knowledge Management](areas/knowledge-management/README.md)
     * [The PARA Method](areas/knowledge-management/the-para-method.md)
     * [Zettelkasten](areas/knowledge-management/zettelkasten.md)
