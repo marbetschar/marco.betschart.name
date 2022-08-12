@@ -31,6 +31,7 @@
     * [Missing Features & Workarounds](areas/elementary-os/missing-features-and-workarounds.md)
     * [Setup Checklist](areas/elementary-os/setup-checklist.md)
   * [Endeavour OS](areas/endeavour-os/README.md)
+    * [Setup Checklist](areas/endeavour-os/setup-checklist.md)
   * [Knowledge Management](areas/knowledge-management/README.md)
     * [The PARA Method](areas/knowledge-management/the-para-method.md)
     * [Zettelkasten](areas/knowledge-management/zettelkasten.md)
