@@ -4,7 +4,7 @@ A prototype-quality standalone client for xrdesktop based on wlroots and the wxr
 
 ### Requirements
 
-Make sure to first [install an OpenXR compatible runtime such as Monado](openxr-monado).
+Make sure to first [install an OpenXR compatible runtime such as Monado](openxr-monado.md).
 
 ### Build
 
