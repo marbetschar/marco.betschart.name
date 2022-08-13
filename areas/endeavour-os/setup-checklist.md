@@ -44,3 +44,22 @@ yay appimagelauncher-git
 * [ ] Click `Integrate and run`
 * [ ] Login to Paymo Account
 
+## Steam
+
+```shell
+sudo pacman -Sy
+...
+sudo pacman -S steam
+...
+:: There are 5 providers available for vulkan-driver:
+:: Repository extra
+   1) amdvlk  2) nvidia-utils  3) vulkan-intel  4) vulkan-radeon  5) vulkan-swrast
+
+Enter a number (default=1): 4
+:: There are 4 providers available for lib32-vulkan-driver:
+:: Repository multilib
+   1) lib32-amdvlk  2) lib32-nvidia-utils  3) lib32-vulkan-intel  4) lib32-vulkan-radeon
+
+Enter a number (default=1): 4
+...
+```
