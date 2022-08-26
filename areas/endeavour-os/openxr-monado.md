@@ -5,17 +5,20 @@ The open source OpenXR runtime.
 ### Installation
 
 ```shell
-# At the time of this writing the openxr-loader-git package is
-# broken due to a python dependency issue. We therefore need to
-# workaround it (see https://github.com/pallets/markupsafe/issues/282#issuecomment-1043899655)
-pacman -S python-pip
-pip install -Iv markupsafe==2.0.1
-
-# Install OpenXR Loader
-yay openxr-loader-git
+# Make sure to install the correct vulkan driver for your video card:
+sudo pacman -S vulkan-radeon
 
 # Install Monado
 yay monado-git
+
+# At the time of this writing the openxr-loader-git package is
+# broken due to a python dependency issue. We therefore need to
+# workaround it (see https://github.com/pallets/markupsafe/issues/282#issuecomment-1043899655)
+#pacman -S python-pip
+#pip install -Iv markupsafe==2.0.1
+
+# Install OpenXR Loader
+#yay openxr-loader-git
 ```
 
 ### Test
