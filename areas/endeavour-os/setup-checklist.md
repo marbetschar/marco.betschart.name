@@ -137,3 +137,5 @@ Enter a number (default=1): 4
 Enter a number (default=1): 4
 ...
 ```
+
+**PLEASE NOTE:** At the time of this writing (2022-08-26), SteamVR only works (sort of) on X11, not on Wayland.
