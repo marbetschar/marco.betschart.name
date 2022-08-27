@@ -10,7 +10,7 @@ Make sure to first [install an OpenXR compatible runtime such as Monado](openxr-
 
 ```shell
 # Install required libraries:
-sudo pacman -S meson cmake wayland-protocols seatd glew glfw-wayland shaderc xcb-util-errors
+sudo pacman -S meson cmake wayland-protocols seatd glew glfw-wayland shaderc xcb-util-errors weston
 
 # Now we are ready to configure:
 mkdir -p ~/Development/xrdesktop
@@ -35,7 +35,7 @@ ninja -C build install
 
 ### Run
 
-Make sure [the `monado-service` runs](openxr-monado.md#run) and then execute:
+Make sure [the `monado-service` runs](openxr-monado.md#run) **on top of an X11 session* then execute:
 
 ```shell
 ./build/src/wxrd

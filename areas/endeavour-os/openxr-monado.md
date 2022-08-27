@@ -6,7 +6,7 @@ The open source OpenXR runtime.
 
 ```shell
 # Make sure to install the correct vulkan driver for your video card:
-sudo pacman -S vulkan-radeon
+sudo pacman -S amdvlk
 
 # Install Monado
 yay monado-git
