@@ -1,5 +1,5 @@
 ---
-description: My personal checklist for setting up a fresh Endeavour OS installation.
+description: My personal checklist for setting up a fresh Manjaro OS installation.
 ---
 
 # Setup Checklist
@@ -7,31 +7,12 @@ description: My personal checklist for setting up a fresh Endeavour OS installat
 ## Multiboot with Full Disk Encryption
 
 If you are running [multiple operating systems with full disk encryption](../elementary-os/dual-boot-elementary-windows-with-full-disk-encryption.md),
-the following snippet will come in handy to allow all of the to boot after EndeavourOS was installed on your machine:
+the following snippet will come in handy to allow all of the to boot after Manjaro OS was installed on your machine:
 
 ```diff
-# (Required) After booting into Endeavour OS:
-
-# Make sure os-prober runs first to prioritize other
-# operating systems over EndeavourOS:
-sudo mv /etc/grub.d/30_os-prober /etc/grub.d/05_os-prober
-
-# Windows is always first (= 0) detected by os-prober,
-# so make elementary OS the default (= 1):
-sudo vi /etc/default/grub
-#GRUB_DEFAULT=0
-GRUB_DEFAULT=1
-
-# Decrypt elementary partition to enable os-prober
-# its detection:
-yay update-grub
+# (Required) After booting into Manjaro OS:
 sudo cryptsetup luksOpen /dev/nvme0n1p6 elementary
 sudo update-grub
-
-# (Optional) After booting into elementary OS:
-# Disable update-grub after kernel install/remove
-sudo chmod a-x /etc/kernel/postinst.d/zz-update-grub
-sudo chmod a-x /etc/kernel/postrm.d/zz-update-grub
 ```
 
 ## Git
