@@ -29,7 +29,7 @@ See my [Curriculum Vitae](cv.md) if you want all the details.
 | Scope                    | I worked with                                                                                                                                                                                                                                            |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Operating System**     | Linux ([elementary](https://elementary.io)), macOS, Windows                                                                                                                                                                                              |
-| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org), [Vala](https://wiki.gnome.org/Projects/Vala), [Notions of C and C++](blog/2021-04-27-dipping-elementary-os-toes-into-virtual-reality.md) |
+| **Programming Language** | HTML+CSS+JavaScript, Java, [Kotlin](https://kotlinlang.org/), [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org), [Vala](https://wiki.gnome.org/Projects/Vala), [Notions of C and C++](blog/2021-04-27-dipping-elementary-os-toes-into-virtual-reality.md) |
 
 **… as Server Admin**, managing servers and other infrastructure components:
 
@@ -52,7 +52,7 @@ See my [Curriculum Vitae](cv.md) if you want all the details.
 | ------------------------ | -------------------------------------------------------------------------------------------------------------- |
 | **Operating System**     | [Android](https://www.android.com), [iOS](https://www.apple.com/ios)                                           |
 | **Platform**             | Native, [React Native](https://reactnative.dev), [Cordova](https://cordova.apache.org)                         |
-| **Programming Language** | HTML+CSS+JavaScript, Java, [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org) |
+| **Programming Language** | HTML+CSS+JavaScript, Java, [Kotlin](https://kotlinlang.org/), [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org) |
 
 **… as Web Developer**, creating applications for web browsers:
 

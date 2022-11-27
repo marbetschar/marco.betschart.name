@@ -6,6 +6,10 @@ description: Here you can see what I've been up to lately.
 
 ## [Why elementary OS is the right choice for me](2022-01-17-why-elementary-os-is-the-right-choice-for-me.md)
 
+_November 2022_ - Here's how things evolved since my last post in January… [**more »**](2022-11-27-how-things-evolved-since-january.md)
+
+## [Why elementary OS is the right choice for me](2022-01-17-why-elementary-os-is-the-right-choice-for-me.md)
+
 _January 2022_ - A few days ago I was asked on Twitter why I like elementary OS… [**more »**](2022-01-17-why-elementary-os-is-the-right-choice-for-me.md)
 
 ## [It's Christmas Time: Jólnir brings many gifts](2021-12-22-christmas-time-jolnir-brings-many-gifts.md)
