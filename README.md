@@ -62,4 +62,4 @@ See my [Curriculum Vitae](cv.md) if you want all the details.
 | **Programming Language** | [ColdFusion](https://coldfusion.adobe.com), HTML+CSS+JavaScript, Java, [PHP](https://www.php.net), SQL                                                                                  |
 | **Framework**            | [Angular](https://angular.io), [Ember.js](https://emberjs.com), [jQuery](https://jquery.com), [Hibernate ORM](https://hibernate.org/orm/), [Kendo UI](https://www.telerik.com/kendo-ui) |
 
-Follow me: [![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/) [![](.gitbook/assets/twitter-32px.png) **Twitter**](https://twitter.com/marbetschar/) **** ![](.gitbook/assets/mastodon-logo-purple.svg)****
+Follow me: [![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/) [![](.gitbook/assets/mastodon-logo-purple.svg) **Mastodon**](https://mastodon.online/@marbetschar)
