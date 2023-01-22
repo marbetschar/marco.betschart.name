@@ -26,9 +26,9 @@ See my [Curriculum Vitae](cv.md) if you want all the details.
 
 **… as Desktop Developer**, crafting graphical applications for computers:
 
-| Scope                    | I worked with                                                                                                                                                                                                                                            |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Operating System**     | Linux ([elementary](https://elementary.io)), macOS, Windows                                                                                                                                                                                              |
+| Scope                    | I worked with                                                                                                                                                                                                                                                                               |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Operating System**     | Linux ([elementary](https://elementary.io)), macOS, Windows                                                                                                                                                                                                                                 |
 | **Programming Language** | HTML+CSS+JavaScript, Java, [Kotlin](https://kotlinlang.org/), [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org), [Vala](https://wiki.gnome.org/Projects/Vala), [Notions of C and C++](blog/2021-04-27-dipping-elementary-os-toes-into-virtual-reality.md) |
 
 **… as Server Admin**, managing servers and other infrastructure components:
@@ -48,10 +48,10 @@ See my [Curriculum Vitae](cv.md) if you want all the details.
 
 **… as Mobile Developer**, building mobile first applications for smartphones or tablets:
 
-| Scope                    | I worked with                                                                                                  |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| **Operating System**     | [Android](https://www.android.com), [iOS](https://www.apple.com/ios)                                           |
-| **Platform**             | Native, [React Native](https://reactnative.dev), [Cordova](https://cordova.apache.org)                         |
+| Scope                    | I worked with                                                                                                                                     |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Operating System**     | [Android](https://www.android.com), [iOS](https://www.apple.com/ios)                                                                              |
+| **Platform**             | Native, [React Native](https://reactnative.dev), [Cordova](https://cordova.apache.org)                                                            |
 | **Programming Language** | HTML+CSS+JavaScript, Java, [Kotlin](https://kotlinlang.org/), [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org) |
 
 **… as Web Developer**, creating applications for web browsers:
@@ -62,4 +62,4 @@ See my [Curriculum Vitae](cv.md) if you want all the details.
 | **Programming Language** | [ColdFusion](https://coldfusion.adobe.com), HTML+CSS+JavaScript, Java, [PHP](https://www.php.net), SQL                                                                                  |
 | **Framework**            | [Angular](https://angular.io), [Ember.js](https://emberjs.com), [jQuery](https://jquery.com), [Hibernate ORM](https://hibernate.org/orm/), [Kendo UI](https://www.telerik.com/kendo-ui) |
 
-Follow me: [![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/) [![](.gitbook/assets/twitter-32px.png) **Twitter**](https://twitter.com/marbetschar/)
+Follow me: [![](.gitbook/assets/github-mark-32px.png) **GitHub**](https://github.com/marbetschar/) [![](.gitbook/assets/twitter-32px.png) **Twitter**](https://twitter.com/marbetschar/) **** ![](.gitbook/assets/mastodon-logo-purple.svg)****

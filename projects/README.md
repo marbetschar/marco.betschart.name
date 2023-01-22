@@ -64,7 +64,7 @@ There is already a quite good web application called ASCIIFlow which is capable 
 **Prior Art**
 
 * Cassidy already built a [template for embedding a Web-App](https://github.com/cassidyjames/plausible)
-* [Monodraw for macOS](https://monodraw.helftone.com)
+* [Monodraw for macOS](https://monodraw.helftone.com/)
 
 ### elementary Calendar Weekly View
 
@@ -125,5 +125,5 @@ To achieve this, we can add native support for KDE Connect to elementary OS. Thi
 * [Conecto - a GTK client for KDEConnect](https://github.com/hannesschulze/conecto/)
 * [mconnect](https://github.com/bboozzoo/mconnect)
 * [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
-* [KDE Connect](https://kdeconnect.kde.org)
+* [KDE Connect](https://kdeconnect.kde.org/)
 * [KDE Connect Indicator](https://github.com/b4j4/indicator-kdeconnect)
