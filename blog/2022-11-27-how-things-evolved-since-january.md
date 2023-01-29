@@ -14,7 +14,7 @@ Before I get more into the details, let me put one thing straight: **I still thi
 
 Earlier this year I started to experiment with XR on Linux. More specifically, [I added support for xrdesktop on elementary OS as a proof of concept](2021-04-27-dipping-elementary-os-toes-into-virtual-reality.md). While working on this and experimenting with XR on Linux in general, it became more and more obvious that one of the greatest strengths of elementary OS is also a weaknesses for this particular area: Because the underlying Ubuntu LTS is focused on stability - which is great for everyday work - its not designed for bleeding edge development. I found myself fighting more with outdated dependencies instead of getting actual work done.
 
-This, of course is nothing one can blame elementary for - it is simply a consequence of some of the choices any distro has to make in order to strive towards its goals. For me this means I have to move on to a more bleeding edge distro for the time beeing. And my choice fell on Manjaro GNOME for now.
+This, of course is nothing one can blame elementary for - it is simply a consequence of some of the choices any distro has to make in order to strive towards its goals. For me this means I have to move on to a more bleeding edge distro for the time beeing. And my choice fell on Arch Linux with GNOME for now.
 
 {% hint style="info" %}
 **If you don't like my new focus:** Don't forget to [**💔 Un-Sponsor Me**](https://github.com/sponsors/marbetschar) on GitHub!

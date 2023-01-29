@@ -1,19 +1,8 @@
 ---
-description: My personal checklist for setting up a fresh Manjaro OS installation.
+description: My personal checklist for setting up a fresh Arch Linux installation.
 ---
 
 # Setup Checklist
-
-## Multiboot with Full Disk Encryption
-
-If you are running [multiple operating systems with full disk encryption](../elementary-os/dual-boot-elementary-windows-with-full-disk-encryption.md),
-the following snippet will come in handy to allow all of the to boot after Manjaro OS was installed on your machine:
-
-```diff
-# (Required) After booting into Manjaro OS:
-sudo cryptsetup luksOpen /dev/nvme0n1p6 elementary
-sudo update-grub
-```
 
 ## Git
 
@@ -31,6 +20,22 @@ Add the SSH Public Key to the following portals:
 * [ ] [freedesktop.org GitLab](https://gitlab.freedesktop.org/-/profile/keys)
 * [ ] [GitLab.com](https://gitlab.com/-/profile/keys)
 * [ ] [GNOME GitLab](https://gitlab.gnome.org/-/profile/keys)
+
+## VSCodium
+
+Install VSCodium from AUR by executing the following command in the Terminal:
+
+```shell
+yay vscodium-bin
+```
+
+## Paymo Widget
+
+Install the Paymo Widget from AUR by executing the following command in the Terminal:
+
+```shell
+yay paymo-widget
+```
 
 ## all-ways-egpu
 
@@ -75,14 +80,6 @@ Enter Choice [1-3]:
 
 Then restart your Display Manager by logging out and logging in again.
 
-## VSCodium
-
-Install VSCodium from AUR by executing the following command in the Terminal:
-
-```shell
-yay vscodium-bin
-```
-
 ## AppImageLauncher
 
 Install AppImageLauncher from AUR by executing the following command in the Terminal:
@@ -90,14 +87,6 @@ Install AppImageLauncher from AUR by executing the following command in the Term
 ```shell
 yay appimagelauncher-git
 ```
-
-## Paymo
-
-* [ ] [Download the Paymo Desktop App from the Website](https://www.paymoapp.com/downloads-and-integrations/)
-* [ ] Open the downloaded AppImage in Files \(double click\)
-  * [ ] If prompted, confirm `~/Applications` as integration target destination directory
-* [ ] Click `Integrate and run`
-* [ ] Login to Paymo Account
 
 ## Steam
 
