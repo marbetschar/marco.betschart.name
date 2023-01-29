@@ -186,6 +186,19 @@ Install the [Cryptomator application from Flathub](https://flathub.org/apps/deta
 flatpak install flathub org.cryptomator.Cryptomator
 ```
 
+## Espanso
+
+Install [Espanso from AUR](https://aur.archlinux.org/packages/espanso-bin):
+
+```shell
+yay espanso-bin
+
+# Autostart Espanso:
+espanso service register
+# Start Espanso now:
+espanso service start
+```
+
 ## all-ways-egpu
 
 Install this script to configures an eGPU as primary under Wayland desktops [as documented in the repo](https://github.com/ewagner12/all-ways-egpu):
