@@ -54,7 +54,7 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ### 2022 - Now: Corda & Backend Engineer, aXedras AG
 
-Connecting and Digitalising the Precious Metal Industry using Distributed Ledger Technology as _[Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url).
+As [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url) help connecting and digitalising the precious metal industry with Distributed Ledger Technology.
 
 _[Corda](https://www.r3.com/products/corda/), Docker, Spring-Boot, [Kotlin](https://kotlinlang.org/)_
 
