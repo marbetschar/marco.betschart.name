@@ -52,11 +52,11 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
-### 2022 - Now: Backend Engineer, aXedras AG
+### 2022 - Now: Corda & Backend Engineer, aXedras AG
 
-Backend and DLT development for a trusted digital network based on Distributed Ledger Technology (DLT).
+Connecting and Digitalising the Precious Metal Industry using Distributed Ledger Technology as _[Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url).
 
-_[R3 Corda Blockchain Platform](https://www.r3.com/corda-platform/), Docker, Spring-Boot, [Kotlin](https://kotlinlang.org/)_
+_[Corda](https://www.r3.com/products/corda/), Docker, Spring-Boot, [Kotlin](https://kotlinlang.org/)_
 
 ### 2019 - 2022: IT System Operations, midix.com ag
 
