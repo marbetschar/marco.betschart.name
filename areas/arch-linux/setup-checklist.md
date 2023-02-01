@@ -180,7 +180,7 @@ For details see: https://bbs.archlinux.org/viewtopic.php?id=265360
 
 ## Cryptomator
 
-Install the [Cryptomator application from Flathub](https://flathub.org/apps/details/com.microsoft.Teams):
+Install the [Cryptomator application from Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator):
 
 ```shell
 flatpak install flathub org.cryptomator.Cryptomator
@@ -197,6 +197,14 @@ yay espanso-bin
 espanso service register
 # Start Espanso now:
 espanso service start
+```
+
+## Skype
+
+Install the [Skype application from Flathub](https://flathub.org/apps/details/com.skype.Client):
+
+```shell
+flatpak install flathub com.skype.Client
 ```
 
 ## all-ways-egpu
