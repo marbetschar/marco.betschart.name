@@ -23,6 +23,33 @@ Install Calendar, Evolution and Endeavour:
 sudo pacman -S gnome-calendar gnome-contacts endeavour evolution evolution-ews
 ```
 
+## GNOME with X11
+
+### Mouse Gestures
+
+**PLEASE NOTE:** At the time of this writing (2023-01-29), screen sharing is broken in MS Teams under Wayland. In order to use this feature, make sure you are logging into an X11 session. Unfortunately under X11 the mouse gestures don't work out of the box - but this is fixable:
+
+```shell
+yay touchegg gnome-shell-extension-x11gestures
+sudo systemctl enable touchegg.service
+sudo systemctl start touchegg
+
+# Enable the X11 Gesture Extension:
+gnome-extensions enable x11gestures@joseexposito.github.io
+```
+
+For details see: https://bbs.archlinux.org/viewtopic.php?id=265360
+
+### Fix Flickering in Screen Sharing
+
+If you experiencing flickering while sharing your screen in for example Microsoft Teams or Zoom, make sure to use the modesetting driver in X11. To do so, simply remove `xf86-video-intel`, and possibly `/etc/X11/xorg.conf.d/20-intel.conf` - then reboot:
+
+```shell
+sudo pacman -Rs xf86-video-intel
+```
+
+For details see: https://bbs.archlinux.org/viewtopic.php?id=218021
+
 ## Flatpak
 
 Install [as documented for EndeavourOS](https://www.flatpak.org/setup/EndeavourOS):
@@ -162,21 +189,6 @@ Install the [Microsoft Teams application from Flathub](https://flathub.org/apps/
 ```shell
 flatpak install flathub com.microsoft.Teams
 ```
-
-**PLEASE NOTE:** At the time of this writing (2023-01-29), screen sharing is broken in MS Teams under Wayland. In order to use this feature, make sure you are logging into an X11 session. Unfortunately under X11 the mouse gestures don't work out of the box - but this is fixable:
-
-## Mouse Gestures in X11
-
-```shell
-yay touchegg gnome-shell-extension-x11gestures
-sudo systemctl enable touchegg.service
-sudo systemctl start touchegg
-
-# Enable the X11 Gesture Extension:
-gnome-extensions enable x11gestures@joseexposito.github.io
-```
-
-For details see: https://bbs.archlinux.org/viewtopic.php?id=265360
 
 ## Cryptomator
 
