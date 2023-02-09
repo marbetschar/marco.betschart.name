@@ -38,3 +38,15 @@ As last step, you want to install the Zotero Connector. It makes it easy to add 
 
 **PLEASE NOTE:** Zotero needs to be running for the Connector to work properly.
 
+## ZotFile Extension
+
+Install the ZotFile extension from its website: [zotfile.com](http://zotfile.com/). Then restart Zotero and configure the extension in `Tools > ZotFile Preferences...`:
+
+- `Tablet Settings`:
+  - **Enable** `Use ZotFile to send and get files from tablet`
+  - Location of files on Tablet: `~/Nextcloud/Leseraum`
+
+## BetterBibTex Extension
+
+Install the BetterBibTex extension and [configure it according to the Zettlr docs](https://docs.zettlr.com/en/academic/citations/).
+It should export the library to `~/Nextcloud/Notes/assets/Library.json`
