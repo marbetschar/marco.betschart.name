@@ -219,6 +219,18 @@ Install the [Skype application from Flathub](https://flathub.org/apps/details/co
 flatpak install flathub com.skype.Client
 ```
 
+## Zettelkasten
+
+Install [Zettlr](https://flathub.org/apps/details/com.zettlr.Zettlr), [Zotero](https://flathub.org/apps/details/org.zotero.Zotero) and [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal) from Flathub:
+
+```shell
+flatpak install flathub com.zettlr.Zettlr flathub org.zotero.Zotero flathub com.github.tchx84.Flatseal
+```
+
+* Open `Flatseal`, select `Zettlr` and enable `filesystem=home` permission
+* Start Zettlr and in `File > Open Workspace ...` select `~/Nextcloud/Notes`
+* Last but not least, start `Zotero` and [configure it as documented](../knowledge-management/howto-setup-zotero.md)
+
 ## all-ways-egpu
 
 Install this script to configures an eGPU as primary under Wayland desktops [as documented in the repo](https://github.com/ewagner12/all-ways-egpu):
