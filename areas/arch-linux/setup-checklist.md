@@ -231,6 +231,29 @@ flatpak install flathub com.zettlr.Zettlr flathub org.zotero.Zotero flathub com.
 * Start Zettlr and in `File > Open Workspace ...` select `~/Nextcloud/Notes`
 * Last but not least, start `Zotero` and [configure it as documented](../knowledge-management/howto-setup-zotero.md)
 
+## PDF Studio Pro
+
+* [ ] [Go to the Qopppa Software download page](https://kbpdfstudio.qoppa.com/download-previous-versions/)
+* [ ] Select PDF Studio 2022
+* [ ] Enter the License Key stored at `Resources/Akten` to download PDF Studio 2022
+* [ ] Start the installer from Terminal: `sh ~/Downloads/PDFStudio_*.sh`
+* [ ] Activate the software using the License Key stored at `Resources/Akten`
+* [ ] Go to `File > Preferences > Display` and select:
+  * [ ] `THeme: Dark`
+  * [ ] `Document Resolution: System Setting`
+* [ ] Go to `File > Preferences > Application` and **deactivate** `Run in background`
+* [ ] Restart the application
+* [ ] Go to `File > Preferences > General` and select:
+  * [ ] `Units: Centimeters`
+  * [ ] `Default Page Size: A4`
+* [ ] Go to `File > Preferences > OCR` and:
+  * [ ] Click `Download OCR Languages`
+  * [ ] Select `English` and `German - Deutsch`
+  * [ ] Click `Download`
+  * [ ] Set `Primary Language: German - Deutsch`
+  * [ ] Check `Enable Secondary Language: English`
+
+
 ## all-ways-egpu
 
 Install this script to configures an eGPU as primary under Wayland desktops [as documented in the repo](https://github.com/ewagner12/all-ways-egpu):
