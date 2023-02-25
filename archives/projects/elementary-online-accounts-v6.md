@@ -12,7 +12,7 @@ tags:
 
 # elementary Online Accounts v6
 
-![elementary Online Accounts](../.gitbook/assets/io.elementary.switchboard.onlineaccounts.png)
+![elementary Online Accounts](../../.gitbook/assets/io.elementary.switchboard.onlineaccounts.png)
 
 ## Contributions
 
@@ -26,7 +26,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [x] [~~**Retrieve login methods from camel**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/225) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
 * [x] [~~**Ignore Calendar Subscriptions**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218) ![Completed: 2021-09-04](https://img.shields.io/badge/completed-2021--09--04-lightgrey?style=social)
 
-[**more »**](../contributions.md#elementary-online-accounts)
+[**more »**](../../contributions.md#elementary-online-accounts)
 
 ## Built For
 

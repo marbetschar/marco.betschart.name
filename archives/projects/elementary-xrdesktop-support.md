@@ -12,7 +12,7 @@ tags:
 
 # Support for xrdesktop \(Virtual Reality\) in elementary
 
-![Rendering elementary desktop windows in VR](../.gitbook/assets/elementary-xrdesktop-support.png)
+![Rendering elementary desktop windows in VR](../../.gitbook/assets/elementary-xrdesktop-support.png)
 
 ## Built For
 

@@ -10,7 +10,7 @@ tags:
 
 # elementary Tasks v6
 
-![elementary Tasks](../.gitbook/assets/elementary-tasks-drag-and-drop.png)
+![elementary Tasks](../../.gitbook/assets/elementary-tasks-drag-and-drop.png)
 
 ## Contributions
 
@@ -24,7 +24,7 @@ If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsor
 * [x] [~~**Load only non-completed tasks by default**~~](https://github.com/elementary/tasks/pull/295) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
 * [x] [~~**Fixes an Issue when removing task description**~~](https://github.com/elementary/tasks/pull/286) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 
-[**more »**](../contributions.md#elementary-tasks)
+[**more »**](../../contributions.md#elementary-tasks)
 
 ## Built For
 
