@@ -254,48 +254,43 @@ flatpak install flathub com.zettlr.Zettlr flathub org.zotero.Zotero flathub com.
   * [ ] Check `Enable Secondary Language: English`
 
 
-## all-ways-egpu
+## eGPU with X11
 
-Install this script to configures an eGPU as primary under Wayland desktops [as documented in the repo](https://github.com/ewagner12/all-ways-egpu):
+First, reboot with your eGPU attached. Then install the correct drivers for your graphic card:
 
-```shell
-cd ~; curl -qLs  https://github.com/ewagner12/all-ways-egpu/releases/latest/download/all-ways-egpu.zip  -o all-ways-egpu.zip; unzip all-ways-egpu.zip; cd all-ways-egpu-main; chmod +x install.sh; sudo ./install.sh install; cd ../; rm -rf all-ways-egpu.zip all-ways-egpu-main
-```
-
-And then run the setup:
 
 ```shell
-all-ways-egpu setup
-
-Is this the eGPU to be used as primary? [y/N]
-# Choose "y" for your eGPU, "N" for all other detected devices
-
-Identify all iGPU/dGPUs to be potentially disabled at boot:
-# Don't disable any device during boot - choose "N" for all of them
-
-Manual Setup: Enter Bus IDs and drivers in the following example format or enter 'n' to skip.
-# Enter "n" to skip
-
-Recommended if using Method 1: Attempt to re-enable the iGPU/initially disabled devices after login? [y/N]
-# Enter "N" to not re-enable
-
-Recommended if using Method 2: Attempt to set boot_vga flag at startup? [y/N]
-# Enter "y" to set boot_vga flag
+sudo pacman -S xf86-video-amdgpu vulkan-radeon
 ```
 
-After each re-boot you will have to enable the eGPU manually. To do so, open a Terminal and execute the following:
+Second, install and setup the [egpu-switcher](https://github.com/hertg/egpu-switcher) from AUR:
 
 ```shell
-all-ways-egpu
+# Install:
+$ yay -S egpu-switcher-bin
 
-Enter Choice [1-9]:
-4 # Set boot-vga Flag (Method 2)
+# Configure:
+$ sudo egpu-switcher config
 
-Enter Choice [1-3]:
-1 # Set boot-vga Flag to eGPU
+Found 2 possible GPU(s)...
+
+1: 	Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] (i915)
+2: 	Advanced Micro Devices, Inc. [AMD/ATI] Navi 23 [Radeon RX 6600/6600 XT/6600M] (amdgpu)
+
+Which one is your external GPU? [1-2]: 2
+
+[ok] Your selection was saved to the config file
+
+# Enable
+$ sudo egpu-switcher enable
 ```
 
-Then restart your Display Manager by logging out and logging in again.
+At this stage you are fully set. Reboot your system once again and keep the eGPU attached.
+You should now be able to login and the eGPU is used by default.
+
+To verify, go to `GNOME System Settings > About` - there it should display your eGPU's name.
+
+For more information, check the [External GPU article in the Arch Wiki](https://wiki.archlinux.org/title/External_GPU).
 
 ## AppImageLauncher
 
