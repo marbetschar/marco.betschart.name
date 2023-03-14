@@ -45,6 +45,7 @@ You are now ready to add the printer by:
 - Enter the printer's name `Brother-MFC-L2710DW`
 - Select Make `Brother` and Model `Brother MFCL2710DW` and click `Add Printer`
 
+**Scanning (+ OCR)**
 
 Since the printer is working now, lets enable its scanner. To do so, install [brscan4 from AUR](https://aur.archlinux.org/packages/brscan4):
 
@@ -69,6 +70,17 @@ And last but not least install `simple-scan` to use a simple UI for scanning:
 ```shell
 sudo pacman -S simple-scan
 ```
+
+If you want OCR in addition, there is a neat little trick: Download the [`simple-scan-postprocessing.sh` script from its code repository](https://gitlab.gnome.org/GNOME/simple-scan/-/blob/master/src/simple-scan-postprocessing.sh), make it executable and store it somewhere safe on your machine. Then open `Document Scanner > Preferences` configure its postprocessing:
+
+- Enable Postprocessing: `Yes`
+- Script: `/path/to/your/simple-scan-postprocessing.sh`
+- Script arguments: `-l eng+deu`
+- Keep original file: `No`
+
+The script is going to apply an OCR algorithm you saved the scan as PDF and makes it searchable.
+
+**Please Note:** The postprocessing script requires Docker for its work - so make sure you installed it on your machine.
 
 > ![elementary OS: 6.1 Jólnir](https://img.shields.io/badge/elementary%C2%A0OS-6.1%20Jólnir-007aff)
 
