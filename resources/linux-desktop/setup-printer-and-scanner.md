@@ -2,7 +2,6 @@
 description: How to setup different printers and scanners on elementary OS.
 tags:
   - how-to
-  - elementary
   - printer
   - scanner
   - linux-desktop
@@ -14,8 +13,51 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 ## Brother MFC-L2710DW
 
+> ![Arch Linux](https://img.shields.io/badge/arch%C2%A0linux-007aff)
+
+Install the []`brother-mfc-l2710dw` package from AUR](https://aur.archlinux.org/packages/brother-mfc-l2710dw):
+
+```shell
+yay brother-mfc-l2710dw
+```
+
+Also make sure to install [brscan4 from AUR](https://aur.archlinux.org/packages/brscan4) as well to support scanning:
+
+```shell
+yay brscan4
+```
+
+Then start the printing service (cups) and make sure it autostarts on boot:
+
+```shell
+# Autostart at Boot:
+sudo systemctl enable cups
+
+# Start Now:
+sudo systemctl start cups
+
+# IMPORTANT: If you get an error when starting cups, try to run cups manually as root.
+# It will print the reason why it failed. For example:
+# $ sudo /usr/bin/cupsd -l
+# /usr/bin/cupsd: error while loading shared libraries: libpaper.so.2: cannot open shared object file: No such file or directory
+```
+
+You are now ready to add the printer by:
+
+- Navigating to [http://localhost:631](http://localhost:631), `Administration > Add Printer`
+- Login with our username and password
+- Select `AppSocket/HP JetDirect`
+- Enter `socket://123.456.78.90:9100`, click `Continue`
+- Enter the printer's name `Brother-MFC-L2710DW`
+- Select Make `Brother` and Model `Brother MFCL2710DW` and click `Add Printer`
+
+As last step: Install `simple-scan`:
+
+```shell
+sudo pacman -S simple-scan
+```
+
 > ![elementary OS: 6.1 Jólnir](https://img.shields.io/badge/elementary%C2%A0OS-6.1%20Jólnir-007aff)
-> ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
 
 Download the latest "Driver Install Tool" for Linux from the [Brother MFC-L2710DW download page](https://support.brother.com/g/b/downloadtop.aspx?c=us_ot&lang=en&prod=mfcl2710dw_us_eu_as)  (`linux-brprinter-installer-2.2.3-1.gz` at the time of this writing).
 
