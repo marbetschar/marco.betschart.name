@@ -15,16 +15,10 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 > ![Arch Linux](https://img.shields.io/badge/arch%C2%A0linux-007aff)
 
-Install the []`brother-mfc-l2710dw` package from AUR](https://aur.archlinux.org/packages/brother-mfc-l2710dw):
+Install the [`brother-mfc-l2710dw` package from AUR](https://aur.archlinux.org/packages/brother-mfc-l2710dw):
 
 ```shell
 yay brother-mfc-l2710dw
-```
-
-Also make sure to install [brscan4 from AUR](https://aur.archlinux.org/packages/brscan4) as well to support scanning:
-
-```shell
-yay brscan4
 ```
 
 Then start the printing service (cups) and make sure it autostarts on boot:
@@ -51,7 +45,26 @@ You are now ready to add the printer by:
 - Enter the printer's name `Brother-MFC-L2710DW`
 - Select Make `Brother` and Model `Brother MFCL2710DW` and click `Add Printer`
 
-As last step: Install `simple-scan`:
+
+Since the printer is working now, lets enable its scanner. To do so, install [brscan4 from AUR](https://aur.archlinux.org/packages/brscan4):
+
+```shell
+yay brscan4
+```
+
+Then configure it with:
+
+```shell
+sudo brsaneconfig4 -a name=MFCL2710DW model=MFCL2710DW ip=123.456.78.90
+```
+
+Test whether it works:
+
+```shell
+scanimage -L
+```
+
+And last but not least install `simple-scan` to use a simple UI for scanning:
 
 ```shell
 sudo pacman -S simple-scan
