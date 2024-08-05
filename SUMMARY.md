@@ -4,6 +4,8 @@
 * [Curriculum Vitae](cv.md)
 * [About this Website](about-this-website.md)
 * [Recent Activities](blog/README.md)
+  * [SBB Half Fair Plus Comparison](blog/2024-08-05-sbb-half-fair-plus-comparison.md)
+  * [How things evolved since January](blog/2022-11-27-how-things-evolved-since-january.md)
   * [How things evolved since January](blog/2022-11-27-how-things-evolved-since-january.md)
   * [Why elementary OS is the right choice for me](blog/2022-01-17-why-elementary-os-is-the-right-choice-for-me.md)
   * [It's Christmas Time: Jólnir brings many gifts](blog/2021-12-22-christmas-time-jolnir-brings-many-gifts.md)
