@@ -13,3 +13,5 @@ Halbtax Plus 1000 vs. 2000 Bonus Turnovers: [1700 2900 3600]
 Halbtax Plus 2000 vs. 3000 Bonus Turnovers: [2600 3900]
 Halbtax Plus 1000 vs. 3000 Bonus Turnovers: [ 800 2500]
 ```
+
+Source: https://github.com/marbetschar/experiments/blob/main/SBB-Half-Fair-Plus-Comparison.ipynb
