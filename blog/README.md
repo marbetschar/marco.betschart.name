@@ -4,6 +4,10 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
+## [SBB Half Fair Plus Comparison](2024-08-05-sbb-half-fair-plus-comparison.md)
+
+_August 2024_ - SBB Half Fair Plus Comparison
+
 ## [How things evolved since January](2022-11-27-how-things-evolved-since-january.md)
 
 _November 2022_ - Here's how things evolved since my last post in January… [**more »**](2022-11-27-how-things-evolved-since-january.md)
