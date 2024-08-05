@@ -4,7 +4,7 @@ description: Here you can see what I've been up to lately.
 
 # Recent Activities
 
-## [SBB Half Fair Plus Comparison](2024-08-05-sbb-half-fair-plus-comparison.md)
+## [SBB Half Fair Plus Comparison](./#sbb-half-fair-plus-comparison)
 
 _August 2024_ - SBB Half Fair Plus Comparison
 
@@ -51,4 +51,3 @@ _April 2021_ - Read how I managed to render elementary OS Desktop windows in Vir
 ## [The pillars of my Personal Knowledge Management System](2021-02-24-the-pillars-of-my-personal-knowledge-management-system.md)
 
 _February 2021_ - Learn how I spent the last couple of weeks defining the pillars of my Personal Knowledge Management System… [**more »**](2021-02-24-the-pillars-of-my-personal-knowledge-management-system.md)
-
