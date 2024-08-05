@@ -1,16 +1,16 @@
 ---
-description: Progress provides visualizations based on data from Apple Reminders
 tags:
   - swift
   - apple
   - ios
   - iphone
   - ipad
+description: Progress provides visualizations based on data from Apple Reminders
 ---
 
 # Progress for Apple Reminders
 
-![visualize your to-dos, face your goals and beat the bar!](../.gitbook/assets/progress-for-apple-reminders.png)
+![visualize your to-dos, face your goals and beat the bar!](../../.gitbook/assets/progress-for-apple-reminders.png)
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
@@ -37,11 +37,9 @@ Productivity enthusiasts looking to accomplish more using stock Apple Reminders.
 
 ## More Information
 
-* Website of Progress for Apple Reminders:
+*   Website of Progress for Apple Reminders:
 
-  [https://progress.rocks/](https://progress.rocks/)
+    [https://progress.rocks/](https://progress.rocks/)
+*   Website of ProgressKit - the Framework powering the App, released as Open Source:
 
-* Website of ProgressKit - the Framework powering the App, released as Open Source:
-
-  [https://sdk.progress.rocks/](https://sdk.progress.rocks/)
-
+    [https://sdk.progress.rocks/](https://sdk.progress.rocks/)

@@ -21,24 +21,24 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 [bachelors-degree-in-computer-science.md](bachelors-degree-in-computer-science.md)
 {% endcontent-ref %}
 
-{% content-ref url="elementary-online-accounts-v6.md" %}
-[elementary-online-accounts-v6.md](elementary-online-accounts-v6.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="elementary-tasks-v6.md" %}
-[elementary-tasks-v6.md](elementary-tasks-v6.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="elementary-xrdesktop-support.md" %}
-[elementary-xrdesktop-support.md](elementary-xrdesktop-support.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="foss-productivity-system.md" %}
 [foss-productivity-system.md](foss-productivity-system.md)
 {% endcontent-ref %}
 
-{% content-ref url="../archives/progress-for-apple-reminders.md" %}
-[progress-for-apple-reminders.md](../archives/progress-for-apple-reminders.md)
+{% content-ref url="../archives/projects/progress-for-apple-reminders.md" %}
+[progress-for-apple-reminders.md](../archives/projects/progress-for-apple-reminders.md)
 {% endcontent-ref %}
 
 {% content-ref url="time-limit.md" %}
