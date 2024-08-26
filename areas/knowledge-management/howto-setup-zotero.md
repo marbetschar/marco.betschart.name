@@ -20,7 +20,7 @@ The easiest way to install the latest Zotero on Ubuntu is to use Flatpak. If you
 
 ## Setup Syncing
 
-Once you installed Zotero, we need to setup the library sync. To do so, start Zotero and go to `Edit > Preferences > Sync`, enter your Username and Password click `Set Up Syncing`.
+Once you installed Zotero, we need to setup the library sync. To do so, start Zotero and go to `Edit > Settings > Sync`, enter your Username and Password click `Set Up Syncing`.
 
 ### Sync attachment files in My Library with WebDAV
 
@@ -38,13 +38,19 @@ As last step, you want to install the Zotero Connector. It makes it easy to add 
 
 **PLEASE NOTE:** Zotero needs to be running for the Connector to work properly.
 
-## ZotFile Extension
+## ZotMoov Extension
 
-Install the ZotFile extension from its website: [zotfile.com](http://zotfile.com/). Then restart Zotero and configure the extension in `Tools > ZotFile Preferences...`:
+Install the ZotMoove extension from [its GitHub repository](https://github.com/wileyyugioh/zotmoov). Then restart Zotero and configure the extension in `Edit > Settings > ZotMoov`:
 
-- `Tablet Settings`:
-  - **Enable** `Use ZotFile to send and get files from tablet`
-  - Location of files on Tablet: `~/Nextcloud/Leseraum`
+- `ZotMoov`:
+  - Directory to Move Files To: `~/Nextcloud/Leseraum`
+- `Other Settings`
+  - File Behavior: `Move`
+  - **Disable** Automatically Move/Copy Files When Added
+  - **Enable** Automatically Move/Copy Files to Subdirectory
+    - `Subdirectory String:` **{%T}**
+
+Now you can move attachments to and from `~/Nextcloud/Leseraum` simply by using right click and `ZotMoov: Move Selected to Directory` or `ZotMoov: Move Selected from Directory`.
 
 ## BetterBibTex Extension
 
