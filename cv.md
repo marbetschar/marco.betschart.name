@@ -6,9 +6,9 @@ description: Marco Betschart - professional full-time nerd since 2004.
 
 I love to craft **digital products** using **open technologies** - with the goal to **build unique experiences**, **improve productivity** and **expanding knowledge**.
 
-|                                                                          |                                                             |                                                                                                                                                                      |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Portrait of Marco Betschart](.gitbook/assets/marco-betschart-120.jpeg) | <p>Bergstrasse 23</p><p>8702 Zollikon</p><p>Switzerland</p> | <p>🎂 26.06.1988</p><p>☎️ +41 79 688 79 61</p><p>✉️ cv@marco.betschart.name</p><p>🌐 <a href="https://www.marco.betschart.name">https://marco.betschart.name</a></p> |
+|                                                                          |                                                                     |                                                                                                                                                                      |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Portrait of Marco Betschart](.gitbook/assets/marco-betschart-120.jpeg) | <p>Birmensdorferstrasse 140</p><p>8003 Zürich</p><p>Switzerland</p> | <p>🎂 26.06.1988</p><p>☎️ +41 79 688 79 61</p><p>✉️ cv@marco.betschart.name</p><p>🌐 <a href="https://www.marco.betschart.name">https://marco.betschart.name</a></p> |
 
 ## Areas of Expertise
 
