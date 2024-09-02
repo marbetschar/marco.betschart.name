@@ -52,21 +52,20 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
-### 2022 - Now: Corda & Backend Engineer, aXedras AG
+### 2022 - Now: Corda & Backend Senior Software Engineer, aXedras AG
 
 As [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url); connecting and digitalising the precious metal industry with Distributed Ledger Technology.
 
 _[Corda](https://www.r3.com/products/corda/), Docker, Spring-Boot, [Kotlin](https://kotlinlang.org/)_
 
+### 2019 - 2023: BSc in Computer Science, ZHAW
+
+[Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019 and successfully completed in July 2023.
 ### 2019 - 2022: IT System Operations, midix.com ag
 
 Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
 
 _CentOS, Java_
-
-### 2019 - Now: BSc in Computer Science, ZHAW
-
-[Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019.
 
 ### 2015 - 2019: Software Architect, Valletti
 

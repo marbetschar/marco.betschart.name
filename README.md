@@ -14,7 +14,7 @@ See my [Curriculum Vitae](cv.md) if you want all the details.
 
 |              |                                                  |
 | ------------ | ------------------------------------------------ |
-| 2019 - Today | Bachelor's degree in Computer Science            |
+| 2019 - 2023  | Bachelor's degree in Computer Science            |
 | 2008 - Today | Working in the IT industry                       |
 | 2004 - 2008  | Swiss Vocational Certificate in Computer Science |
 
