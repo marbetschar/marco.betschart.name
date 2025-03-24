@@ -6,7 +6,7 @@ description: How to setup a local development environment for Kubernetes using K
 
 ## Requirements
 
-- We assume kubectl is already installed on the local machine
+* We assume kubectl is already installed on the local machine
 
 ## Install K3S
 
@@ -54,8 +54,7 @@ kube-node-lease   Active   20m
 
 ## Integrate with kubectl and K9S
 
-To make things easier to work with, you can add the local k3s connection to the default kubectl configuration file.
-This allows even third party tools such as [K9S](https://k9scli.io/) to manage your local deployment without any further configuration needed.
+To make things easier to work with, you can add the local k3s connection to the default kubectl configuration file. This allows even third party tools such as [K9S](https://k9scli.io/) to manage your local deployment without any further configuration needed.
 
 To do so, copy the following parts from the `/etc/rancher/k3s/k3s.yaml` to the `~/.kube/config` file - and make sure to change the name from `default` to `k3s-local` to avoid any future confusion:
 

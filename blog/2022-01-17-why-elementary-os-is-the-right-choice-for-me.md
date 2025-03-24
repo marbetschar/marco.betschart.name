@@ -42,8 +42,7 @@ Some other things I really like in terms of UX in elementary OS are [Multi Touch
 
 ### Open Source does not imply Free Labor
 
-Open Source does not force you into a [Walled Garden](https://www.techtarget.com/searchsecurity/definition/walled-garden), does not see [you as the product](https://blog.elementary.io/you-are-not-the-product/) and on top of that, Open Source allows you to change it however pleases you. Consequently, you need access to the actual source
-code of a program, otherwise you can't change it.
+Open Source does not force you into a [Walled Garden](https://www.techtarget.com/searchsecurity/definition/walled-garden), does not see [you as the product](https://blog.elementary.io/you-are-not-the-product/) and on top of that, Open Source allows you to change it however pleases you. Consequently, you need access to the actual source code of a program, otherwise you can't change it.
 
 And here comes the catch: A lot of people tend to ignore that Open Source is not about getting source code for free. It is about freedom. And the foundation of this freedom is not built on love alone - it's built on human labor.
 

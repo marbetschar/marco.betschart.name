@@ -23,7 +23,7 @@ description: >-
 {% endhint %}
 
 {% hint style="warning" %}
-**BE AWARE:** For this approach to work, we need an \*un-\*encrypted boot partition. This still allows for some attacks to work such as the [Evil Maid Attack](https://www.schneier.com/blog/archives/2009/10/evil\_maid\_attac.html). But the primarily goal here is to protect your data against physical theft - not a coup executed by a 3-letter-organisation.
+**BE AWARE:** For this approach to work, we need an \*un-\*encrypted boot partition. This still allows for some attacks to work such as the [Evil Maid Attack](https://www.schneier.com/blog/archives/2009/10/evil_maid_attac.html). But the primarily goal here is to protect your data against physical theft - not a coup executed by a 3-letter-organisation.
 
 **MAKE BACKUPS:** When following this guide you will loose everything which is currently stored on your hard drive. So make sure you have backups of the data you want to keep!
 {% endhint %}
@@ -102,7 +102,7 @@ Since we are going to create encrypted LUKS containers, we need to boot elementa
 
 ### 2.2 Create Partitions in GParted
 
-**IMPORTANT:** There's currently no easy way to make grub work with an encrypted partition. **Therefore make sure `/boot` and `/boot/EFI` are their own partitions and are **_**not**_** encrypted**.
+**IMPORTANT:** There's currently no easy way to make grub work with an encrypted partition. **Therefore make sure `/boot` and `/boot/EFI` are their own partitions and are&#x20;**_**not**_**&#x20;encrypted**.
 
 Once elementary OS is booted, start "GParted" from the Applications Menu. Then in GParted:
 

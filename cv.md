@@ -14,9 +14,9 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 **… as Desktop Developer**, crafting graphical applications for computers:
 
-| Scope                    | I worked with                                                                                                                                                                                                                                             |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Operating System**     | Linux ([elementary](https://elementary.io/)), macOS, Windows                                                                                                                                                                                              |
+| Scope                    | I worked with                                                                                                                                                                                                                                                                                |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Operating System**     | Linux ([elementary](https://elementary.io/)), macOS, Windows                                                                                                                                                                                                                                 |
 | **Programming Language** | HTML+CSS+JavaScript, Java, [Kotlin](https://kotlinlang.org/), [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/), [Vala](https://wiki.gnome.org/Projects/Vala), [Notions of C and C++](blog/2021-04-27-dipping-elementary-os-toes-into-virtual-reality.md) |
 
 **… as Server Admin**, managing servers and other infrastructure components:
@@ -36,10 +36,10 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 **… as Mobile Developer**, building mobile first applications for smartphones or tablets:
 
-| Scope                    | I worked with                                                                                                   |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **Operating System**     | [Android](https://www.android.com/), [iOS](https://www.apple.com/ios)                                           |
-| **Platform**             | Native, [React Native](https://reactnative.dev/), [Cordova](https://cordova.apache.org/)                        |
+| Scope                    | I worked with                                                                                                                                      |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Operating System**     | [Android](https://www.android.com/), [iOS](https://www.apple.com/ios)                                                                              |
+| **Platform**             | Native, [React Native](https://reactnative.dev/), [Cordova](https://cordova.apache.org/)                                                           |
 | **Programming Language** | HTML+CSS+JavaScript, Java, [Kotlin](https://kotlinlang.org/), [Swift](https://www.apple.com/swift/), [TypeScript](https://www.typescriptlang.org/) |
 
 **… as Web Developer**, creating applications for web browsers:
@@ -52,15 +52,20 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
+### 2025 - Now: MicroBachelors in Introduction to Neuroscience, HarvardX
+
+Learning the fundamentals of neurobiology, including neuronal function, synaptic communication, and brain structure. Understanding how the nervous system processes information, controls movement, and enables perception.
+
 ### 2022 - Now: Corda & Backend Senior Software Engineer, aXedras AG
 
 As [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url); connecting and digitalising the precious metal industry with Distributed Ledger Technology.
 
-_[Corda](https://www.r3.com/products/corda/), Docker, Spring-Boot, [Kotlin](https://kotlinlang.org/)_
+[_Corda_](https://www.r3.com/products/corda/)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
 
 ### 2019 - 2023: BSc in Computer Science, ZHAW
 
 [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019 and successfully completed in July 2023.
+
 ### 2019 - 2022: IT System Operations, midix.com ag
 
 Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.

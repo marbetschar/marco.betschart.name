@@ -1,5 +1,4 @@
 ---
-description: How to effectively debug Vala or C code.
 tags:
   - how-to
   - open-source
@@ -7,16 +6,15 @@ tags:
   - c
   - debug
   - development
+description: How to effectively debug Vala or C code.
 ---
 
 # Debug a Vala or C App
 
-> ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
-> ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+> <img src="https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff" alt="elementary OS: 6.0 Odin" data-size="original"><img src="https://img.shields.io/badge/status-verified-58c633" alt="Status: Verified" data-size="original">
 
 {% hint style="warning" %}
-This page mainly focuses on debugging in the Terminal. If you want to setup a graphical environment for Vala development and debugging,
-please have a look at [**Vala Development in VSCode**](../../resources/linux-desktop/vscode-vala-development.md).
+This page mainly focuses on debugging in the Terminal. If you want to setup a graphical environment for Vala development and debugging, please have a look at [**Vala Development in VSCode**](../../resources/linux-desktop/vscode-vala-development.md).
 {% endhint %}
 
 {% hint style="info" %}
@@ -45,7 +43,7 @@ G_MESSAGES_DEBUG=all flatpak run com.github.marbetschar.my-app
 sudo apt install gdb
 ```
 
-### Retrieve a backtrace \(e.g. to debug a Segmentation fault\)
+### Retrieve a backtrace (e.g. to debug a Segmentation fault)
 
 Run the program in question with GNU Debugger:
 
@@ -133,4 +131,3 @@ $ sudo coredumpctl debug /path/to/executable
 ## Further Reading
 
 * [Running and debugging GLib Applications](https://developer.gnome.org/glib/stable/glib-running.html)
-

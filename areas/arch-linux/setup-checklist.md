@@ -70,7 +70,7 @@ Install [Nextcloud Client from Flathub](https://flathub.org/apps/details/com.nex
 flatpak install flathub com.nextcloud.desktopclient.nextcloud
 ```
 
-Then start the client and login to your Nextcloud to start the synchronization process. To enable Autostart, open GNOME Tweaks, go to `Startup Applications` and add Nextcloud Desktop there. This literally just creates the `~/.config/autostart/com.nextcloud.desktopclient.nextcloud.desktop` file. 
+Then start the client and login to your Nextcloud to start the synchronization process. To enable Autostart, open GNOME Tweaks, go to `Startup Applications` and add Nextcloud Desktop there. This literally just creates the `~/.config/autostart/com.nextcloud.desktopclient.nextcloud.desktop` file.
 
 ## Git
 
@@ -90,7 +90,6 @@ Add the SSH Public Key to the following portals:
 * [ ] [GitLab.com](https://gitlab.com/-/profile/keys)
 * [ ] [GNOME GitLab](https://gitlab.gnome.org/-/profile/keys)
 
-
 ## VSCodium
 
 Install VSCodium from AUR by executing the following command in the Terminal:
@@ -108,7 +107,7 @@ inode/directory=codium.desktop;org.gnome.Nautilus.desktop;
 
 To fix this, create a new file in `~/.config/mimeapps.list` and fix the ordering there by adding the following content:
 
-```text
+```
 [Default Applications]
 inode/directory=org.gnome.Nautilus.desktop;
 ```
@@ -140,12 +139,12 @@ Setup Online Accounts in `GNOME Settings > Online Accounts`:
 * [ ] `Nextcloud` for Calendar and Contacts (needs application specific password)
 * [ ] `IMAP and SMTP` for Mail
 
-|  | Server | Port | Encryption |
-| :--- | :---: | :---: | :---: |
-| _Incoming Mail \(IMAP\)_ | mail.gandi.net | 993 | SSL |
-| _Outgoing Mail \(SMTP\)_ | mail.gandi.net | 587 | STARTTLS |
+|                        |     Server     | Port | Encryption |
+| ---------------------- | :------------: | :--: | :--------: |
+| _Incoming Mail (IMAP)_ | mail.gandi.net |  993 |     SSL    |
+| _Outgoing Mail (SMTP)_ | mail.gandi.net |  587 |  STARTTLS  |
 
-[_docs.gandi.net/en/gandimail/standard_email_settings/_](https://docs.gandi.net/en/gandimail/standard_email_settings/)
+[_docs.gandi.net/en/gandimail/standard\_email\_settings/_](https://docs.gandi.net/en/gandimail/standard_email_settings/)
 
 **Study & Work**
 
@@ -158,27 +157,27 @@ Install Evolution and Evolution EWS (`sudo pacman -S evolution evolution-ews`) a
 2. Start the New Mail Account Wizard: Click `File > New > Mail Account`
 3. Enter your **Email Address** and **uncheck** `Look up mail server details…`, click `Next`
 4. Select **Server Type**: `Exchange Web Services`
-  - Set **Host URL**: `https://outlook.office365.com/EWS/Exchange.asmx`
-  - Click **Check for Supported Types** - this should select `OAuth2 (Office 365)`
-  - **Check** `Override Office 365 OAuth2 settings`
-  - Enter the **Tenant ID** of your account (copy the `tid` query parameter value from your account url in Outlook Web Access)
-  - Open the [**Help…**](https://wiki.gnome.org/Apps/Evolution/EWS/OAuth2) link and follow the instructions provided there.
 
-In case you run into any troubles due to the Evolution application ID not beeing authorized by your Office 365 administrator, use the last Evolution application ID with the
-Redirect URI set to `urn:ietf:wg:oauth:2.0:oob` [as descrdibed in the GNOME Wiki](https://wiki.gnome.org/Apps/Evolution/EWS/OAuth2).
+* Set **Host URL**: `https://outlook.office365.com/EWS/Exchange.asmx`
+* Click **Check for Supported Types** - this should select `OAuth2 (Office 365)`
+* **Check** `Override Office 365 OAuth2 settings`
+* Enter the **Tenant ID** of your account (copy the `tid` query parameter value from your account url in Outlook Web Access)
+* Open the [**Help…**](https://wiki.gnome.org/Apps/Evolution/EWS/OAuth2) link and follow the instructions provided there.
+
+In case you run into any troubles due to the Evolution application ID not beeing authorized by your Office 365 administrator, use the last Evolution application ID with the Redirect URI set to `urn:ietf:wg:oauth:2.0:oob` [as descrdibed in the GNOME Wiki](https://wiki.gnome.org/Apps/Evolution/EWS/OAuth2).
 
 **Unified Inbox in Evolution**
 
 To have a grouped inbox view in Evolution I am going to use the `Search Folders` feature. Go to `Edit > Preferences` and enable `Search Folders`. Then drag it the top. Then create a new Search Folder in `Edit > Search Folders > Add` with the following settings:
 
-- Rule name: `Inbox`
-- Find items which match: `any of the following conditions`
-- Include threads: `None`
-- `Message Location`: `is`: `Your Account/Inbox`
-  - Add as many `Message Location` conditions as you have accounts and inboxes
-- **Check** Automatically update on any source folder change
-- Select `All active remote folders`
-- Then click **Ok**
+* Rule name: `Inbox`
+* Find items which match: `any of the following conditions`
+* Include threads: `None`
+* `Message Location`: `is`: `Your Account/Inbox`
+  * Add as many `Message Location` conditions as you have accounts and inboxes
+* **Check** Automatically update on any source folder change
+* Select `All active remote folders`
+* Then click **Ok**
 
 Repeat the above steps for any Unified Folder you want to have (e.g. for `Archive`).
 
@@ -253,11 +252,9 @@ flatpak install flathub com.zettlr.Zettlr flathub org.zotero.Zotero flathub com.
   * [ ] Set `Primary Language: German - Deutsch`
   * [ ] Check `Enable Secondary Language: English`
 
-
 ## eGPU with X11
 
 First, reboot with your eGPU attached. Then install the correct drivers for your graphic card:
-
 
 ```shell
 sudo pacman -S xf86-video-amdgpu vulkan-radeon
@@ -285,8 +282,7 @@ Which one is your external GPU? [1-2]: 2
 $ sudo egpu-switcher enable
 ```
 
-At this stage you are fully set. Reboot your system once again and keep the eGPU attached.
-You should now be able to login and the eGPU is used by default.
+At this stage you are fully set. Reboot your system once again and keep the eGPU attached. You should now be able to login and the eGPU is used by default.
 
 To verify, go to `GNOME System Settings > About` - there it should display your eGPU's name.
 

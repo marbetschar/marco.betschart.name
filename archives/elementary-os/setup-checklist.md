@@ -8,7 +8,7 @@ description: My personal checklist for setting up a fresh elementary OS installa
 
 * [ ] Start `Files` and click `Keep in Dock`
 * [ ] Set `⌘+E` in `System Settings > Keyboard > Shortcuts > Applications > Home Folder`
-* [ ] Set correct `Format and Temperature` in `System Settings > Language & Region` \(you may need to complete language support installation before\)
+* [ ] Set correct `Format and Temperature` in `System Settings > Language & Region` (you may need to complete language support installation before)
 * [ ] Adjust `System Settings > Date & Time`:
   * [ ] Disable `Based on location`
   * [ ] Select correct Time zone
@@ -43,7 +43,7 @@ description: My personal checklist for setting up a fresh elementary OS installa
 ## Paymo
 
 * [ ] [Download the Paymo Desktop App from the Website](https://www.paymoapp.com/downloads-and-integrations/)
-* [ ] Open the downloaded AppImage in Files \(double click\)
+* [ ] Open the downloaded AppImage in Files (double click)
   * [ ] If prompted, confirm `~/Applications` as integration target destination directory
 * [ ] Click `Integrate and run`
 * [ ] Login to Paymo Account
@@ -54,30 +54,28 @@ Setup Online Accounts in `System Settings > Online Accounts`:
 
 **Private**
 
-* [ ] Calendar and Tasks stored in Nextcloud \(needs application specific password\)
+* [ ] Calendar and Tasks stored in Nextcloud (needs application specific password)
 * [ ] Mail
 
-|  | Server | Port | Encryption |
-| :--- | :---: | :---: | :---: |
-| _Incoming Mail \(IMAP\)_ | mail.gandi.net | 993 | SSL |
-| _Outgoing Mail \(SMTP\)_ | mail.gandi.net | 587 | STARTTLS |
+|                        |     Server     | Port | Encryption |
+| ---------------------- | :------------: | :--: | :--------: |
+| _Incoming Mail (IMAP)_ | mail.gandi.net |  993 |     SSL    |
+| _Outgoing Mail (SMTP)_ | mail.gandi.net |  587 |  STARTTLS  |
 
-[_docs.gandi.net/en/gandimail/standard_email_settings/_](https://docs.gandi.net/en/gandimail/standard_email_settings/)
+[_docs.gandi.net/en/gandimail/standard\_email\_settings/_](https://docs.gandi.net/en/gandimail/standard_email_settings/)
 
 **Study & Work**
 
 * [ ] Calendar and Tasks
 * [ ] Mail
 
-Follow the instructions provided in [Missing Features & Workarounds to setup an Office 365 account using Modern Authentication (OAuth)](missing-features-and-workarounds.md#oauth-support-modern-authentication). In case you run into any troubles due to the
-Evolution application ID not beeing authorized by your Office 365 administrator, use the last Evolution application ID with the
-Redirect URI set to `urn:ietf:wg:oauth:2.0:oob` [as descrdibed in the GNOME Wiki](https://wiki.gnome.org/Apps/Evolution/EWS/OAuth2).
+Follow the instructions provided in [Missing Features & Workarounds to setup an Office 365 account using Modern Authentication (OAuth)](missing-features-and-workarounds.md#oauth-support-modern-authentication). In case you run into any troubles due to the Evolution application ID not beeing authorized by your Office 365 administrator, use the last Evolution application ID with the Redirect URI set to `urn:ietf:wg:oauth:2.0:oob` [as descrdibed in the GNOME Wiki](https://wiki.gnome.org/Apps/Evolution/EWS/OAuth2).
 
 ## Git
 
 Execute the following commands in the Terminal:
 
-```text
+```
 sudo apt install git
 git config --global user.name "Your Name"
 git config --global user.email "your.name@domain.tld"
@@ -86,8 +84,7 @@ cat .ssh/id_ed25519.pub
 ```
 
 {% hint style="info" %}
-**If it does not work:** If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
-`ssh-keygen -t rsa -b 4096 -C "your.name@domain.tld"`
+**If it does not work:** If you are using a legacy system that doesn't support the Ed25519 algorithm, use: `ssh-keygen -t rsa -b 4096 -C "your.name@domain.tld"`
 {% endhint %}
 
 Add the SSH Public Key to the following portals:
@@ -113,7 +110,7 @@ Add the SSH Public Key to the following portals:
 ## Cryptomator
 
 * [ ] [Download the Cryptomator App from the Website](https://cryptomator.org/downloads/)
-* [ ] Open the downloaded AppImage in Files \(double click\)
+* [ ] Open the downloaded AppImage in Files (double click)
   * [ ] If prompted, confirm `~/Applications` as integration target destination directory
 * [ ] Click `Integrate and run`
 * [ ] Add Vaults as needed
@@ -165,4 +162,3 @@ Add the SSH Public Key to the following portals:
   * [ ] Click `Download`
   * [ ] Set `Primary Language: German - Deutsch`
   * [ ] Check `Enable Secondary Language: English`
-

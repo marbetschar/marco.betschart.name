@@ -1,19 +1,21 @@
 ---
-description: How to setup different printers and scanners on elementary OS.
 tags:
   - how-to
   - printer
   - scanner
   - linux-desktop
+description: How to setup different printers and scanners on elementary OS.
 ---
+
+# Setup Printer and Scanner
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
 {% endhint %}
 
-## Brother MFC-L2710DW
+### Brother MFC-L2710DW
 
-> ![Arch Linux](https://img.shields.io/badge/arch%C2%A0linux-007aff)
+> <img src="https://img.shields.io/badge/arch%C2%A0linux-007aff" alt="Arch Linux" data-size="original">
 
 Install the [`brother-mfc-l2710dw` package from AUR](https://aur.archlinux.org/packages/brother-mfc-l2710dw):
 
@@ -38,12 +40,12 @@ sudo systemctl start cups
 
 You are now ready to add the printer by:
 
-- Navigating to [http://localhost:631](http://localhost:631), `Administration > Add Printer`
-- Login with our username and password
-- Select `AppSocket/HP JetDirect`
-- Enter `socket://123.456.78.90:9100`, click `Continue`
-- Enter the printer's name `Brother-MFC-L2710DW`
-- Select Make `Brother` and Model `Brother MFCL2710DW` and click `Add Printer`
+* Navigating to [http://localhost:631](http://localhost:631), `Administration > Add Printer`
+* Login with our username and password
+* Select `AppSocket/HP JetDirect`
+* Enter `socket://123.456.78.90:9100`, click `Continue`
+* Enter the printer's name `Brother-MFC-L2710DW`
+* Select Make `Brother` and Model `Brother MFCL2710DW` and click `Add Printer`
 
 **Scanning (+ OCR)**
 
@@ -73,18 +75,18 @@ sudo pacman -S simple-scan
 
 If you want OCR in addition, there is a neat little trick: Download the [`simple-scan-postprocessing.sh` script from its code repository](https://gitlab.gnome.org/GNOME/simple-scan/-/blob/master/src/simple-scan-postprocessing.sh), make it executable and store it somewhere safe on your machine. Then open `Document Scanner > Preferences` configure its postprocessing:
 
-- Enable Postprocessing: `Yes`
-- Script: `/path/to/your/simple-scan-postprocessing.sh`
-- Script arguments: `-l eng+deu`
-- Keep original file: `No`
+* Enable Postprocessing: `Yes`
+* Script: `/path/to/your/simple-scan-postprocessing.sh`
+* Script arguments: `-l eng+deu`
+* Keep original file: `No`
 
 The script is going to apply an OCR algorithm you saved the scan as PDF and makes it searchable.
 
 **Please Note:** The postprocessing script requires Docker for its work - so make sure you installed it on your machine.
 
-> ![elementary OS: 6.1 Jólnir](https://img.shields.io/badge/elementary%C2%A0OS-6.1%20Jólnir-007aff)
+> <img src="https://img.shields.io/badge/elementary%C2%A0OS-6.1%20J%C3%B3lnir-007aff" alt="elementary OS: 6.1 Jólnir" data-size="original">
 
-Download the latest "Driver Install Tool" for Linux from the [Brother MFC-L2710DW download page](https://support.brother.com/g/b/downloadtop.aspx?c=us_ot&lang=en&prod=mfcl2710dw_us_eu_as)  (`linux-brprinter-installer-2.2.3-1.gz` at the time of this writing).
+Download the latest "Driver Install Tool" for Linux from the [Brother MFC-L2710DW download page](https://support.brother.com/g/b/downloadtop.aspx?c=us_ot\&lang=en\&prod=mfcl2710dw_us_eu_as) (`linux-brprinter-installer-2.2.3-1.gz` at the time of this writing).
 
 Then install the drivers as documented on the download page (open the Terminal and execute the following commands):
 
@@ -145,22 +147,19 @@ Setting up brscan-skey (0.3.1-2) ...
  enter IP address -> 192.168.1.234    # Enter the printer's IP address
 ```
 
-## HP Color Laser Jet Pro MFP M281 fdw
+### HP Color Laser Jet Pro MFP M281 fdw
 
-> ![elementary OS: 6.1 Jólnir](https://img.shields.io/badge/elementary%C2%A0OS-6.1%20Jólnir-007aff)
-> ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+> <img src="https://img.shields.io/badge/elementary%C2%A0OS-6.1%20J%C3%B3lnir-007aff" alt="elementary OS: 6.1 Jólnir" data-size="original"><img src="https://img.shields.io/badge/status-verified-58c633" alt="Status: Verified" data-size="original">
 
-### Printing
+#### Printing
 
 In order to be able to print with a HP Color Laser Jet Pro MFP M281 fdw on elementary OS 6.1, you don't have to do anything. It works right out of the box.
 
-### Scanning
+#### Scanning
 
-Even though the printer itself works out of the box, you need to install a proprietary plugin from HP to be able to scan anything. Because HPLIP added
-official support for elementary OS 6.1 in a newer HPLIP version, the easiest way to do so is to update the installed HPLIP version.
+Even though the printer itself works out of the box, you need to install a proprietary plugin from HP to be able to scan anything. Because HPLIP added official support for elementary OS 6.1 in a newer HPLIP version, the easiest way to do so is to update the installed HPLIP version.
 
-To do so, go to the [HPLIP download page](https://developers.hp.com/hp-linux-imaging-and-printing/gethplip) and download the latest version for
-elementary OS (v3.22.2 at the time of this writing).
+To do so, go to the [HPLIP download page](https://developers.hp.com/hp-linux-imaging-and-printing/gethplip) and download the latest version for elementary OS (v3.22.2 at the time of this writing).
 
 For installation, execute the following commands in your Terminal:
 
@@ -241,7 +240,7 @@ Do you accept the license terms for the plug-in (y=yes*, n=no, q=quit) ? y
 Done.
 ```
 
-### Further Reading
+#### Further Reading
 
 * [bugs.launchpad.net/hplip/+bug/1822762](https://bugs.launchpad.net/hplip/+bug/1822762#yui_3_10_3_1_1626764399201_586)
 * [HPLIP Release Notes](https://developers.hp.com/hp-linux-imaging-and-printing/release_notes)

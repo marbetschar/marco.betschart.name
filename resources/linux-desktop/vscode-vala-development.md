@@ -1,7 +1,4 @@
 ---
-description: >-
-  How to setup VSCodium (Open Source Visual Studio Code) for Vala
-  development.
 tags:
   - how-to
   - elementary
@@ -9,12 +6,12 @@ tags:
   - vscode
   - programming
   - linux-desktop
+description: How to setup VSCodium (Open Source Visual Studio Code) for Vala development.
 ---
 
 # VSCode: Vala Development
 
-> ![elementary OS: 6.0 Odin](https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff)
-> ![Status: Verified](https://img.shields.io/badge/status-verified-58c633)
+> <img src="https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff" alt="elementary OS: 6.0 Odin" data-size="original"><img src="https://img.shields.io/badge/status-verified-58c633" alt="Status: Verified" data-size="original">
 
 {% hint style="info" %}
 If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
@@ -22,7 +19,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 
 ## VSCodium
 
-_Install VSCodium from deb package (as documented on [the official website](https://vscodium.com/#install))._
+_Install VSCodium from deb package (as documented on_ [_the official website_](https://vscodium.com/#install)_)._
 
 Add the GPG key of the repository:
 
@@ -46,9 +43,9 @@ sudo apt update && sudo apt install codium
 
 To begin with, you need to install the [Vala Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=prince781.vala):
 
-1. Visit the [plugin's website](https://marketplace.visualstudio.com/items?itemName=prince781.vala) and click "Download Extension" \(a \*.vsix file\)
+1. Visit the [plugin's website](https://marketplace.visualstudio.com/items?itemName=prince781.vala) and click "Download Extension" (a \*.vsix file)
 2. Run VSCodium
-3. From within VSCodium, open the Extensions tab \(`Ctrl + Shift + X`\)
+3. From within VSCodium, open the Extensions tab (`Ctrl + Shift + X`)
 4. Click `... > Install from VSIX...` on top of the Extensions sidebar
 5. Select the previously downloaded \*.vsix file and click `Install`
 
@@ -62,9 +59,9 @@ sudo apt install vala-language-server
 
 Install the [CodeLLDB Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb):
 
-1. Visit the [plugin's website](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and click "Download Extension" \(a \*.vsix file\)
+1. Visit the [plugin's website](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) and click "Download Extension" (a \*.vsix file)
 2. Run VSCodium
-3. From within VSCodium, open the Extensions tab \(`Ctrl + Shift + X`\)
+3. From within VSCodium, open the Extensions tab (`Ctrl + Shift + X`)
 4. Click `... > Install from VSIX...` on top of the Extensions sidebar
 5. Select the previously downloaded \*.vsix file and click `Install`
 
@@ -74,8 +71,7 @@ Now you can install the [LLDB Debugger](https://lldb.llvm.org/). For this, open 
 sudo apt install lldb
 ```
 
-Make sure to restart VSCodium and then you are nearly ready to start: When you start the debugger the first time in a project, it will ask for a run configuration.
-Here's a minimal one which should be enough to get you started:
+Make sure to restart VSCodium and then you are nearly ready to start: When you start the debugger the first time in a project, it will ask for a run configuration. Here's a minimal one which should be enough to get you started:
 
 ```json
 {

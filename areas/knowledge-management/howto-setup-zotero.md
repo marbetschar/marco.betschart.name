@@ -1,11 +1,11 @@
 ---
-description: How I setup Zotero to store My Library.
 tags:
   - knowledge-management
   - growth
   - learn
   - linux-desktop
   - nextcloud
+description: How I setup Zotero to store My Library.
 ---
 
 # Howto setup Zotero
@@ -42,17 +42,16 @@ As last step, you want to install the Zotero Connector. It makes it easy to add 
 
 Install the ZotMoove extension from [its GitHub repository](https://github.com/wileyyugioh/zotmoov). Then restart Zotero and configure the extension in `Edit > Settings > ZotMoov`:
 
-- `ZotMoov`:
-  - Directory to Move Files To: `~/Nextcloud/Leseraum`
-- `Other Settings`
-  - File Behavior: `Move`
-  - **Disable** Automatically Move/Copy Files When Added
-  - **Enable** Automatically Move/Copy Files to Subdirectory
-    - `Subdirectory String:` **{%T}**
+* `ZotMoov`:
+  * Directory to Move Files To: `~/Nextcloud/Leseraum`
+* `Other Settings`
+  * File Behavior: `Move`
+  * **Disable** Automatically Move/Copy Files When Added
+  * **Enable** Automatically Move/Copy Files to Subdirectory
+    * `Subdirectory String:` **\{%T}**
 
 Now you can move attachments to and from `~/Nextcloud/Leseraum` simply by using right click and `ZotMoov: Move Selected to Directory` or `ZotMoov: Move Selected from Directory`.
 
 ## BetterBibTex Extension
 
-Install the BetterBibTex extension and [configure it according to the Zettlr docs](https://docs.zettlr.com/en/academic/citations/).
-It should export the library to `~/Nextcloud/Notes/assets/Library.json`
+Install the BetterBibTex extension and [configure it according to the Zettlr docs](https://docs.zettlr.com/en/academic/citations/). It should export the library to `~/Nextcloud/Notes/assets/Library.json`

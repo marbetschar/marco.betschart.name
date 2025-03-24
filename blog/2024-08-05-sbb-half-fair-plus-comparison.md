@@ -6,7 +6,7 @@ description: How the different half fair plus subscriptions from SBB compare to 
 
 _August 2024_
 
-![SBB Half Fair Plus Comparison](<../.gitbook/assets/sbb-half-fair-plus-comparison.png>)
+![SBB Half Fair Plus Comparison](<../.gitbook/assets/sbb-half-fair-plus-comparison (1).png>)
 
 ```shell
 Halbtax Plus 1000 vs. 2000 Bonus Turnovers: [1700 2900 3600]
