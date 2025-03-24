@@ -52,7 +52,7 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
-### 2025 - Now: MicroBachelors in Introduction to Neuroscience, HarvardX
+### 2025 - Now: MicroBachelors Introduction to Neuroscience, HarvardX
 
 Learning the fundamentals of neurobiology, including neuronal function, synaptic communication, and brain structure. Understanding how the nervous system processes information, controls movement, and enables perception.
 
