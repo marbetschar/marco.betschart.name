@@ -30,31 +30,31 @@ Verbinden und digitalisieren der Edelmetallindustrie mithilfe der Distributed Le
 
 [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
 
-### 2019 - 2022: Linux System Administrator & Java Developer, midix.com ag
+### 2019 - 2022: Linux System Administrator & Java Entwickler, midix.com ag
 
 Management der Linux Server Infrastruktur (CentOS) und Weiterentwicklung des Portfolio Management Systems (PMS) mit Java.
 
 _CentOS, Java_
 
-### 2015 - 2019: Software Architect, Valletti
+### 2015 - 2019: Software Architekt, Valletti
 
 Design & Development der iOS App [Valletti - the smallest office in the world](https://appadvice.com/app/valletti-2-0/1317613000).
 
 _iOS, Swift, Couchbase, MVVM_
 
-### 2013 - 2019: Technical Lead, MANDELKIND
+### 2013 - 2019: Technischer Leiter, MANDELKIND
 
 Als Co-Founder dieses Startups war ich verantwortlich für alle technische Aspekte des Projekts.
 
 _WordPress, Docker, Linux, PHP, Java_
 
-### 2010 - 2013: Web Architect, Freelancer
+### 2010 - 2013: Web Architekt, Freelancer
 
 Arbeit als Freelancer bei diversen Firmen - Hauptschwerpunkt war die Entwicklung von Web-Applikationen.
 
 _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
-### 2009 - 2010: Junior Java & ColdFusion Developer, backslash AG
+### 2009 - 2010: Junior Java & ColdFusion Entwickler, backslash AG
 
 Nach meiner Lehre wurde ich mit der Konzeption und Realisation von kundenspezifischen Applikationen beauftragt. Desweiteren war ich zuständig für die Weiterentwicklung des hauseigenen eCommerce Systems sowie dessen Updateprozess-Automatisierung.
 
