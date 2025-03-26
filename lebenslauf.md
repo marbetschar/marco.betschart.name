@@ -12,9 +12,9 @@ Ich liebe es **digitale Produkte** mit **offenen Technologien** zu entwickeln - 
 
 ## Berufserfahrung & Bildung
 
-### 2025 - Now: Introduction to Neuroscience, HarvardX
+### 2025 - Heute: Einführung in die Neurowissenschaften, HarvardX
 
-Grundlagen der Neurobiologie: Verstehen, wie das Nervensystem Informationen verarbeitet, Bewegungen steuert und Wahrnehmung ermöglicht.
+Verstehen, wie das Nervensystem Informationen verarbeitet, Bewegungen steuert und Wahrnehmung ermöglicht.
 
 [_MicroBachelors® Program in Introduction to Neuroscience_](https://www.edx.org/bachelors/microbachelors/harvardx-introduction-to-neuroscience)
 
@@ -30,7 +30,7 @@ Verbinden und digitalisieren der Edelmetallindustrie mithilfe der Distributed Le
 
 [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
 
-### 2019 - 2022: Linux Administrator & Java Developer, midix.com ag
+### 2019 - 2022: Linux System Administrator & Java Developer, midix.com ag
 
 Management der Linux Server Infrastruktur (CentOS) und Weiterentwicklung des Portfolio Management Systems (PMS) mit Java.
 
@@ -56,7 +56,7 @@ _MVC, IoC, Hibernate, mura CMS, jQuery UI and jQuerymobile, HTML5, CSS3_
 
 ### 2009 - 2010: Junior Java & ColdFusion Developer, backslash AG
 
-Nach meiner Lehre wurde ich mit der Konzeption und Realisation von kundenspezifischen Applikationen beauftragt. Desweiteren war ich zuständig für die Weiterentwicklung des hauseigenen eCommerce Systems sowie der Automatisierung der Updates des eCommerce Systems.
+Nach meiner Lehre wurde ich mit der Konzeption und Realisation von kundenspezifischen Applikationen beauftragt. Desweiteren war ich zuständig für die Weiterentwicklung des hauseigenen eCommerce Systems sowie dessen Updateprozess-Automatisierung.
 
 _Java basiertes, automatisches Update des eCommerce Systems_
 
