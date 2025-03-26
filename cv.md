@@ -74,7 +74,7 @@ _CentOS, Java_
 
 ### 2015 - 2019: Software Architect, Valletti
 
-Design & Development of the iOS App [Valletti - the smallest office in the world](https://valletti.ch/).
+Design & Development of the iOS App [Valletti - the smallest office in the world](https://appadvice.com/app/valletti-2-0/1317613000).
 
 _iOS, Swift, Couchbase, MVVM_
 
