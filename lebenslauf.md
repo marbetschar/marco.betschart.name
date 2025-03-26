@@ -30,7 +30,7 @@ Verbinden und digitalisieren der Edelmetallindustrie mithilfe der Distributed Le
 
 [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
 
-### 2019 - 2022: Linux System Administrator & Java Entwickler, midix.com ag
+### 2019 - 2022: Linux Administrator & Java Entwickler, midix.com ag
 
 Management der Linux Server Infrastruktur (CentOS) und Weiterentwicklung des Portfolio Management Systems (PMS) mit Java.
 
