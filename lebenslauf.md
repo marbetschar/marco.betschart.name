@@ -12,19 +12,23 @@ Ich liebe es **digitale Produkte** mit **offenen Technologien** zu entwickeln - 
 
 ## Berufserfahrung & Bildung
 
-### 2025 - Now: MicroBachelors Introduction to Neuroscience, HarvardX
+### 2025 - Now: Introduction to Neuroscience, HarvardX
 
-Grundlagen der Neurobiologie, einschliesslich der Funktion von Neuronen, der synaptischen Kommunikation und der Struktur des Gehirns. Verstehen, wie das Nervensystem Informationen verarbeitet, Bewegungen steuert und Wahrnehmung ermöglicht.
+Grundlagen der Neurobiologie: Verstehen, wie das Nervensystem Informationen verarbeitet, Bewegungen steuert und Wahrnehmung ermöglicht.
 
-### 2019 - 2023: BSc in Computer Science, ZHAW
+[_MicroBachelors® Program in Introduction to Neuroscience_](https://www.edx.org/bachelors/microbachelors/harvardx-introduction-to-neuroscience)
 
-[BSc in Computer Science](projects/bachelors-degree-in-computer-science.md), gestartet im September 2019 und erfolgreich abgeschlossen im Juli 2023.
+### 2019 - 2023: Bachelor in Informatik, ZHAW
+
+Gestartet im September 2019 und erfolgreich abgeschlossen im Juli 2023.
+
+[_BSc in Informatik_](https://www.zhaw.ch/de/engineering/studium/bachelorstudium/informatik)
 
 ### 2022 - Heute: Corda & Backend Senior Software Engineer, aXedras AG
 
-Als [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url); Verbinden und digitalisieren der Edelmetallindustrie Distributed Ledger Technologie (DLT).
+Verbinden und digitalisieren der Edelmetallindustrie mithilfe der Distributed Ledger Technologie (DLT).
 
-[_Corda_](https://www.r3.com/products/corda/)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
+[Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
 
 ### 2019 - 2022: Linux Administrator & Java Developer, midix.com ag
 
