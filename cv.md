@@ -52,7 +52,13 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
-### 2025 - Now: MicroBachelors Introduction to Neuroscience, HarvardX
+### 2025 - Now: MSE in Data Science at the Centre of Artificial Intelligence, ZHAW
+
+Started in September 2025 and will be completed by July 2028 (part-time studies).
+
+[_MSE in Data Science_](https://www.zhaw.ch/en/engineering/study/masters-degree-programme/profiles/data-science)
+
+### 2025: MicroBachelors Introduction to Neuroscience, HarvardX
 
 Learning the fundamentals of neurobiology, including neuronal function, synaptic communication, and brain structure. Understanding how the nervous system processes information, controls movement, and enables perception.
 
@@ -60,7 +66,7 @@ Learning the fundamentals of neurobiology, including neuronal function, synaptic
 
 [Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019 and successfully completed in July 2023.
 
-### 2022 - Now: Corda & Backend Senior Software Engineer, aXedras AG
+### 2022 - Now: Senior Software Engineer, aXedras AG
 
 As [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url); connecting and digitalising the precious metal industry with Distributed Ledger Technology.
 

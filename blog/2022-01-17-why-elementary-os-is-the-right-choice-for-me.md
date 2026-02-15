@@ -36,7 +36,7 @@ And here we come full circle now: As mentioned, the community and communication 
 
 This whole approach really shows in the overall User Experience (UX) of elementary OS. For example [Accessibility Features Are Just Features](https://blog.elementary.io/accessibility-features-are-just-features/). Or another very nice example is the elementary OS installer: [It offers to switch to a left-handed setup if the users clicks on the `Next` button with the right mouse button](https://github.com/elementary/initial-setup/pull/133):
 
-![eOS installer offers to switch to left-handed setup](<../.gitbook/assets/eOS-installer-offers-to-switch-to-left-handed-setup (1).gif>)
+![eOS installer offers to switch to left-handed setup](../.gitbook/assets/eOS-installer-offers-to-switch-to-left-handed-setup.gif)
 
 Some other things I really like in terms of UX in elementary OS are [Multi Touch Gestures](https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/) and the [Dark Style](https://blog.elementary.io/dark-style-progress/).
 

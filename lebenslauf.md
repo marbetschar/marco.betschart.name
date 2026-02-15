@@ -12,7 +12,13 @@ Ich liebe es **digitale Produkte** mit **offenen Technologien** zu entwickeln - 
 
 ## Berufserfahrung & Bildung
 
-### 2025 - Heute: Einführung in die Neurowissenschaften, HarvardX
+### 2025 - Heute: MSE in Data Science am Centre for Artificial Intelligence, ZHAW
+
+Gestartet im September 2025, vorraussichtlicher Abschluss im Juli 2028 (in Teilzeit).
+
+[_MSE in Data Science_](https://www.zhaw.ch/en/engineering/study/masters-degree-programme/profiles/data-science)
+
+### 2025: Einführung in die Neurowissenschaften, HarvardX
 
 Verstehen, wie das Nervensystem Informationen verarbeitet, Bewegungen steuert und Wahrnehmung ermöglicht.
 
@@ -24,9 +30,9 @@ Gestartet im September 2019 und erfolgreich abgeschlossen im Juli 2023.
 
 [_BSc in Informatik_](https://www.zhaw.ch/de/engineering/studium/bachelorstudium/informatik)
 
-### 2022 - Heute: Corda & Backend Senior Software Engineer, aXedras AG
+### 2022 - Heute: Senior Software Engineer, aXedras AG
 
-Verbinden und digitalisieren der Edelmetallindustrie mithilfe der Distributed Ledger Technologie (DLT).
+Verbinden und digitalisieren der Edelmetallindustrie mithilfe von Distributed Ledger Technologie (DLT).
 
 [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
 
