@@ -13,7 +13,8 @@ I'm a software developer who loves to craft **digital products** using **open te
 See my [Curriculum Vitae](cv.md) if you want all the details.
 
 |              |                                                  |
-| ------------ | ------------------------------------------------ |
+|--------------|--------------------------------------------------|
+| 2025 - Today | Master's degree in Data Science                  |
 | 2019 - 2023  | Bachelor's degree in Computer Science            |
 | 2008 - Today | Working in the IT industry                       |
 | 2004 - 2008  | Swiss Vocational Certificate in Computer Science |

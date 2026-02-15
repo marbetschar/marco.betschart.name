@@ -5,4 +5,8 @@ _site
 .jekyll-metadata
 .ztr-directory
 .obsidian
+.idea
 vendor
+
+# MyST build outputs
+_build
