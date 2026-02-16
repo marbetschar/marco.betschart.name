@@ -20,10 +20,6 @@ Users who'd love to interact with the beautiful linux desktop of elementary in V
 
 ## Contributions
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 This project has three parts which work together to create the elementary XR experience:
 
 ### Gala Plugin \(Window Manager plugin\)

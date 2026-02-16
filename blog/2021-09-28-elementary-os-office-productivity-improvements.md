@@ -31,11 +31,6 @@ Last but not least, the following two bug fixes also found their way into the la
 |  |  |
 | :--- | :--- |
 
-
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## Tasks
 
 ![elementary Tasks: Drag task to another list](../.gitbook/assets/elementary-tasks-drag-and-drop.png)

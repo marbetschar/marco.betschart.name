@@ -14,10 +14,6 @@ tags:
 
 ## Contributions
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 * [x] [~~**Drag Task to another List**~~](https://github.com/elementary/tasks/pull/296) ![Completed: 2021-12-08](https://img.shields.io/badge/completed-2021--12--08-lightgrey?style=social)
 * [x] [~~**Self contained scheduled list**~~](https://github.com/elementary/tasks/pull/292) ![Completed: 2021-11-04](https://img.shields.io/badge/completed-2021--11--04-lightgrey?style=social)
 * [x] [~~**Fix cursor placing on focus**~~](https://github.com/elementary/tasks/pull/293) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)

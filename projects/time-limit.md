@@ -13,10 +13,6 @@ tags:
 
 ## Contributions
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 * [x] [~~**Keep alive while timer runs**~~](https://github.com/marbetschar/time-limit/pull/56) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
 * [x] [~~**Flatpak support**~~](https://github.com/marbetschar/time-limit/pull/46) ![Completed: 2021-05-05](https://img.shields.io/badge/completed-2021--05--05-lightgrey?style=social)
 * [x] [~~**Ditched libunity**~~](https://github.com/marbetschar/time-limit/pull/49) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)

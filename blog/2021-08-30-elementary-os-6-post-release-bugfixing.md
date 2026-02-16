@@ -71,11 +71,6 @@ Synchronizing subscribed calendars threw an error under certain circumstances. B
 |  |  |
 | :--- | :--- |
 
-
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## System Settings: Notifications
 
 ### Bypass Do Not Disturb \([\#84](https://github.com/elementary/switchboard-plug-notifications/pull/84)\)

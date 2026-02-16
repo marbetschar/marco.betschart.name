@@ -4,10 +4,6 @@ description: All my contributions to the greater good of open source software (O
 
 # Open Source Contributions
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## elementary Calendar
 
 [_github.com/elementary/calendar_](https://github.com/elementary/calendar) _- Desktop calendar app designed for elementary OS._

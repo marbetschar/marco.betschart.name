@@ -23,11 +23,6 @@ Even though sending emails already worked in elementary Mail, it did not always 
 |  |  |
 | :--- | :--- |
 
-
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## Handle reply subject
 
 elementary Mail now [correctly displays the subject field](https://github.com/elementary/mail/pull/602) whenever you forward or reply to an email. In addition Mail does now [handle `Re:` subject prefixes correctly](https://github.com/elementary/mail/pull/603) whenever you hit the reply button.

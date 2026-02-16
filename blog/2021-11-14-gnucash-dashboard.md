@@ -20,10 +20,6 @@ You are free to use and modify the GnuCash Dashboard as you wish, because I rele
 
 > **Please Note:** The current state of work is tested on elementary OS 6 (based on Ubuntu 20.04 LTS). If you'd like to run the dashboard on another platform and run into issues, feel free to let me know in the [issues section of the GitHub repository](https://github.com/marbetschar/GnuCash-Dashboard/issues).
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## Metrics
 
 A lot of inspiration for the KPI's is drawn from [Michael Walker's approach](https://memo.barrucadu.co.uk/personal-finance.html) on personal finance.

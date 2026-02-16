@@ -12,10 +12,6 @@ Pretty sure you already heard the news: elementary OS 6.1 aka Jólnir is out! To
 
 In this post, I'm going to highlight some features I contributed to Jólnir and I'm very excited about: These contributions play a crucial part in my daily workflow - and all of them are now available to you as well! Merry Christmas!
 
-{% hint style="info" %}
-If you like my contributions, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## `Granite.HyperTextView`
 
 [Back in June](2021-06-30-granite-hypertextview.md) I started to work on a new widget to enable hyperlinks in `Gtk.TextView`'s. After quite some discussion, testing and re-evaluation it is now finally released! This means, users can now simply `Control + Click` to follow web and email addresses in any text field. Which has already been integrated in Tasks and Calendar:
