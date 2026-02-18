@@ -9,7 +9,7 @@ tags:
 
 # Time Limit
 
-![Time Limit supports dark mode and accent colors on elementary OS 6](../.gitbook/assets/com.github.marbetschar.time-limit.png)
+![Time Limit supports dark mode and accent colors on elementary OS 6](../../.gitbook/assets/com.github.marbetschar.time-limit.png)
 
 ## Contributions
 
@@ -19,7 +19,7 @@ tags:
 * [x] [~~**Use libhandy**~~](https://github.com/marbetschar/time-limit/pull/48) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
 * [x] [~~**Color time and pause**~~](https://github.com/marbetschar/time-limit/pull/47) ![Completed: 2021-05-03](https://img.shields.io/badge/completed-2021--05--03-lightgrey?style=social)
 
-[**more »**](../contributions.md#time-limit)
+[**more »**](../../contributions.md#time-limit)
 
 ## Built For
 

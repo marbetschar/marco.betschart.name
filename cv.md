@@ -64,7 +64,7 @@ Learning the fundamentals of neurobiology, including neuronal function, synaptic
 
 ### 2019 - 2023: BSc in Computer Science, ZHAW
 
-[Bachelor's degree in Computer Science](projects/bachelors-degree-in-computer-science.md), started in September 2019 and successfully completed in July 2023.
+[Bachelor's degree in Computer Science](archives/projects/bachelors-degree-in-computer-science.md), started in September 2019 and successfully completed in July 2023.
 
 ### 2022 - Now: Senior Software Engineer, aXedras AG
 

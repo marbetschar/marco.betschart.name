@@ -18,7 +18,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 {% endhint %}
 
 {% content-ref url="bachelors-degree-in-computer-science.md" %}
-[bachelors-degree-in-computer-science.md](bachelors-degree-in-computer-science.md)
+[bachelors-degree-in-computer-science.md](../archives/projects/bachelors-degree-in-computer-science.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
@@ -34,7 +34,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 {% endcontent-ref %}
 
 {% content-ref url="foss-productivity-system.md" %}
-[foss-productivity-system.md](foss-productivity-system.md)
+[foss-productivity-system.md](../archives/projects/foss-productivity-system.md)
 {% endcontent-ref %}
 
 {% content-ref url="../archives/projects/progress-for-apple-reminders.md" %}
@@ -42,7 +42,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 {% endcontent-ref %}
 
 {% content-ref url="time-limit.md" %}
-[time-limit.md](time-limit.md)
+[time-limit.md](../archives/projects/time-limit.md)
 {% endcontent-ref %}
 
 ## Project Ideas

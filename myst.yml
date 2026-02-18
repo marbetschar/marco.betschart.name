@@ -39,9 +39,7 @@ project:
       file: contact.md
     - title: My Projects
       children:
-        - file: projects/bachelors-degree-in-computer-science.md
-        - file: projects/foss-productivity-system.md
-        - file: projects/time-limit.md
+        - file: projects/masters-degree-in-data-science.md
     - title: My Areas
       children:
         - file: areas/calyx-os.md
@@ -87,6 +85,9 @@ project:
             - file: archives/elementary-os/setup-checklist.md
         - title: Projects
           children:
+            - file: archives/projects/bachelors-degree-in-computer-science.md
+            - file: archives/projects/foss-productivity-system.md
+            - file: archives/projects/time-limit.md
             - file: archives/projects/elementary-mail-v6.md
             - file: archives/projects/elementary-online-accounts-v6.md
             - file: archives/projects/elementary-tasks-v6.md
