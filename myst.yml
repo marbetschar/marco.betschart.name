@@ -40,6 +40,8 @@ project:
     - title: My Projects
       children:
         - file: projects/masters-degree-in-data-science.md
+          children:
+            - file: projects/masters-degree-in-data-science/stochastic-modeling.md
     - title: My Areas
       children:
         - file: areas/calyx-os.md
@@ -104,3 +106,4 @@ site:
     favicon: favicon.ico
     logo: logo.png
     style: ./style.css
+    folders: true
