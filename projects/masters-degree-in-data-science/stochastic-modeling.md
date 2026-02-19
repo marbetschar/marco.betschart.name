@@ -25,6 +25,7 @@ A **(random) event** is a collection of outcomes - in other words a subset $A \s
 
 :::{prf:example} Sample Spaces and Events
 :label: ex-sample-spaces
+:class: dropdown
 
 1. **Tossing a die**: $\Omega = \{1, 2, 3, 4, 5, 6\}$
    - Event $A = \{2, 4, 6\}$: "toss an even number"
@@ -46,8 +47,18 @@ The following operations on events are fundamental:
 - $\bigcap_{i=1}^{\infty} A_i$: all $A_i$
 - $\bigcup_{i=1}^{\infty} A_i$: at least one $A_i$
 
+
+#### Remarks
+
+1. If $A \cap B = \emptyset$, we say that $A$ and $B$ are **disjoint**. We often write $A \dot{\cup} B$ to indicate a union of two disjoint events $A, B$.
+
+2. When $A \subseteq B$, event $A$ is said to **imply** event $B$. We then have $A \cap B = A$ and $A \cup B = B$.
+
+3. Note that we have $A \cup A^c = \Omega$ and $A \cap A^c = \emptyset$.
+
 :::{prf:example} Set Operations on Events
 :label: ex-set-operations
+:class: dropdown
 
 If $A = \{3, 5, 6\}$ and $B = \{1, 3\}$, then:
 - $A \cup B = \{1, 3, 5, 6\}$
@@ -55,18 +66,9 @@ If $A = \{3, 5, 6\}$ and $B = \{1, 3\}$, then:
 - $A^c = \{1, 2, 4\}$
 :::
 
-:::{note}
-**Remarks:**
-
-1. If $A \cap B = \emptyset$, we say that $A$ and $B$ are **disjoint**. We often write $A \dot{\cup} B$ to indicate a union of two disjoint events $A, B$.
-
-2. When $A \subseteq B$, event $A$ is said to **imply** event $B$. We then have $A \cap B = A$ and $A \cup B = B$.
-
-3. Note that we have $A \cup A^c = \Omega$ and $A \cap A^c = \emptyset$.
-:::
-
 :::{exercise} Set Operations with Die Events
 :label: ex-die-set-operations
+:class: dropdown
 
 A die is tossed. Consider the events:
 $$
@@ -78,6 +80,7 @@ Determine the events $B \cap C$, $A \cup B$, $B \cup C$, $C \cap E$, $A^c$, $B \
 
 :::{exercise} Venn Diagrams
 :label: ex-venn-diagrams
+:class: dropdown
 
 Given two events $A$ and $B$, use a Venn diagram to represent:
 
@@ -88,6 +91,7 @@ c) $A$ or $B$, but not both
 
 :::{exercise} Coin and Die Sample Space
 :label: ex-coin-die
+:class: dropdown
 
 A coin and a die are tossed together.
 
@@ -100,10 +104,10 @@ b) Specify the following events:
 
 ### Probability measure
 
-Consider a random experiment with sample space $\Omega$. Recall that we write $\mathcal{A}$ for the set of all possible events $E$. A probability on $\Omega$ is a function which assigns to every event $E \in \mathcal{A}$ a real number $P(E)$ and satisfies the following properties known as the **Axioms of Kolmogorov**:
-
-:::{prf:definition} Probability Measure
+:::{prf:definition} Probability Measure - Axioms of Kolmogorov
 :label: def-probability-measure
+
+Consider a random experiment with sample space $\Omega$. Recall that we write $\mathcal{A}$ for the set of all possible events $E$. A probability on $\Omega$ is a function which assigns to every event $E \in \mathcal{A}$ a real number $P(E)$ and satisfies the following properties known as the **Axioms of Kolmogorov**:
 
 A **probability measure** on $\Omega$ is a function $P : \mathcal{A} \to \mathbb{R}$ satisfying the following axioms:
 
@@ -121,8 +125,7 @@ We refer to $P(E)$ as the **probability** of the event $E \in \mathcal{A}$.
 Events $E \in \mathcal{A}$ with $P(E) = 0$ are called **almost impossible**, events $E \in \mathcal{A}$ with $P(E) = 1$ are called **almost certain**.
 :::
 
-:::{note}
-**Remarks:**
+#### Remarks
 
 1. **(Summation rule)** If in Axiom A3) we choose a finite sequence of disjoint events, say $E_1, E_2$ and $E_3$, we can simply set $E_i = \emptyset$ for all $i \geq 4$ to obtain
    $$
@@ -135,10 +138,10 @@ Events $E \in \mathcal{A}$ with $P(E) = 0$ are called **almost impossible**, eve
    P(A) = \frac{k}{n} = \frac{\text{number of good outcomes}}{\text{total number of possible outcomes}} = \frac{|A|}{|\Omega|}
    $$
    We refer to such a $P$ as the **uniform probability measure** on the sample space $\Omega$.
-:::
 
 :::{prf:example} Fair Die Probabilities
 :label: ex-fair-die
+:class: dropdown
 
 In the die tossing example, if all six numbers are equally likely, we have
 $$
@@ -167,12 +170,61 @@ Let $A, B \subseteq \Omega$ be events and $P$ a probability measure on $\Omega$.
 
 :::{exercise} Prove Basic Properties
 :label: ex-prove-properties
+:class: dropdown
 
-Prove [](#prop-probability-properties).
+Prove of [](#prop-probability-properties):
+
+**a) $P(\varnothing)=0$**
+
+For a probability measure $P$ on $\Omega$, $P(\varnothing) = 0.$
+
+The sets $\Omega$ and $\varnothing$ are disjoint and $\Omega = \Omega \cup \varnothing.$
+
+By A3 applied to these two sets, $P(\Omega) = P(\Omega \cup \varnothing)
+= P(\Omega) + P(\varnothing).$
+
+Subtracting $P(\Omega)$ from both sides gives $0 = P(\varnothing)$
+
+**b) $P(A^c) = 1 - P(A)$**
+
+For every event $A \subseteq \Omega$, $P(A^{c}) = 1 - P(A).$
+
+The sets $A$ and $A^{c}$ are disjoint and their union is the whole sample space: $\Omega = A \cup A^{c}, \qquad A \cap A^{c} = \varnothing.$
+
+Using A3 for these two disjoint sets, $P(\Omega) = P(A \cup A^{c}) = P(A) + P(A^{c})$
+
+By A2, $P(\Omega) = 1$, so $1 = P(A) + P(A^{c}) \quad\Rightarrow\quad P(A^{c}) = 1 - P(A)$
+
+**c) $P(A\setminus B) = P(A) - P(A\cap B)$**
+For all events $A,B \subseteq \Omega$, $P(A \setminus B) = P(A) - P(A \cap B).$
+
+Inside $A$, split into two disjoint parts: $A = (A \setminus B) \cup (A \cap B)$, and $(A \setminus B) \cap (A \cap B) = \varnothing$.
+
+Applying A3 to these two disjoint sets, $P(A) = P(A \setminus B) + P(A \cap B)$
+
+Rearranging gives $P(A \setminus B) = P(A) - P(A \cap B)$
+
+**d) $P(A\cup B) = P(A)+P(B)-P(A\cap B)$**
+
+For all events $A,B \subseteq \Omega$, $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+Decompose the union into disjoint parts: $A \cup B = (A \setminus B) \cup B$, with $(A \setminus B) \cap B = \varnothing$.
+
+By A3, $P(A \cup B) = P(A \setminus B) + P(B)$. Using the result from (c), $P(A \setminus B) = P(A) - P(A \cap B)$ so $P(A \cup B) = \bigl(P(A) - P(A \cap B)\bigr) + P(B) = P(A) + P(B) - P(A \cap B)$.
+
+**e) If $A\subseteq B$ then $P(A)\le P(B)$**
+If $A,B \subseteq \Omega$ with $A \subseteq B$, then $P(A) \le P(B)$
+
+If $A \subseteq B$, then $B$ can be written as the disjoint union $B = A \cup (B \setminus A)$, with $A \cap (B \setminus A) = \varnothing$.
+
+By A3, $P(B) = P(A) + P(B \setminus A)$.
+
+By A1, $P(B \setminus A) \ge 0$, so $P(B) \ge P(A)$, which is equivalent to $P(A) \le P(B)$.
 :::
 
 :::{prf:example} Two Fair Coins
 :label: ex-two-coins
+:class: dropdown
 
 Suppose that we toss two fair coins, so that each of the four outcomes in the sample space
 $$
@@ -196,12 +248,14 @@ $$
 
 :::{exercise} Unfair Die
 :label: ex-unfair-die
+:class: dropdown
 
 Construct a sample space $\Omega$ and probability measure $P$ to model an unfair die in which faces $1-5$ are equally likely, but face 6 has probability $\frac{1}{3}$. Using this model, compute the probability that a toss results in a face showing an even number of dots.
 :::
 
 :::{prf:example} Probability Measure Construction
 :label: ex-probability-construction
+:class: dropdown
 
 The foregoing exercise follows a typical modeling schema: First, select a suitable sample space $\Omega$, second, define $P(A)$ for all events $A$. For example if $\Omega$ is finite and all outcomes are equally likely we usually take $P(A) = \frac{|A|}{|\Omega|}$. If it is not the case that all outcomes are equally likely, then $P(A)$ would be given by some other formula.
 
@@ -217,6 +271,7 @@ This is a well defined probability measure on $\Omega$. Analogously, one can con
 
 :::{prf:example} Two Dice Conditional Probability
 :label: ex-two-dice-conditional
+:class: dropdown
 
 We toss two fair dice. Each of the 36 possible outcomes in $\Omega$ is equally likely to occur and hence has probability $\frac{1}{36}$. Now suppose that we observe that the first die is a four. Then given this information, what is the probability that the sum of the two dice equals six?
 
@@ -245,6 +300,7 @@ Note that $P(\cdot|F)$ is itself a probability measure in the first argument, ca
 
 :::{prf:example} Family with Two Children
 :label: ex-two-children
+:class: dropdown
 
 A family has two children. What is the conditional probability that both are boys given that at least one of them is a boy?
 
@@ -258,6 +314,7 @@ $$
 
 :::{prf:example} Drawing Balls from an Urn
 :label: ex-urn-balls
+:class: dropdown
 
 Suppose an urn contains seven black and five white balls. We draw two balls from the urn without replacement. Assuming that each ball in the urn is equally likely to be drawn, what is the probability that both drawn balls are black?
 
@@ -271,6 +328,7 @@ In the preceding display, we have used that $P(E \cap F) = P(F) P(E|F)$. This ru
 
 :::{exercise} Multiplication Rule for Three Events
 :label: ex-multiplication-three
+:class: dropdown
 
 Show that for any three events $A, B, C \subseteq \Omega$ such that $P(A \cap B) > 0$ we have
 $$
@@ -304,6 +362,7 @@ $$
 
 :::{prf:example} Genetic Anomaly and Stomach Cancer
 :label: ex-stomach-cancer
+:class: dropdown
 
 It is suspected that stomach cancer develops with probability $p$ if some specific genetic anomaly is given. In absence of this anomaly stomach cancer develops with probability $q < p$.
 
@@ -338,6 +397,7 @@ $$
 
 :::{prf:example} Bayes' Rule Application
 :label: ex-bayes-stomach-cancer
+:class: dropdown
 
 In the context of [](#ex-stomach-cancer), calculate the probability that a person with stomach cancer shows the genetic anomaly.
 
@@ -349,6 +409,7 @@ $$
 
 :::{exercise} Overloaded Cell System
 :label: ex-overloaded-cell
+:class: dropdown
 
 The probability that a cell in a wireless system is overloaded is $\frac{1}{3}$. Given that it is overloaded, the probability of a blocked call is 0.3. Given that it is not overloaded, the probability of a blocked call is 0.1. Find the conditional probability that the system is overloaded given that your call is blocked.
 
@@ -357,6 +418,7 @@ The probability that a cell in a wireless system is overloaded is $\frac{1}{3}$.
 
 :::{exercise} Autopilot Failure
 :label: ex-autopilot
+:class: dropdown
 
 A certain aircraft's autopilot has conditional probability $\frac{1}{3}$ of failure given that it employs a faulty microprocessor chip. The autopilot has conditional probability $\frac{1}{10}$ of failure given that it employs a nonfaulty chip. According to the chip manufacturer, the probability that a customer receives a faulty chip is $\frac{1}{4}$. Given that an autopilot failure has occurred, find the conditional probability that a faulty chip was used.
 
@@ -369,6 +431,7 @@ $$
 
 :::{exercise} Internet Packet Routing
 :label: ex-packet-routing
+:class: dropdown
 
 Due to an Internet configuration error, packets sent from Zurich to Lausanne are routed through Bellinzona with probability 3/4. Given that the packet is routed through Bellinzona, suppose it has conditional probability 1/3 of being dropped. Given that a packet is not routed through Bellinzona, suppose it has conditional probability 1/4 of being dropped.
 
@@ -378,6 +441,7 @@ b) Can you find the conditional probability that a packet is routed through Bell
 
 :::{prf:example} The Monty Hall Problem
 :label: ex-monty-hall
+:class: dropdown
 
 In a game show, a contestant is told the rules as follows: There are three doors, labelled 1, 2, 3. A single prize is hidden behind one of them. You get to select one door. Initially your chosen door will not be opened. Instead, the gameshow host will open one of the two other doors, and he will do so in such a way as not to reveal the prize.
 
