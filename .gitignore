@@ -5,6 +5,7 @@ _site
 .jekyll-metadata
 .ztr-directory
 .obsidian
+.DS_Store
 .idea
 vendor
 
