@@ -39,6 +39,7 @@ project:
       file: contact.md
     - title: My Projects
       children:
+        - file: projects/ibm-foundations-of-quantum-computing.md
         - file: projects/masters-degree-in-data-science.md
           children:
             - file: projects/masters-degree-in-data-science/advanced-deep-learning.ipynb
