@@ -14,11 +14,11 @@ tags:
 
 ## Contributions
 
-* [x] [~~**Drag Task to another List**~~](https://github.com/elementary/tasks/pull/296) ![Completed: 2021-12-08](https://img.shields.io/badge/completed-2021--12--08-lightgrey?style=social)
-* [x] [~~**Self contained scheduled list**~~](https://github.com/elementary/tasks/pull/292) ![Completed: 2021-11-04](https://img.shields.io/badge/completed-2021--11--04-lightgrey?style=social)
-* [x] [~~**Fix cursor placing on focus**~~](https://github.com/elementary/tasks/pull/293) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
-* [x] [~~**Load only non-completed tasks by default**~~](https://github.com/elementary/tasks/pull/295) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
-* [x] [~~**Fixes an Issue when removing task description**~~](https://github.com/elementary/tasks/pull/286) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [{del}`**Drag Task to another List**`](https://github.com/elementary/tasks/pull/296) ![Completed: 2021-12-08](https://img.shields.io/badge/completed-2021--12--08-lightgrey?style=social)
+* [x] [{del}`**Self contained scheduled list**`](https://github.com/elementary/tasks/pull/292) ![Completed: 2021-11-04](https://img.shields.io/badge/completed-2021--11--04-lightgrey?style=social)
+* [x] [{del}`**Fix cursor placing on focus**`](https://github.com/elementary/tasks/pull/293) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
+* [x] [{del}`**Load only non-completed tasks by default**`](https://github.com/elementary/tasks/pull/295) ![Completed: 2021-09-24](https://img.shields.io/badge/completed-2021--09--24-lightgrey?style=social)
+* [x] [{del}`**Fixes an Issue when removing task description**`](https://github.com/elementary/tasks/pull/286) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 
 [**more »**](../../contributions.md#elementary-tasks)
 

@@ -14,11 +14,11 @@ tags:
 
 ## Contributions
 
-* [x] [~~**Re-Adding "Send by Email"**~~](https://github.com/elementary/files/pull/1822) ![Completed: 2021-11-02](https://img.shields.io/badge/completed-2021--11--02-lightgrey?style=social)
-* [x] [~~**Fix \#647: Cannot delete emails**~~](https://github.com/elementary/mail/pull/656) ![Completed: 2021-10-26](https://img.shields.io/badge/completed-2021--10--26-lightgrey?style=social)
-* [x] [~~**Manual Refresh**~~](https://github.com/elementary/mail/pull/680) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
-* [x] [~~**Automatically select next message after delete**~~](https://github.com/elementary/mail/pull/660) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
-* [x] [~~**Avoid storing to "Sent" twice for outlook.com**~~](https://github.com/elementary/mail/pull/702) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [{del}`**Re-Adding "Send by Email"**`](https://github.com/elementary/files/pull/1822) ![Completed: 2021-11-02](https://img.shields.io/badge/completed-2021--11--02-lightgrey?style=social)
+* [x] [{del}`**Fix \#647: Cannot delete emails**`](https://github.com/elementary/mail/pull/656) ![Completed: 2021-10-26](https://img.shields.io/badge/completed-2021--10--26-lightgrey?style=social)
+* [x] [{del}`**Manual Refresh**`](https://github.com/elementary/mail/pull/680) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [{del}`**Automatically select next message after delete**`](https://github.com/elementary/mail/pull/660) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
+* [x] [{del}`**Avoid storing to "Sent" twice for outlook.com**`](https://github.com/elementary/mail/pull/702) ![Completed: 2021-09-23](https://img.shields.io/badge/completed-2021--09--23-lightgrey?style=social)
 
 [**more »**](../../contributions.md#elementary-mail)
 

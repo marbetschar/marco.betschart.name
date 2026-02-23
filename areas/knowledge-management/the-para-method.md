@@ -79,8 +79,8 @@ How can you tell if you "live a healthier life", "learn new things" or "beeing a
 Exactly: You can't! But its easy to tell if you:
 
 * [ ] made sport 2 times this week
-* [x] ~~planned a night out this month with your spouse~~
-* [x] ~~subscribed to that new course~~
+* [x] {del}`planned a night out this month with your spouse`
+* [x] {del}`subscribed to that new course`
 
 {% hint style="info" %}
 Projects always fall into areas.

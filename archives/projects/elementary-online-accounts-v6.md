@@ -16,11 +16,11 @@ tags:
 
 ## Contributions
 
-* [x] [~~**New feature: Editing a CalDAV account**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216) ![Completed: 2021-12-09](https://img.shields.io/badge/completed-2021--12--09-lightgrey?style=social)
-* [x] [~~**Caldav set calendar url of collection source**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/227) ![Completed: 2021-09-14](https://img.shields.io/badge/completed-2021--09--14-lightgrey?style=social)
-* [x] [~~**Set refresh interval for IMAP**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/222) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
-* [x] [~~**Retrieve login methods from camel**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/225) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
-* [x] [~~**Ignore Calendar Subscriptions**~~](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218) ![Completed: 2021-09-04](https://img.shields.io/badge/completed-2021--09--04-lightgrey?style=social)
+* [x] [{del}`**New feature: Editing a CalDAV account**`](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/216) ![Completed: 2021-12-09](https://img.shields.io/badge/completed-2021--12--09-lightgrey?style=social)
+* [x] [{del}`**Caldav set calendar url of collection source**`](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/227) ![Completed: 2021-09-14](https://img.shields.io/badge/completed-2021--09--14-lightgrey?style=social)
+* [x] [{del}`**Set refresh interval for IMAP**`](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/222) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
+* [x] [{del}`**Retrieve login methods from camel**`](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/225) ![Completed: 2021-09-09](https://img.shields.io/badge/completed-2021--09--09-lightgrey?style=social)
+* [x] [{del}`**Ignore Calendar Subscriptions**`](https://github.com/elementary/switchboard-plug-onlineaccounts/pull/218) ![Completed: 2021-09-04](https://img.shields.io/badge/completed-2021--09--04-lightgrey?style=social)
 
 [**more »**](../../contributions.md#elementary-online-accounts)
 

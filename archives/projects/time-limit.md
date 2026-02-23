@@ -13,11 +13,11 @@ tags:
 
 ## Contributions
 
-* [x] [~~**Keep alive while timer runs**~~](https://github.com/marbetschar/time-limit/pull/56) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
-* [x] [~~**Flatpak support**~~](https://github.com/marbetschar/time-limit/pull/46) ![Completed: 2021-05-05](https://img.shields.io/badge/completed-2021--05--05-lightgrey?style=social)
-* [x] [~~**Ditched libunity**~~](https://github.com/marbetschar/time-limit/pull/49) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
-* [x] [~~**Use libhandy**~~](https://github.com/marbetschar/time-limit/pull/48) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
-* [x] [~~**Color time and pause**~~](https://github.com/marbetschar/time-limit/pull/47) ![Completed: 2021-05-03](https://img.shields.io/badge/completed-2021--05--03-lightgrey?style=social)
+* [x] [{del}`**Keep alive while timer runs**`](https://github.com/marbetschar/time-limit/pull/56) ![Completed: 2021-07-30](https://img.shields.io/badge/completed-2021--07--30-lightgrey?style=social)
+* [x] [{del}`**Flatpak support**`](https://github.com/marbetschar/time-limit/pull/46) ![Completed: 2021-05-05](https://img.shields.io/badge/completed-2021--05--05-lightgrey?style=social)
+* [x] [{del}`**Ditched libunity**`](https://github.com/marbetschar/time-limit/pull/49) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
+* [x] [{del}`**Use libhandy**`](https://github.com/marbetschar/time-limit/pull/48) ![Completed: 2021-05-04](https://img.shields.io/badge/completed-2021--05--04-lightgrey?style=social)
+* [x] [{del}`**Color time and pause**`](https://github.com/marbetschar/time-limit/pull/47) ![Completed: 2021-05-03](https://img.shields.io/badge/completed-2021--05--03-lightgrey?style=social)
 
 [**more »**](../../contributions.md#time-limit)
 
