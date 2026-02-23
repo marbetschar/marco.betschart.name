@@ -80,15 +80,12 @@ project:
             - file: resources/linux-desktop/vscode-vala-development.md
     - title: Archives
       children:
-        - file: archives/fix-error-distribution-template-for-elementary-odin.md
-        - file: archives/README.md
-        - title: Elementary Os
+        - title: Elementary OS
           children:
             - file: archives/elementary-os/debug-vala-or-c-app.md
             - file: >-
                 archives/elementary-os/dual-boot-elementary-windows-with-full-disk-encryption.md
             - file: archives/elementary-os/missing-features-and-workarounds.md
-            - file: archives/elementary-os/README.md
             - file: archives/elementary-os/setup-checklist.md
         - title: Projects
           children:
@@ -101,6 +98,7 @@ project:
             - file: archives/projects/elementary-xrdesktop-support.md
             - file: archives/projects/half-life-alyx.md
             - file: archives/projects/progress-for-apple-reminders.md
+        - file: archives/fix-error-distribution-template-for-elementary-odin.md
     - title: Open Source Contributions
       file: contributions.md
     - title: Lebenslauf

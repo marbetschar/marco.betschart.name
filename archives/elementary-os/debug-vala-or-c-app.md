@@ -13,13 +13,9 @@ description: How to effectively debug Vala or C code.
 
 > <img src="https://img.shields.io/badge/elementary%C2%A0OS-6.0%20Odin-007aff" alt="elementary OS: 6.0 Odin" data-size="original"><img src="https://img.shields.io/badge/status-verified-58c633" alt="Status: Verified" data-size="original">
 
-{% hint style="warning" %}
+:::{warning}
 This page mainly focuses on debugging in the Terminal. If you want to setup a graphical environment for Vala development and debugging, please have a look at [**Vala Development in VSCode**](../../resources/linux-desktop/vscode-vala-development.md).
-{% endhint %}
-
-{% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
+:::
 
 ## Enable Debug Output
 
@@ -96,9 +92,9 @@ Once the environment variable is set, it causes the application to crash at the 
 
 You can let Linux automatically collect the required information for a backtrace whenever an application crashes unexpectedly. This information is stored in a so called "core dump" file which contains the recorded state of the complete memory from the crashed application. Those core dumps are especially useful for errors which occur seemingly at random, because you don't need to explicitly start the application using GNU Debugger and you are still able to retrieve a backtrace after a crash.
 
-{% hint style="info" %}
+:::{warning}
 Please be aware that core dumps **may contain sensitive information** due to their very nature: They are really just a copy of the app's memory at a given point in time. This may or may not include sensitive information such as passwords etc.
-{% endhint %}
+:::
 
 ### Installing systemd-coredump
 

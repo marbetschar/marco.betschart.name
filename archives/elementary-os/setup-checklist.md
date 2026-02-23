@@ -83,9 +83,9 @@ ssh-keygen -t ed25519 -C "your.name@domain.tld"
 cat .ssh/id_ed25519.pub
 ```
 
-{% hint style="info" %}
+:::{tip}
 **If it does not work:** If you are using a legacy system that doesn't support the Ed25519 algorithm, use: `ssh-keygen -t rsa -b 4096 -C "your.name@domain.tld"`
-{% endhint %}
+:::
 
 Add the SSH Public Key to the following portals:
 

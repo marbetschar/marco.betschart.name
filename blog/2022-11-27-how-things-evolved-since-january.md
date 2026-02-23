@@ -16,8 +16,4 @@ Earlier this year I started to experiment with XR on Linux. More specifically, [
 
 This, of course is nothing one can blame elementary for - it is simply a consequence of some of the choices any distro has to make in order to strive towards its goals. For me this means I have to move on to a more bleeding edge distro for the time beeing. And my choice fell on Arch Linux with GNOME for now.
 
-{% hint style="info" %}
-**If you don't like my new focus:** Don't forget to [**💔 Un-Sponsor Me**](https://github.com/sponsors/marbetschar) on GitHub!
-{% endhint %}
-
 I still miss elementary from time to time and I definetely keep tabs with it. On the other hand, I'm very excited to explore what XR on Linux offers in even greater depths and looking forward to contribute in this field.

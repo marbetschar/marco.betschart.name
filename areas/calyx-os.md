@@ -8,10 +8,6 @@ description: Working with my Smartphone OS of choice and improving it along the 
 
 ## Broken Apps
 
-{% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ### Maps and Location
 
 #### [SBB Mobile App](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&hl=en_US&gl=US)

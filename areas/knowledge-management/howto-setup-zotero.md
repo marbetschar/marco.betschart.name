@@ -10,10 +10,6 @@ description: How I setup Zotero to store My Library.
 
 # Howto setup Zotero
 
-{% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 ## Installation
 
 The easiest way to install the latest Zotero on Ubuntu is to use Flatpak. If you are on elementary OS, its really easy to install: Just head over to [Zotero on Flathub](https://flathub.org/apps/details/org.zotero.Zotero), click the Install button and when your browser prompts you, select `Open with: Sideload`.

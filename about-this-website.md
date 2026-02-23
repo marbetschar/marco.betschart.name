@@ -27,9 +27,9 @@ A resource is a **topic or theme of ongoing interest**.
 
 ## Why the distinction between projects and areas is important
 
-{% hint style="danger" %}
+:::{attention}
 **Areas of responsibilities** are a **bad way to measure productivity** - if you don't make the distinction to projects, **it will kill your motivation**.
-{% endhint %}
+:::
 
 How can you tell if you "live a healthier life", "learn new things" or "beeing a better spouse"?
 
@@ -39,9 +39,9 @@ Exactly: You can't! But its easy to tell if you:
 * [x] {del}`planned a night out this month with your spouse`
 * [x] {del}`subscribed to that new course`
 
-{% hint style="info" %}
+:::{hint}
 Projects always fall into areas.
-{% endhint %}
+:::
 
 Maybe you already sense the pattern here: You came up with **projects** _**in**_ **your areas of responsibilities**. By connecting your projects to your areas of responsibilities, its easy to tell if you are effectively working towards your long-term goals - or if you mainly wasting your time.
 

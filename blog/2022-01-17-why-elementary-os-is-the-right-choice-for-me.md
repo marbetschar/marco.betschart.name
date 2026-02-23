@@ -10,9 +10,9 @@ _January 2022_
 
 A few days ago [@MarkKour asked me on Twitter](https://twitter.com/MarkKour/status/1481970455267487746), why I like elementary OS. Because the answer is hard to condense into a handful of Tweets, I decided to write this blog post.
 
-{% hint style="warning" %}
+:::{warning}
 **Be Aware:** The statements below represent my own personal opinion. They neither reflect an official point of view of elementary nor anyone else.
-{% endhint %}
+:::
 
 ## Philosophical Reasons
 
@@ -49,10 +49,6 @@ And here comes the catch: A lot of people tend to ignore that Open Source is not
 That's why I really like the Pay-What-You-Can pricing model of elementary and its [AppCenter](https://appcenter.elementary.io): It makes the labor involved far more prominent and at the same time its much easier to send a few bucks of appreciation.
 
 You are now probably thinking about Walled Gardens. But before you are jumping to conclusions, you need to know that AppCenter is not limited to elementary OS! The [AppCenter for Everyone initiative](https://www.indiegogo.com/projects/appcenter-for-everyone/#/) launched by the elementary team itself enables AppCenter on other Linux distributions as well.
-
-{% embed url="https://twitter.com/elementary/status/1482104137961508864" %}
-AppCenter for Everyone: elementary Apps can be installed on other Linux distributions as well
-{% endembed %}
 
 ### Privacy
 

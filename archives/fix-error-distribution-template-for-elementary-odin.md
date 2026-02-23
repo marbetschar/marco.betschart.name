@@ -14,10 +14,6 @@ tags:
 > ![elementary OS: 6 Odin Pre-Release](https://img.shields.io/badge/elementary%C2%A0OS-6%20Odin%20Pre_Release-007aff)
 > ![Status: Verified](https://img.shields.io/badge/status-verified-green.svg)
 
-{% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
-
 You might encounter the following error during execution of `add-apt-repository`:
 
 > Traceback \(most recent call last\): File "/usr/bin/add-apt-repository", line 108, in sp = SoftwareProperties\(options=options\) File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 118, in **init** self.reload\_sourceslist\(\) File "/usr/lib/python3/dist-packages/softwareproperties/SoftwareProperties.py", line 613, in reload\_sourceslist self.distro.get\_sources\(self.sourceslist\) File "/usr/lib/python3/dist-packages/aptsources/distro.py", line 91, in get\_sources raise NoDistroTemplateException\( aptsources.distro.NoDistroTemplateException: Error: could not find a distribution template for Elementary/odin

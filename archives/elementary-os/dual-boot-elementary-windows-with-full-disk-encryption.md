@@ -18,15 +18,15 @@ description: >-
 
 ![elementary OS side by side with Windows and both of them encrypted](../../.gitbook/assets/dual-boot-elementary-windows-with-full-disk-encryption.jpg)
 
-{% hint style="info" %}
+:::{warning}
 **PLEASE NOTE:** This is not an officially supported way of installing elementary OS - so use at your own risk.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::{warning}
 **BE AWARE:** For this approach to work, we need an \*un-\*encrypted boot partition. This still allows for some attacks to work such as the [Evil Maid Attack](https://www.schneier.com/blog/archives/2009/10/evil_maid_attac.html). But the primarily goal here is to protect your data against physical theft - not a coup executed by a 3-letter-organisation.
 
 **MAKE BACKUPS:** When following this guide you will loose everything which is currently stored on your hard drive. So make sure you have backups of the data you want to keep!
-{% endhint %}
+:::
 
 ## 1. Prerequisites
 
@@ -270,10 +270,6 @@ At this point you want to test if your Windows 10 is still working. It will prob
 ## 7. Enjoy
 
 Congratulations! You successfuly setup dual boot between elementary OS and Windows along with full disk encryption!
-
-{% hint style="info" %}
-If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbetschar). It would mean the world to me!
-{% endhint %}
 
 ## Acknowledgements
 

@@ -11,9 +11,9 @@ tags:
 
 The "Zettelkasten" is a note-taking system invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann), a German researcher who is considered one of the most important social theorists of the 20th century.
 
-{% hint style="info" %}
+:::{note}
 "Zettelkasten" is German for "slip box" or "card index".
-{% endhint %}
+:::
 
 A Zettelkasten enables you to to organize your notes into an entangled web of information. This in turn allows you to discover new ideas and connections between your notes which otherwise would have been kept hidden.
 
@@ -27,68 +27,68 @@ To make the most of a Zettelkasten, you should follow these 12 principles:
 
 Each note should contain one idea and one idea only.
 
-{% hint style="success" %}
+:::{important}
 This is **key to link ideas**.
-{% endhint %}
+:::
 
 ### 2. Autonomy
 
 Each note should be self-contained and comprehensible on its own.
 
-{% hint style="success" %}
+:::{important}
 This ensures notes
 
 * can be moved, processed, separated, and concatenated **independently of its neighbors**
 * **remain useful** even if the original source of information disappears
-{% endhint %}
+:::
 
 ### 3. Always link your notes
 
 Whenever you add a note, make sure to link it to already existing notes.
 
-{% hint style="danger" %}
+:::{caution}
 "A note that is not connected to the network **will be lost**, will be forgotten by the Zettelkasten" _- Niklas Luhmann_
-{% endhint %}
+:::
 
 ### 4. Explain links between notes
 
 Whenever you are connecting two notes, make sure to briefly explain why you are linking them.
 
-{% hint style="success" %}
+:::{important}
 This is key to **ensure you know why** you connected the notes in the first place - even it is years down the road.
-{% endhint %}
+:::
 
 ### 5. Use your own words
 
 Use your own words to express an idea, so your future me is able to understand it - even years later.
 
-{% hint style="danger" %}
+:::{danger}
 **Don't copy & paste!**
-{% endhint %}
+:::
 
 ### 6. Keep references
 
 Add the reference to the original source to your note.
 
-{% hint style="success" %}
+:::{important}
 This makes it easy for you to **revisit the original source** later on.
-{% endhint %}
+:::
 
 ### 7. Add your own thoughts
 
 If you have thoughts of your own, add them as notes.
 
-{% hint style="warning" %}
+:::{warning}
 Make sure you **adhere to the principles of atomicity, autonomy, and linking**.
-{% endhint %}
+:::
 
 ### 8. Don't worry about structure
 
 Don't waste time thinking about a neat folder structure or preconceived categories.
 
-{% hint style="success" %}
+:::{important}
 The Zettelkastens **organization develops organically**.
-{% endhint %}
+:::
 
 ### 9. Add connection notes
 
@@ -102,17 +102,17 @@ An outline note is a note that simply contains a sequence of links to other note
 
 Instead, link to new notes that explain what’s wrong with the old ones.
 
-{% hint style="success" %}
+:::{important}
 This way, your Zettelkasten will **reflect your thinking over time**.
-{% endhint %}
+:::
 
 ### 12. Add notes without fear
 
 You can never have too much information in your Zettelkasten.
 
-{% hint style="success" %}
+:::{important}
 The bigger your Zettelkasten grows, the valuable it gets.
-{% endhint %}
+:::
 
 ## Further Reading
 

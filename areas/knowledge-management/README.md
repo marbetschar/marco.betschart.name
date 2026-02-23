@@ -9,9 +9,9 @@ tags:
 
 # Knowledge Management
 
-{% hint style="info" %}
+:::{note}
 The phrase "Digital Garden" is a metaphor to describe the process of growing knowledge using technology. Sometimes this is also referred to as Personal Knowledge Management \(PKM\).
-{% endhint %}
+:::
 
 In this area you'll find more information about my insights to Personal Knowledge Mangement along with the methods and applications which proved to be working well for me:
 

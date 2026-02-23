@@ -10,9 +10,9 @@ _September 2021_
 
 Since elementary OS 6 was released in the beginning of August, traction all around elementary is really high. So make sure to also step by [the elementary blog](https://blog.elementary.io/) from time to time to stay up to date of what's happening!
 
-{% hint style="warning" %}
+:::{warning}
 **Please note:** Not all of the features described below are already released. Some are still undergoing testings and reviews. So it might take a little more time until those are available to you.
-{% endhint %}
+:::
 
 ## Mail
 
