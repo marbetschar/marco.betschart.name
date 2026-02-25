@@ -1,5 +1,12 @@
 ---
 description: Marco Betschart - professional full-time nerd since 2004.
+exports:
+- format: pdf
+  template: https://github.com/marbetschar/plain_latex_article/archive/refs/heads/main.zip
+  output: Betschart-Marco-CV.pdf
+  id: cv-pdf
+downloads:
+  - id: cv-pdf
 ---
 
 # Curriculum Vitae

@@ -1,5 +1,12 @@
 ---
 description: Marco Betschart - professioneller Vollzeit-Nerd seit 2004.
+exports:
+- format: pdf
+  template: https://github.com/marbetschar/plain_latex_article/archive/refs/heads/main.zip
+  output: Betschart-Marco-Lebenslauf.pdf
+  id: lebenslauf-pdf
+downloads:
+  - id: lebenslauf-pdf
 ---
 
 # Lebenslauf
