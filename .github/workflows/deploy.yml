@@ -35,14 +35,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
-      - name: Install MyST
-        run: npm install -g mystmd
 
       # Install MyST and PDF dependencies
       - name: Install MyST Markdown
         run: npm install -g mystmd
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            latexmk \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            texlive-lang-german
 
       # Build PDF and then HTML
       - name: Build PDF Assets
