@@ -5,8 +5,11 @@ project:
   # title:
   # description:
   # keywords: []
-  authors: ['Marco Betschart']
-  github: https://github.com/marbetschar/marco.betschart.name
+  authors:
+    - name: Marco Betschart
+      mastodon: marbetschar@mastodon.online
+      github: marbetschar
+#  github: https://github.com/marbetschar/marco.betschart.name
   settings:
     # https://mystmd.org/guide/settings#setting-output-stderr
     output_stderr: remove
