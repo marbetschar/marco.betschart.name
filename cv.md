@@ -1,12 +1,8 @@
 ---
 description: Marco Betschart - professional full-time nerd since 2004.
-exports:
-- format: pdf
-  template: https://github.com/marbetschar/plain_latex_article/archive/refs/heads/main.zip
-  output: Betschart-Marco-CV.pdf
-  id: cv-pdf
 downloads:
-  - id: cv-pdf
+  - file: Betschart-Marco-CV.pdf
+    title: Download as PDF
 ---
 
 # Curriculum Vitae
@@ -59,11 +55,11 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
-### 2025 - Now: MSE in Data Science at the Centre of Artificial Intelligence, ZHAW
+### 2025 - Now: MSc in Engineering for Data Science at the Centre of AI, ZHAW
 
 Started in September 2025 and will be completed by July 2028 (part-time studies).
 
-[_MSE in Data Science_](https://www.zhaw.ch/en/engineering/study/masters-degree-programme/profiles/data-science)
+[_MSc in Engineering for Data Science_](https://www.zhaw.ch/en/engineering/study/masters-degree-programme/profiles/data-science)
 
 ### 2025: MicroBachelors Introduction to Neuroscience, HarvardX
 
@@ -75,27 +71,21 @@ Learning the fundamentals of neurobiology, including neuronal function, synaptic
 
 ### 2022 - Now: Senior Software Engineer, aXedras AG
 
-As [Corda Certified Developer](https://www.credly.com/badges/cc11d1b5-0c0a-4bd6-8a36-2c590ce38273/public_url); connecting and digitalising the precious metal industry with Distributed Ledger Technology.
+Automating the precious metal industry value chain with Distributed Ledger Technology (DLT).
 
-[_Corda_](https://www.r3.com/products/corda/)_, Docker, Spring-Boot,_ [_Kotlin_](https://kotlinlang.org/)
+[_DLT_](https://en.wikipedia.org/wiki/Distributed_ledger)_, _[Docker](https://www.docker.com/)_, [_Spring Boot_](https://spring.io/projects/spring-boot),_ [_Kotlin_](https://kotlinlang.org/)
 
 ### 2019 - 2022: IT System Operations, midix.com ag
 
-Management of the Linux (CentOS) based server infrastructure and development of the Java based software product.
+Management of the Linux based server infrastructure and development of the Java based software product with an Oracle database.
 
 _CentOS, Java_
 
-### 2015 - 2019: Software Architect, Valletti
-
-Design & Development of the iOS App [Valletti - the smallest office in the world](https://appadvice.com/app/valletti-2-0/1317613000).
-
-_iOS, Swift, Couchbase, MVVM_
-
 ### 2013 - 2019: Technical Lead, MANDELKIND
 
-As Co-Founder of this startup, I was responsible for all technical aspects.
+Co-Founder, Design & Development of the iOS App [Valletti - the smallest office in the world](https://iphone.apkpure.com/app/valletti-20/ch.valletti.valletti).
 
-_WordPress, Docker, Linux, PHP, Java_
+_[WordPress](https://wordpress.com/), [Docker](https://www.docker.com/), [Linux (Ubuntu)](https://ubuntu.com/server), [Swift](https://developer.apple.com/swift/), [Couchbase Database](https://www.couchbase.com/)_
 
 ### 2010 - 2013: Web Architect, Freelancer
 
@@ -111,6 +101,6 @@ _Java based auto-update solution for an in-house eCommerce system, staff trainin
 
 ### 2004 - 2008: Swiss Vocational Certificate in Computer Science
 
-Four years of professional training in Computer Science with a focus on application development.
+Four years of professional training in Computer Science with a focus on software development.
 
 _Adobe ColdFusion and Railo, Java, MSSQL, MySQL, JavaScript, CSS, (X)HTML_
