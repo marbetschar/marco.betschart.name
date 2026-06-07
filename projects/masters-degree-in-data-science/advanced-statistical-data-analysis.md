@@ -638,7 +638,13 @@ querygrain(bn, nodes = c("X", "Y"))
 #### Theoretical Background
 
 **D-Separation:**
-X and Y are d-separated given Z if all paths between X and Y are blocked by Z.
+
+X and Y are d-separated given Z if all paths between X and Y are blocked by Z if and only if:
+
+1. a middle node of a chain (X → B → Y) or a fork (X ← B → Y) is conditioned on (i.e. it is in Z)
+2. a middle node of a collider (X → B ← Y) is **_not_** conditioned on (i.e. is _not_ in Z), and no descendant of B is in Z.
+
+If Z blocks every path between two nodes X and Y, then X and Y are d-separated conditioning on Z and thus are conditionally independent on Z.
 
 **Adjustment Formula:**
 $$P(Y | \text{do}(X = x)) = \sum_z P(Y | X = x, Z = z) P(Z = z)$$
