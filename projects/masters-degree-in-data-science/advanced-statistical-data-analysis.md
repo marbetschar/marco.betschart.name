@@ -543,9 +543,12 @@ Association does not imply causation.
 - **DAG:** Directed Acyclic Graph (no cycles)
 
 **Graphical Structures:**
-1. **Chain:** X → Z → Y (X ⊥ Y | Z)
-2. **Fork:** X ← Z → Y (X ⊥ Y | Z)
-3. **Collider:** X → Z ← Y (X ⊥ Y, but X ⊥⊥ Y | Z)
+1. **Chain:** $X → Z → Y$
+  - $X$ and $Y$ are **conditionally independent** given Z; $(X \perp\!\!\!\perp Y \mid Z)$
+2. **Fork:** $X ← Z → Y$
+  - $X$ and $Y$ are **conditionally independent** given Z; $(X \perp\!\!\!\perp Y \mid Z)$
+3. **Collider:** $X → Z ← Y$
+  - $X$ and $Y$ are **independent** $(X \perp\!\!\!\perp Y)$, but are **conditionally dependent** on Z and any descendants of Z; $(X \not\perp\!\!\!\perp Y \mid Z)$
 
 ```{math}
 :label: def-dseparation
