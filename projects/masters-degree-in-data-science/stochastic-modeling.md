@@ -46,7 +46,7 @@ P(A \cup B) &= P(A) + P(B) - P(A \cap B) \quad \text{(Inclusion-Exclusion)}
 
 ### Conditional Probability
 
-```{definition} Conditional Probability
+```{prf:definition} Conditional Probability
 The probability of event $E$ given that $F$ has occurred:
 \begin{equation*}
 P(E|F) = \frac{P(E \cap F)}{P(F)} \quad \text{for } P(F) > 0
@@ -57,7 +57,7 @@ P(E|F) = \frac{P(E \cap F)}{P(F)} \quad \text{for } P(F) > 0
 
 ### Independence
 
-```{definition} Independent Events
+```{prf:definition} Independent Events
 Two events $E, F$ are **independent** if:
 \begin{equation*}
 P(E \cap F) = P(E) \cdot P(F)
@@ -420,7 +420,7 @@ For continuous $Y$:
 
 ### Mean Squared Error (MSE) Minimization
 
-```{theorem} Optimal Estimator
+```{prf:theorem} Optimal Estimator
 The function $g(Y)$ that minimizes $\mathbb{E}[(X - g(Y))^2]$ is:
 \begin{equation*}
 g(Y) = \mathbb{E}[X|Y = Y]
@@ -706,15 +706,17 @@ A probability vector $\vec{\pi} = (\pi_1, \pi_2, \ldots)$ is a **stationary dist
 
 ### Convergence
 
-```{theorem} Fundamental Theorem of Markov Chains
+```{prf:theorem} Fundamental Theorem of Markov Chains
 If a Markov Chain is **irreducible** and **aperiodic** with a **finite** state space, then:
-\begin{itemize}
-\item There exists a **unique** stationary distribution $\vec{\pi}$
-\item For **any** initial distribution $\vec{\nu}$:
+
+- There exists a **unique** stationary distribution $\vec{\pi}$
+- For **any** initial distribution $\vec{\nu}$:
+
+$$
 \begin{equation*}
 \vec{\nu} P^n \xrightarrow{n\to\infty} \vec{\pi}
 \end{equation*}
-\end{itemize}
+$$
 ```
 
 **Corollary**: Every row of $P^n$ converges to $\vec{\pi}$ as $n \to \infty$.
