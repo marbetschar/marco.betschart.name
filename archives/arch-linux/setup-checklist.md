@@ -228,7 +228,7 @@ flatpak install flathub com.zettlr.Zettlr flathub org.zotero.Zotero flathub com.
 
 * Open `Flatseal`, select `Zettlr` and enable `filesystem=home` permission
 * Start Zettlr and in `File > Open Workspace ...` select `~/Nextcloud/Notes`
-* Last but not least, start `Zotero` and [configure it as documented](../knowledge-management/howto-setup-zotero.md)
+* Last but not least, start `Zotero` and [configure it as documented](../../areas/knowledge-management/howto-setup-zotero.md)
 
 ## PDF Studio Pro
 

@@ -54,12 +54,9 @@ project:
             - file: projects/masters-degree-in-data-science/stochastic-modeling.md
     - title: My Areas
       children:
-        - file: areas/calyx-os.md
-        - title: Arch Linux
+        - title: Fedora Workstation
           children:
-            - file: areas/arch-linux/openxr-monado.md
-            - file: areas/arch-linux/setup-checklist.md
-            - file: areas/arch-linux/xrdesktop-wxrd.md
+            - file: areas/fedora-workstation/setup-checklist.md
         - title: Knowledge Management
           children:
             - file: areas/knowledge-management/howto-setup-zotero.md
@@ -85,13 +82,6 @@ project:
             - file: resources/linux-desktop/vscode-vala-development.md
     - title: Archives
       children:
-        - title: Elementary OS
-          children:
-            - file: archives/elementary-os/debug-vala-or-c-app.md
-            - file: >-
-                archives/elementary-os/dual-boot-elementary-windows-with-full-disk-encryption.md
-            - file: archives/elementary-os/missing-features-and-workarounds.md
-            - file: archives/elementary-os/setup-checklist.md
         - title: Projects
           children:
             - file: archives/projects/bachelors-degree-in-computer-science.md
@@ -103,7 +93,20 @@ project:
             - file: archives/projects/elementary-xrdesktop-support.md
             - file: archives/projects/half-life-alyx.md
             - file: archives/projects/progress-for-apple-reminders.md
-        - file: archives/fix-error-distribution-template-for-elementary-odin.md
+        - title: Arch Linux
+          children:
+            - file: archives/arch-linux/openxr-monado.md
+            - file: archives/arch-linux/setup-checklist.md
+            - file: archives/arch-linux/xrdesktop-wxrd.md
+        - file: archives/calyx-os.md
+        - title: Elementary OS
+          children:
+            - file: archives/elementary-os/debug-vala-or-c-app.md
+            - file: >-
+                archives/elementary-os/dual-boot-elementary-windows-with-full-disk-encryption.md
+            - file: archives/elementary-os/missing-features-and-workarounds.md
+            - file: archives/elementary-os/setup-checklist.md
+            - file: archives/elementary-os/fix-error-distribution-template-for-elementary-odin.md
     - title: Open Source Contributions
       file: contributions.md
     - title: Lebenslauf

@@ -20,7 +20,7 @@ If you like my work, [**❤️ Sponsor Me**](https://github.com/sponsors/marbets
 {% endhint %}
 
 {% content-ref url="calyx-os.md" %}
-[calyx-os.md](calyx-os.md)
+[calyx-os.md](../archives/calyx-os.md)
 {% endcontent-ref %}
 
 {% content-ref url="../archives/elementary-os/" %}
