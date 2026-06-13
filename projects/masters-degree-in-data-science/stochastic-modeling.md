@@ -15,6 +15,158 @@ downloads:
 
 # Stochastic Modeling
 
+## Formula Sheet
+
+### Most Important Concepts
+
+1. **Probability Space & Axioms**: Foundation of all probability theory
+2. **Conditional Probability**: Essential for Bayesian reasoning
+3. **Expectation & Variance**: Fundamental measures of central tendency and spread
+4. **Limit Theorems**: LLN and CLT are the most important results in probability
+5. **Markov Property**: Foundation for Markov Chains and many stochastic processes
+6. **Stationary Distributions**: Long-term behavior of Markov Chains
+7. **Poisson Process**: Fundamental continuous-time stochastic process
+
+```{warning} Common Mistakes
+- **Independence vs. Uncorrelated**: Independent implies uncorrelated, but not vice versa (except for jointly normal RVs)
+- **Continuous vs. Discrete**: Remember to use PMF for discrete and PDF for continuous RVs
+- **Conditional Probability**: Always check that $P(F) > 0$ before using $P(E|F)$
+- **Expectation of Functions**: $\mathbb{E}[g(X)] \neq g(\mathbb{E}[X])$ in general (Jensen's inequality)
+- **Variance of Sums**: $\operatorname{Var}(X+Y) = \operatorname{Var}(X) + \operatorname{Var}(Y) + 2\operatorname{Cov}(X,Y)$
+- **Markov Chain Convergence**: Requires **both** irreducibility **and** aperiodicity
+```
+
+### Problem-Solving Strategies
+
+1. **Identify the Distribution**: Recognize which distribution the problem involves
+2. **Use Definitions**: Start with the definition (PMF, PDF, or property)
+3. **Check Conditions**: Verify all conditions are met before applying theorems
+4. **Use Linearity**: Expectation is linear - use this whenever possible
+5. **Conditioning**: Break complex problems into simpler conditional problems
+6. **Symmetry**: Look for symmetry to simplify calculations
+7. **Approximations**: Use CLT for large $n$ approximations
+
+### Probability
+
+```{math}
+\begin{align*}
+P(E|F) &= \frac{P(E \cap F)}{P(F)} & P(E) &= P(E|A)P(A) + P(E|A^c)P(A^c) \\
+P(A|E) &= \frac{P(E|A)P(A)}{P(E)} & P(A \cap B) &= P(A)P(B|A) = P(B)P(A|B)
+\end{align*}
+```
+
+### Expectation & Variance
+
+```{math}
+\begin{align*}
+\mathbb{E}[X] &= \sum x P(X=x) & \mathbb{E}[X] &= \int x f_X(x) dx \\
+\operatorname{Var}(X) &= \mathbb{E}[X^2] - (\mathbb{E}[X])^2 & \operatorname{Var}(aX+b) &= a^2 \operatorname{Var}(X) \\
+\operatorname{Cov}(X,Y) &= \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y] & \rho_{X,Y} &= \frac{\operatorname{Cov}(X,Y)}{\sqrt{\operatorname{Var}(X)\operatorname{Var}(Y)}}
+\end{align*}
+```
+
+### Distributions
+
+```{math}
+\begin{align*}
+\text{Binomial: } P(X=k) &= \binom{n}{k} p^k (1-p)^{n-k} & \mathbb{E}[X] = np, \operatorname{Var}(X) = np(1-p) \\
+\text{Poisson: } P(X=k) &= \frac{\lambda^k e^{-\lambda}}{k!} & \mathbb{E}[X] = \lambda, \operatorname{Var}(X) = \lambda \\
+\text{Geometric: } P(X=k) &= (1-p)^{k-1} p & \mathbb{E}[X] = 1/p, \operatorname{Var}(X) = (1-p)/p^2 \\
+\text{Normal: } f(x) &= \frac{1}{\sqrt{2\pi\sigma^2}} e^{-(x-\mu)^2/(2\sigma^2)} & \mathbb{E}[X] = \mu, \operatorname{Var}(X) = \sigma^2 \\
+\text{Exp: } f(x) &= \lambda e^{-\lambda x} & \mathbb{E}[X] = 1/\lambda, \operatorname{Var}(X) = 1/\lambda^2
+\end{align*}
+```
+
+### Limit Theorems
+
+```{math}
+\begin{align*}
+\text{LLN: } \frac{S_n}{n} &\xrightarrow{P} \mu & \text{CLT: } \frac{S_n - n\mu}{\sigma\sqrt{n}} &\xrightarrow{d} N(0,1) \\
+\text{Chebyshev: } P(|X-\mu| \geq \varepsilon) &\leq \frac{\sigma^2}{\varepsilon^2} & \text{Markov: } P(X \geq a) &\leq \frac{\mathbb{E}[X]}{a}
+\end{align*}
+```
+
+### Markov Chains
+
+```{math}
+\begin{align*}
+\text{Markov: } P(X_{n+1}|X_n, \ldots, X_0) &= P(X_{n+1}|X_n) & \text{Chapman-Kolmogorov: } p_{ij}^{(m+n)} &= \sum_k p_{ik}^{(m)} p_{kj}^{(n)} \\
+\text{Stationary: } \vec{\pi} &= \vec{\pi} P & \text{Convergence: } \vec{\nu} P^n &\to \vec{\pi}
+\end{align*}
+```
+
+### Stochastic Processes
+
+```{math}
+\begin{align*}
+\text{Mean: } m_X(t) &= \mathbb{E}[X_t] & \text{Correlation: } R_X(t_1,t_2) &= \mathbb{E}[X_{t_1}X_{t_2}] \\
+\text{Covariance: } C_X(t_1,t_2) &= R_X(t_1,t_2) - m_X(t_1)m_X(t_2) & \text{Stationary: } R_X(t_1,t_2) &= R_X(|t_2-t_1|)
+\end{align*}
+```
+
+### Differentiation Rules
+
+|  |  |
+|------|---------|
+| **Power Rule** | $\frac{d}{dx} x^n = n x^{n-1}$ |
+| **Exponential** | $\frac{d}{dx} e^{ax} = a e^{ax}$ |
+| **Natural Log** | $\frac{d}{dx} \ln(x) = \frac{1}{x}$ |
+| **Product Rule** | $\frac{d}{dx} [f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$ |
+| **Quotient Rule** | $\frac{d}{dx} \left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ |
+| **Chain Rule** | $\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$ |
+
+### Integration Rules
+
+|  |                                                                   |
+|------|-------------------------------------------------------------------|
+| **Power Rule** | $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ (for $n \neq -1$)         |
+| **Exponential** | $\int e^{ax} dx = \frac{1}{a} e^{ax} + C$                         |
+| **Natural Log** | $\int \frac{1}{x} dx = \ln\|x                             \| + C$ |
+| **Integration by Parts** | $\int u dv = uv - \int v du$                                      |
+
+**Integration by Parts Example**:
+```{math}
+\int x e^{ax} dx = \frac{x e^{ax}}{a} - \frac{1}{a} \int e^{ax} dx = \frac{e^{ax}}{a^2} (a x - 1) + C
+```
+
+### Special Integrals
+
+```{math}
+\begin{align*}
+\int_{-\infty}^{\infty} e^{-x^2} dx &= \sqrt{\pi} \\
+\int_0^{\infty} x^n e^{-ax} dx &= \frac{n!}{a^{n+1}} \quad \text{(Gamma function: } \Gamma(n+1) = n!) \\
+\int_0^{\infty} e^{-ax} dx &= \frac{1}{a} \quad \text{for } a > 0 \\
+\int_0^{\infty} x e^{-ax} dx &= \frac{1}{a^2} \\
+\int_0^{\infty} x^2 e^{-ax} dx &= \frac{2}{a^3}
+\end{align*}
+```
+
+### Taylor Series
+
+```{math}
+\begin{align*}
+e^x &= \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \ldots \\
+\ln(1+x) &= \sum_{n=1}^{\infty} (-1)^{n+1} \frac{x^n}{n} = x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots \quad \text{for } |x| < 1 \\
+\sin(x) &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \ldots \\
+\cos(x) &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \ldots \\
+e^{x} &\approx 1 + x + \frac{x^2}{2} \quad \text{(2nd order Taylor)}
+\end{align*}
+```
+
+### Common Series
+
+```{math}
+\begin{align*}
+\sum_{k=0}^{\infty} r^k &= \frac{1}{1-r} \quad \text{for } |r| < 1 \\
+\sum_{k=1}^{\infty} k r^{k-1} &= \frac{1}{(1-r)^2} \quad \text{for } |r| < 1 \\
+\sum_{k=1}^{\infty} k^2 r^{k-1} &= \frac{1+r}{(1-r)^3} \quad \text{for } |r| < 1 \\
+\sum_{k=1}^{n} k &= \frac{n(n+1)}{2} \\
+\sum_{k=1}^{n} k^2 &= \frac{n(n+1)(2n+1)}{6} \\
+\sum_{k=1}^{\infty} \frac{1}{k^2} &= \frac{\pi^2}{6} \quad \text{(Basel problem)} \\
+H_n &= \sum_{k=1}^n \frac{1}{k} \approx \ln(n) + \gamma \quad \text{where } \gamma \approx 0.5772
+\end{align*}
+```
+
 ## Probability Theory Fundamentals
 
 ### Probability Space & Axioms
@@ -771,77 +923,6 @@ A counting process $N_t$ is a **Poisson Process** with rate $\lambda > 0$ if:
 
 **Construction**: If $T_i \sim \text{Exp}(\lambda)$ i.i.d., then $N_t = \max\{n: \sum_{i=1}^n T_i \leq t\}$ is a Poisson process.
 
----
-
-## Prerequisite Mathematical Tools
-
-### Calculus Rules
-
-#### Differentiation Rules
-
-| Rule | Formula |
-|------|---------|
-| **Power Rule** | $\frac{d}{dx} x^n = n x^{n-1}$ |
-| **Exponential** | $\frac{d}{dx} e^{ax} = a e^{ax}$ |
-| **Natural Log** | $\frac{d}{dx} \ln(x) = \frac{1}{x}$ |
-| **Product Rule** | $\frac{d}{dx} [f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$ |
-| **Quotient Rule** | $\frac{d}{dx} \left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ |
-| **Chain Rule** | $\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$ |
-
-#### Integration Rules
-
-| Rule | Formula |
-|------|---------|
-| **Power Rule** | $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ (for $n \neq -1$) |
-| **Exponential** | $\int e^{ax} dx = \frac{1}{a} e^{ax} + C$ |
-| **Natural Log** | $\int \frac{1}{x} dx = \ln|x| + C$ |
-| **Integration by Parts** | $\int u dv = uv - \int v du$ |
-
-**Integration by Parts Example**:
-```{math}
-\int x e^{ax} dx = \frac{x e^{ax}}{a} - \frac{1}{a} \int e^{ax} dx = \frac{e^{ax}}{a^2} (a x - 1) + C
-```
-
-### Special Integrals
-
-```{math}
-\begin{align*}
-\int_{-\infty}^{\infty} e^{-x^2} dx &= \sqrt{\pi} \\
-\int_0^{\infty} x^n e^{-ax} dx &= \frac{n!}{a^{n+1}} \quad \text{(Gamma function: } \Gamma(n+1) = n!) \\
-\int_0^{\infty} e^{-ax} dx &= \frac{1}{a} \quad \text{for } a > 0 \\
-\int_0^{\infty} x e^{-ax} dx &= \frac{1}{a^2} \\
-\int_0^{\infty} x^2 e^{-ax} dx &= \frac{2}{a^3}
-\end{align*}
-```
-
-### Taylor Series
-
-```{math}
-\begin{align*}
-e^x &= \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \ldots \\
-\ln(1+x) &= \sum_{n=1}^{\infty} (-1)^{n+1} \frac{x^n}{n} = x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots \quad \text{for } |x| < 1 \\
-\sin(x) &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \ldots \\
-\cos(x) &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \ldots \\
-e^{x} &\approx 1 + x + \frac{x^2}{2} \quad \text{(2nd order Taylor)}
-\end{align*}
-```
-
-### Common Series
-
-```{math}
-\begin{align*}
-\sum_{k=0}^{\infty} r^k &= \frac{1}{1-r} \quad \text{for } |r| < 1 \\
-\sum_{k=1}^{\infty} k r^{k-1} &= \frac{1}{(1-r)^2} \quad \text{for } |r| < 1 \\
-\sum_{k=1}^{\infty} k^2 r^{k-1} &= \frac{1+r}{(1-r)^3} \quad \text{for } |r| < 1 \\
-\sum_{k=1}^{n} k &= \frac{n(n+1)}{2} \\
-\sum_{k=1}^{n} k^2 &= \frac{n(n+1)(2n+1)}{6} \\
-\sum_{k=1}^{\infty} \frac{1}{k^2} &= \frac{\pi^2}{6} \quad \text{(Basel problem)} \\
-H_n &= \sum_{k=1}^n \frac{1}{k} \approx \ln(n) + \gamma \quad \text{where } \gamma \approx 0.5772
-\end{align*}
-```
-
----
-
 ## Important Examples from Exercises
 
 ### Conditional Probability Examples
@@ -898,98 +979,3 @@ H_n &= \sum_{k=1}^n \frac{1}{k} \approx \ln(n) + \gamma \quad \text{where } \gam
 - $P(\text{inter-arrival > 5 weeks}) = e^{-10}$
 
 ---
-
-## Exam-Ready Formula Sheet
-
-### Probability
-
-```{math}
-\begin{align*}
-P(E|F) &= \frac{P(E \cap F)}{P(F)} & P(E) &= P(E|A)P(A) + P(E|A^c)P(A^c) \\
-P(A|E) &= \frac{P(E|A)P(A)}{P(E)} & P(A \cap B) &= P(A)P(B|A) = P(B)P(A|B)
-\end{align*}
-```
-
-### Expectation & Variance
-
-```{math}
-\begin{align*}
-\mathbb{E}[X] &= \sum x P(X=x) & \mathbb{E}[X] &= \int x f_X(x) dx \\
-\operatorname{Var}(X) &= \mathbb{E}[X^2] - (\mathbb{E}[X])^2 & \operatorname{Var}(aX+b) &= a^2 \operatorname{Var}(X) \\
-\operatorname{Cov}(X,Y) &= \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y] & \rho_{X,Y} &= \frac{\operatorname{Cov}(X,Y)}{\sqrt{\operatorname{Var}(X)\operatorname{Var}(Y)}}
-\end{align*}
-```
-
-### Distributions
-
-```{math}
-\begin{align*}
-\text{Binomial: } P(X=k) &= \binom{n}{k} p^k (1-p)^{n-k} & \mathbb{E}[X] &= np, \operatorname{Var}(X) = np(1-p) \\
-\text{Poisson: } P(X=k) &= \frac{\lambda^k e^{-\lambda}}{k!} & \mathbb{E}[X] = \lambda, \operatorname{Var}(X) = \lambda \\
-\text{Geometric: } P(X=k) &= (1-p)^{k-1} p & \mathbb{E}[X] = 1/p, \operatorname{Var}(X) = (1-p)/p^2 \\
-\text{Normal: } f(x) &= \frac{1}{\sqrt{2\pi\sigma^2}} e^{-(x-\mu)^2/(2\sigma^2)} & \mathbb{E}[X] = \mu, \operatorname{Var}(X) = \sigma^2 \\
-\text{Exp: } f(x) &= \lambda e^{-\lambda x} & \mathbb{E}[X] = 1/\lambda, \operatorname{Var}(X) = 1/\lambda^2
-\end{align*}
-```
-
-### Limit Theorems
-
-```{math}
-\begin{align*}
-\text{LLN: } \frac{S_n}{n} &\xrightarrow{P} \mu & \text{CLT: } \frac{S_n - n\mu}{\sigma\sqrt{n}} &\xrightarrow{d} N(0,1) \\
-\text{Chebyshev: } P(|X-\mu| \geq \varepsilon) &\leq \frac{\sigma^2}{\varepsilon^2} & \text{Markov: } P(X \geq a) &\leq \frac{\mathbb{E}[X]}{a}
-\end{align*}
-```
-
-### Markov Chains
-
-```{math}
-\begin{align*}
-\text{Markov: } P(X_{n+1}|X_n, \ldots, X_0) &= P(X_{n+1}|X_n) & \text{Chapman-Kolmogorov: } p_{ij}^{(m+n)} &= \sum_k p_{ik}^{(m)} p_{kj}^{(n)} \\
-\text{Stationary: } \vec{\pi} &= \vec{\pi} P & \text{Convergence: } \vec{\nu} P^n &\to \vec{\pi}
-\end{align*}
-```
-
-### Stochastic Processes
-
-```{math}
-\begin{align*}
-\text{Mean: } m_X(t) &= \mathbb{E}[X_t] & \text{Correlation: } R_X(t_1,t_2) &= \mathbb{E}[X_{t_1}X_{t_2}] \\
-\text{Covariance: } C_X(t_1,t_2) &= R_X(t_1,t_2) - m_X(t_1)m_X(t_2) & \text{Stationary: } R_X(t_1,t_2) &= R_X(|t_2-t_1|)
-\end{align*}
-```
-
----
-
-## Key Takeaways
-
-### Most Important Concepts
-
-1. **Probability Space & Axioms**: Foundation of all probability theory
-2. **Conditional Probability**: Essential for Bayesian reasoning
-3. **Expectation & Variance**: Fundamental measures of central tendency and spread
-4. **Limit Theorems**: LLN and CLT are the most important results in probability
-5. **Markov Property**: Foundation for Markov Chains and many stochastic processes
-6. **Stationary Distributions**: Long-term behavior of Markov Chains
-7. **Poisson Process**: Fundamental continuous-time stochastic process
-
-### Common Pitfalls
-
-```{warning} Common Mistakes
-- **Independence vs. Uncorrelated**: Independent implies uncorrelated, but not vice versa (except for jointly normal RVs)
-- **Continuous vs. Discrete**: Remember to use PMF for discrete and PDF for continuous RVs
-- **Conditional Probability**: Always check that $P(F) > 0$ before using $P(E|F)$
-- **Expectation of Functions**: $\mathbb{E}[g(X)] \neq g(\mathbb{E}[X])$ in general (Jensen's inequality)
-- **Variance of Sums**: $\operatorname{Var}(X+Y) = \operatorname{Var}(X) + \operatorname{Var}(Y) + 2\operatorname{Cov}(X,Y)$
-- **Markov Chain Convergence**: Requires **both** irreducibility **and** aperiodicity
-```
-
-### Problem-Solving Strategies
-
-1. **Identify the Distribution**: Recognize which distribution the problem involves
-2. **Use Definitions**: Start with the definition (PMF, PDF, or property)
-3. **Check Conditions**: Verify all conditions are met before applying theorems
-4. **Use Linearity**: Expectation is linear - use this whenever possible
-5. **Conditioning**: Break complex problems into simpler conditional problems
-6. **Symmetry**: Look for symmetry to simplify calculations
-7. **Approximations**: Use CLT for large $n$ approximations
