@@ -81,7 +81,7 @@ P(A|E) &= \frac{P(E|A)P(A)}{P(E)} & P(A \cap B) &= P(A)P(B|A) = P(B)P(A|B)
 
 ```{math}
 \begin{align*}
-\text{LLN: } \frac{S_n}{n} &\xrightarrow{P} \mu & \text{CLT: } \frac{S_n - n\mu}{\sigma\sqrt{n}} &\xrightarrow{d} N(0,1) \\
+\text{LLN: } \frac{S_n}{n} &\xrightarrow{P} \mu & \text{CLT: } Z = \frac{S_n - \mu}{\sigma} &\xrightarrow{d} N(0,1) \\
 \text{Chebyshev: } P(|X-\mu| \geq \varepsilon) &\leq \frac{\sigma^2}{\varepsilon^2} & \text{Markov: } P(X \geq a) &\leq \frac{\mathbb{E}[X]}{a}
 \end{align*}
 ```
@@ -99,7 +99,7 @@ P(A|E) &= \frac{P(E|A)P(A)}{P(E)} & P(A \cap B) &= P(A)P(B|A) = P(B)P(A|B)
 
 ```{math}
 \begin{align*}
-\text{Mean: } m_X(t) &= \mathbb{E}[X_t] & \text{Correlation: } R_X(t_1,t_2) &= \mathbb{E}[X_{t_1}X_{t_2}] \\
+\text{Mean: } m_X(t) &= \mathbb{E}[X_t] & \text{Correlation: } R_X(t_1,t_2) &= \mathbb{E}[X_{t_1}X_{t_2}] \begin{cases} t_1 = t_2 \\ t_1 \neq t_2 \end{cases}\\
 \text{Covariance: } C_X(t_1,t_2) &= R_X(t_1,t_2) - m_X(t_1)m_X(t_2) & \text{Stationary: } R_X(t_1,t_2) &= R_X(|t_2-t_1|)
 \end{align*}
 ```
@@ -468,14 +468,15 @@ f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x,y) \, dy
 
 ### Independence of Random Variables
 
-$X$ and $Y$ are independent if:
-```{math}
-F_{X,Y}(a,b) = F_X(a) F_Y(b) \quad \forall a,b
-```
+$X$ and $Y$ are independent if one of the following is true:
 
-**Equivalent Conditions**:
-- For discrete: $P(X=x, Y=y) = P(X=x)P(Y=y)$
-- For continuous: $f_{X,Y}(x,y) = f_X(x)f_Y(y)$
+```{math}
+\begin{aligned}
+F_{X,Y}(a,b) &= F_X(a) F_Y(b) \quad \forall a,b \\
+f_{X,Y}(x,y) &= f_X(x)f_Y(y) \quad \text{, (continous RV)} \\
+P(X=x, Y=y) &= P(X=x)P(Y=y) \quad \text{, (discrete RV)}
+\end{aligned}
+```
 
 **Consequences of Independence**:
 ```{math}
@@ -498,7 +499,7 @@ Uncorrelated ($\operatorname{Cov}(X,Y) = 0$) does **NOT** imply independence (ex
 \operatorname{Cov}(X,Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])] = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]
 ```
 
-**Correlation Coefficient**:
+**Correlation**:
 ```{math}
 \rho_{X,Y} = \frac{\operatorname{Cov}(X,Y)}{\sqrt{\operatorname{Var}(X)\operatorname{Var}(Y)}} \quad \in [-1, 1]
 ```
@@ -509,6 +510,8 @@ Uncorrelated ($\operatorname{Cov}(X,Y) = 0$) does **NOT** imply independence (ex
 \operatorname{Cov}(X,X) &= \operatorname{Var}(X) \\
 \operatorname{Cov}(X,Y) &= \operatorname{Cov}(Y,X) \\
 \operatorname{Cov}(aX + b, cY + d) &= ac \operatorname{Cov}(X,Y) \\
+\operatorname{Cov}(X + Y, Z) &= \operatorname{Cov}(X,Z) + \operatorname{Cov}(Y,Z) \\
+\operatorname{Cov}(X, Y + Z) &= \operatorname{Cov}(X,Y) + \operatorname{Cov}(X,Z) \\
 \operatorname{Var}(X + Y) &= \operatorname{Var}(X) + \operatorname{Var}(Y) + 2\operatorname{Cov}(X,Y)
 \end{align*}
 ```
@@ -640,19 +643,7 @@ P\left(\lim_{n\to\infty} \frac{S_n}{n} = \mu\right) = 1 \quad \text{(almost sure
 For i.i.d. RVs $X_1, X_2, \ldots$ with $\mathbb{E}[X_i] = \mu$ and $\operatorname{Var}(X_i) = \sigma^2 < \infty$:
 
 ```{math}
-\frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0,1) \quad \text{as } n \to \infty
-```
-
-**Approximation**: For large $n$:
-
-```{math}
-S_n \approx N(n\mu, n\sigma^2)
-```
-
-**Special Case - Binomial**: If $S_n \sim \text{Bin}(n,p)$:
-
-```{math}
-\frac{S_n - np}{\sqrt{np(1-p)}} \xrightarrow{d} N(0,1)
+Z = \frac{S_n - \mu}{\sigma} \xrightarrow{d} N(0,1) \quad \text{as } n \to \infty
 ```
 
 ### Chebyshev's Inequality
@@ -668,7 +659,7 @@ P(|X - \mu| \geq \varepsilon) \leq \frac{\sigma^2}{\varepsilon^2} \quad \forall 
 **Example**: For $S_n \sim \text{Bin}(n,p)$:
 
 ```{math}
-P(|S_n - np| \geq \varepsilon) \leq \frac{np(1-p)}{\varepsilon^2} \leq \frac{n}{4\varepsilon^2}
+P(|S_n - np| \geq \varepsilon) \leq \frac{np(1-p)}{\varepsilon^2}
 ```
 
 ### Markov's Inequality
@@ -711,7 +702,7 @@ m_X(t) = \mathbb{E}[X_t]
 
 **Correlation Function**:
 ```{math}
-R_X(t_1, t_2) = \mathbb{E}[X_{t_1} X_{t_2}]
+R_X(t_1, t_2) = \mathbb{E}[X_{t_1} X_{t_2}] = \frac{\operatorname{Cov}(X_{t1},X_{t2})}{\sqrt{\operatorname{Var}(X_{t1})\operatorname{Var}(X_{t2})}} \begin{cases} t_1 = t_2 \\ t_1 \neq t_2 \end{cases}
 ```
 
 **Covariance Function**:
