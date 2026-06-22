@@ -49,7 +49,7 @@ project:
             - file: projects/masters-degree-in-data-science/advanced-statistical-data-analysis.ipynb
             - file: projects/masters-degree-in-data-science/bayesian-machine-learning.ipynb
             - file: projects/masters-degree-in-data-science/complex-processes.ipynb
-            - file: projects/masters-degree-in-data-science/machine-learning.md
+            - file: projects/masters-degree-in-data-science/machine-learning.ipynb
             - file: projects/masters-degree-in-data-science/predictive-modeling.ipynb
             - file: projects/masters-degree-in-data-science/stochastic-modeling.md
     - title: My Areas
