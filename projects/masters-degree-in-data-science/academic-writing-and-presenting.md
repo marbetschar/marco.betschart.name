@@ -156,10 +156,6 @@ Aim for an average of 20 words per sentence.
 - **Micro-level**: Help reader follow along sentence-to-sentence
 - **Example**: Ensure each paragraph has a clear topic sentence
 
-```{note} Structure Matters
-In engineering papers, predictable structure ensures readers can quickly locate information.
-```
-
 ## Identify and Correct Common Flaws
 
 ```{list-table}
@@ -304,6 +300,10 @@ Check word meanings in dictionaries, then verify usage patterns with search engi
 - Ensure proper figure/table labels
 
 ## Research Paper Structure
+
+```{note} Structure Matters
+In engineering papers, predictable structure ensures readers can quickly locate information.
+```
 
 ```{list-table}
 :header-rows: 1
