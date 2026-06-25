@@ -16,225 +16,84 @@ downloads:
 ---
 
 ```{epigraph}
-Clear thinking becomes clear writing; one can't exist without the other. - William Zinsser
+Clear thinking becomes clear writing; one can't exist without the other - William Zinsser
 ```
 
-# Educational Goals & Objectives
-
-## Learning Objective Matrix
-
-The course employs **Anderson's Taxonomy** to structure learning objectives across cognitive domains.
-
-```{list-table}
-:header-rows: 1
-:widths: 15 10 10 10 10 10 10
-
-* - 
-  - 1 Remember
-  - 2 Understand
-  - 3 Apply
-  - 4 Analyze
-  - 5 Evaluate
-  - 6 Create
-* - **Factual knowledge (A)**
-  - ②③④⑥
-  - ①
-  - ⑦
-  - 
-  - 
-  - 
-* - **Conceptual knowledge (B)**
-  - 
-  - ①②③④⑤⑥
-  - ⑦
-  - ⑦
-  - 
-  - 
-* - **Procedural knowledge (C)**
-  - 
-  - ⑤
-  - ②③④⑥
-  - 
-  - 
-  - 
-* - **Metacognitive knowledge (D)**
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-```
-
-## Primary Learning Objectives
-
-### Academic Writing Objectives
-
-#### Toulmin Method: Formulate Rigorous Arguments
-
-Develop the ability to construct and analyze arguments using six components:
-
-- **Claim**: Main message to be conveyed
-- **Grounds**: Evidence supporting the claim  
-- **Warrant**: Assumption linking grounds to claim
-- **Backing**: Information supporting the warrant
-- **Rebuttal**: Potential objections to the claim
-- **Qualifier**: Nuances or conditions restricting the claim
-
-**Cognitive Domains**: Analyze (4), Evaluate (5)
-
-#### Apply ACCC Principles: Accuracy, Clarity, Conciseness, Coherence
-
-Master the four pillars of effective technical writing:
-
-- **Accuracy**: Both technical and linguistic precision
-- **Clarity**: Make the message effortless to understand
-- **Conciseness**: Eliminate waste; pretend each word costs money
-- **Coherence**: Ensure smooth flow at macro (structure) and micro (sentence) levels
-
-**Cognitive Domains**: Apply (3), Evaluate (5)
-
-#### Identify and Correct Common Flaws
-
-**Grammatical & Structural Precision**
-
-Recognize and fix frequent errors:
-- Ambiguous antecedents
-- Lack of parallel structures
-- Number/gender mismatches
-- Dangling modifiers
-- Comma splices
-- Run-on sentences
-- Incorrect article usage
-- Misuse of relative pronouns
-
-**Cognitive Domains**: Understand (2), Apply (3)
-
-#### Structure Research Papers
-
-Understand and apply the typical structure:
-
-```{list-table}
-:header-rows: 1
-:widths: 20 10 30
-
-* - Section
-  - Required
-  - Notes
-* - Abstract
-  - Yes
-  - Always present
-* - Introduction
-  - Yes
-  - Position may vary
-* - Related Work
-  - No
-  - Flexible structure
-* - Description of Contribution
-  - Yes
-  - Core of the paper
-* - Evaluation
-  - No
-  - Essential for research papers
-* - Conclusion
-  - Yes
-  - Summarizes contributions
-* - Bibliography
-  - Yes
-  - Citation style varies
-```
-
-**Cognitive Domains**: Remember (1), Apply (3)
-
-### Academic Presenting Objectives
-
-#### Master the Four Elements Framework
+# Academic Presenting
 
 Apply the four-element theory to assess and improve technical presentations:
 
-##### Air (Design & whitespace)
+## Air (Design & whitespace)
 - Ensure adequate whitespace on slides
 - Avoid clutter
 - Use the rule of three for structure
 - Create visual breathing room
 
-##### Water (Story & flow)
+## Water (Story & flow)
 - Choose an appropriate story structure
 - Maintain logical progression
 - Ensure smooth transitions
 - Keep the audience engaged
 
-##### Earth (Content & substance)
+## Earth (Content & substance)
 - Every slide element must help users grasp the topic
 - Avoid information overload
 - Use visual cues instead of laser pointers
 - Maintain technical rigor
 
-##### Fire (Delivery & passion)
+## Fire (Delivery & passion)
 - Plan recording to include energy
 - Maintain appropriate enthusiasm
 - Use body language effectively
 - Connect with the audience
 
-**Cognitive Domains**: Understand (2), Apply (3)
+## Presentation and Video Production Tools
 
-#### Use Presentation Tools (Technical Proficiency)
+```{list-table}
+:header-rows: 1
+:widths: 25 35 40
 
-- **Presentation**: LaTeX, LibreOffice Impress, PowerPoint
-- **Recording**: OBS Studio
-- **Streaming**: OBS Studio integration
-- **Editing**: ShotCut or OpenShot
-- **Audio**: Audacity
-- **Production**: Handbrake
+* - Category
+  - Tools
+  - Purpose
+* - Presentation
+  - LaTeX, LibreOffice Impress, PowerPoint
+  - Creating slide decks
+* - Recording
+  - OBS Studio
+  - Mixing and recording video/audio
+* - Streaming
+  - OBS Studio
+  - Integration with conferencing tools
+* - Video Editing
+  - ShotCut, OpenShot
+  - Cutting and editing video
+* - Audio Editing
+  - Audacity
+  - Audio cleanup and editing
+* - Final Production
+  - Handbrake
+  - Encoding and format conversion
+```
 
-**Cognitive Domains**: Understand (2), Apply (3)
-
-### Practical Skills Objectives
-
-#### Conduct Literature Searches (Research Proficiency)
-
-Develop effective strategies:
-- Use Google Scholar as primary starting point
-- Identify key venues and authors
-- Understand bibliometric indicators (h-index)
-- Recognize field-specific variability
-- Refine searches with domain-specific resources
-
-**Cognitive Domains**: Apply (3), Analyze (4)
-
-#### Perform Peer Reviews (Quality Assessment)
-
-Learn to conduct thorough reviews:
-- **Paper summary**: Brief overview
-- **Strengths**: Positive aspects
-- **Weaknesses**: Issues identified
-- **Detailed comments**: Specific feedback
-- **Confidential comments**: For editors
-
-**Cognitive Level**: Evaluate (5), Create (6)
-
-#### Revise Using Digital Tools (Generative AI & Search Engines)
-
-Use digital tools effectively:
-
-- **Dictionaries**: Check word meanings
-- **Search engines**: Verify usage patterns
-- **Generative AI**: Use for formal revisions ONLY
-- **Never**: Allow AI to modify content
-
-**Cognitive Domains**: Apply (3), Evaluate (5)
-
-# Core Concepts with Examples
+# Academic Writing
 
 ## The Toulmin Method
 
-The Toulmin method provides a framework for constructing rigorous, logical arguments essential for academic writing in engineering.
+The Toulmin method provides a framework for constructing rigorous, logical arguments - and consists of six components:
 
-### How It Works
+1. **Claim**: Main message to be conveyed
+2. **Grounds**: Evidence supporting the claim  
+3. **Warrant**: Assumption linking grounds to claim
+4. **Backing**: Information supporting the warrant
+5. **Rebuttal**: Potential objections to the claim
+6. **Qualifier**: Nuances or conditions restricting the claim
 
-```{card} Climate Change Argument Example
-**From research literature**
+```{note} Why Toulmin Matters
+In engineering, evidence-based arguments require clear logical connections between data, assumptions, and conclusions.
+```
 
+```{prf:example} Climate Change Argument Example (from research literature)
 - **Claim**: Current climate policies could leave around one-third of humanity outside the human climate niche by 2100
 - **Grounds**: Over 600 million people already pushed out; projections show 22-39% by 2100
 - **Warrant**: Human climate niche = temperature conditions where most humans lived historically
@@ -243,9 +102,7 @@ The Toulmin method provides a framework for constructing rigorous, logical argum
 - **Rebuttal**: Some regions may adapt, but evidence suggests limits
 ```
 
-```{card} Political Science Prose Example
-**From APSR analysis**
-
+```{prf:example} Political Science Prose Example (from APSR analysis)
 - **Claim**: Academic writing is hard to read
 - **Grounds**: APSR articles show heavy noun phrases, piled modifiers, buried verbs (>1000 examples)
 - **Warrant**: Readability is important for effective communication
@@ -253,13 +110,14 @@ The Toulmin method provides a framework for constructing rigorous, logical argum
 - **Rebuttal**: Some complex ideas may require complex expression
 ```
 
-```{note}
-**Why Toulmin Matters**: In engineering, evidence-based arguments require clear logical connections between data, assumptions, and conclusions.
-```
-
 ## The ACCC Principles
 
-The four principles of effective technical writing.
+The four principles of effective technical writing:
+
+1. **Accuracy**: Both technical and linguistic precision
+2. **Clarity**: Make the message effortless to understand
+3. **Conciseness**: Eliminate waste; pretend each word costs money
+4. **Coherence**: Ensure smooth flow at macro (structure) and micro (sentence) levels
 
 ### Accuracy (Technical & Linguistic Precision)
 
@@ -267,9 +125,8 @@ The four principles of effective technical writing.
 - **Linguistic**: Use proper grammar, spelling, and syntax
 - **Example**: "Mobile Edge Computing paradigm is designed..." -> "**The** mobile edge computing paradigm **is designed**..."
 
-```{admonition} Common Error
-:class: warning
-**Article Usage**: English requires careful article selection based on specificity.
+```{warning} Common Error: Article Usage
+English requires careful article selection based on specificity.
 ```
 
 ### Clarity (Effortless Understanding)
@@ -279,9 +136,8 @@ The four principles of effective technical writing.
 - Define acronyms on first use
 - **Example**: "The flexibility measures available range from traditional ones..." -> "Flexibility measures range from traditional approaches (grid extension, pumped hydro) to advanced strategies like demand side management."
 
-```{admonition} Pro Tip
-:class: tip
-**Audience Adaptation**: In technical reports, define everything. In scientific papers, define based on target audience.
+```{tip} Pro Tip: Audience Adaptation
+In technical reports, define everything. In scientific papers, define based on target audience.
 ```
 
 ### Conciseness (Eliminate Waste)
@@ -290,9 +146,8 @@ The four principles of effective technical writing.
 - Give greater visibility to key information
 - **Example**: "We have designed and implemented the Google File System, a scalable distributed file system..." -> "We designed and implemented the Google File System, a scalable distributed file system providing fault tolerance on commodity hardware."
 
-```{admonition} Writing Philosophy
-:class: tip
-**The 20-Word Rule**: Aim for an average of 20 words per sentence.
+```{tip} Writing Philosophy: The 20-Word Rule
+Aim for an average of 20 words per sentence.
 ```
 
 ### Coherence (Smooth Flow)
@@ -301,12 +156,11 @@ The four principles of effective technical writing.
 - **Micro-level**: Help reader follow along sentence-to-sentence
 - **Example**: Ensure each paragraph has a clear topic sentence
 
-```{admonition} Structure Matters
-:class: note
+```{note} Structure Matters
 In engineering papers, predictable structure ensures readers can quickly locate information.
 ```
 
-## Common Flaws and Corrections
+## Identify and Correct Common Flaws
 
 ```{list-table}
 :header-rows: 1
@@ -346,99 +200,92 @@ In engineering papers, predictable structure ensures readers can quickly locate 
   - Both nouns require articles based on specificity
 ```
 
-### Relative Clauses
+## Relative Clauses
 
-```{card} Restrictive Relative Clauses
-**Essential Information**
+```{warning} UK vs. US English
+UK English is more flexible with "which" in restrictive clauses, but "that" is preferred in formal academic writing.
+```
+
+### Restrictive Relative Clauses (Essential Information)
 
 - Use **"that"** (not "which")
 - **No comma** before the clause
 - Removing the clause changes the meaning
 
-**Example**: 
+```{prf:example}
 - Incorrect: "The sample which was exposed to high temperatures showed changes."
 - Correct: "The sample **that** was exposed to high temperatures showed changes."
 - *Why*: We're identifying a specific sample
 ```
 
-```{card} Non-Restrictive Relative Clauses
-**Extra Information**
+### Non-Restrictive Relative Clauses (Extra Information)
 
 - Use **"which"** (not "that")
 - **Comma** before the clause
 - Removing the clause doesn't change core meaning
 
-**Example**:
+```{prf:example}
 - Incorrect: "The crystalline sample that was stored in a vacuum chamber showed changes."
-- Correct: "The crystalline sample**, which** was stored in a vacuum chamber, showed changes."
+- Correct: "The crystalline sample **, which** was stored in a vacuum chamber, showed changes."
 - *Why*: The storage detail is helpful but not essential
 ```
 
-```{warning}
-**UK vs. US English**: UK English is more flexible with "which" in restrictive clauses, but "that" is preferred in formal academic writing.
-```
-
-# Practical Aspects
-
 ## Revision Strategies
 
-```{card} Using Generative AI Tools
-**Proceed with Caution**
+### Using Generative AI Tools (Proceed with Caution)
 
-Do:
+**Do:**
 - Use for formal revisions (grammar, style)
 - Check everything thoroughly
 - Document all AI use with prompts and responses
 - Use iteratively, maintaining human control
 
-Don't:
+**Don't:**
 - Let AI modify your content
 - Allow AI to stray from your original meaning
 - Use AI for content generation
 - Trust AI without verification
 
-**Example**: 
+```{prf:example}
 - Original: "An account of a stand-alone energy device (off-grid system) that combines an energy harvesting technology with a lithium-ion battery is also provided."
 - AI Revision: "We also provide a description of a standalone energy device (off-grid system) that combines an energy harvesting technology with a lithium-ion battery."
 - Human Revision: "We also describe a standalone energy device combining energy harvesting with a lithium-ion battery."
 ```
 
-```{card} Using Search Engines
-**Google as a Writing Tool**
+### Using Search Engines (Google as a Writing Tool)
 
 Search engines provide valuable insights into usage patterns:
 
-**Example**: Checking "data is" vs "data are"
+```{prf:example} Checking "data is" vs "data are"
 - "Data are": ~100M hits
 - "Data is": ~500M hits
 - **Conclusion**: Both acceptable, but be consistent
+```
 
-**Other Examples**:
+```{prf:example}
 - "all the developed countries" vs "all of the developed countries" -> Former more common
 - "interested in what they eat" vs "interested with what they eat" -> Former favored by 6 orders of magnitude
 ```
 
-```{tip}
-**Dictionary + Search Engine = Perfect Match**: Check word meanings in dictionaries, then verify usage patterns with search engines.
+```{tip} Dictionary + Search Engine = Perfect Match
+Check word meanings in dictionaries, then verify usage patterns with search engines.
 ```
 
 ## Writing Checklist
 
-```{card} Pre-Writing
+### Pre-Writing
 - Understand the State of the Art
 - Provide references to all sources
 - Identify target audience
-```
 
-```{card} During Writing
+### During Writing
 - Be ultra-careful with abstract and introduction
 - Ensure macro-level cohesion
 - Provide evidence for original claims
 - Provide references for specialized knowledge
 - Keep sentences reasonably short (~20 words)
-```
 
-```{card} Grammar & Style
+### Grammar & Style
 - Ensure sentence accuracy
 - Maintain conciseness
 - Achieve clarity
@@ -449,16 +296,46 @@ Search engines provide valuable insights into usage patterns:
 - Clarify pronoun antecedents
 - Use correct relative clauses
 - Verify punctuation
-```
 
-```{card} Final Steps
+### Final Steps
 - Proofread thoroughly
 - Check consistency (UK vs US spelling)
 - Verify all citations
 - Ensure proper figure/table labels
+
+## Research Paper Structure
+
+```{list-table}
+:header-rows: 1
+:widths: 20 10 30
+
+* - Section
+  - Required
+  - Notes
+* - Abstract
+  - Yes
+  - Always present
+* - Introduction
+  - Yes
+  - Always present
+* - Related Work
+  - Yes
+  - Always there, but position varies; may be before the conclusion
+* - Description of Contribution
+  - No
+  - Flexible structure; there may be a section on methodology
+* - Evaluation
+  - No
+  - Flexible structure; there may be a section on methodology
+* - Conclusion
+  - Yes
+  - Always there (there may also be acknowledgements in between)
+* - Bibliography
+  - Yes
+  - Always there (there may also be acknowledgements in between)
 ```
 
-# Types of Academic Writing
+## Types of Academic Writing
 
 ```{list-table}
 :header-rows: 1
@@ -489,75 +366,29 @@ Search engines provide valuable insights into usage patterns:
   - Anonymous, constructive
 ```
 
-# Peer Review Process
+## Peer Review Process
 
 Peer review is a critical component of academic quality control.
 
-```{card} How Peer Review Works
-**Academic Context**
+```{note} Peer Review Beyond Papers
+The same concept applies to any form of writing. Feedback from colleagues is also a form of peer review.
+```
+
+### How Peer Review Works (Academic Context)
 
 - **Definition**: Having peers assess work prior to publication
 - **Format**: Always written, generally anonymous
 - **Peers**: People from the same field
 - **Purpose**: Quality control for conferences/journals
 - **Limitation**: Not always sufficient (lack of incentives)
-```
 
-```{card} Standard Review Structure
+### Standard Review Structure
+
 1. **Paper Summary**: Brief overview of content and contributions
 2. **Strengths**: Positive aspects (implementation, results, hardware)
 3. **Weaknesses**: Issues identified (readability, scientific motivation)
 4. **Detailed Comments**: Specific, actionable feedback
 5. **Confidential Comments**: For editors only
-```
-
-```{card} AI-Generated Abstracts Comparison
-**Reference**: Literature review methodology paper
-
-**Version 1** (Title-only prompt):
-> This paper examines the literature review as a distinct and rigorous research methodology rather than only a preliminary stage... It provides an overview of the main purposes... and clarifies how different review approaches can be selected...
-
-**Version 2** (Intro + editing prompt):
-> As business research grows more rapidly and becomes increasingly fragmented... Literature reviews are therefore more important than ever as a method for consolidating prior findings...
-
-**Key Differences**:
-- Version 2 is 30% shorter
-- Version 2 provides stronger motivation
-- Version 2 better captures the paper's contribution
-```
-
-```{note}
-**Peer Review Beyond Papers**: The same concept applies to any form of writing. Feedback from colleagues is also a form of peer review.
-```
-
-# Presentation and Video Production Tools
-
-```{list-table}
-:header-rows: 1
-:widths: 25 35 40
-
-* - Category
-  - Tools
-  - Purpose
-* - Presentation
-  - LaTeX, LibreOffice Impress, PowerPoint
-  - Creating slide decks
-* - Recording
-  - OBS Studio
-  - Mixing and recording video/audio
-* - Streaming
-  - OBS Studio
-  - Integration with conferencing tools
-* - Video Editing
-  - ShotCut, OpenShot
-  - Cutting and editing video
-* - Audio Editing
-  - Audacity
-  - Audio cleanup and editing
-* - Final Production
-  - Handbrake
-  - Encoding and format conversion
-```
 
 ## Glossary
 
