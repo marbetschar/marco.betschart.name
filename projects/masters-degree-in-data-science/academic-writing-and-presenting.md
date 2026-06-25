@@ -1,0 +1,588 @@
+---
+title: Academic Writing and Presenting
+authors:
+  - name: Hanspeter Schmid
+    affiliation: FHNW
+  - name: Daniele Puccinelli
+    affiliation: SUPSI
+exports:
+- format: pdf
+  template: https://github.com/marbetschar/plain_latex_article/archive/refs/heads/main.zip
+  output: AcWritPre.pdf
+  id: acwritpre-pdf
+downloads:
+  - id: acwritpre-pdf
+    title: Download as PDF
+---
+
+```{epigraph}
+Clear thinking becomes clear writing; one can't exist without the other. - William Zinsser
+```
+
+# Educational Goals & Objectives
+
+## Learning Objective Matrix
+
+The course employs **Anderson's Taxonomy** to structure learning objectives across cognitive domains.
+
+```{list-table}
+:header-rows: 1
+:widths: 15 10 10 10 10 10 10
+
+* - 
+  - 1 Remember
+  - 2 Understand
+  - 3 Apply
+  - 4 Analyze
+  - 5 Evaluate
+  - 6 Create
+* - **Factual knowledge (A)**
+  - ②③④⑥
+  - ①
+  - ⑦
+  - 
+  - 
+  - 
+* - **Conceptual knowledge (B)**
+  - 
+  - ①②③④⑤⑥
+  - ⑦
+  - ⑦
+  - 
+  - 
+* - **Procedural knowledge (C)**
+  - 
+  - ⑤
+  - ②③④⑥
+  - 
+  - 
+  - 
+* - **Metacognitive knowledge (D)**
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+```
+
+## Primary Learning Objectives
+
+### Academic Writing Objectives
+
+#### Toulmin Method: Formulate Rigorous Arguments
+
+Develop the ability to construct and analyze arguments using six components:
+
+- **Claim**: Main message to be conveyed
+- **Grounds**: Evidence supporting the claim  
+- **Warrant**: Assumption linking grounds to claim
+- **Backing**: Information supporting the warrant
+- **Rebuttal**: Potential objections to the claim
+- **Qualifier**: Nuances or conditions restricting the claim
+
+**Cognitive Domains**: Analyze (4), Evaluate (5)
+
+#### Apply ACCC Principles: Accuracy, Clarity, Conciseness, Coherence
+
+Master the four pillars of effective technical writing:
+
+- **Accuracy**: Both technical and linguistic precision
+- **Clarity**: Make the message effortless to understand
+- **Conciseness**: Eliminate waste; pretend each word costs money
+- **Coherence**: Ensure smooth flow at macro (structure) and micro (sentence) levels
+
+**Cognitive Domains**: Apply (3), Evaluate (5)
+
+#### Identify and Correct Common Flaws
+
+**Grammatical & Structural Precision**
+
+Recognize and fix frequent errors:
+- Ambiguous antecedents
+- Lack of parallel structures
+- Number/gender mismatches
+- Dangling modifiers
+- Comma splices
+- Run-on sentences
+- Incorrect article usage
+- Misuse of relative pronouns
+
+**Cognitive Domains**: Understand (2), Apply (3)
+
+#### Structure Research Papers
+
+Understand and apply the typical structure:
+
+```{list-table}
+:header-rows: 1
+:widths: 20 10 30
+
+* - Section
+  - Required
+  - Notes
+* - Abstract
+  - Yes
+  - Always present
+* - Introduction
+  - Yes
+  - Position may vary
+* - Related Work
+  - No
+  - Flexible structure
+* - Description of Contribution
+  - Yes
+  - Core of the paper
+* - Evaluation
+  - No
+  - Essential for research papers
+* - Conclusion
+  - Yes
+  - Summarizes contributions
+* - Bibliography
+  - Yes
+  - Citation style varies
+```
+
+**Cognitive Domains**: Remember (1), Apply (3)
+
+### Academic Presenting Objectives
+
+#### Master the Four Elements Framework
+
+Apply the four-element theory to assess and improve technical presentations:
+
+##### Air (Design & whitespace)
+- Ensure adequate whitespace on slides
+- Avoid clutter
+- Use the rule of three for structure
+- Create visual breathing room
+
+##### Water (Story & flow)
+- Choose an appropriate story structure
+- Maintain logical progression
+- Ensure smooth transitions
+- Keep the audience engaged
+
+##### Earth (Content & substance)
+- Every slide element must help users grasp the topic
+- Avoid information overload
+- Use visual cues instead of laser pointers
+- Maintain technical rigor
+
+##### Fire (Delivery & passion)
+- Plan recording to include energy
+- Maintain appropriate enthusiasm
+- Use body language effectively
+- Connect with the audience
+
+**Cognitive Domains**: Understand (2), Apply (3)
+
+#### Use Presentation Tools (Technical Proficiency)
+
+- **Presentation**: LaTeX, LibreOffice Impress, PowerPoint
+- **Recording**: OBS Studio
+- **Streaming**: OBS Studio integration
+- **Editing**: ShotCut or OpenShot
+- **Audio**: Audacity
+- **Production**: Handbrake
+
+**Cognitive Domains**: Understand (2), Apply (3)
+
+### Practical Skills Objectives
+
+#### Conduct Literature Searches (Research Proficiency)
+
+Develop effective strategies:
+- Use Google Scholar as primary starting point
+- Identify key venues and authors
+- Understand bibliometric indicators (h-index)
+- Recognize field-specific variability
+- Refine searches with domain-specific resources
+
+**Cognitive Domains**: Apply (3), Analyze (4)
+
+#### Perform Peer Reviews (Quality Assessment)
+
+Learn to conduct thorough reviews:
+- **Paper summary**: Brief overview
+- **Strengths**: Positive aspects
+- **Weaknesses**: Issues identified
+- **Detailed comments**: Specific feedback
+- **Confidential comments**: For editors
+
+**Cognitive Level**: Evaluate (5), Create (6)
+
+#### Revise Using Digital Tools (Generative AI & Search Engines)
+
+Use digital tools effectively:
+
+- **Dictionaries**: Check word meanings
+- **Search engines**: Verify usage patterns
+- **Generative AI**: Use for formal revisions ONLY
+- **Never**: Allow AI to modify content
+
+**Cognitive Domains**: Apply (3), Evaluate (5)
+
+# Core Concepts with Examples
+
+## The Toulmin Method
+
+The Toulmin method provides a framework for constructing rigorous, logical arguments essential for academic writing in engineering.
+
+### How It Works
+
+```{card} Climate Change Argument Example
+**From research literature**
+
+- **Claim**: Current climate policies could leave around one-third of humanity outside the human climate niche by 2100
+- **Grounds**: Over 600 million people already pushed out; projections show 22-39% by 2100
+- **Warrant**: Human climate niche = temperature conditions where most humans lived historically
+- **Backing**: Heat affects humans negatively (cognitive science research)
+- **Qualifier**: "Could leave" and "around one-third" indicate probability
+- **Rebuttal**: Some regions may adapt, but evidence suggests limits
+```
+
+```{card} Political Science Prose Example
+**From APSR analysis**
+
+- **Claim**: Academic writing is hard to read
+- **Grounds**: APSR articles show heavy noun phrases, piled modifiers, buried verbs (>1000 examples)
+- **Warrant**: Readability is important for effective communication
+- **Backing**: Cognitive science shows poor readability confuses, misleads, distracts
+- **Rebuttal**: Some complex ideas may require complex expression
+```
+
+```{note}
+**Why Toulmin Matters**: In engineering, evidence-based arguments require clear logical connections between data, assumptions, and conclusions.
+```
+
+## The ACCC Principles
+
+The four principles of effective technical writing.
+
+### Accuracy (Technical & Linguistic Precision)
+
+- **Technical**: Ensure all facts, data, and claims are correct
+- **Linguistic**: Use proper grammar, spelling, and syntax
+- **Example**: "Mobile Edge Computing paradigm is designed..." -> "**The** mobile edge computing paradigm **is designed**..."
+
+```{admonition} Common Error
+:class: warning
+**Article Usage**: English requires careful article selection based on specificity.
+```
+
+### Clarity (Effortless Understanding)
+
+- Don't make the reader work too hard
+- Adapt jargon to audience
+- Define acronyms on first use
+- **Example**: "The flexibility measures available range from traditional ones..." -> "Flexibility measures range from traditional approaches (grid extension, pumped hydro) to advanced strategies like demand side management."
+
+```{admonition} Pro Tip
+:class: tip
+**Audience Adaptation**: In technical reports, define everything. In scientific papers, define based on target audience.
+```
+
+### Conciseness (Eliminate Waste)
+
+- Remove unnecessary words
+- Give greater visibility to key information
+- **Example**: "We have designed and implemented the Google File System, a scalable distributed file system..." -> "We designed and implemented the Google File System, a scalable distributed file system providing fault tolerance on commodity hardware."
+
+```{admonition} Writing Philosophy
+:class: tip
+**The 20-Word Rule**: Aim for an average of 20 words per sentence.
+```
+
+### Coherence (Smooth Flow)
+
+- **Macro-level**: Follow predictable structure based on audience
+- **Micro-level**: Help reader follow along sentence-to-sentence
+- **Example**: Ensure each paragraph has a clear topic sentence
+
+```{admonition} Structure Matters
+:class: note
+In engineering papers, predictable structure ensures readers can quickly locate information.
+```
+
+## Common Flaws and Corrections
+
+```{list-table}
+:header-rows: 1
+:widths: 20 25 25 30
+
+* - Flaw Type
+  - Flawed Example
+  - Corrected Version
+  - Explanation
+* - Ambiguous Antecedent
+  - When Sarah gave her sister her book, she was pleased.
+  - When Sarah gave her sister Sarah's book, the sister was pleased.
+  - Unclear whether "she" refers to Sarah or her sister
+* - Lack of Parallel Structure
+  - The tasks include writing proposals, to attend meetings, and budgeting time.
+  - The tasks include writing proposals, attending meetings, and budgeting time.
+  - All list items must use same grammatical form
+* - Number Mismatch
+  - A comprehensive overviews were provided.
+  - A comprehensive overview was provided.
+  - Subject-verb agreement error
+* - Dangling Modifier
+  - Running the diagnostic software, the error codes were unclear.
+  - Running the diagnostic software, the technician found the error codes unclear.
+  - Modifier must logically attach to subject
+* - Comma Splice
+  - She writes well, she does not like to read.
+  - She writes well, but she does not like to read.
+  - Two independent clauses need conjunction
+* - Run-on Sentence
+  - How do you correct run-on sentences it's not as easy as it seems
+  - How do you correct run-on sentences? It's not as easy as it seems.
+  - Independent clauses need proper punctuation
+* - Incorrect Article
+  - We begin by discussing properties of sensor network.
+  - We begin by discussing the properties of a sensor network.
+  - Both nouns require articles based on specificity
+```
+
+### Relative Clauses
+
+```{card} Restrictive Relative Clauses
+**Essential Information**
+
+- Use **"that"** (not "which")
+- **No comma** before the clause
+- Removing the clause changes the meaning
+
+**Example**: 
+- Incorrect: "The sample which was exposed to high temperatures showed changes."
+- Correct: "The sample **that** was exposed to high temperatures showed changes."
+- *Why*: We're identifying a specific sample
+```
+
+```{card} Non-Restrictive Relative Clauses
+**Extra Information**
+
+- Use **"which"** (not "that")
+- **Comma** before the clause
+- Removing the clause doesn't change core meaning
+
+**Example**:
+- Incorrect: "The crystalline sample that was stored in a vacuum chamber showed changes."
+- Correct: "The crystalline sample**, which** was stored in a vacuum chamber, showed changes."
+- *Why*: The storage detail is helpful but not essential
+```
+
+```{warning}
+**UK vs. US English**: UK English is more flexible with "which" in restrictive clauses, but "that" is preferred in formal academic writing.
+```
+
+# Practical Aspects
+
+## Revision Strategies
+
+```{card} Using Generative AI Tools
+**Proceed with Caution**
+
+Do:
+- Use for formal revisions (grammar, style)
+- Check everything thoroughly
+- Document all AI use with prompts and responses
+- Use iteratively, maintaining human control
+
+Don't:
+- Let AI modify your content
+- Allow AI to stray from your original meaning
+- Use AI for content generation
+- Trust AI without verification
+
+**Example**: 
+- Original: "An account of a stand-alone energy device (off-grid system) that combines an energy harvesting technology with a lithium-ion battery is also provided."
+- AI Revision: "We also provide a description of a standalone energy device (off-grid system) that combines an energy harvesting technology with a lithium-ion battery."
+- Human Revision: "We also describe a standalone energy device combining energy harvesting with a lithium-ion battery."
+```
+
+```{card} Using Search Engines
+**Google as a Writing Tool**
+
+Search engines provide valuable insights into usage patterns:
+
+**Example**: Checking "data is" vs "data are"
+- "Data are": ~100M hits
+- "Data is": ~500M hits
+- **Conclusion**: Both acceptable, but be consistent
+
+**Other Examples**:
+- "all the developed countries" vs "all of the developed countries" -> Former more common
+- "interested in what they eat" vs "interested with what they eat" -> Former favored by 6 orders of magnitude
+```
+
+```{tip}
+**Dictionary + Search Engine = Perfect Match**: Check word meanings in dictionaries, then verify usage patterns with search engines.
+```
+
+## Writing Checklist
+
+```{card} Pre-Writing
+- Understand the State of the Art
+- Provide references to all sources
+- Identify target audience
+```
+
+```{card} During Writing
+- Be ultra-careful with abstract and introduction
+- Ensure macro-level cohesion
+- Provide evidence for original claims
+- Provide references for specialized knowledge
+- Keep sentences reasonably short (~20 words)
+```
+
+```{card} Grammar & Style
+- Ensure sentence accuracy
+- Maintain conciseness
+- Achieve clarity
+- Verify coherence
+- Check sentence length
+- Verify article usage
+- Use parallel structures
+- Clarify pronoun antecedents
+- Use correct relative clauses
+- Verify punctuation
+```
+
+```{card} Final Steps
+- Proofread thoroughly
+- Check consistency (UK vs US spelling)
+- Verify all citations
+- Ensure proper figure/table labels
+```
+
+# Types of Academic Writing
+
+```{list-table}
+:header-rows: 1
+:widths: 25 40 35
+
+* - Type
+  - Description
+  - Key Characteristics
+* - Scientific Publications
+  - Peer-reviewed journals, magazines, conferences
+  - Surveys, position papers, research papers, book chapters
+  - Rigorous peer review, evidence-based, structured
+* - Technical Reports
+  - Internal or external documentation
+  - Detailed methodology, results, conclusions
+  - Often proprietary, less formal
+* - Theses
+  - Hybrid between technical reports and scientific publications
+  - Depends on adviser and institutional culture
+  - Extensive literature review, original research
+* - Funding Proposals
+  - Requests for research funding
+  - Clear objectives, methodology, expected impact
+  - Persuasive yet accurate
+* - Paper Reviews
+  - Critical assessment of others' work
+  - Structured feedback (summary, strengths, weaknesses)
+  - Anonymous, constructive
+```
+
+# Peer Review Process
+
+Peer review is a critical component of academic quality control.
+
+```{card} How Peer Review Works
+**Academic Context**
+
+- **Definition**: Having peers assess work prior to publication
+- **Format**: Always written, generally anonymous
+- **Peers**: People from the same field
+- **Purpose**: Quality control for conferences/journals
+- **Limitation**: Not always sufficient (lack of incentives)
+```
+
+```{card} Standard Review Structure
+1. **Paper Summary**: Brief overview of content and contributions
+2. **Strengths**: Positive aspects (implementation, results, hardware)
+3. **Weaknesses**: Issues identified (readability, scientific motivation)
+4. **Detailed Comments**: Specific, actionable feedback
+5. **Confidential Comments**: For editors only
+```
+
+```{card} AI-Generated Abstracts Comparison
+**Reference**: Literature review methodology paper
+
+**Version 1** (Title-only prompt):
+> This paper examines the literature review as a distinct and rigorous research methodology rather than only a preliminary stage... It provides an overview of the main purposes... and clarifies how different review approaches can be selected...
+
+**Version 2** (Intro + editing prompt):
+> As business research grows more rapidly and becomes increasingly fragmented... Literature reviews are therefore more important than ever as a method for consolidating prior findings...
+
+**Key Differences**:
+- Version 2 is 30% shorter
+- Version 2 provides stronger motivation
+- Version 2 better captures the paper's contribution
+```
+
+```{note}
+**Peer Review Beyond Papers**: The same concept applies to any form of writing. Feedback from colleagues is also a form of peer review.
+```
+
+# Presentation and Video Production Tools
+
+```{list-table}
+:header-rows: 1
+:widths: 25 35 40
+
+* - Category
+  - Tools
+  - Purpose
+* - Presentation
+  - LaTeX, LibreOffice Impress, PowerPoint
+  - Creating slide decks
+* - Recording
+  - OBS Studio
+  - Mixing and recording video/audio
+* - Streaming
+  - OBS Studio
+  - Integration with conferencing tools
+* - Video Editing
+  - ShotCut, OpenShot
+  - Cutting and editing video
+* - Audio Editing
+  - Audacity
+  - Audio cleanup and editing
+* - Final Production
+  - Handbrake
+  - Encoding and format conversion
+```
+
+## Glossary
+
+:::{glossary}
+Toulmin Method
+: A framework for constructing logical arguments, consisting of six components: claim, grounds, warrant, backing, rebuttal, and qualifier.
+
+ACCC Principles
+: The four principles of effective technical writing: Accuracy, Clarity, Conciseness, Coherence.
+
+Restrictive Relative Clause
+: A clause that provides essential information about the noun it modifies; uses "that" without a comma.
+
+Non-Restrictive Relative Clause
+: A clause that provides extra, non-essential information; uses "which" with a preceding comma.
+
+Peer Review
+: The process of having work evaluated by others in the same field prior to publication or acceptance.
+
+h-index
+: Hirsh index; a bibliometric indicator: the maximum value of h such that an author has published h papers that have each been cited at least h times.
+
+Four Elements Framework
+: A presentation improvement framework consisting of Air (design), Water (story), Earth (content), and Fire (delivery).
+
+Generative AI
+: Artificial intelligence systems that can generate text, images, or other content; must be used cautiously in academic writing.
+:::
