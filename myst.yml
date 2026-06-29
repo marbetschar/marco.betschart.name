@@ -56,6 +56,8 @@ project:
               - file: projects/masters-degree-in-data-science/machine-learning-and-data-in-operation/cheatsheet.md
             - file: projects/masters-degree-in-data-science/predictive-modeling.ipynb
             - file: projects/masters-degree-in-data-science/stochastic-modeling.md
+              children:
+                - file: projects/masters-degree-in-data-science/stochastic-modeling/cheatsheet.md
     - title: My Areas
       children:
         - title: Fedora Workstation
