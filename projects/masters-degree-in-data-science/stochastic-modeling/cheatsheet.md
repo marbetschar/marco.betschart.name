@@ -118,6 +118,18 @@ $$
 \end{align*}
 $$
 
+## Conditional Distributions & Expectation
+
+$$
+\begin{align*}
+\textbf{Discrete} & & & \textbf{Continous} \\
+P_{X|Y}(x|y) &= P(X = x | Y = y) = \frac{P(X = x, Y = y)}{P(Y = y)} &  f_{X|Y}(x|y) &= \frac{f_{X,Y}(x,y)}{f_Y(y)} \\
+\mathbb{E}[X|Y = y] &= \sum_x x P_{X|Y}(x|y) & \mathbb{E}[X|Y = y] &= \int_{-\infty}^{\infty} x f_{X|Y}(x|y) \, dx
+\end{align*}
+$$
+
+**Important**: $\mathbb{E}[X|Y]$ is itself a random variable (function of $Y$)
+
 ### Law of Total Expectation
 
 $$
@@ -353,7 +365,7 @@ $$
 - $\boldsymbol{\mathbb{P}(\text{at most 4 failures in first month})}$: \
   $N(1) \sim \text{Poisson}(2), \quad \mathbb{P}(N(1) \leq 4) = e^{-2} \sum_{k=0}^4 \frac{2^k}{k!} = \boxed{7e^{-2}}$
 - $\boldsymbol{\mathbb{P}(\text{3 in first month AND 2 in next two months})}$: \
-  $\mathbb{P}(N(1) = 3) = \frac{4}{3} e^{-2}, \quad \mathbb{P}(N(3) - N(1) = 2) = 8 e^{-4}$ \
+  $\mathbb{P}(N(1) = 3) = \frac{4}{3} e^{-2}, \quad \mathbb{P}(N(3) - N(1) = 2) \implies N(3) - N(1) \sim \text{Poisson}(\lambda \cdot \text{length}) = \text{Poisson}(2 \cdot 2) \implies 8 e^{-4}$ \
   _Joint probability:_ $\boxed{\dfrac{32}{3} e^{-6}}$
 - $\boldsymbol{\mathbb{P}(\text{3 in first month} \mid \text{4 in first two months})}$: \
   $\mathbb{P}(N(1) = 3 \mid N(2) = 4) = \frac{\mathbb{P}(N(1) = 3 \text{ and } N(2) - N(1) = 1)}{\mathbb{P}(N(2) = 4)} = \boxed{\dfrac{1}{4}}$

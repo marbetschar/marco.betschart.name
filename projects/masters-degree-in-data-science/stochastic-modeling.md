@@ -60,11 +60,13 @@ $$
 
 ```{prf:definition} Independent Events
 Two events $E, F$ are **independent** if:
+
 $$
 \begin{equation*}
 P(E \cap F) = P(E) \cdot P(F)
 \end{equation*}
 $$
+
 Equivalently: $P(E|F) = P(E)$ or $P(F|E) = P(F)$.
 ```
 
@@ -367,7 +369,7 @@ $$
 \mathbb{E}[X|Y = y] = \int_{-\infty}^{\infty} x f_{X|Y}(x|y) \, dx
 $$
 
-**Important**: $\mathbb{E}[X|Y]$ is itself a random variable (function of $Y$).
+**Important**: $\mathbb{E}[X|Y]$ is itself a random variable (function of $Y$)
 
 ### Law of Total Expectation
 
