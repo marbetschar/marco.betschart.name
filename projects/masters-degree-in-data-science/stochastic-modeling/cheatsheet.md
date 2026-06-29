@@ -337,8 +337,13 @@ $$
   $\text{Var}(Y_n) = \frac{1}{4}(\text{Var}(X_n) + \text{Var}(X_{n-1})) = \boxed{\dfrac{3}{2}}$ \
   $\mathbb{E}[Y_n^2] = \text{Var}(Y_n) + (\mathbb{E}[Y_n])^2 = \frac{3}{2} + 4 = \boxed{\dfrac{11}{2}}$
 - **Correlation Function:** \
-  $R_X(m,n) = \mathbb{E}[X_m X_n] = \begin{cases} 7, & \text{if } m = n, \\ 4, & \text{if } m \neq n \end{cases}$ \
-  $R_Y(m,n) = \mathbb{E}[Y_m Y_n] = \begin{cases} \dfrac{11}{2}, & \text{if } m = n, \\ \dfrac{19}{4}, & \text{if } |m - n| = 1, \\ 4, & \text{if } |m - n| \geq 2. \end{cases}$
+  **If** $X_m$ and $X_n$ **i.i.d.**: $R_X(m,n) = \mathbb{E}[X_m] \cdot \mathbb{E}[X_n] = \begin{cases} 7 = \mathbb{E}[X_n^2] & \text{if } m = n \\ 4 & \text{if } m \neq n \end{cases}$ \
+  **else if** $X_m$ and $X_n$ **dependent**: $R_Y(m,n) = \mathbb{E}[Y_m Y_n] = \mathbb{E}\left[\left(\frac{X_m + X_{m-1}}{2}\right) \left(\frac{X_n + X_{n-1}}{2}\right)\right]= \begin{cases} \dfrac{11}{2}, & \text{if } m = n, \\ \dfrac{19}{4}, & \text{if } |m - n| = 1, \\ 4, & \text{if } |m - n| \geq 2. \end{cases}$ \
+  _Expand the product_ inside the expectation \
+  _Use linearity of expectation_ to split into sums of expectations \
+  _Evaluate each term_ using:
+   - $\mathbb{E}[X_i X_j]$ (from the correlation function of $X$)
+   - $\mathbb{E}[X_i^2]$ (from the second moment of $X$)
 - **Process Properties:** \
   Identically Distributed: Yes \
   Independent: No \
