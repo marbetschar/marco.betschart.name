@@ -236,6 +236,39 @@ _zero-mean processes:_ $R_X(t_1, t_2) = \operatorname{Cov}(X_{t_1}, X_{t_2})$
 - Constant mean: $m_X(t) = m$ for all $t$
 - Correlation depends only on time difference: $R_X(t_1, t_2) = R_X(|t_2 - t_1|)$
 
+#### Poisson Process
+
+Models the number of events with $\{N(t) : t \geq 0\}$. It satisfies the following properties:
+
+- **Independent Increments:** The number of events in non-overlapping intervals are independent.
+- **Memoryless Property:** $\mathbb{P}(T_i > s + t \mid T_i > s) = \mathbb{P}(T_i > t)$.
+- **Stationary Increments:** The number of events in an interval depends only on the length of the interval, not its starting point.
+- **Rare Events:** The probability of more than one event in a very small interval is negligible.
+- **Rate Parameter ($\lambda$):** Average number of events per unit time.
+- **Counting Process:** $N(t)$ counts the number of events in the interval $[0, t]$.
+- **Inter-arrival Times:** The time between consecutive events follows an **exponential distribution** with rate $\lambda$.
+
+The number of events $N(t)$ in an interval of length $t$ follows a **Poisson distribution**:
+
+$$
+\mathbb{P}(N(t) = k) = \frac{(\lambda t)^k e^{-\lambda t}}{k!}, \quad k = 0, 1, 2, \dots
+$$
+
+For $N(t) \sim \text{Poisson}(\lambda t)$:
+- **Mean:** $\mathbb{E}[N(t)] = \lambda t$
+- **Variance:** $\text{Var}(N(t)) = \lambda t$
+
+- **The time between consecutive events**, $T_i = S_i - S_{i-1}$ (where $S_i$ is the time of the $i$-th event), follows an **exponential distribution**: \
+  $f_{T_i}(t) = \lambda e^{-\lambda t}, \quad t \geq 0$
+- **Probability of $k$ Events in Time $t$**: \
+  $\mathbb{P}(N(t) = k) = \frac{(\lambda t)^k e^{-\lambda t}}{k!}$
+- **Probability of at Most $k$ Events in Time $t$**: \
+  $\mathbb{P}(N(t) \leq k) = e^{-\lambda t} \sum_{i=0}^k \frac{(\lambda t)^i}{i!}$
+- **Expected Time Until the $k$-th Event**: \
+  $\mathbb{E}[S_k] = \frac{k}{\lambda}$
+- **Probability of No Events in Time $t$**: \
+  $\mathbb{P}(N(t) = 0) = e^{-\lambda t}$
+
 ### Transformation of Random Variables
 
 For a continuous RV $X$ with density $f_X(x)$ and a **differentiable, strictly monotone** function $g$ for $y$ in the range of $g$; $f_Y(y) = 0$ outside:
@@ -243,3 +276,82 @@ For a continuous RV $X$ with density $f_X(x)$ and a **differentiable, strictly m
 $$
 Y = g(X) \implies f_Y(y) = \frac{f_X(g^{-1}(y))}{|g'(g^{-1}(y))|}
 $$
+
+## Example: Joint Density of $X$ and $Y$
+
+Joint density function: $f_{X,Y}(x,y) = \begin{cases} 10x^2 y, & \text{if } 0 \leq y \leq x \leq 1, \\ 0, & \text{otherwise} \end{cases}$
+
+- **Marginal of $X$:** $f_X(x) = \int_0^x 10x^2 y \, dy = 5x^4, \quad \text{for } 0 \leq x \leq 1$
+- **Marginal of $Y$:** $f_Y(y) = \int_y^1 10x^2 y \, dx = \frac{10y}{3}(1 - y^3), \quad \text{for } 0 \leq y \leq 1$
+- **Independence Check:** $f_X(x) \cdot f_Y(y) = 5x^4 \cdot \frac{10y}{3}(1 - y^3) \neq 10x^2 y = f_{X,Y}(x,y)$
+  _$X$ and $Y$ are not independent_
+- **Distribution Function:** $F_X(x) = \int_0^x 5t^4 \, dt = x^5, \quad \text{for } 0 \leq x \leq 1$
+- **Expectation:** $\mathbb{E}[X] = \int_0^1 x \cdot 5x^4 \, dx = 5 \int_0^1 x^5 \, dx = \boxed{\dfrac{5}{6}}$
+- **Conditional Density:** $f_{Y|X}(y|x) = \dfrac{f_{X,Y}(x,y)}{f_X(x)} = \dfrac{10x^2 y}{5x^4} = \boxed{\dfrac{2y}{x^2}}, \quad \text{for } 0 \leq y \leq x$
+- $\mathbb{P}(Y \leq X/2) = \int_0^1 \int_0^{x/2} 10x^2 y \, dy \, dx = \boxed{\dfrac{1}{4}}.$
+
+## Example: Chebyshev’s Inequality for $S_{900}$
+
+**Given:** $S_{900} \sim \text{Binomial}(n=900, p=1/3)$.
+- $\mathbb{E}[S_{900}] = 300$
+- $\text{Var}(S_{900}) = 900 \cdot \frac{1}{3} \cdot \frac{2}{3} = 200$
+
+**Chebyshev’s Inequality:**
+$$
+\mathbb{P}(|S_{900} - 300| \leq 20) \geq 1 - \frac{\text{Var}(S_{900})}{20^2} = 1 - \frac{200}{400} = \frac{1}{2}.
+$$
+
+The probability is *greater than or equal to* $\frac{1}{2}$
+
+## Example: Law of Large Numbers
+By the **Weak Law of Large Numbers**, as $n \to \infty$:
+
+$$
+\frac{S_n}{n} \xrightarrow{\mathbb{P}} p = \frac{1}{3}.
+$$
+
+Precise statement:
+
+$$
+\lim_{n \to \infty} \mathbb{P}\left(\left|\frac{S_n}{n} - \frac{1}{3}\right| \geq \epsilon\right) = 0 \quad \forall \epsilon > 0.
+$$
+
+## Example: Central Limit Theorem Approximation
+
+**Given:** $S \sim \text{Binomial}(n=160{,}000, p=0.5)$.
+- $\mathbb{E}[S] = 80{,}000$
+- $\text{Var}(S) = 40{,}000$
+- $\sigma = 200$
+
+**Approximation:**
+$$
+\mathbb{P}(S \leq 80{,}200) \approx \mathbb{P}\left(Z \leq \frac{80{,}200.5 - 80{,}000}{200}\right) = \mathbb{P}(Z \leq 1.0025) \approx \Phi(1) \approx \boxed{0.841}.
+$$
+
+## Example: Stochastic Process $Y_n = \frac{1}{2}(X_n + X_{n-1})$
+
+**Given:** $X_n$ i.i.d., $\mathbb{E}[X_n] = 2$, $\text{Var}(X_n) = 3$
+
+- **Moments of $Y_n$** \
+  $\mathbb{E}[Y_n] = \frac{1}{2}(\mathbb{E}[X_n] + \mathbb{E}[X_{n-1}]) = \boxed{2}$ \
+  $\text{Var}(Y_n) = \frac{1}{4}(\text{Var}(X_n) + \text{Var}(X_{n-1})) = \boxed{\dfrac{3}{2}}$ \
+  $\mathbb{E}[Y_n^2] = \text{Var}(Y_n) + (\mathbb{E}[Y_n])^2 = \frac{3}{2} + 4 = \boxed{\dfrac{11}{2}}$
+- **Correlation Function:** \
+  $R_X(m,n) = \mathbb{E}[X_m X_n] = \begin{cases} 7, & \text{if } m = n, \\ 4, & \text{if } m \neq n \end{cases}$ \
+  $R_Y(m,n) = \mathbb{E}[Y_m Y_n] = \begin{cases} \dfrac{11}{2}, & \text{if } m = n, \\ \dfrac{19}{4}, & \text{if } |m - n| = 1, \\ 4, & \text{if } |m - n| \geq 2. \end{cases}$
+- **Process Properties:** \
+  Identically Distributed: Yes \
+  Independent: No \
+  Wide-Sense Stationary: Yes
+
+## Example: Poisson Process (Rate $\lambda = 2$ per month)
+- $\boldsymbol{\mathbb{P}(\text{at most 4 failures in first month})}$: \
+  $N(1) \sim \text{Poisson}(2), \quad \mathbb{P}(N(1) \leq 4) = e^{-2} \sum_{k=0}^4 \frac{2^k}{k!} = \boxed{7e^{-2}}$
+- $\boldsymbol{\mathbb{P}(\text{3 in first month AND 2 in next two months})}$: \
+  $\mathbb{P}(N(1) = 3) = \frac{4}{3} e^{-2}, \quad \mathbb{P}(N(3) - N(1) = 2) = 8 e^{-4}$ \
+  _Joint probability:_ $\boxed{\dfrac{32}{3} e^{-6}}$
+- $\boldsymbol{\mathbb{P}(\text{3 in first month} \mid \text{4 in first two months})}$: \
+  $\mathbb{P}(N(1) = 3 \mid N(2) = 4) = \frac{\mathbb{P}(N(1) = 3 \text{ and } N(2) - N(1) = 1)}{\mathbb{P}(N(2) = 4)} = \boxed{\dfrac{1}{4}}$
+- Expected Time Until 10th Failure: \
+  For a Poisson process, the time of the $k$-th arrival is $\text{Gamma}(k, \lambda)$ \
+  _Mean time:_ $\boxed{5 \text{ months}}$ (since $\mathbb{E}[T_{10}] = \frac{10}{\lambda} = 5$)
