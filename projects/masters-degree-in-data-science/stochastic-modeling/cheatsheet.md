@@ -11,15 +11,7 @@ downloads:
     title: Download as PDF
 ---
 
-###  Common Mistakes
-- **Independence vs. Uncorrelated**: Independent implies uncorrelated, but not vice versa (except for jointly normal RVs)
-- **Continuous vs. Discrete**: Remember to use PMF for discrete and PDF for continuous RVs
-- **Conditional Probability**: Always check that $P(F) > 0$ before using $P(E|F)$
-- **Expectation of Functions**: $\mathbb{E}[g(X)] \neq g(\mathbb{E}[X])$ in general (Jensen's inequality)
-- **Variance of Sums**: $\operatorname{Var}(X+Y) = \operatorname{Var}(X) + \operatorname{Var}(Y) + 2\operatorname{Cov}(X,Y)$
-- **Markov Chain Convergence**: Requires **both** irreducibility **and** aperiodicity
-
-### Problem-Solving Strategies
+# Problem-Solving Strategy
 
 1. **Identify the Distribution**: Recognize which distribution the problem involves
 2. **Use Definitions**: Start with the definition (PMF, PDF, or property)
@@ -29,7 +21,7 @@ downloads:
 6. **Symmetry**: Look for symmetry to simplify calculations
 7. **Approximations**: Use CLT for large $n$ approximations
 
-### Differentiation Rules
+# Differentiation Rules
 
 |  |  |
 |------|---------|
@@ -40,7 +32,7 @@ downloads:
 | **Quotient Rule** | $\frac{d}{dx} \left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ |
 | **Chain Rule** | $\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$ |
 
-### Integration Rules
+# Integration Rules
 
 |  |                                                                   |
 |------|-------------------------------------------------------------------|
@@ -66,31 +58,69 @@ $$
 \end{align*}
 $$
 
-### Probability
+# Probability
+
+A **Probability Space** is a triple $(\Omega, \mathcal{A}, P)$, where: $\Omega$: Set of outcomes, $\mathcal{A}$: Set of events, $P$: Probability measure.
+
+A **Probability Measure** $P: \mathcal{A} \to \mathbb{R}$ satisfies:
+
+1. $0 \leq P(A) \leq 1 \quad \forall \, A \in \mathcal{A}$
+2. $P(\Omega) = 1$
+3. $P\left(\bigcup_{i=1}^\infty A_i\right) = \sum_{i=1}^\infty P(A_i)$
+
+**Random Variable**: $X: \Omega \to \mathbb{R}$ 
 
 $$
 \begin{align*}
-P(E|F) &= \frac{P(E \cap F)}{P(F)} & P(E) &= P(E|A)P(A) + P(E|A^c)P(A^c) \\
-P(A|E) &= \frac{P(E|A)P(A)}{P(E)} & P(A \cap B) &= P(A)P(B|A) = P(B)P(A|B)
+P(A) &= \frac{|A|}{|\Omega|} \\
+P(E|F) &= \frac{P(E \cap F)}{P(F)} & P(A \cap B) &= P(A)P(B|A) = P(B)P(A|B) \\
+P(A|E) &= \frac{P(E|A)P(A)}{P(E)} & 
 \end{align*}
 $$
+
+## Bayes' Theorem
+
+$$
+P(A|E) = \frac{P(E|A) \cdot P(A)}{P(E)} = \frac{P(E|A) \cdot P(A)}{P(E|A) \cdot P(A) + P(E|A^c) \cdot P(A^c)}
+$$
+
+## Independence
+
+$X$ and $Y$ are independent if one of the following is true:
+
+$$
+\begin{aligned}
+F_{X,Y}(a,b) &= F_X(a) F_Y(b) \quad \forall a,b \\
+f_{X,Y}(x,y) &= f_X(x)f_Y(y) \quad \text{, (continous RV)} \\
+P(X=x, Y=y) &= P(X=x)P(Y=y) \quad \text{, (discrete RV)}
+\end{aligned}
+$$
+
+**Consequences of Independence**
+
+$$
+\begin{align*}
+P(E|F) &= P(E) \\
+P(E \cap F) &= P(E) \cdot P(F) \\
+\mathbb{E}[XY] &= \mathbb{E}[X]\mathbb{E}[Y] \\
+\operatorname{Cov}(X,Y) &= 0 \\
+\operatorname{Var}(X+Y) &= \operatorname{Var}(X) + \operatorname{Var}(Y) \\
+\phi_{X+Y}(t) &= \phi_X(t) \phi_Y(t)
+\end{align*}
+$$
+
 
 ### Law of Total Probability
 
 - $P(E) = \sum_{i=1}^n P(E|A_i) \cdot P(A_i)$
 - Simplified (for binary partition): $P(E) = P(E|A) \cdot P(A) + P(E|A^c) \cdot P(A^c)$
 
-### Bayes' Theorem
-
-$$
-P(A|E) = \frac{P(E|A) \cdot P(A)}{P(E)} = \frac{P(E|A) \cdot P(A)}{P(E|A) \cdot P(A) + P(E|A^c) \cdot P(A^c)}
-$$
-
 ### Expectation, Variance, Covariance, Correlation Coefficient (normalized Covariance)
 
 $$
 \begin{align*}
 \boldsymbol{\mathbb{E}[X]} &= \sum x P(X=x) & \boldsymbol{\mathbb{E}[X]} &= \int x f_X(x) dx \\
+\boldsymbol{\mathbb{E}[X^2]} &= \text{Var}(X) + (\mathbb{E}[X])^2 & \\
 \boldsymbol{\operatorname{Var}(X)} &= \mathbb{E}[X^2] - (\mathbb{E}[X])^2 & \boldsymbol{\operatorname{Var}(aX+b)} &= a^2 \operatorname{Var}(X) \\
 \boldsymbol{\operatorname{Cov}(X,Y)} &= \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y] & \boldsymbol{\rho_{X,Y}} &= \frac{\operatorname{Cov}(X,Y)}{\sqrt{\operatorname{Var}(X)\operatorname{Var}(Y)}} \in [-1, 1]
 \end{align*}
@@ -118,6 +148,37 @@ $$
 \end{align*}
 $$
 
+## Moment Generating Function
+
+Let $X$ be a random variable with density function
+
+$$
+f_X(x) =
+\begin{cases}
+e^{-2x} + \frac{1}{2}e^{-x} & \text{if } x > 0 \\
+0 & \text{otherwise}
+\end{cases}
+$$
+
+$$
+\phi_X(t) = \mathbb{E}\left[e^{tX}\right] = \int_0^\infty e^{tx} \left(e^{-2x} + \frac{1}{2}e^{-x}\right) dx = \int_0^\infty \left(e^{(t-2)x} + \frac{1}{2}e^{(t-1)x}\right) dx
+$$
+
+The **moment generating function** must have a **finite integral** to exist.
+For this integral to converge at $x \to \infty$, **both** exponential terms must decay.
+The **stricter condition** is $t < 1$, so the MGF is only defined for $t < 1$.
+
+- $\mathbb{E}[X] = \phi_X'(0)$
+- $\mathbb{E}[X^2] = \phi_X''(0)$
+- ...
+
+## Joint Distributions
+
+- **Joint Distribution**: $F_{X,Y}(x,y) = P(X \leq x, Y \leq y)$
+- **Marginal Distribution**: $F_X(x) = \lim_{y\to\infty} F_{X,Y}(x,y)$
+- **Joint PMF**: $p_{X,Y}(x,y) = P(X = x, Y = y)$, **Joint PDF**: $f_{X,Y}(x,y)$
+- **Marginal PDF**: $f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x,y) \, dy$
+
 ## Conditional Distributions & Expectation
 
 $$
@@ -129,6 +190,27 @@ P_{X|Y}(x|y) &= P(X = x | Y = y) = \frac{P(X = x, Y = y)}{P(Y = y)} &  f_{X|Y}(x
 $$
 
 **Important**: $\mathbb{E}[X|Y]$ is itself a random variable (function of $Y$)
+
+### Transformation of Random Variables
+
+For a continuous RV $X$ with density $f_X(x)$ and a **differentiable, strictly monotone** function $g$ for $y$ in the range of $g$; $f_Y(y) = 0$ outside:
+
+$$
+Y = g(X) \implies f_Y(y) = \frac{f_X(g^{-1}(y))}{|g'(g^{-1}(y))|}
+$$
+
+## Example: Joint Density of $X$ and $Y$
+
+Joint density function: $f_{X,Y}(x,y) = \begin{cases} 10x^2 y, & \text{if } 0 \leq y \leq x \leq 1, \\ 0, & \text{otherwise} \end{cases}$
+
+- **Marginal of $X$:** $f_X(x) = \int_0^x 10x^2 y \, dy = 5x^4, \quad \text{for } 0 \leq x \leq 1$
+- **Marginal of $Y$:** $f_Y(y) = \int_y^1 10x^2 y \, dx = \frac{10y}{3}(1 - y^3), \quad \text{for } 0 \leq y \leq 1$
+- **Independence Check:** $f_X(x) \cdot f_Y(y) = 5x^4 \cdot \frac{10y}{3}(1 - y^3) \neq 10x^2 y = f_{X,Y}(x,y)$
+  _$X$ and $Y$ are not independent_
+- **Distribution Function:** $F_X(x) = \int_0^x 5t^4 \, dt = x^5, \quad \text{for } 0 \leq x \leq 1$
+- **Expectation:** $\mathbb{E}[X] = \int_0^1 x \cdot 5x^4 \, dx = 5 \int_0^1 x^5 \, dx = \boxed{\dfrac{5}{6}}$
+- **Conditional Density:** $f_{Y|X}(y|x) = \dfrac{f_{X,Y}(x,y)}{f_X(x)} = \dfrac{10x^2 y}{5x^4} = \boxed{\dfrac{2y}{x^2}}, \quad \text{for } 0 \leq y \leq x$
+- $\mathbb{P}(Y \leq X/2) = \int_0^1 \int_0^{x/2} 10x^2 y \, dy \, dx = \boxed{\dfrac{1}{4}}$ 
 
 ### Law of Total Expectation
 
@@ -161,11 +243,12 @@ $$
 | **Geometric** $(p)$                 | $(1-p)^{k-1}p$                      | $k \in \mathbb{N}$ | $\frac{1}{p}$                | $\frac{1-p}{p^2}$                | $\frac{pe^t}{1-(1-p)e^t}$ |
 | **Poisson** $(\lambda)$             | $\frac{\lambda^k e^{-\lambda}}{k!}$ | $k \in \mathbb{N}_0$ | $\lambda$                    | $\lambda$                        | $e^{\lambda(e^t-1)}$ |
 
-|                              | **PDF $f(x)$**                                                           | **Support** | $\boldsymbol{\mathbb{E}[X]}$ | $\boldsymbol{\operatorname{Var}(X)}$ | **MGF** |
-|------------------------------|----------------------------------------------------------------------|---------|------------------------------|--------------------------------------|-----|
-| **Uniform** $(a, b)$         | $\frac{1}{b-a}$                                                      | $x \in [a,b]$ | $\frac{a+b}{2}$              | $\frac{(b-a)^2}{12}$                 | $\begin{cases}\frac{e^{tb} - e^{ta}}{t(b-a)} & \text{for } t \neq 0 \\ 1 & \text{for } t = 0 \end{cases}$ |
-| **Exponential** $(\lambda)$  | $\lambda e^{-\lambda x}$                                      | $x \geq 0$ | $\frac{1}{\lambda}$          | $\frac{1}{\lambda^2}$                | $\frac{\lambda}{\lambda - t}$ |
-| **Normal** $(\mu, \sigma^2)$ | $\frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ | $x \in \mathbb{R}$ | $\mu$                        | $\sigma^2$                           | $e^{t\mu + \frac{1}{2}t^2\sigma^2}$ |
+|                             | **PDF $f_X(x)$**                                                               | **Support** | $\boldsymbol{\mathbb{E}[X]}$ | $\boldsymbol{\operatorname{Var}(X)}$ | **MGF** |
+|-----------------------------|--------------------------------------------------------------------------------|---------|------------------------------|--------------------------------------|-----|
+| **Uniform** $(a, b)$        | $\frac{1}{b-a}$                                                                | $x \in [a,b]$ | $\frac{a+b}{2}$              | $\frac{(b-a)^2}{12}$                 | $\begin{cases}\frac{e^{tb} - e^{ta}}{t(b-a)} & \text{for } t \neq 0 \\ 1 & \text{for } t = 0 \end{cases}$ |
+| **Exponential** $(\lambda)$ | $\lambda e^{-\lambda x}$                                                       | $x \geq 0$ | $\frac{1}{\lambda}$          | $\frac{1}{\lambda^2}$                | $\frac{\lambda}{\lambda - t}$ |
+| **Gamma** $(k, \lambda)$    | $\frac{\lambda^k}{\Gamma(k)} x^{k-1} e^{-\lambda x}$, for $\Gamma(n) = (n-1)!$ | $x \geq 0$ | $\frac{k}{\lambda}$          | $\frac{k}{\lambda^2}$                | $\left(\frac{\lambda}{\lambda - t}\right)^k$ |
+| **Normal** $(\mu, \sigma^2)$ | $\frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$               | $x \in \mathbb{R}$ | $\mu$                        | $\sigma^2$                           | $e^{t\mu + \frac{1}{2}t^2\sigma^2}$ |
 
 **Normal Distribution**
 
@@ -174,53 +257,124 @@ $$
 - **Probability Calculation**: $P(X \leq t) = \Phi\left(\frac{t - \mu}{\sigma}\right)$
 - **Symmetric Properties**: $\Phi(-z) = 1 - \Phi(z) \quad \text{and} \quad \Phi(0) = 0.5$
 
-## Joint Distributions
+## Limit Theorems
 
-- **Joint Distribution**: $F_{X,Y}(x,y) = P(X \leq x, Y \leq y)$
-- **Marginal Distribution**: $F_X(x) = \lim_{y\to\infty} F_{X,Y}(x,y)$
-- **Joint PMF**: $p_{X,Y}(x,y) = P(X = x, Y = y)$, **Joint PDF**: $f_{X,Y}(x,y)$
-- **Marginal PDF**: $f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x,y) \, dy$
+Given: $X_i$: i.i.d. RV with $\mathbb{E}[X_i] = \mu$, $\text{Var}(X_i) = \sigma^2$, then:
 
-### Independence of Random Variables
+- **Law of Large Numbers**: $P\left(\left \frac{S_n}{n} - \mu\right| > \varepsilon\right) \xrightarrow{n \to \infty} 0$ for any $\varepsilon > 0$
+  _(convergence to $\mu$ in the limit)_ \
+  **Weak Law of Large Numbers**, as $n \to \infty$: $\frac{S_n}{n} \xrightarrow{\mathbb{P}} \mu$ (i.e. $\mu = p = \frac{1}{3})$
+- **Central Limit Theorem**: $P\left(Z = \frac{S_n - \mu}{\sigma} \leq \varepsilon \right) \xrightarrow{n \to \infty} P(\mathcal{N}(0,1) \leq \varepsilon)$ for any $\varepsilon \in \mathbb{R}$
+  _(convergence in distribution, fluctuations of $S_n$ around its mean (see above))_
 
-$X$ and $Y$ are independent if one of the following is true:
+### Example: Law of Large Numbers
+
+**Precise statement:** $\lim_{n \to \infty} \mathbb{P}\left(\left|\frac{S_n}{n} - \frac{1}{3}\right| \geq \epsilon\right) = 0 \quad \forall \epsilon > 0$
+
+**Weak Law of Large Numbers**, as $n \to \infty$: $\frac{S_n}{n} \xrightarrow{\mathbb{P}} p = \frac{1}{3}$
+
+### Example: Central Limit Theorem Approximation
+
+**Given:** $S \sim \text{Binomial}(n=160'000, p=0.5)$.
+
+$\mathbb{E}[S] = 80'000$, $\text{Var}(S) = 40'000$, $\sigma = \sqrt{'text{Var}(S)} = 200$
 
 $$
-\begin{aligned}
-F_{X,Y}(a,b) &= F_X(a) F_Y(b) \quad \forall a,b \\
-f_{X,Y}(x,y) &= f_X(x)f_Y(y) \quad \text{, (continous RV)} \\
-P(X=x, Y=y) &= P(X=x)P(Y=y) \quad \text{, (discrete RV)}
-\end{aligned}
+\mathbb{P}(S \leq 80{,}200) \approx \mathbb{P}\left(Z \leq \frac{80{,}200.5 - 80{,}000}{200}\right) = \mathbb{P}(Z \leq 1.0025) \approx \Phi(1) \approx \boxed{0.841}.
 $$
 
-**Consequences of Independence**
+## Chebyshev’s Inequality
+
+$$
+P(|X-\mu| \geq \varepsilon) &\leq \frac{\sigma^2}{\varepsilon^2}
+$$
+
+### Example: Chebyshev’s Inequality for $S_{900}$
+
+**Given:** $S_{900} \sim \text{Binomial}(n=900, p=1/3)$.
+
+$\mathbb{E}[S_{900}] = 300$, $\text{Var}(S_{900}) = 900 \cdot \frac{1}{3} \cdot \frac{2}{3} = 200$
+
+$$
+\mathbb{P}(|S_{900} - 300| \leq 20) \geq 1 - \frac{\text{Var}(S_{900})}{20^2} = 1 - \frac{200}{400} = \frac{1}{2}.
+$$
+
+**The probability is _greater than or equal to_ $\frac{1}{2}$**
+
+
+## Markov's Inequality
+
+For any non-negative random variable $X$ (i.e., $X \geq 0$) and any $a \gt 0$, the following is always true:
+
+$$
+P(X \geq a) \leq \frac{\mathbb{E}[X]}{a}
+$$
+
+## Markov Chains
 
 $$
 \begin{align*}
-\mathbb{E}[XY] &= \mathbb{E}[X]\mathbb{E}[Y] \\
-\operatorname{Cov}(X,Y) &= 0 \\
-\operatorname{Var}(X+Y) &= \operatorname{Var}(X) + \operatorname{Var}(Y) \\
-\phi_{X+Y}(t) &= \phi_X(t) \phi_Y(t)
-\end{align*}
-$$
-
-### Limit Theorems
-
-$$
-\begin{align*}
-\textbf{LLN: } \frac{S_n}{n} &\xrightarrow{P} \mu & \textbf{CLT: } Z = \frac{S_n - \mu}{\sigma} &\xrightarrow{d} N(0,1) \\
-\textbf{Chebyshev: } P(|X-\mu| \geq \varepsilon) &\leq \frac{\sigma^2}{\varepsilon^2} & \textbf{Markov: } P(X \geq a) &\leq \frac{\mathbb{E}[X]}{a}
-\end{align*}
-$$
-
-### Markov Chains
-
-$$
-\begin{align*}
-\textbf{Markov: } P(X_{n+1}|X_n, \ldots, X_0) &= P(X_{n+1}|X_n) & \textbf{Chapman-Kolmogorov: } p_{ij}^{(m+n)} &= \sum_k p_{ik}^{(m)} p_{kj}^{(n)} \\
+\textbf{Markov Property: } P(X_{n+1}|X_n, \ldots, X_0) &= P(X_{n+1}|X_n) & \textbf{Chapman-Kolmogorov: } p_{ij}^{(m+n)} &= \sum_k p_{ik}^{(m)} p_{kj}^{(n)} \\
 \textbf{Stationary: } \vec{\pi} &= \vec{\pi} P & \textbf{Convergence: } \vec{\nu} P^n &\to \vec{\pi}
 \end{align*}
 $$
+
+### Transition Matrix
+
+One-step transition probabilities $p_{ij} = P(X_{n+1} = j \mid X_n = i)$ form the **transition matrix**:
+
+$$P = \begin{pmatrix}  
+p_{11} & p_{12} & \cdots & p_{1k} \\
+p_{21} & p_{22} & \cdots & p_{2k} \\
+\vdots & \vdots & \ddots & \vdots \\
+p_{k1} & p_{k2} & \cdots & p_{kk} \\
+\end{pmatrix} \in \mathbb{R}^{k \times k}$$
+
+- $p_{ij} \in [0,1]$
+- $\sum_{j=1}^k p_{ij} = 1$ for all $i$ (stochastic matrix)
+
+## Irreducibility
+
+$$p_{ij}^{(n)} > 0$$
+
+Every state can be reached from every other state in a finite number of steps. The state space cannot be partitioned into disjoint subsets that the chain never leaves.
+
+## Aperiodicity
+
+A Markov chain is **aperiodic** if all its states are aperiodic. The **period** of state $i$ is defined as:
+
+$$d(i) = \gcd\{n \geq 1: p_{ii}^{(n)} > 0\}$$
+
+- If $d(i) = 1$, state $i$ is **aperiodic**
+- If $d(i) > 1$, state $i$ is **periodic** with period $d(i)$
+
+An aperiodic chain can return to any state at irregular intervals, not just multiples of a fixed period.
+
+## Irreducibility & Aperiodicity Combined
+
+If a finite-state Markov chain is both **irreducible** and **aperiodic**, then:
+
+- It has a **unique stationary distribution** $\vec{\pi}$
+- For any initial distribution: $\vec{\pi}(n) \to \vec{\pi}$ as $n \to \infty$
+- All rows of $P^n$ converge to $\vec{\pi}$ as $n \to \infty$
+
+### Example: Californian Weather Model
+
+Time-homogeneous Markov chain $\{X_n: n \in \mathbb{N}\}$ with initial distribution $\vec{\pi}(0) := \left(\frac{1}{6}, \frac{5}{6}\right)$ and transition matrix
+
+$$\mathbf{P} = \begin{pmatrix}
+0.5 & 0.5 \\
+0.1 & 0.9
+\end{pmatrix}$$
+
+Show for any $n \in \mathbb{N}$: $\vec{\pi}(n) = \vec{\pi}(0)$
+
+- **Base case** ($n=0$): Trivially $\vec{\pi}(0) = \vec{\pi}(0)$.
+- **Inductive step**: Assume $\vec{\pi}(n) = \vec{\pi}(0)$. Then
+
+$$\vec{\pi}(n+1) = \vec{\pi}(n) \mathbf{P} = \left(\frac{1}{6}, \frac{5}{6}\right) \begin{pmatrix} 0.5 & 0.5 \\ 0.1 & 0.9 \end{pmatrix} = \left(\frac{1}{6} \cdot 0.5 + \frac{5}{6} \cdot 0.1, \frac{1}{6} \cdot 0.5 + \frac{5}{6} \cdot 0.9\right) = \left(\frac{1}{6}, \frac{5}{6}\right)$$
+
+**Interpretation**: The initial distribution $\left(\frac{1}{6}, \frac{5}{6}\right)$ is **stationary** for this chain.
 
 ### Stochastic Processes
 
@@ -247,6 +401,27 @@ _zero-mean processes:_ $R_X(t_1, t_2) = \operatorname{Cov}(X_{t_1}, X_{t_2})$
 **Wide-Sense Stationary (WSS)**:
 - Constant mean: $m_X(t) = m$ for all $t$
 - Correlation depends only on time difference: $R_X(t_1, t_2) = R_X(|t_2 - t_1|)$
+
+## Example: Stochastic Process $Y_n = \frac{1}{2}(X_n + X_{n-1})$
+
+**Given:** $X_n$ i.i.d., $\mathbb{E}[X_n] = 2$, $\text{Var}(X_n) = 3$
+
+- **Moments of $Y_n$** \
+  $\mathbb{E}[Y_n] = \frac{1}{2}(\mathbb{E}[X_n] + \mathbb{E}[X_{n-1}]) = \boxed{2}$ \
+  $\text{Var}(Y_n) = \frac{1}{4}(\text{Var}(X_n) + \text{Var}(X_{n-1})) = \boxed{\dfrac{3}{2}}$ \
+  $\mathbb{E}[Y_n^2] = \text{Var}(Y_n) + (\mathbb{E}[Y_n])^2 = \frac{3}{2} + 4 = \boxed{\dfrac{11}{2}}$
+- **Correlation Function:** \
+  **If** $X_m$ and $X_n$ **i.i.d.**: $R_X(m,n) = \mathbb{E}[X_m] \cdot \mathbb{E}[X_n] = \begin{cases} 7 = \mathbb{E}[X_n^2] & \text{if } m = n \\ 4 & \text{if } m \neq n \end{cases}$ \
+  **else if** $X_m$ and $X_n$ **dependent**: $R_Y(m,n) = \mathbb{E}[Y_m Y_n] = \mathbb{E}\left[\left(\frac{X_m + X_{m-1}}{2}\right) \left(\frac{X_n + X_{n-1}}{2}\right)\right]= \begin{cases} \dfrac{11}{2}, & \text{if } m = n, \\ \dfrac{19}{4}, & \text{if } |m - n| = 1, \\ 4, & \text{if } |m - n| \geq 2. \end{cases}$ \
+  _Expand the product_ inside the expectation \
+  _Use linearity of expectation_ to split into sums of expectations \
+  _Evaluate each term_ using:
+   - $\mathbb{E}[X_i X_j]$ (from the correlation function of $X$)
+   - $\mathbb{E}[X_i^2]$ (from the second moment of $X$)
+- **Process Properties:** \
+  Identically Distributed: Yes \
+  Independent: No \
+  Wide-Sense Stationary: Yes
 
 #### Poisson Process
 
@@ -280,86 +455,6 @@ For $N(t) \sim \text{Poisson}(\lambda t)$:
   $\mathbb{E}[S_k] = \frac{k}{\lambda}$
 - **Probability of No Events in Time $t$**: \
   $\mathbb{P}(N(t) = 0) = e^{-\lambda t}$
-
-### Transformation of Random Variables
-
-For a continuous RV $X$ with density $f_X(x)$ and a **differentiable, strictly monotone** function $g$ for $y$ in the range of $g$; $f_Y(y) = 0$ outside:
-
-$$
-Y = g(X) \implies f_Y(y) = \frac{f_X(g^{-1}(y))}{|g'(g^{-1}(y))|}
-$$
-
-## Example: Joint Density of $X$ and $Y$
-
-Joint density function: $f_{X,Y}(x,y) = \begin{cases} 10x^2 y, & \text{if } 0 \leq y \leq x \leq 1, \\ 0, & \text{otherwise} \end{cases}$
-
-- **Marginal of $X$:** $f_X(x) = \int_0^x 10x^2 y \, dy = 5x^4, \quad \text{for } 0 \leq x \leq 1$
-- **Marginal of $Y$:** $f_Y(y) = \int_y^1 10x^2 y \, dx = \frac{10y}{3}(1 - y^3), \quad \text{for } 0 \leq y \leq 1$
-- **Independence Check:** $f_X(x) \cdot f_Y(y) = 5x^4 \cdot \frac{10y}{3}(1 - y^3) \neq 10x^2 y = f_{X,Y}(x,y)$
-  _$X$ and $Y$ are not independent_
-- **Distribution Function:** $F_X(x) = \int_0^x 5t^4 \, dt = x^5, \quad \text{for } 0 \leq x \leq 1$
-- **Expectation:** $\mathbb{E}[X] = \int_0^1 x \cdot 5x^4 \, dx = 5 \int_0^1 x^5 \, dx = \boxed{\dfrac{5}{6}}$
-- **Conditional Density:** $f_{Y|X}(y|x) = \dfrac{f_{X,Y}(x,y)}{f_X(x)} = \dfrac{10x^2 y}{5x^4} = \boxed{\dfrac{2y}{x^2}}, \quad \text{for } 0 \leq y \leq x$
-- $\mathbb{P}(Y \leq X/2) = \int_0^1 \int_0^{x/2} 10x^2 y \, dy \, dx = \boxed{\dfrac{1}{4}}.$
-
-## Example: Chebyshev’s Inequality for $S_{900}$
-
-**Given:** $S_{900} \sim \text{Binomial}(n=900, p=1/3)$.
-- $\mathbb{E}[S_{900}] = 300$
-- $\text{Var}(S_{900}) = 900 \cdot \frac{1}{3} \cdot \frac{2}{3} = 200$
-
-**Chebyshev’s Inequality:**
-$$
-\mathbb{P}(|S_{900} - 300| \leq 20) \geq 1 - \frac{\text{Var}(S_{900})}{20^2} = 1 - \frac{200}{400} = \frac{1}{2}.
-$$
-
-The probability is *greater than or equal to* $\frac{1}{2}$
-
-## Example: Law of Large Numbers
-By the **Weak Law of Large Numbers**, as $n \to \infty$:
-
-$$
-\frac{S_n}{n} \xrightarrow{\mathbb{P}} p = \frac{1}{3}.
-$$
-
-Precise statement:
-
-$$
-\lim_{n \to \infty} \mathbb{P}\left(\left|\frac{S_n}{n} - \frac{1}{3}\right| \geq \epsilon\right) = 0 \quad \forall \epsilon > 0.
-$$
-
-## Example: Central Limit Theorem Approximation
-
-**Given:** $S \sim \text{Binomial}(n=160{,}000, p=0.5)$.
-- $\mathbb{E}[S] = 80{,}000$
-- $\text{Var}(S) = 40{,}000$
-- $\sigma = 200$
-
-**Approximation:**
-$$
-\mathbb{P}(S \leq 80{,}200) \approx \mathbb{P}\left(Z \leq \frac{80{,}200.5 - 80{,}000}{200}\right) = \mathbb{P}(Z \leq 1.0025) \approx \Phi(1) \approx \boxed{0.841}.
-$$
-
-## Example: Stochastic Process $Y_n = \frac{1}{2}(X_n + X_{n-1})$
-
-**Given:** $X_n$ i.i.d., $\mathbb{E}[X_n] = 2$, $\text{Var}(X_n) = 3$
-
-- **Moments of $Y_n$** \
-  $\mathbb{E}[Y_n] = \frac{1}{2}(\mathbb{E}[X_n] + \mathbb{E}[X_{n-1}]) = \boxed{2}$ \
-  $\text{Var}(Y_n) = \frac{1}{4}(\text{Var}(X_n) + \text{Var}(X_{n-1})) = \boxed{\dfrac{3}{2}}$ \
-  $\mathbb{E}[Y_n^2] = \text{Var}(Y_n) + (\mathbb{E}[Y_n])^2 = \frac{3}{2} + 4 = \boxed{\dfrac{11}{2}}$
-- **Correlation Function:** \
-  **If** $X_m$ and $X_n$ **i.i.d.**: $R_X(m,n) = \mathbb{E}[X_m] \cdot \mathbb{E}[X_n] = \begin{cases} 7 = \mathbb{E}[X_n^2] & \text{if } m = n \\ 4 & \text{if } m \neq n \end{cases}$ \
-  **else if** $X_m$ and $X_n$ **dependent**: $R_Y(m,n) = \mathbb{E}[Y_m Y_n] = \mathbb{E}\left[\left(\frac{X_m + X_{m-1}}{2}\right) \left(\frac{X_n + X_{n-1}}{2}\right)\right]= \begin{cases} \dfrac{11}{2}, & \text{if } m = n, \\ \dfrac{19}{4}, & \text{if } |m - n| = 1, \\ 4, & \text{if } |m - n| \geq 2. \end{cases}$ \
-  _Expand the product_ inside the expectation \
-  _Use linearity of expectation_ to split into sums of expectations \
-  _Evaluate each term_ using:
-   - $\mathbb{E}[X_i X_j]$ (from the correlation function of $X$)
-   - $\mathbb{E}[X_i^2]$ (from the second moment of $X$)
-- **Process Properties:** \
-  Identically Distributed: Yes \
-  Independent: No \
-  Wide-Sense Stationary: Yes
 
 ## Example: Poisson Process (Rate $\lambda = 2$ per month)
 - $\boldsymbol{\mathbb{P}(\text{at most 4 failures in first month})}$: \
