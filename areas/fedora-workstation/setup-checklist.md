@@ -81,207 +81,85 @@ sudo systemctl set-default graphical.target
 sudo systemctl enable greetd --now
 ```
 
----
+## Fix Sound
 
-4. 
-   
-   sudo dnf update -y
-   sudo dnf install -y git curl wget flatpak
-   flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-   ```
-
-## Install Niri
+In case you don't have any sound, fix it with:
 
 ```bash
-sudo dnf install -y niri niri-settings
+sudo dnf install alsa-sof-firmware
+
+echo "options snd-intel-dspcfg dsp_driver=3" | sudo tee /etc/modprobe.d/use-sof.conf
+sudo dracut --regenerate-all --force
+sudo grubby --update-kernel=ALL --args="snd-intel-dspcfg.dsp_driver=3"
+sudo reboot
 ```
 
-## Install Noctalia
+## Configure Fingerprint Reader
 
 ```bash
-# Add Terra repo (Fyra Labs)
-sudo dnf install -y --nogpgcheck --repofrompath='terra,https://repos.fyralabs.com/terra$releasever' terra-release
-
-# Install Noctalia + Quickshell (dependency)
-sudo dnf install -y noctalia-shell quickshell
+sudo dnf install fprintd
+sudo fprintd-enroll $USER
+sudo authselect enable-feature with-fingerprint
+sudo authselect select apply-changes
+sudo systemctl enable --now fprintd
 ```
 
-
-## Install NVIDIA Proprietary Drivers
+## Make sure GTK apps prefer dark theme
 
 ```bash
-# Enable RPM Fusion (non-free for NVIDIA)
-sudo dnf install -y https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf groupupdate -y "NVIDIA CUDA Toolkit"  # Optional for AI/ML
-
-# Install NVIDIA drivers + CUDA (for RTX 5060 Ti)
-sudo dnf install -y akmod-nvidia xorg-x11-drv-nvidia-cuda
-
-# Rebuild initramfs and load kernel module
-sudo akmods --force
-sudo dracut --force
-sudo modprobe nvidia
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 ```
 
-**Verify driver install**:
+## AppImageLauncher
+
+1. Download RPM from [GitHub Release page](https://github.com/TheAssassin/AppImageLauncher/releases)
+2. Install the RPM with `sudo dnf install $HOME/Downloads/appimagelauncher_*.rpm`
+
+## Paymo
+
+[Downoad Paymo Track from their Website](https://www.paymoapp.com/downloads/) and integrate the AppImage using the installed AppImageLauncher.
+
+## Online Accounts
 
 ```bash
-nvidia-smi  # Should show your RTX 5060 Ti
-glxinfo | grep "OpenGL renderer"  # Should show NVIDIA
+sudo dnf install evolution evolution-ews
 ```
 
+**Study & Work**
 
-## Enable Kernel Modesetting (Critical for Wayland)
+1. Start Evolution
+2. Start the New Mail Account Wizard: Click `File > New > Mail Account`
+3. Enter your **Email Address** and **uncheck** `Look up mail server details…`, click `Next`
+4. Select **Server Type**: `Exchange Web Services`
 
-```bash
-sudo grubby --update-kernel=ALL --args="nvidia-drm.modeset=1"
-```
+* Set **Host URL**: `https://outlook.office365.com/EWS/Exchange.asmx`
+* Click **Check for Supported Types** - this should select `OAuth2 (Office 365)`
+* **Check** `Override Office 365 OAuth2 settings`
+* Keep default values in OAuth2 setting fields
 
-**Reboot now** to apply:
+**Unified Inbox in Evolution**
 
-```bash
-sudo systemctl reboot
-```
+To have a grouped inbox view in Evolution I am going to use the `Search Folders` feature. Go to `Edit > Preferences` and enable `Search Folders`. Then drag it the top. Then create a new Search Folder in `Edit > Search Folders > Add` with the following settings:
 
+* Rule name: `Inbox`
+* Find items which match: `any of the following conditions`
+* Include threads: `None`
+* `Message Location`: `is`: `Your Account/Inbox`
+  * Add as many `Message Location` conditions as you have accounts and inboxes
+* **Check** Automatically update on any source folder change
+* Select `All active remote folders`
+* Then click **Ok**
 
+Repeat the above steps for any Unified Folder you want to have (e.g. for `Archive`)
 
+**Private**
 
-## Configure Niri to Launch Noctalia
+* [ ] `Nextcloud` for Calendar and Contacts (needs application specific password)
+* [ ] `IMAP and SMTP` for Mail
 
-1. **Create config directory**:
-   ```bash
-   mkdir -p ~/.config/niri
-   ```
-2. **Edit `~/.config/niri/config.kdl`**:
-   ```bash
-   cat > ~/.config/niri/config.kdl <<EOF
-   # Niri base config
-   ...
+|                        |     Server     | Port | Encryption |
+| ---------------------- | :------------: | :--: | :--------: |
+| _Incoming Mail (IMAP)_ | imappro.zoho.eu |  993 |     STARTTLS    |
+| _Outgoing Mail (SMTP)_ | smtp.zoho.eu |  587 |  STARTTLS  |
 
-   # Launch Noctalia (Quickshell component)
-   spawn-at-startup "qs" "-c" "noctalia-shell"
-
-   # Required for portals (screenshots, file dialogs, etc.)
-   spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP=niri"
-
-   # Optional: Enable animations
-   animation {
-       enable true
-   }
-   EOF
-   ```
-3. **Create environment file** (`~/.config/niri/environment`):
-   ```bash
-   cat > ~/.config/niri/environment <<EOF
-   # Ensure Wayland works with NVIDIA
-   export NVIDIA_DRM_MODESET=1
-   export XDG_SESSION_TYPE=wayland
-   export XDG_CURRENT_DESKTOP=niri
-   export QT_QPA_PLATFORM=wayland
-   export SDL_VIDEODRIVER=wayland
-   export CLUTTER_BACKEND=wayland
-   EOF
-   ```
-
-## Set Up Display Manager (GDM)
-
-1. **Create a custom session for Niri + Noctalia**:
-   ```bash
-   sudo tee /usr/share/xsessions/niri-noctalia.desktop <<EOF
-   [Desktop Entry]
-   Name=Niri + Noctalia
-   Comment=Scrollable-tiling Wayland compositor with Noctalia shell
-   Exec=/usr/bin/niri
-   Type=Application
-   DesktopNames=Niri
-   EOF
-   ```
-2. **Disable GNOME’s Wayland session** (to avoid confusion):
-   ```bash
-   sudo mv /usr/share/xsessions/gnome-wayland.desktop /usr/share/xsessions/gnome-wayland.desktop.bak
-   ```
-3. **Reboot and select "Niri + Noctalia"** at the GDM login screen.
-
-
-## Thunderbolt eGPU Setup
-
-1. **Install Thunderbolt tools**:
-   ```bash
-   sudo dnf install -y bolt
-   ```
-2. **Authorize your eGPU enclosure** (run after first plug-in):
-   ```bash
-   sudo boltctl authorize <device-UUID>  # List devices with `boltctl list`
-   ```
-3. **Enable persistent authorization** (so it remembers your eGPU):
-   ```bash
-   sudo boltctl enroll
-   ```
-
-## Post-Install Checks
-
-### Verify Wayland Session
-```bash
-echo $XDG_SESSION_TYPE  # Should output "wayland"
-echo $XDG_CURRENT_DESKTOP  # Should output "niri"
-```
-
-### Test NVIDIA eGPU Detection
-
-```bash
-lspci | grep -i nvidia  # Should show your RTX 5060 Ti
-nvidia-smi             # Should show GPU info (may take ~10-30 sec after plugging in)
-```
-
-### Test Noctalia
-
-- Right-click on the desktop → Should show Noctalia’s context menu.
-- Press `Super` (Windows key) → Should open the application launcher.
-
-## Troubleshooting
-
-### Black Screen on Login?
-1. **Check kernel modesetting**:
-   ```bash
-   cat /proc/cmdline | grep nvidia-drm.modeset=1
-   ```
-   If missing, reapply Step 3 and reboot.
-
-2. **Fallback to TTY**:
-   - Press `Ctrl+Alt+F2` to switch to a TTY.
-   - Run `sudo journalctl -u gdm -b` to check GDM logs.
-
-### Noctalia Doesn’t Launch?
-1. **Check Niri logs**:
-   ```bash
-   journalctl -u niri -f
-   ```
-2. **Manually test Noctalia**:
-   ```bash
-   qs -c noctalia-shell
-   ```
-   If this works, your Niri config is misconfigured.
-
-### eGPU Not Detected?
-1. **Check Thunderbolt**:
-   ```bash
-   boltctl list
-   ```
-   If unauthorized, run `sudo boltctl authorize <UUID>`.
-
-2. **Check PCIe**:
-   ```bash
-   lspci | grep -i nvidia
-   ```
-   If missing, your eGPU may need to be plugged in **before boot**.
-
-## Final Notes
-
-### Hotplug Behavior
-- **Plugging in**: Works for **compute-only** (CUDA) after ~10-30 sec (no relogin).
-- **Display output**: Requires **relogin** (NVIDIA driver limitation).
-- **Unplugging**: Stop all CUDA processes first (`killall python`), then unplug.
-
-### Performance Tips
-- **Disable vsync** in Noctalia settings for smoother animations.
-- **Use `nvidia-smi -pl 100`** to unlock power limits for AI workloads.
+[_zoho.com/mail/help/imap-access_](https://www.zoho.com/mail/help/imap-access.html)
