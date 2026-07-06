@@ -19,6 +19,10 @@ Ich liebe es **digitale Produkte** mit **offenen Technologien** zu entwickeln - 
 
 ## Berufserfahrung & Bildung
 
+### 2026 - Heute: Wissenschaftlicher Assistent, ZHAW Centre for AI
+
+Verbesserung von Sprecherkennung mithilfe von Künstlichen Neuronalen Netzwerken.
+
 ### 2025 - Heute: MSE in Data Science am Centre for Artificial Intelligence, ZHAW
 
 Gestartet im September 2025, vorraussichtlicher Abschluss im Juli 2028 (in Teilzeit).
@@ -37,7 +41,7 @@ Gestartet im September 2019 und erfolgreich abgeschlossen im Juli 2023.
 
 [_BSc in Informatik_](https://www.zhaw.ch/de/engineering/studium/bachelorstudium/informatik)
 
-### 2022 - Heute: Senior Software Engineer, aXedras AG
+### 2022 - 2026: Senior Software Engineer, aXedras AG
 
 Verbinden und digitalisieren der Edelmetallindustrie mithilfe von Distributed Ledger Technologie (DLT).
 

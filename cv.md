@@ -55,6 +55,10 @@ I love to craft **digital products** using **open technologies** - with the goal
 
 ## Professional Experience & Education
 
+### 2026 - Now: Research Assistant, ZHAW Centre for AI
+
+Improving speaker diarization using artificial neural networks.
+
 ### 2025 - Now: MSc in Engineering for Data Science at the Centre of AI, ZHAW
 
 Started in September 2025 and will be completed by July 2028 (part-time studies).
@@ -69,7 +73,7 @@ Learning the fundamentals of neurobiology, including neuronal function, synaptic
 
 [Bachelor's degree in Computer Science](archives/projects/bachelors-degree-in-computer-science.md), started in September 2019 and successfully completed in July 2023.
 
-### 2022 - Now: Senior Software Engineer, aXedras AG
+### 2022 - 2026: Senior Software Engineer, aXedras AG
 
 Automating the precious metal industry value chain with Distributed Ledger Technology (DLT).
 
