@@ -163,3 +163,18 @@ Repeat the above steps for any Unified Folder you want to have (e.g. for `Archiv
 | _Outgoing Mail (SMTP)_ | smtp.zoho.eu |  587 |  STARTTLS  |
 
 [_zoho.com/mail/help/imap-access_](https://www.zoho.com/mail/help/imap-access.html)
+
+## eGPU: RTX 5060 Ti
+
+1. Plugin eGPU
+2. Authorize Thunderbolt:
+   ```bash
+   sudo dnf install bolt
+   boltctl list
+   # if the device is not authorized:
+   boltctl authorize DEVICE_UUID
+   boltctl enroll DEVICE_UUID # store permanently
+   ```
+3. Install `nvidia-open` according to [NVIDIA's instructions](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/fedora.html) 
+4. Reboot
+5. `nvidia-smi` should now show the GPU
