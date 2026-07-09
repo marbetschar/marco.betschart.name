@@ -178,3 +178,17 @@ Repeat the above steps for any Unified Folder you want to have (e.g. for `Archiv
 3. Install `nvidia-open` according to [NVIDIA's instructions](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/fedora.html) 
 4. Reboot
 5. `nvidia-smi` should now show the GPU
+
+**Enable eGPU Hotplug**
+
+Edit `/etc/default/grub` and add these parameters to `GRUB_CMDLINE_LINUX`:
+
+```text
+pcie_ports=native hpbussize=0x33,realloc,hpmmiosize=128M,hpmmioprefsize=512M
+```
+
+Then update GRUB:
+
+```bash
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
