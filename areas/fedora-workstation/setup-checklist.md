@@ -56,6 +56,9 @@ sudo dnf install noctalia-greeter
 # Use Kitty as Terminal Emulator:
 sudo dnf install kitty
 sudo dnf remove alacritty
+# Add this to your local ~/.ssh/config:
+# Host *
+#   SetEnv TERM=xterm-256color
 ```
 
 Start Noctalia from Niri:
