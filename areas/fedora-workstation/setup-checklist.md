@@ -184,20 +184,57 @@ Repeat the above steps for any Unified Folder you want to have (e.g. for `Archiv
    boltctl authorize DEVICE_UUID
    boltctl enroll DEVICE_UUID # store permanently
    ```
-3. Install `nvidia-open` according to [NVIDIA's instructions](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/fedora.html) 
-4. Reboot
-5. `nvidia-smi` should now show the GPU
+3. Install proprietary NVIDIA drivers from RPM Fusion Non-Free:
+   ```bash
+   # https://linuxcapable.com/how-to-install-nvidia-drivers-on-fedora-linux/#install-nvidia-drivers-on-fedora-44
+   # Enable non-free repo (required for NVIDIA)
+   sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+   
+   # Update
+   sudo dnf groupupdate core
+   sudo dnf update
+   
+   sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
+   sudo dnf mark user akmod-nvidia
+   
+   # Full driver (includes CUDA + desktop)
+   sudo dnf install nvidia-driver nvidia-driver-cuda
+   sudo dracut -f
+   
+   # Edit `/etc/default/grub` and add these parameters to `GRUB_CMDLINE_LINUX`:
+   pcie_ports=native pcie=hpbussize=0x33,realloc,hpmmiosize=128M,hpmmioprefsize=512M pcie_aspm=off pcie_port_pm=off rd.driver.blacklist=nouveau,nova_core modprobe.blacklist=nouveau,nova_core,nvidia_drm
+   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+   
+   sudo reboot
+   ```
 
-**Enable eGPU Hotplug**
+**Fix GPU Instabilities*
 
-Edit `/etc/default/grub` and add these parameters to `GRUB_CMDLINE_LINUX`:
-
-```text
-pcie_ports=native hpbussize=0x33,realloc,hpmmiosize=128M,hpmmioprefsize=512M
-```
-
-Then update GRUB:
+If you run into stability issues when your eGPU is under load (i.e. it is "falling of the bus"), then try to cap the
+transfer speed of the Thunderbolt Link. Unfortunately, this issue is quite common when using a Blackwell GPU
+attached via Thunderbolt.
 
 ```bash
-sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+# Symptom: Under load, you can see bursts of the following error up until the GPU driver crashes:
+$ journalctl -kf | grep -E 'BadDLLP|Xid|fallen' 
+kernel: pcieport 0000:21:01.0:    [ 7] BadDLLP               
+kernel: pcieport 0000:21:01.0:    [ 7] BadDLLP
+
+# Fix it by capping the transfer speed of the Thunderbolt Link.
+# The NVIDIA driver does have its own way to limit link speed: a registry key called RMPcieLinkSpeed.
+# See NVIDIA's open driver header (nvrm_registry.h): Each PCIe generation gets a 2-bit field,
+# where 01 = allow and 10 = disallow:
+#
+# ┌────────────┬────────────┬────────────┬────────────┬────────────┐
+# │ Gen6 (9:8) │ Gen5 (7:6) │ Gen4 (5:4) │ Gen3 (3:2) │ Gen2 (1:0) │
+# ├────────────┼────────────┼────────────┼────────────┼────────────┤
+# │ 10 off     │ 10 off     │ 10 off     │ 10 off     │ 01 on      │
+# └────────────┴────────────┴────────────┴────────────┴────────────┘
+#
+# For Gen2, that works out to 0b10_1010_1001 = 0x2A9:
+echo 'options nvidia NVreg_RegistryDwords="RMPcieLinkSpeed=0x2a9"' | sudo tee /etc/modprobe.d/nvidia-egpu.conf
+
+# Reload the driver and check the flag has been applied:
+sudo modprobe -r nvidia_uvm nvidia && sudo modprobe nvidia
+grep RegistryDwords /proc/driver/nvidia/params   # should show RMPcieLinkSpeed=0x2a9
 ```
