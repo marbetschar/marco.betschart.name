@@ -203,12 +203,12 @@ Repeat the above steps for any Unified Folder you want to have (e.g. for `Archiv
    
    # Edit `/etc/default/grub` and add these parameters to `GRUB_CMDLINE_LINUX`:
    pcie_ports=native pcie=hpbussize=0x33,realloc,hpmmiosize=128M,hpmmioprefsize=512M pcie_aspm=off pcie_port_pm=off rd.driver.blacklist=nouveau,nova_core modprobe.blacklist=nouveau,nova_core,nvidia_drm
-   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
    
+   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
    sudo reboot
    ```
 
-**Fix GPU Instabilities*
+**Fix GPU Instabilities**
 
 If you run into stability issues when your eGPU is under load (i.e. it is "falling of the bus"), then try to cap the
 transfer speed of the Thunderbolt Link. Unfortunately, this issue is quite common when using a Blackwell GPU
