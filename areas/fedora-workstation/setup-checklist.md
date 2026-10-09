@@ -238,3 +238,18 @@ echo 'options nvidia NVreg_RegistryDwords="RMPcieLinkSpeed=0x2a9"' | sudo tee /e
 sudo modprobe -r nvidia_uvm nvidia && sudo modprobe nvidia
 grep RegistryDwords /proc/driver/nvidia/params   # should show RMPcieLinkSpeed=0x2a9
 ```
+
+Now test the eGPU again under load while watching its link speed and in parallel watch out for burts of the original
+error messages:
+
+```bash
+# We want 5.0 GT/s max:
+watch -n1 "cat /sys/bus/pci/devices/0000:<egpu-bus-id>/current_link_speed"
+```
+
+and
+
+```bash
+# The error should now no longer appear in bursts (if at all):
+journalctl -kf | grep -E 'BadDLLP|Xid|fallen'
+```
