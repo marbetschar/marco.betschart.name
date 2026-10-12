@@ -51,8 +51,9 @@ After first boot, run the following commands on the command line:
 ```bash
 sudo dnf install niri niri-settings
 sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
-sudo dnf install noctalia-shell
+sudo dnf install noctalia
 sudo dnf install noctalia-greeter
+sudo noctalia-greeter-apply-appearance --setup-system  # setup default config in /var/lib/noctalia-greeter
 # Use Kitty as Terminal Emulator:
 sudo dnf install kitty
 sudo dnf remove alacritty
@@ -65,7 +66,7 @@ Start Noctalia from Niri:
 
 ```
 # ~/.config/niri/config.kdl:
-spawn-at-startup "qs" "-c" "noctalia-shell"
+spawn-at-startup "noctalia"
 ...
 # Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
 Mod+T hotkey-overlay-title="Open a Terminal" { spawn "kitty"; }
