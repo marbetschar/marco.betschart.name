@@ -25,6 +25,8 @@ project:
       file: about-this-website.md
     - title: Recent Activities
       children:
+        - file: blog/2026-11-12-state-of-sst-exploitation-in-dnns.md
+          hidden: true
         - file: blog/2024-08-05-sbb-half-fair-plus-comparison.md
         - file: blog/2022-11-27-how-things-evolved-since-january.md
         - file: blog/2022-01-17-why-elementary-os-is-the-right-choice-for-me.md
