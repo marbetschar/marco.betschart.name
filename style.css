@@ -1,3 +1,20 @@
 .dark\:bg-white:is(.dark *) {
     background-color: inherit !important;
 }
+/* Multi-panel figures (use with `:no-subfigures:` so PDF export keeps working) */
+figure.subfigure-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    align-items: end;
+}
+figure.subfigure-grid.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+figure.subfigure-grid > figcaption {
+    grid-column: 1 / -1;
+}
+/* `:width:` on images in a subfigure-grid only targets the PDF; on the web they fill their grid cell */
+figure.subfigure-grid img {
+    width: 100% !important;
+}
